@@ -1,0 +1,223 @@
+Delivered-To: forman.ed@gmail.com
+Received: by 2002:a02:cdc3:0:b0:5b7:faa:6b9e with SMTP id m3csp1478071jap;
+        Sat, 15 Nov 2025 13:29:40 -0800 (PST)
+X-Received: by 2002:a05:7022:f313:b0:11b:b154:e084 with SMTP id a92af1059eb24-11bb154e870mr459955c88.1.1763242180185;
+        Sat, 15 Nov 2025 13:29:40 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1763242180; cv=none;
+        d=google.com; s=arc-20240605;
+        b=dawWx7z7d/1Dk7IkktJTduF0vMbpRL8UxBIH7OAq0e2pfrYwa9RVztekNqARo1Rgmg
+         GXoskjk0KqAM1TBGb9pwRdLa7UODLQFxq3ger9sO2F6C7XAiz3KIas2KnpaEGaEk8skQ
+         mVgvgmCxveO+AK8V6/Uepzi/u4akg4p9l9f6M0qLLXDDVDKCF3qyrRMfiqthPQVHjHlT
+         ZBySh8S+jHYMPQ0jwMg/lEeF/jJ2pQNGuBXsDlnv0SUO/2TqsQ2rfnhFWVtaUSssmbm7
+         d3GP7dGYitvbHuh/O5bwpRlGb/bT4e+803B4FPqbmWW6ij127pAMt4zc9Q5PyugicWf1
+         FDdA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:date:message-id:subject:mime-version:from
+         :content-transfer-encoding:dkim-signature;
+        bh=MgqByGHk4JBTZj6oUh+YxhtGzuhOTl83+aQdRDu5I9A=;
+        fh=WOWARmfJMAGr9gdEyNc11o/rV3iCtismWVLcu0fA+10=;
+        b=K+Bc1BcY0xOhDiZTa1cXeBQyg0bOFab43AWkJNXoj5IrUoxT6SR5kSLOmJLIuzQPTt
+         AWo3EO1qe01lUKCBwHWmdj8YCH1YdZaNNwfkUEEl/4M8gzzfXIuh+FA4pPHE0HyQPxrd
+         bC4LT5X3d5ADf/bYteF4Xgum1r+XXssFE//5EOCdOXAjH7Q7ymtEIXSr0mb8KOa+HDXX
+         teuSKZyrMyO57keLhKVALeclOvt0rPkzel/7bp1yQEh/rAfIEwce5aYU/CQ2iRO0gX1q
+         bwRMxyXGZIbNxFldOCiDyHAziRqskv1qnQK+D9tjykJaSsRI4I0CwUmkmjlFNGm67jOC
+         EjWw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=cBlmbiUi;
+       spf=pass (google.com: domain of nancyarosenthal@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=nancyarosenthal@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <nancyarosenthal@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a92af1059eb24-11b060896d2sor3239217c88.12.2025.11.15.13.29.39
+        for <forman.ed@gmail.com>
+        (Google Transport Security);
+        Sat, 15 Nov 2025 13:29:40 -0800 (PST)
+Received-SPF: pass (google.com: domain of nancyarosenthal@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=cBlmbiUi;
+       spf=pass (google.com: domain of nancyarosenthal@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=nancyarosenthal@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1763242179; x=1763846979; dara=google.com;
+        h=to:date:message-id:subject:mime-version:from
+         :content-transfer-encoding:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=MgqByGHk4JBTZj6oUh+YxhtGzuhOTl83+aQdRDu5I9A=;
+        b=cBlmbiUiPpowNthJRzIuRL7HE8wmNcwNsNVZKcyjkPfT4QbJ6wsKMup0kPTJAjneKC
+         aOONcZcxMo6kZJBStLm9BWVofcTSqKAvFMKie4hUnXuHJ3ehX5gCVOQilO+ESVjFgX29
+         mHaFTBH6DEHAzrs00OW4/UjE33TzFEwfhGkUf9oC225AkAvB7AYhfAqIuOjmaQZKedaw
+         vTMCKaq6+DkWrm/RI2TwLy5Z/LSGUmCYrNANLWWR/PX3bAcAD4xlBGovNwdPwCoiOiDl
+         qeZebwsH7TfnUExydCEZxO6wSHQ4rxYZFNJcXV9qJWfgVYJKibTS+sT1fyhTv1lFMh6Z
+         /vFw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1763242179; x=1763846979;
+        h=to:date:message-id:subject:mime-version:from
+         :content-transfer-encoding:x-gm-gg:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=MgqByGHk4JBTZj6oUh+YxhtGzuhOTl83+aQdRDu5I9A=;
+        b=gg573RQIRrZAbtGWioorl0xlNHsIkxNngbBzIo8tncFYKABESPkZNucQGekFbS08Bb
+         jD6/fFhKGozTHe3og2TjgLGM3RFZUYF8XCzb8m7psCoWuc/xzU3aJBfqtLtYU/ohlsKl
+         aVzqzBMqPbM+UVQI6PVkdXeoXnsWghepNoQzlHm8EpMHcots/xfYO++T27zV6v9866Jn
+         ApCxF41hLygXQK/1pS7VsFnK1Tw6UXooJdCgwup8A/Y0tyJZiDOorvjOuRp4LrYPaX0B
+         tkZMqygcby62ZSaBQvnDu7i1hWwu2o0uduGQA/VpDflB//ccyB3EwYEoBM4rqmIxFRvg
+         CooA==
+X-Gm-Message-State: AOJu0YxNzwbE8UwYEDtcwuv7r9B4oi+nzPJPd+uz+tDcCVM9Iyv+pC6k
+	cqejL5Ix9V9UQK3WmxcxSZFVpqxTlaeaBn3sd8aY3HW2csZo2cePz91VQL+7iA==
+X-Gm-Gg: ASbGncvQFPUQ+5G5ohaVUCgQyknXKkIKN6lEP6T7CJckpnOd6eSqAba5NRkij2DkONK
+	e7VhnYKl6lU9aw1PU0cP/NrP2LYU1i+qEld2VBPqloLLp+5e/05VX12jzxkyLOp5g21EBlDh669
+	iiSw/b9q769NCCwFmsCXXdHcTBHyvIJPX53HbFSr1fl4D6OL2aiw1MD/ZfYgaO3q9DRqMKLj+H1
+	eRiBj5D0lZRd+78jZsQKIdWGjeMCmY22nbM7+pnqj7qigkEh+YMJUV/nN0P5poNsSaJXLKnMQT3
+	uMvSA8/34A5Hofn7pvqEZu1EhQH27O9umsA7GpwPxjJIm+rDrIYKYBj0LumlQmSK5FPEWYFy9Ux
+	Tu4xNu2GN5h8W+HSmAMt28vnTV8LCykh6Dczic7QdIzsp0dgvsXfqGN4MFr4IRYWOlVkfyVj0zE
+	87wGWZtSTDOkmqC6+/hT+5jZ+Sw7RAzw==
+X-Google-Smtp-Source: AGHT+IH6rAzYeRwBo1+fr+0gjK3G3aW7gpK3dM5HyqMH1//K7/eWiYgPJnHPt1pbjXbSjWm/ZqQ0LQ==
+X-Received: by 2002:a05:7022:ff44:b0:11a:4ffb:9849 with SMTP id a92af1059eb24-11b41406f5dmr3511832c88.21.1763242178838;
+        Sat, 15 Nov 2025 13:29:38 -0800 (PST)
+Return-Path: <nancyarosenthal@gmail.com>
+Received: from smtpclient.apple ([47.159.230.212])
+        by smtp.gmail.com with ESMTPSA id a92af1059eb24-11b06088625sm26633788c88.8.2025.11.15.13.29.37
+        for <forman.ed@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 15 Nov 2025 13:29:38 -0800 (PST)
+Content-Type: multipart/alternative; boundary=Apple-Mail-7483BD7E-82C4-42FE-8327-93F68ADC886A
+Content-Transfer-Encoding: 7bit
+From: Nancy Rosenthal <nancyarosenthal@gmail.com>
+Mime-Version: 1.0 (1.0)
+Subject: Re: New SBNCListens Email List + Rainy Weekend = Perfect Interview Time!
+Message-Id: <2DC4995C-95AF-48C1-BCAB-318C30D49FEC@gmail.com>
+Date: Sat, 15 Nov 2025 13:29:26 -0800
+To: ed forman <forman.ed@gmail.com>
+X-Mailer: iPhone Mail (23B85)
+
+
+--Apple-Mail-7483BD7E-82C4-42FE-8327-93F68ADC886A
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html class=3D"apple-mail-supports-explicit-dark-mode"><head><meta http-equi=
+v=3D"content-type" content=3D"text/html; charset=3Dutf-8"></head><body dir=3D=
+"auto"><div dir=3D"ltr">=EF=BB=BF<meta http-equiv=3D"content-type" content=3D=
+"text/html; charset=3Dutf-8"><div dir=3D"ltr">Hello Ed,</div><div dir=3D"ltr=
+"><br></div><div dir=3D"ltr">=EF=BB=BFSince I can=E2=80=99t make the meeting=
+, I wanted to voice my additions/changes to the database. As the Alumni Liai=
+son, my wish would be to bring back the =E2=80=9CAlumni=E2=80=9D field optio=
+n for the field <b>Membership Level</b> that used to be there before they re=
+moved all the alumni a couple years ago. Maybe to keep the database at a rea=
+sonable size, we roll off those folks that have been out of the club for 5 y=
+ears? Or we could ask for a nominal annual fee to stay in the database of li=
+ke $20. We also need to recreate the process code that automatically changes=
+ a person from ExtendedNewcomer to Alumni after they have become an Alumni. T=
+here used to be way to do this automatically, or else we could run this peri=
+odically to move those that have moved from Extended to Lapsed into an Alumn=
+i status. &nbsp;Sorry, I can no longer attend. I really was looking forward t=
+o it.&nbsp;</div><div dir=3D"ltr"><br></div><div dir=3D"ltr">Cheers,<br><div=
+><br></div><div><div dir=3D"ltr">Nancy<div>Excuse the brevity</div><div><spa=
+n style=3D"font-size: 13pt;">Sent from my iPhone</span></div></div><div dir=3D=
+"ltr"><br><blockquote type=3D"cite">On Nov 14, 2025, at 10:55=E2=80=AFPM, Na=
+ncy Rosenthal &lt;nancyarosenthal@gmail.com&gt; wrote:<br><br></blockquote><=
+/div><blockquote type=3D"cite"><div dir=3D"ltr">=EF=BB=BF<meta http-equiv=3D=
+"content-type" content=3D"text/html; charset=3Dutf-8">I=E2=80=99m so sorry, b=
+ut I won=E2=80=99t be able to attend the meeting on Tuesday, as I have a con=
+flict with another meeting. =F0=9F=98=A2&nbsp;<div><br></div><div>Cheers,<br=
+><div><div><div dir=3D"ltr">Nancy<div>Excuse the brevity</div><div><span sty=
+le=3D"font-size: 13pt;">Sent from my iPhone</span></div></div><div dir=3D"lt=
+r"><br><blockquote type=3D"cite">On Nov 14, 2025, at 5:10=E2=80=AFPM, ed for=
+man &lt;forman.ed@gmail.com&gt; wrote:<br><br></blockquote></div><blockquote=
+ type=3D"cite"><div dir=3D"ltr">=EF=BB=BF<div dir=3D"ltr"><p class=3D"gmail-=
+font-claude-response-body gmail-whitespace-normal gmail-break-words" style=3D=
+"color:rgb(0,0,0)">Hi everyone,<br></p><p class=3D"gmail-font-claude-respons=
+e-body gmail-whitespace-normal gmail-break-words" style=3D"color:rgb(0,0,0)"=
+>Quick updates for our SBNC Listens team:</p><p class=3D"gmail-font-claude-r=
+esponse-body gmail-whitespace-normal gmail-break-words" style=3D"color:rgb(0=
+,0,0)"><strong>New Email List Created</strong><span class=3D"gmail-Apple-con=
+verted-space">&nbsp;</span>I've set up<span class=3D"gmail-Apple-converted-s=
+pace">&nbsp;</span><strong><a class=3D"gmail-underline" href=3D"mailto:sbncl=
+istens@sbnewcomers.org">sbnclistens@sbnewcomers.org</a></strong><span class=3D=
+"gmail-Apple-converted-space">&nbsp;</span>as a group email for our workshop=
+ team. Any email sent to this address will reach all of us at once, making c=
+oordination much easier.</p><p class=3D"gmail-font-claude-response-body gmai=
+l-whitespace-normal gmail-break-words" style=3D"color:rgb(0,0,0)">If you'd l=
+ike to be removed from this list or want to add someone else who should be i=
+ncluded, just let me know at<span class=3D"gmail-Apple-converted-space">&nbs=
+p;</span><a class=3D"gmail-underline" href=3D"mailto:technology@sbnewcomers.=
+org">technology@sbnewcomers.org</a>.</p><p class=3D"gmail-font-claude-respon=
+se-body gmail-whitespace-normal gmail-break-words" style=3D"color:rgb(0,0,0)=
+"><strong>This Weekend's Rainy Forecast =3D Interview Opportunity</strong><s=
+pan class=3D"gmail-Apple-converted-space">&nbsp;</span>Looking at the weathe=
+r forecast, this weekend is shaping up to be quite rainy. If you had outdoor=
+ plans, they may need to be adjusted. But here's the silver lining: it's act=
+ually the perfect time to conduct those optional pre-work interviews!</p><p c=
+lass=3D"gmail-font-claude-response-body gmail-whitespace-normal gmail-break-=
+words" style=3D"color:rgb(0,0,0)">Remember, the interviews are:</p><ul class=
+=3D"gmail-[&amp;:not(:last-child)_ul]:pb-1 gmail-[&amp;:not(:last-child)_ol]=
+:pb-1 gmail-list-disc gmail-space-y-2.5 gmail-pl-7" style=3D"color:rgb(0,0,0=
+)"><li class=3D"gmail-whitespace-normal gmail-break-words">Easy and fun (peo=
+ple love talking about their experiences!)</li><li class=3D"gmail-whitespace=
+-normal gmail-break-words">Only 15 minutes each</li><li class=3D"gmail-white=
+space-normal gmail-break-words">Incredibly valuable for our workshop on Tues=
+day</li></ul><p class=3D"gmail-font-claude-response-body gmail-whitespace-no=
+rmal gmail-break-words" style=3D"color:rgb(0,0,0)">The impact of these inter=
+views will become crystal clear when we meet next week - we'll arrive knowin=
+g exactly what real members struggle with instead of spending workshop time g=
+uessing.</p><p class=3D"gmail-font-claude-response-body gmail-whitespace-nor=
+mal gmail-break-words" style=3D"color:rgb(0,0,0)"><strong>Everything You Nee=
+d is Ready</strong><span class=3D"gmail-Apple-converted-space">&nbsp;</span>=
+Visit our project website for complete instructions:<span class=3D"gmail-App=
+le-converted-space">&nbsp;</span><strong><a class=3D"gmail-underline" href=3D=
+"http://mail.sbnewcomers.org/listens/">http://mail.sbnewcomers.org/listens/<=
+/a></strong></p><p class=3D"gmail-font-claude-response-body gmail-whitespace=
+-normal gmail-break-words" style=3D"color:rgb(0,0,0)">You'll find:</p><ul cl=
+ass=3D"gmail-[&amp;:not(:last-child)_ul]:pb-1 gmail-[&amp;:not(:last-child)_=
+ol]:pb-1 gmail-list-disc gmail-space-y-2.5 gmail-pl-7" style=3D"color:rgb(0,=
+0,0)"><li class=3D"gmail-whitespace-normal gmail-break-words">Step-by-step i=
+nterview guides</li><li class=3D"gmail-whitespace-normal gmail-break-words">=
+Email templates to invite interviewees (just copy and customize!)</li><li cl=
+ass=3D"gmail-whitespace-normal gmail-break-words">Recording instructions for=
+ any device</li><li class=3D"gmail-whitespace-normal gmail-break-words">The t=
+racking system to coordinate who's interviewing whom</li></ul><p class=3D"gm=
+ail-font-claude-response-body gmail-whitespace-normal gmail-break-words" sty=
+le=3D"color:rgb(0,0,0)"><strong>Quick Reminder:</strong><span class=3D"gmail=
+-Apple-converted-space">&nbsp;</span>Check the tracking list (<a class=3D"gm=
+ail-underline" href=3D"https://is.gd/6Oy8tS">https://is.gd/6Oy8tS</a>) befor=
+e contacting anyone, and register your interviewees (<a class=3D"gmail-under=
+line" href=3D"https://is.gd/4aZD5X">https://is.gd/4aZD5X</a>) so we don't du=
+plicate efforts.</p><p class=3D"gmail-font-claude-response-body gmail-whites=
+pace-normal gmail-break-words" style=3D"color:rgb(0,0,0)">Deadline is still<=
+span class=3D"gmail-Apple-converted-space">&nbsp;</span><strong>midnight Sun=
+day, November 16th</strong>.</p><p class=3D"gmail-font-claude-response-body g=
+mail-whitespace-normal gmail-break-words" style=3D"color:rgb(0,0,0)">Even ju=
+st one or two interviews this weekend would be incredibly helpful for our se=
+ssion on Monday!</p><p class=3D"gmail-font-claude-response-body gmail-whites=
+pace-normal gmail-break-words" style=3D"color:rgb(0,0,0)">Questions? Reply t=
+o this email or contact me at<span class=3D"gmail-Apple-converted-space">&nb=
+sp;</span><a class=3D"gmail-underline" href=3D"mailto:technology@sbnewcomers=
+.org">technology@sbnewcomers.org</a>.</p><p class=3D"gmail-font-claude-respo=
+nse-body gmail-whitespace-normal gmail-break-words" style=3D"color:rgb(0,0,0=
+)">Regards,</p><p class=3D"gmail-font-claude-response-body gmail-whitespace-=
+normal gmail-break-words" style=3D"color:rgb(0,0,0)">Ed and Jan</p><p class=3D=
+"gmail-font-claude-response-body gmail-whitespace-normal gmail-break-words" s=
+tyle=3D"color:rgb(0,0,0)">About the Workshop:</p><p class=3D"gmail-font-clau=
+de-response-body gmail-whitespace-normal gmail-break-words" style=3D"color:r=
+gb(0,0,0)"><b>Note: There was a mistake earlier. The workshop is on Tuesday,=
+ not Monday!</b></p><p style=3D"margin:15px 0px;font-family:Helvetica,arial,=
+sans-serif;font-size:14px"><strong>Date:</strong>&nbsp;Monday, November 18th=
+&nbsp;<strong>Time:</strong>&nbsp;6:00 PM - 9:00 PM&nbsp;</p><p style=3D"mar=
+gin:15px 0px;font-family:Helvetica,arial,sans-serif;font-size:14px"><strong>=
+Location:</strong>&nbsp;Ed &amp; Jan=E2=80=99s Home - 2536 Borton Drive, San=
+ta Barbara&nbsp;</p><p style=3D"margin:15px 0px;font-family:Helvetica,arial,=
+sans-serif;font-size:14px"><strong>What to bring:</strong>&nbsp;Just yoursel=
+f (and your findings if you did pre-work!)</p><p style=3D"margin:15px 0px;fo=
+nt-family:Helvetica,arial,sans-serif;font-size:14px"><strong>Facilitators:</=
+strong>&nbsp;Jan Swanberg will be the principal facilitator with Ed Forman a=
+ssisting. Jan brings extensive experience facilitating Design Thinking sessi=
+ons with business executives worldwide and currently teaches Executive Educa=
+tion courses at the Stanford Graduate School of Business. You=E2=80=99ll be i=
+n great hands!</p></div>
+</div></blockquote></div></div></div></div></blockquote></div></div></div></=
+body></html>=
+
+--Apple-Mail-7483BD7E-82C4-42FE-8327-93F68ADC886A--

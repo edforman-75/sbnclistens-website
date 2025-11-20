@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When I receive a message about leaks that need to be looked at, I want to respond promptly, so I can address the issues and provide assistance.",
+      "current_solution": "Returning calls and managing messages via phone.",
+      "pain_points": "Misplacing messages leads to delayed responses and potential dissatisfaction from clients.",
+      "desired_outcomes": "Improve response time and ensure all client messages are addressed in a timely manner.",
+      "success_criteria": "Clients feel acknowledged and issues are resolved quickly."
+    },
+    "emotional_jobs": {
+      "job_statement": "When I realize I have delayed my response, I want to feel competent and reliable, so I can maintain my professional reputation.",
+      "current_solution": "Apologizing for the delay and explaining the situation.",
+      "pain_points": "Feeling anxious about potentially disappointing clients due to delays.",
+      "desired_outcomes": "Feel more in control of communication and confident in managing client relationships.",
+      "success_criteria": "Clients express understanding and appreciation for my efforts."
+    },
+    "social_jobs": {
+      "job_statement": "When I interact with clients, I want to be perceived as trustworthy and responsive, so I can build strong professional relationships.",
+      "current_solution": "Personalized communication and follow-up calls.",
+      "pain_points": "Being seen as unresponsive or disorganized due to misplaced messages.",
+      "desired_outcomes": "Establish a reputation for reliability and professionalism in my field.",
+      "success_criteria": "Clients refer me to others based on their positive experiences."
+    },
+    "supporting_jobs": {
+      "job_statement": "When I manage client communications, I want to organize messages effectively, so I can keep track of all client needs.",
+      "current_solution": "Using a phone and manual note-taking.",
+      "pain_points": "Difficulty in keeping track of multiple messages leads to lost information.",
+      "desired_outcomes": "Implement a system that allows for better message tracking and organization.",
+      "success_criteria": "All client messages are accounted for and responded to without delays."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/voicemail-695 2.json",
+    "interview_id": "voicemail-695 2"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:46:31.396910",
+    "version": "1.0"
+  }
+}

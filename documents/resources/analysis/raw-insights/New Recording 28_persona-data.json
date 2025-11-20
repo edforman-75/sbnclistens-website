@@ -1,0 +1,53 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "Not specified",
+      "role": "Member of Newcomers",
+      "experience_level": "Joined in June (recent member)",
+      "technical_proficiency": "Moderate (prefers using the website on a computer but finds the app easier)"
+    },
+    "background_context": {
+      "situation": "Active member of a community organization",
+      "environment": "Uses the website primarily on a computer at home",
+      "constraints": "Website navigation issues"
+    },
+    "goals_motivations": {
+      "drives": "Wants to easily access signed up events and upcoming events",
+      "achievements": "Seeks a more streamlined experience on the website"
+    },
+    "behaviors_patterns": {
+      "current_work": "Visits the website to review signed up events and check for upcoming events",
+      "habits": "Uses the website at home; finds the Apricot app easier to navigate"
+    },
+    "pain_points_frustrations": {
+      "obstacles": "Website is cumbersome and not intuitive for navigation",
+      "does_not_work_well": "Difficulty in finding personalized content after logging in"
+    },
+    "needs_desires": {
+      "life_better": "A more user-friendly website that directs them to personalized content easily",
+      "looking_for": "Clear guidance on valuable events and content"
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Expects a seamless online experience; values community engagement",
+      "preferences": "Prefers straightforward navigation and clear instructions"
+    },
+    "technical_comfort": {
+      "tools_used": "Website and Apricot app",
+      "technical_abilities": "Moderately comfortable with technology; prefers desktop use",
+      "learning_preferences": "Benefits from guided instructions and clear information"
+    },
+    "quotes": [
+      "I find the website a little cumbersome.",
+      "I would love to be able to go on and once you log in, then it sends you right to your page where these are the things you've signed up for and upcoming events for you.",
+      "Overall, it's wonderful."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 28.json",
+    "interview_id": "New Recording 28"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:06:25.174336",
+    "version": "1.0"
+  }
+}

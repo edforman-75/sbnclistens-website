@@ -1,0 +1,68 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we improve the functionality and user experience of the phone app?",
+      "evidence": "I rarely use the phone app, quite frankly, because I felt it was underpowered and gave conflicting information.",
+      "user_need": "Users need a reliable and functional mobile experience that aligns with the desktop version.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide better training for committee chairs and vice presidents to ensure they are proficient in using the event management system?",
+      "evidence": "The training process that is undertaken in good faith is really not adequate to allow a committee co-chair to be facile in terms of how to understand and how to use to its greatest potential all the power of the system for organizing large scale events.",
+      "user_need": "Committee members need comprehensive training to efficiently manage events and use the system effectively.",
+      "potential_impact": "High",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we enhance the website's event description clarity and scheduling transparency?",
+      "evidence": "Sometimes the event descriptions and especially save the date kinds of things or conflicting scheduling things were not as transparent or not as clear as they could be.",
+      "user_need": "Users need clear and concise information about events to avoid confusion and ensure proper planning.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a formalized archival process for knowledge transfer between committee terms?",
+      "evidence": "There\u2019s not a facile way to have some kind of archival process or some way to, you know, to put in a note to the file for the information.",
+      "user_need": "Committee members need a way to document and share important information and processes for future terms.",
+      "potential_impact": "High",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we implement printed name tags for events to enhance user experience and registration verification?",
+      "evidence": "I like the printed name tags as an audit function.",
+      "user_need": "Users need a way to quickly verify registrations and enhance networking at events.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we improve the communication and registration processes to reduce confusion about event attendance?",
+      "evidence": "I had more problems with the phone app than I did with the computer based web application.",
+      "user_need": "Users need a streamlined and clear communication process regarding event registration and attendance.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we establish a paid technical resource to assist with event setups and website management?",
+      "evidence": "Having that kind of capacity, I think, would be significant.",
+      "user_need": "Committee members need support to focus on event creativity rather than technical logistics.",
+      "potential_impact": "High",
+      "type": "support"
+    },
+    {
+      "opportunity_statement": "How might we facilitate better integration between alumni and current members in event registration?",
+      "evidence": "I think to have a nice cemented relationship with a formal alumni group would be a positive.",
+      "user_need": "Users need an easy way to include alumni in events to strengthen community ties.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call_Recording_compressed.json",
+    "interview_id": "Call_Recording_compressed"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:59:10.945018",
+    "version": "1.0"
+  }
+}

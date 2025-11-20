@@ -1,0 +1,53 @@
+{
+  "persona": {
+    "demographics": {
+      "ageRange": "40-60",
+      "role": "Committee Chair and Experienced Member",
+      "experienceLevel": "Moderate to High",
+      "technicalProficiency": "Moderate"
+    },
+    "backgroundContext": {
+      "situation": "Involved in a community organization focused on newcomers in Santa Barbara.",
+      "environment": "Participates in a local club with ongoing projects and events.",
+      "constraints": "Limited budget and time as a volunteer."
+    },
+    "goalsMotivations": {
+      "drives": "Improve community engagement and resources for newcomers.",
+      "achievements": "Create a welcoming environment and modernize digital presence."
+    },
+    "behaviorsPatterns": {
+      "currentWork": "Actively participates in committee meetings and discussions.",
+      "habits": "Prefers texting for communication and values prompt responses."
+    },
+    "painPointsFrustrations": {
+      "obstacles": "Stale and outdated website design and navigation.",
+      "frustrations": "Difficulty in finding information and lack of engaging content."
+    },
+    "needsDesires": {
+      "lifeImprovement": "A modern, visually appealing website with easy navigation.",
+      "lookingFor": "Resources that help newcomers acclimate to the area."
+    },
+    "attitudesBeliefs": {
+      "mentalModels": "Believes in the importance of community support and information sharing.",
+      "preferences": "Values high-quality visuals and user-friendly interfaces."
+    },
+    "technicalComfort": {
+      "toolsUsed": "Wild Apricot for membership management.",
+      "technicalAbilities": "Moderate, familiar with backend operations.",
+      "learningPreferences": "Hands-on experience and practical demonstrations."
+    },
+    "quotes": [
+      "I think that's one of the best ideas going.",
+      "Our website is stale and old-fashioned compared to anything.",
+      "We need to stay within a relatively modest and incremental range because there's not a lot of spend."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/2536 Borton Dr.json",
+    "interview_id": "2536 Borton Dr"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:09:13.242694",
+    "version": "1.0"
+  }
+}

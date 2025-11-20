@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When I am browsing for new events, I want to easily identify which events are new and their details, so I can make informed decisions about which ones to attend.",
+      "current_solution": "Using the app and website to check for new events.",
+      "pain_points": "The information on new events is confusing, and it's hard to know which events are new without additional clarity. The website and app are not well integrated, causing further confusion.",
+      "desired_outcomes": "Clear visibility of new events with easy access to details like timing and pricing before clicking into each event.",
+      "success_criteria": "I can quickly see all new events listed in a user-friendly manner, including their prices, so I can decide without confusion."
+    },
+    "emotional_jobs": {
+      "job_statement": "When I am looking for events, I want to feel confident and informed, so I can enjoy the process of planning my activities.",
+      "current_solution": "Using the app to check for new events.",
+      "pain_points": "Feeling overwhelmed by the current layout and lack of clear information leads to frustration.",
+      "desired_outcomes": "A sense of ease and confidence when searching for events, knowing I have all the information I need at my fingertips.",
+      "success_criteria": "I feel relaxed and in control while planning my attendance for events."
+    },
+    "social_jobs": {
+      "job_statement": "When I attend events, I want to be seen as someone who is well-informed and organized, so I can enhance my social reputation.",
+      "current_solution": "Sharing event attendance with friends and discussing upcoming events.",
+      "pain_points": "Not having enough information to confidently discuss the events or recommend them to others.",
+      "desired_outcomes": "Being perceived as knowledgeable and engaged with the community's events.",
+      "success_criteria": "Others view me as the go-to person for event recommendations and information."
+    },
+    "supporting_jobs": {
+      "job_statement": "When I am managing my events, I want to save my payment information, so I can make quick purchases without hassle.",
+      "current_solution": "Storing credit card information in the app and website.",
+      "pain_points": "The need to enter credit card information repeatedly can be a barrier to quick purchases.",
+      "desired_outcomes": "Seamless transactions that allow me to quickly buy tickets or register for events.",
+      "success_criteria": "I can complete purchases without having to re-enter my payment details every time."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 34.json",
+    "interview_id": "New Recording 34"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:47:17.547344",
+    "version": "1.0"
+  }
+}

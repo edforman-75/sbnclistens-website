@@ -1,0 +1,51 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "Optically, it's not very pleasing, but this is where people land.",
+      "We need to actually be more dynamic in describing the club.",
+      "We talk about the events. We talk about social integration, diverse demographics.",
+      "We got to rationalize some of the numbers.",
+      "This homepage here just needs a lot of work.",
+      "To me, this is the page that we've got to make visually more pleasing, a better call to action.",
+      "We should actually put that Join Us button at the bottom after people read about us.",
+      "I would just want to rewrite the content on this entire page.",
+      "This is literally a listing of our committees. So it's not really activities.",
+      "We need to update these committees with what actually is going on.",
+      "This would be a page like fixing the FAQs and fixing the Learn More About Us.",
+      "I don't see where any of the waitlisted events are actually showing up right now in the mobile app.",
+      "It might be interesting there to say, are you an alumni? Click here for events that you can attend."
+    ],
+    "THINKS": [
+      "The website's visual design could significantly impact user engagement and retention.",
+      "Inconsistent information may lead to confusion among potential members.",
+      "The current layout does not effectively guide users towards joining the club.",
+      "There is a need for clarity and accuracy in the information presented about membership numbers and events.",
+      "Prospective members may feel overwhelmed by mixed messages on the site.",
+      "Simplifying navigation and providing direct calls to action could improve user experience."
+    ],
+    "DOES": [
+      "Navigates through the website to evaluate usability and effectiveness.",
+      "Identifies specific areas of improvement for content and layout.",
+      "Engages with the mobile rendering of the website and compares it to the web app.",
+      "Suggests adding buttons and reorganizing content to enhance user experience.",
+      "Reviews the current events and committee listings for accuracy.",
+      "Considers the user journey from landing page to membership sign-up."
+    ],
+    "FEELS": [
+      "Frustrated with the current visual appeal and usability of the website.",
+      "Concerned about the accuracy of the information presented to potential members.",
+      "Eager to see improvements that could enhance the club's appeal.",
+      "Determined to advocate for a better user experience for both prospective and current members.",
+      "Hopeful that changes can lead to increased engagement and membership.",
+      "Overwhelmed by the amount of content that needs revision and organization."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Bel Air Dr.json",
+    "interview_id": "Bel Air Dr"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:42:54.203098",
+    "version": "1.0"
+  }
+}

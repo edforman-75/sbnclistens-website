@@ -1,0 +1,55 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "50-65",
+      "role": "Committee Chair, Administrative",
+      "experience_level": "Intermediate to Advanced",
+      "technical_proficiency": "Moderate to High"
+    },
+    "background_context": {
+      "situation": "Active member of the Newcomers Club, involved in various committees for three years.",
+      "environment": "Nonprofit organization with a focus on community engagement.",
+      "constraints": "Frequent turnover of committee members and limited institutional memory."
+    },
+    "goals_motivations": {
+      "drives": "Enhancing community engagement through successful events.",
+      "achievements": "Organizing well-attended events, improving the user experience on the website."
+    },
+    "behaviors_patterns": {
+      "current_work": "Logs into the website regularly, actively participates in event planning.",
+      "habits": "Prefers using the computer for website interactions over mobile apps."
+    },
+    "pain_points_frustrations": {
+      "obstacles": "Complicated event management processes, inadequate training for new committee members.",
+      "frustrations": "Mobile app limitations, registration discrepancies causing confusion."
+    },
+    "needs_desires": {
+      "life_improvements": "Simplified user interface, better training resources, improved mobile app functionality.",
+      "looking_for": "A more effective way to manage events and a reliable tool for communication."
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Values utility over aesthetics; prefers functionality in tools.",
+      "preferences": "Favors clear, straightforward interfaces and efficient processes.",
+      "values": "Community engagement, effective organization, and transparency in communications."
+    },
+    "technical_comfort": {
+      "tools_used": "Wild Apricot application, various websites for event planning.",
+      "technical_abilities": "Comfortable with administrative tools and event management systems.",
+      "learning_preferences": "Hands-on learning with a preference for practical training."
+    },
+    "quotes": [
+      "I was impressed with the Wild Apricot application in terms of its flexibility and really the power of the whole approach.",
+      "The biggest problem I had with the whole process was dealing with people who were not savvy users.",
+      "Cleaner, simpler, better is my approach.",
+      "The training process really needs to have some hard look at two issues: the venue for training has been woefully inadequate."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call_Recording.json",
+    "interview_id": "Call_Recording"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:07:35.378203",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we improve the event search functionality on the website to match the convenience of the app?",
+      "evidence": "I think it would be easier if you could pick whatever committee that you think or, you know, I don't know what you call them actually committee, I guess, pick it and then go through and see what they have. I noticed it's the app has a search bar, a search field and you can put in a keyword and it'll bring up that but on the website, it doesn't.",
+      "user_need": "Users need a more efficient way to search for events by committee or keyword on the website.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we streamline the navigation experience on the website to reduce the number of backtracking steps?",
+      "evidence": "I feel like I'm, I have to go back a lot more steps that way than with the app.",
+      "user_need": "Users want a smoother navigation experience without excessive backtracking.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance event registration visibility for better planning and participation?",
+      "evidence": "Sometimes I'll go and it'll be like, you can't sign up for another week or two. And I'm like, oh, I was going to sign up because you see it.",
+      "user_need": "Users need clear visibility of event registration timelines and statuses to plan their participation effectively.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide a dedicated space for current announcements and updates on the website?",
+      "evidence": "I think we might want to include that would be to, to fix this problem of like, you know, the revolving door, you know, how do we sort of put more of that out there.",
+      "user_need": "Users need a centralized location for current events and announcements, enhancing their awareness of club activities.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we create a more visible alumni directory option for maintaining connections?",
+      "evidence": "I think that would be helpful because what if you're like with me, I wanted to connect with Tara and I couldn't figure out her contact information.",
+      "user_need": "Users want the ability to connect with alumni members for networking and socializing even after they graduate.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we provide comprehensive information about board and committee positions to encourage member involvement?",
+      "evidence": "I think it would be easier to have a document that you could read and have some idea what's involved before you reach out.",
+      "user_need": "Users need clear descriptions and processes for board and committee positions to facilitate informed participation.",
+      "potential_impact": "Medium",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we simplify the event cancellation process to enhance user experience?",
+      "evidence": "There should just be a way to should have just been processed.",
+      "user_need": "Users require an easier way to cancel event registrations without unnecessary complications.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the refund process to ensure timely and efficient transactions?",
+      "evidence": "I was actually told, Oh, you'll get a check in the mail. I think I actually mentioned that to you. And I never did.",
+      "user_need": "Users need a more reliable and faster refund system that aligns with modern transaction methods.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create an archive for past newsletters to ensure information accessibility?",
+      "evidence": "I feel like that would be consistent with what most businesses do what most everything else does.",
+      "user_need": "Users want easy access to past newsletters for reference and continuity of information.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_Danielle_Nov16.json",
+    "interview_id": "SBNC_Interview_Danielle_Nov16"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:03:21.352004",
+    "version": "1.0"
+  }
+}

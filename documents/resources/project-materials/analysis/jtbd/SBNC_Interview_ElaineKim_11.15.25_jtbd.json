@@ -1,0 +1,66 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When I visit the website, I want to easily find and view upcoming events, so I can plan my participation in community activities.",
+      "current_solution": "Using the events tab and calendar view on the website.",
+      "pain_points": [
+        "Waitlisted events are not clearly indicated, leading to frustration.",
+        "Difficulties in cancelling events once registered.",
+        "Overly complex navigation with too many tabs."
+      ],
+      "desired_outcomes": [
+        "Clear indication of available spots in events.",
+        "Simplified cancellation process.",
+        "Streamlined navigation with fewer, more relevant tabs."
+      ],
+      "success_criteria": "I can quickly see which events are open for registration and cancel my participation effortlessly."
+    },
+    "emotional_jobs": {
+      "job_statement": "When I use the website, I want to feel reassured that I can participate in community events without hassle, so I can enjoy my experience.",
+      "current_solution": "The current website provides some reassurance but often leads to frustration due to waitlists.",
+      "pain_points": [
+        "Feeling overwhelmed by too much information.",
+        "Frustration from not being able to register for desired events."
+      ],
+      "desired_outcomes": [
+        "A sense of ease and satisfaction when navigating the website.",
+        "Confidence in my ability to participate in events."
+      ],
+      "success_criteria": "I feel relaxed and excited about attending events rather than stressed about registration."
+    },
+    "social_jobs": {
+      "job_statement": "When I participate in community events, I want to be seen as an active and involved member, so I can build connections with others.",
+      "current_solution": "Attending events and engaging with other members during activities.",
+      "pain_points": [
+        "Limited visibility of event information can hinder participation.",
+        "Feeling disconnected if unable to register for events."
+      ],
+      "desired_outcomes": [
+        "Recognition as an engaged community member.",
+        "Opportunities to connect with others in my demographic."
+      ],
+      "success_criteria": "I receive positive feedback from peers about my involvement in community activities."
+    },
+    "supporting_jobs": {
+      "job_statement": "When I explore the website, I want to quickly find information about membership benefits, so I can understand what I gain from being a member.",
+      "current_solution": "Reviewing the 'About Us' and 'Why Join' tabs, although they are not frequently accessed.",
+      "pain_points": [
+        "Lack of clear and concise information about membership benefits.",
+        "Unnecessary complexity in navigation makes it hard to find relevant information."
+      ],
+      "desired_outcomes": [
+        "Quick access to the key benefits of membership.",
+        "A straightforward understanding of why I should engage with the organization."
+      ],
+      "success_criteria": "I can easily recall the benefits of membership and feel motivated to participate in events."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_ElaineKim_11.15.25.json",
+    "interview_id": "SBNC_Interview_ElaineKim_11.15.25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:50:13.792941",
+    "version": "1.0"
+  }
+}

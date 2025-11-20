@@ -1,0 +1,66 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "50-65",
+      "role": "Club member and administrator",
+      "experience_level": "Intermediate",
+      "technical_proficiency": "Moderate"
+    },
+    "background_context": {
+      "situation": "Engaged member of a local community club",
+      "environment": "Using a website to access club information and events",
+      "constraints": "Frustration with outdated website design and navigation"
+    },
+    "goals_motivations": {
+      "drives": "Desire for a more engaging and user-friendly community website",
+      "achievements": [
+        "Easily find and register for events",
+        "Access information about community resources",
+        "Improve self-service options for club administration"
+      ]
+    },
+    "behaviors_patterns": {
+      "current_work": "Navigates the website to find events and community information",
+      "habits": "Regularly checks for events and community resources, but struggles with website usability"
+    },
+    "pain_points_frustrations": {
+      "obstacles": [
+        "Difficulty finding relevant events and information on the website",
+        "Outdated website aesthetics",
+        "Limited self-service options for club members"
+      ],
+      "what_doesnt_work": "Current website design and navigation are not user-friendly or engaging"
+    },
+    "needs_desires": {
+      "better_life": "A modern, visually appealing website with easy navigation and accessible resources",
+      "looking_for": [
+        "A community Q&A section for new residents",
+        "Improved self-service customer support options",
+        "A better event calendar app"
+      ]
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Believes in the importance of community engagement and support",
+      "preferences": "Favors user-friendly and aesthetically pleasing designs",
+      "values": "Community involvement, accessibility, and ease of use"
+    },
+    "technical_comfort": {
+      "tools": "Currently using the club's website and possibly other community platforms",
+      "technical_abilities": "Comfortable with basic website navigation but desires improved functionality",
+      "learning_preferences": "Prefers straightforward, self-service solutions"
+    },
+    "quotes": [
+      "\"It just feels like an old person's home... it looks like a 20-year-old website.\"",
+      "\"I think that the website needs to be warm and engaging...\"",
+      "\"...if there were an easy way for them to resolve those issues in the moment, I think it could increase satisfaction a lot.\""
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 5.json",
+    "interview_id": "New Recording 5"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:09:46.046305",
+    "version": "1.0"
+  }
+}

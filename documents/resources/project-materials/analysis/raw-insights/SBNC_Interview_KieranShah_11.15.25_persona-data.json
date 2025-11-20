@@ -1,0 +1,55 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "30-50",
+      "role": "Business Leader",
+      "experience_level": "Senior",
+      "technical_proficiency": "Moderate to High"
+    },
+    "background_context": {
+      "situation": "New resident in Santa Barbara, seeking to connect with the community.",
+      "environment": "Community organization with various clubs and committees.",
+      "constraints": "Overwhelming amount of options for clubs; needs a streamlined process."
+    },
+    "goals_motivations": {
+      "drives": "Desire to build connections and engage with the local community.",
+      "achievements": "Finding and joining clubs that align with personal interests."
+    },
+    "behaviors_patterns": {
+      "current_work": "Primarily relies on mobile app for accessing information.",
+      "habits": "Tends to overlook websites in favor of more user-friendly mobile experiences."
+    },
+    "pain_points_frustrations": {
+      "obstacles": "Overwhelming information on the website; lack of engaging design.",
+      "issues": "Website appears dated and is not user-friendly; too much text without highlights."
+    },
+    "needs_desires": {
+      "improvements": "A more modern, inviting website; streamlined access to information.",
+      "desires": "Clear visual representation of events and committees; mobile-friendly design."
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Believes in the importance of effective communication to engage users.",
+      "preferences": "Favors visually appealing and concise information delivery."
+    },
+    "technical_comfort": {
+      "tools": "Mobile app for events and registration; avoids using the website.",
+      "abilities": "Comfortable navigating various applications; prefers intuitive designs.",
+      "learning_preferences": "Prefers visual learning and engaging, interactive content."
+    },
+    "quotes": [
+      "The website appears very dated.",
+      "I never once used the website. I used the app.",
+      "There's an overwhelming amount of clubs and groups to join.",
+      "You need to pick or focus on a few things that you really want to highlight.",
+      "It just doesn't look inviting."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_KieranShah_11.15.25.json",
+    "interview_id": "SBNC_Interview_KieranShah_11.15.25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:10:02.087481",
+    "version": "1.0"
+  }
+}

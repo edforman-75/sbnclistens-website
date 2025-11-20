@@ -1,0 +1,54 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we improve the mobile application to provide accurate and consistent information for users?",
+      "evidence": "The phone app was underpowered and provided conflicting information, leading to frustrations for users regarding event registrations.",
+      "user_need": "Users need a reliable app to manage registrations and event details without confusion.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we streamline the training process for new committee members to ensure they understand the system better?",
+      "evidence": "The training process is inadequate for new co-chairs, leading to challenges in using the system efficiently.",
+      "user_need": "New users need a comprehensive and clear training program to effectively learn how to use the event management system.",
+      "potential_impact": "High",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we create a system for better institutional memory to assist new committee members?",
+      "evidence": "There is a lack of formalized institutional memory, making transitions challenging and losing valuable knowledge.",
+      "user_need": "New members need access to historical information and processes to avoid starting from scratch.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we improve the event registration and payment system to minimize confusion?",
+      "evidence": "Users often thought they were registered, but issues with payment led to confusion and frustration.",
+      "user_need": "Users need a clear understanding of their registration status to ensure they can participate in events.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we implement printed name tags for events to improve attendee experience?",
+      "evidence": "Printed name tags helped identify registered members and served as an audit function for attendance.",
+      "user_need": "Attendees need an easy way to identify each other and confirm their registration status at events.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enhance the alumni relations program to facilitate better engagement?",
+      "evidence": "There is potential to integrate alumni into events, and alumni expressed willingness to pay for membership.",
+      "user_need": "Alumni need opportunities for engagement and connection with the current members.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call_Recording.json",
+    "interview_id": "Call_Recording"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:00:54.304625",
+    "version": "1.0"
+  }
+}

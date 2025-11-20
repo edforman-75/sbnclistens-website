@@ -1,0 +1,68 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we make event times easily visible on the newcomers club website and app?",
+      "evidence": "It might be nice to have the time reflected easily so I don't have to open it first to see what time it is.",
+      "user_need": "Users need quick access to event times to plan their schedules effectively.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we highlight new events and updates more effectively on the website and app?",
+      "evidence": "It would be great to have both on the app and the website the new things are highlighted in some fashion maybe they're up at the top of the list.",
+      "user_need": "Users need to easily identify new events and updates without searching through the entire list.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we simplify the registration process for events?",
+      "evidence": "If I've never done a jot form... she had a lot of trouble with it.",
+      "user_need": "Users require a seamless and straightforward registration experience for events.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we streamline the waitlist and refund process for event cancellations?",
+      "evidence": "When you go to the waitlist then the person who cancels theoretically gets a refund... that was extremely time-consuming.",
+      "user_need": "Users need a more efficient system to handle waitlists and refunds during event cancellations.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we include event addresses in reminder emails?",
+      "evidence": "It would be nice to have the address in that reminder since it's only going to the people who are registered.",
+      "user_need": "Users need easy access to event addresses to avoid scrambling to find them.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we reduce email clutter for members of the newcomers club?",
+      "evidence": "My email is just swamp with Santa Barbara newcomers club so I cannot even know which one when I need to go back.",
+      "user_need": "Users need a more organized communication strategy to avoid overwhelming email notifications.",
+      "potential_impact": "medium",
+      "type": "support"
+    },
+    {
+      "opportunity_statement": "How might we offer more events during evenings and weekends?",
+      "evidence": "Please have more things on the weekends... if I get late it's not all mine.",
+      "user_need": "Users need more flexible event scheduling outside of standard working hours.",
+      "potential_impact": "high",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we ensure the accuracy of event registration information?",
+      "evidence": "The registration on the website was not correct... we almost sent this person who was lost to the wrong address.",
+      "user_need": "Users require reliable and up-to-date information regarding event registrations.",
+      "potential_impact": "high",
+      "type": "improvement"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 25.json",
+    "interview_id": "New Recording 25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:58:25.356798",
+    "version": "1.0"
+  }
+}

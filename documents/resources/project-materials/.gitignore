@@ -1,0 +1,13 @@
+# Audio files (often large and sensitive)
+audio/*.mp3
+audio/*.m4a
+audio/*.wav
+audio/*.mp4
+
+# Sensitive transcripts (configure based on privacy needs)
+# transcripts/*.json
+# transcripts/*.md
+
+# Temporary files
+*.tmp
+.DS_Store

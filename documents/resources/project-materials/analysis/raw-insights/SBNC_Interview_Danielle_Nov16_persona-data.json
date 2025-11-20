@@ -1,0 +1,66 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "30-50",
+      "role": "Newcomer Club Member",
+      "experience_level": "Intermediate",
+      "technical_proficiency": "Moderate"
+    },
+    "background_context": {
+      "situation": "New to the area and seeking social connections.",
+      "environment": "Engaged in a newcomers club to meet people.",
+      "constraints": "Limited time due to other commitments."
+    },
+    "goals_motivations": {
+      "drives": "Desire to socialize and integrate into the community.",
+      "achievements": "Wants to meet new people and attend events."
+    },
+    "behaviors_patterns": {
+      "current_work_style": "Primarily uses the website to find events, but recently started using the app.",
+      "habits": "Checks the calendar frequently for upcoming events and monitors email updates."
+    },
+    "pain_points_frustrations": {
+      "obstacles": [
+        "Website navigation is cumbersome, requiring multiple steps to access information.",
+        "Lack of a search feature on the website to find specific events.",
+        "Confusion regarding event registration and cancellation processes."
+      ],
+      "what_doesnt_work": [
+        "Inconsistent information display regarding event registration status.",
+        "Difficulty in accessing personal event history on the website."
+      ]
+    },
+    "needs_desires": {
+      "improvements": [
+        "A more efficient website with a search function for events.",
+        "Ability to see event registration status and names of attendees easily.",
+        "An archive of newsletters and announcements on the website."
+      ],
+      "looking_for": "Easier navigation and clear information regarding events and committee roles."
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Believes that easily accessible information can enhance user experience.",
+      "preferences": "Values simplicity and clarity in digital interfaces."
+    },
+    "technical_comfort": {
+      "tools_used": [
+        "Website",
+        "Mobile app (Apricot)"
+      ],
+      "technical_abilities": "Comfortable with basic web navigation and mobile app usage.",
+      "learning_preferences": "Prefers hands-on experience and direct guidance."
+    },
+    "quotes": [
+      "I don't remember it being hard and I know like it I might have remembered if it were frustrating but I don't remember that.",
+      "The app is much better because it is faster and has less steps to go through."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_Danielle_Nov16.json",
+    "interview_id": "SBNC_Interview_Danielle_Nov16"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:09:31.114958",
+    "version": "1.0"
+  }
+}

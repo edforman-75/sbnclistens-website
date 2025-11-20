@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When navigating the website, I want to easily find events and registration details, so I can participate in community activities.",
+      "current_solution": "Current website structure and layout.",
+      "pain_points": "Difficult navigation, outdated design, lack of comprehensive event information.",
+      "desired_outcomes": "A more intuitive website layout that allows for easy browsing and registration for events.",
+      "success_criteria": "Users can quickly find and register for events without frustration."
+    },
+    "emotional_jobs": {
+      "job_statement": "When I visit the website, I want to feel welcomed and engaged, so I can connect with the community.",
+      "current_solution": "The current website design and content.",
+      "pain_points": "The site feels outdated and uninviting, leading to feelings of disconnection.",
+      "desired_outcomes": "A warm and engaging website that reflects the community spirit.",
+      "success_criteria": "Users report feeling more connected and engaged with the community after visiting the site."
+    },
+    "social_jobs": {
+      "job_statement": "When I interact with the website, I want to be perceived as an informed and active community member, so I can build relationships and networks.",
+      "current_solution": "Limited information available on the website.",
+      "pain_points": "Difficulty in finding relevant information to engage and connect with others.",
+      "desired_outcomes": "A comprehensive resource that showcases community involvement and events.",
+      "success_criteria": "Users feel they can confidently share information and engage with others based on what they've learned from the website."
+    },
+    "supporting_jobs": {
+      "job_statement": "When I need assistance, I want self-service options available, so I can resolve issues independently and efficiently.",
+      "current_solution": "Basic customer support without self-service features.",
+      "pain_points": "Reliance on admin or support staff for resolving simple issues.",
+      "desired_outcomes": "An effective self-service support system that empowers users to find solutions.",
+      "success_criteria": "Users are able to resolve their issues independently, reducing the need for support staff intervention."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 5.json",
+    "interview_id": "New Recording 5"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:50:54.464591",
+    "version": "1.0"
+  }
+}

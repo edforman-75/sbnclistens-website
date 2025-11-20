@@ -1,0 +1,110 @@
+{
+  "HMW_Questions": [
+    {
+      "HMW_question": "How might we enhance the usability of the phone app for newcomers?",
+      "problem/need": "Users struggle with the phone app's functionality, leading to confusion.",
+      "supporting_evidence": "I had more problems with the phone app than I did with the computer based web application.",
+      "type": "improving experience",
+      "potential_impact": "high"
+    },
+    {
+      "HMW_question": "How might we improve the onboarding process for new committee members?",
+      "problem/need": "New members find it challenging to understand the event organization process.",
+      "supporting_evidence": "The training process that is undertaken in good faith is really not adequate to allow a committee co-chair to be facile.",
+      "type": "addressing pain point",
+      "potential_impact": "high"
+    },
+    {
+      "HMW_question": "How might we create a centralized knowledge repository for event management best practices?",
+      "problem/need": "Lack of institutional memory leads to repeated mistakes in event organization.",
+      "supporting_evidence": "There\u2019s not a facile way to have some kind of archival process or some way to, you know, to put in a note to the file for the information.",
+      "type": "enabling goal",
+      "potential_impact": "medium"
+    },
+    {
+      "HMW_question": "How might we streamline the event registration process to reduce confusion?",
+      "problem/need": "Users are confused about their registration status due to conflicting information.",
+      "supporting_evidence": "I'm looking at the actual log here. And your registration expired because you didn't pay within the first 15 minutes.",
+      "type": "addressing pain point",
+      "potential_impact": "high"
+    },
+    {
+      "HMW_question": "How might we ensure clear communication about event details to users?",
+      "problem/need": "Users find event descriptions and schedules unclear.",
+      "supporting_evidence": "Event descriptions and especially save the date kinds of things or conflicting scheduling things were not as transparent or not as clear.",
+      "type": "improving experience",
+      "potential_impact": "medium"
+    },
+    {
+      "HMW_question": "How might we leverage technology to automate event management tasks?",
+      "problem/need": "Manual processes bog down event organization.",
+      "supporting_evidence": "The mechanics of what I'm going to refer to as the back office work.",
+      "type": "enabling goal",
+      "potential_impact": "high"
+    },
+    {
+      "HMW_question": "How might we provide better training resources for event coordinators?",
+      "problem/need": "Current training resources are inadequate for new event coordinators.",
+      "supporting_evidence": "The training process really needs to have some hard, hard look at two issues.",
+      "type": "addressing pain point",
+      "potential_impact": "high"
+    },
+    {
+      "HMW_question": "How might we integrate alumni into the newcomers community effectively?",
+      "problem/need": "Alumni are not currently engaged in a meaningful way.",
+      "supporting_evidence": "How we can fold alumni into that in a comfortable kind of way.",
+      "type": "enabling goal",
+      "potential_impact": "medium"
+    },
+    {
+      "HMW_question": "How might we develop a more user-friendly interface for the newcomers website?",
+      "problem/need": "The website's current interface may not be inviting for new users.",
+      "supporting_evidence": "Cleaner, simpler, better is my approach.",
+      "type": "improving experience",
+      "potential_impact": "high"
+    },
+    {
+      "HMW_question": "How might we implement a system for printed name tags that serves both aesthetic and functional purposes?",
+      "problem/need": "Handwritten name tags can create confusion about registration status.",
+      "supporting_evidence": "If I saw anyone walking around with a name tag that was a pencil, sharpie, handwritten name tag... that was a clue that that person may not have been registered.",
+      "type": "addressing pain point",
+      "potential_impact": "medium"
+    },
+    {
+      "HMW_question": "How might we create a more reliable way to track event registrations?",
+      "problem/need": "Inaccurate registration tracking leads to participant confusion.",
+      "supporting_evidence": "My phone app says I'm registered. I'm sorry. So anyway, the point is a major area of improvement would be to improve the interface.",
+      "type": "addressing pain point",
+      "potential_impact": "high"
+    },
+    {
+      "HMW_question": "How might we foster a culture of knowledge sharing within the newcomers organization?",
+      "problem/need": "There is a lack of shared knowledge among committee members.",
+      "supporting_evidence": "The only behind the scenes person that really has any long term history is Charlie.",
+      "type": "enabling goal",
+      "potential_impact": "medium"
+    },
+    {
+      "HMW_question": "How might we improve the clarity of event scheduling information on the website?",
+      "problem/need": "Users struggle to find clear and concise scheduling information.",
+      "supporting_evidence": "Conflicting scheduling things were not as transparent or not as clear.",
+      "type": "improving experience",
+      "potential_impact": "medium"
+    },
+    {
+      "HMW_question": "How might we create a feedback mechanism for users to report issues with the website/app?",
+      "problem/need": "Users have trouble communicating their issues with the platform.",
+      "supporting_evidence": "The biggest problem I had with the whole process, frankly, was dealing with people who were not savvy users.",
+      "type": "addressing pain point",
+      "potential_impact": "medium"
+    }
+  ],
+  "_source": {
+    "transcript": "projects/SBNCListens/transcripts/Call_Recording.json",
+    "interview_id": "Call_Recording"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-16T07:03:45.895019",
+    "version": "1.0"
+  }
+}

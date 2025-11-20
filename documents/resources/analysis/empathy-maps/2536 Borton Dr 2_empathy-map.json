@@ -1,0 +1,43 @@
+{
+  "empathyMap": {
+    "SAYS": [
+      "Yeah, do I recall that you did like a major landscaping project? Yes.",
+      "And that was, that was a great project, like they tore up the entire backyard and the first thing we did was put in drains.",
+      "We're going to see this next week. My friend in L.A. helping him with his new house, and we have a request.",
+      "I think that's one of the best ideas going, and if there were a better way to market that, I think it's well worth it.",
+      "I think that the biggest thing that makes jobs go awry is when the materials aren't there.",
+      "I just find it to be really drab. The photography is boring. The fonts are boring. The colors are boring.",
+      "If I could reinvent Santa Barbara Newcomers Club on the web, I think that it would have to be something more trendy and upscale looking."
+    ],
+    "THINKS": [
+      "The landscaping project was successful, but I still worry about the impact of severe weather.",
+      "Good contractors are essential for a smooth project, and I value being a good client.",
+      "I believe the marketing idea for gifting memberships could truly benefit newcomers.",
+      "I think the website needs significant improvement to attract new members and represent the club better.",
+      "I wonder if we could create a platform that connects newcomers with essential information and support.",
+      "I feel that the club's digital presence doesn't reflect the vibrant community it serves."
+    ],
+    "DOES": [
+      "Engages in discussions about home improvements and landscaping projects.",
+      "Participates in committee work and discussions about marketing strategies.",
+      "Has experience with website navigation and identifies areas of improvement.",
+      "Contributes ideas for enhancing the club's digital offerings and member resources.",
+      "Advocates for a more engaging online presence through better design and functionality."
+    ],
+    "FEELS": [
+      "Pride in successful home projects but frustration with ongoing challenges.",
+      "Excitement about the potential of new ideas but anxiety about implementation.",
+      "Disappointment regarding the current website's outdated design and lack of appeal.",
+      "Hopeful about the future of the club and its ability to improve member engagement.",
+      "Concern for newcomers who may struggle to find essential local information."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/2536 Borton Dr 2.json",
+    "interview_id": "2536 Borton Dr 2"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:41:42.724948",
+    "version": "1.0"
+  }
+}

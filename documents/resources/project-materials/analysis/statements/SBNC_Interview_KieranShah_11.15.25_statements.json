@@ -1,0 +1,110 @@
+{
+  "insights": [
+    {
+      "quote": "I think selecting which ones you're going to participate in is a little daunting.",
+      "timestamp": null,
+      "significance": "Highlights the overwhelming nature of choices available to newcomers.",
+      "insight": "Users feel a sense of confusion and pressure when faced with multiple options, impacting their engagement.",
+      "category": "pain point"
+    },
+    {
+      "quote": "It feels very dated.",
+      "timestamp": null,
+      "significance": "Direct feedback on the website's aesthetics and functionality.",
+      "insight": "A dated design can deter users, suggesting a need for modernization to attract and retain members.",
+      "category": "pain point"
+    },
+    {
+      "quote": "You're going to kind of glaze over it and maybe not go deep into where you want them to go.",
+      "timestamp": null,
+      "significance": "Indicates how users may not engage deeply with content due to overwhelming information.",
+      "insight": "Too much information without clear navigation can lead to user disengagement.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I never once used the website. I used the app.",
+      "timestamp": null,
+      "significance": "Contradicts the expectation that the website should be the primary tool.",
+      "insight": "Users may prefer mobile applications over websites, indicating a shift in how they access information.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I was looking for some committees that I had an interest in or that I had a shared interest in.",
+      "timestamp": null,
+      "significance": "Reveals specific user needs when considering membership.",
+      "insight": "Users are motivated by shared interests and social connections, highlighting the need for targeted information.",
+      "category": "desire"
+    },
+    {
+      "quote": "It looks like something that was very simply put together and not intended to be drawing individuals in.",
+      "timestamp": null,
+      "significance": "Critique of the website's design and purpose.",
+      "insight": "Website design needs to evoke interest and engagement, indicating it may currently fail to do so.",
+      "category": "pain point"
+    },
+    {
+      "quote": "It might be nice if it showed up as a thumbnail on the original events page.",
+      "timestamp": null,
+      "significance": "Suggests practical improvements for usability.",
+      "insight": "Users prefer streamlined access to information, which can enhance their experience.",
+      "category": "behavior"
+    },
+    {
+      "quote": "Too many words. It's way too much detail.",
+      "timestamp": null,
+      "significance": "Feedback on content presentation.",
+      "insight": "Users prefer concise information; verbosity can lead to disengagement.",
+      "category": "pain point"
+    },
+    {
+      "quote": "You need to pick or focus on a few things that you really want to highlight.",
+      "timestamp": null,
+      "significance": "Advice on prioritizing content.",
+      "insight": "Users need clear priorities in information presentation to avoid feeling overwhelmed.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think you need to come up with that and maybe test it or test it with a focus group or trial audience.",
+      "timestamp": null,
+      "significance": "Suggests iterative testing for improvement.",
+      "insight": "User feedback should inform design changes, emphasizing the importance of user-centered design.",
+      "category": "belief"
+    },
+    {
+      "quote": "I just think it makes you look very small.",
+      "timestamp": null,
+      "significance": "Comments on the perceived credibility of the organization based on its online presence.",
+      "insight": "An uninviting web presence can undermine the organization's perceived stature and relevance.",
+      "category": "emotion"
+    },
+    {
+      "quote": "There is a regulation with the website that it needs to have a translation aspect to it.",
+      "timestamp": null,
+      "significance": "Brings attention to compliance and accessibility.",
+      "insight": "Accessibility features are crucial for inclusivity, indicating a gap in current offerings.",
+      "category": "context"
+    },
+    {
+      "quote": "If you have, you would list them here. But if you don't, then you wouldn't call it a level.",
+      "timestamp": null,
+      "significance": "Points out a potential confusion in membership levels.",
+      "insight": "Clear communication of membership options is essential to avoid user confusion.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think the color scheme is not very inviting or exciting either way.",
+      "timestamp": null,
+      "significance": "Feedback on the visual elements of the website.",
+      "insight": "A lack of inviting design elements can negatively affect user attraction and engagement.",
+      "category": "pain point"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_KieranShah_11.15.25.json",
+    "interview_id": "SBNC_Interview_KieranShah_11.15.25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:39:51.359367",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "30-40",
+      "role": "Event Organizer",
+      "experience_level": "Intermediate",
+      "technical_proficiency": "Moderate"
+    },
+    "background_context": {
+      "situation": "Utilizing apps and websites for event management",
+      "environment": "Frequently accessing both mobile app and website for event updates",
+      "constraints": "Issues with finding timely information about new events"
+    },
+    "goals_motivations": {
+      "drives": "Efficient management of events and staying updated on new postings",
+      "achievements": "Wants to easily access and understand event information to make informed decisions"
+    },
+    "behaviors_patterns": {
+      "current_work_methods": "Checks for new events through notifications and newsletters",
+      "habits": "Regularly uses the app but finds the website confusing"
+    },
+    "pain_points_frustrations": {
+      "obstacles": "Difficulty in identifying new events and their posting times",
+      "issues": "Confusing interface for distinguishing between events; lack of upfront pricing information"
+    },
+    "needs_desires": {
+      "improvements": "A clearer, more organized way to see new events, possibly with visual indicators",
+      "requirements": "Desires easy access to prices before committing to event details"
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Believes that information should be easily accessible and clearly presented",
+      "preferences": "Values user-friendly interfaces and timely updates"
+    },
+    "technical_comfort": {
+      "tools_used": "Wild Apricot app and website",
+      "technical_abilities": "Comfortable using mobile applications, less so with websites",
+      "learning_preferences": "Prefers intuitive design and clear navigation"
+    },
+    "quotes": [
+      "It was nice to see the price, too, before you click into it.",
+      "It\u2019d be nice if it was... Here\u2019s all the new stuff. It\u2019s easy to find."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 34.json",
+    "interview_id": "New Recording 34"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:06:53.226836",
+    "version": "1.0"
+  }
+}

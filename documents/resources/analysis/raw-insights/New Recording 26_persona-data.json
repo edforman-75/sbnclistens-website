@@ -1,0 +1,65 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "40-60",
+      "role": "Vice President of Technology",
+      "experience_level": "Senior",
+      "technical_proficiency": "Moderate to High"
+    },
+    "background_context": {
+      "situation": "Involved in a community organization with a focus on improving the website and user experience.",
+      "environment": "Working within a club setting with an outdated system (Wild Apricot) and limited control over the application.",
+      "constraints": "Limited ability to customize the application and reliance on outdated technology."
+    },
+    "goals_motivations": {
+      "drives": "Desire to modernize the club's online presence and improve user experience.",
+      "achievements": [
+        "Create a more contemporary website.",
+        "Simplify the membership joining process.",
+        "Enable users to update their own information easily."
+      ]
+    },
+    "behaviors_patterns": {
+      "current_work": "Regularly engages with the website for testing and feedback purposes.",
+      "habits": "Uses the website instead of the application for managing events and memberships."
+    },
+    "pain_points_frustrations": {
+      "obstacles": [
+        "Old-fashioned and convoluted membership join workflow.",
+        "Difficulty in updating personal information.",
+        "Website navigation issues\u2014hidden buttons and convoluted UI."
+      ],
+      "does_not_work_well": "The application is restrictive and doesn't allow for much customization."
+    },
+    "needs_desires": {
+      "life_better": "A streamlined way for users to manage their information and events.",
+      "looking_for": "A modernized website experience that is user-friendly."
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Believes in the importance of a contemporary image for the club and user autonomy.",
+      "preferences": "Values clear communication and ease of use in technology."
+    },
+    "technical_comfort": {
+      "tools_used": [
+        "Wild Apricot",
+        "Website interface",
+        "Application (limited)"
+      ],
+      "technical_abilities": "Comfortable with moderate technology but frustrated with outdated systems.",
+      "learning_preferences": "Prefers intuitive, user-friendly interfaces over complex systems."
+    },
+    "quotes": [
+      "I have this love-hate relationship with Wild Apricot.",
+      "I don\u2019t want to be a member of an old person\u2019s club.",
+      "I feel very, very lucky when I find that button to join."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 26.json",
+    "interview_id": "New Recording 26"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:10:16.405717",
+    "version": "1.0"
+  }
+}

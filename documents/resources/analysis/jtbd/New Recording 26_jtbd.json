@@ -1,0 +1,69 @@
+{
+  "jobs": {
+    "functional_jobs": [
+      {
+        "job_statement": "When I need to update my information, I want to easily access the update feature, so I can keep my profile current.",
+        "current_solution": "Users can update their information through the app.",
+        "pain_points": "The process is not obvious, and many users are unaware of how to do it.",
+        "desired_outcomes": "A straightforward method for users to update their information on their own.",
+        "success_criteria": "Users report that they can easily find and use the update feature without external help."
+      },
+      {
+        "job_statement": "When I want to join events, I want the process to be intuitive and seamless, so I can participate without frustration.",
+        "current_solution": "Users can join events through the website or app.",
+        "pain_points": "The current process is convoluted, and information about events is not easily accessible.",
+        "desired_outcomes": "A simplified and clear event joining process that provides all necessary information upfront.",
+        "success_criteria": "Users report a smooth experience when joining events without confusion or excessive navigation."
+      },
+      {
+        "job_statement": "When I need to keep track of my events, I want a dedicated page that lists all my registered events, so I can manage my schedule easily.",
+        "current_solution": "A 'my newcomers' page exists but is not user-friendly.",
+        "pain_points": "Users find it challenging to navigate and find their events on the website.",
+        "desired_outcomes": "A well-organized and easily accessible list of events that users are registered for.",
+        "success_criteria": "Users can quickly find and manage their events in one place without unnecessary clicks."
+      }
+    ],
+    "emotional_jobs": [
+      {
+        "job_statement": "When I use the club's website, I want to feel that it represents a contemporary and vibrant community, so I can feel proud to be a member.",
+        "current_solution": "The current website design is outdated.",
+        "pain_points": "Members feel that the website does not reflect the club's modern values or attract new members.",
+        "desired_outcomes": "A refreshed and contemporary website design that resonates with members and potential newcomers.",
+        "success_criteria": "Positive feedback from members regarding the new website design and increased engagement from newcomers."
+      },
+      {
+        "job_statement": "When I am new to the community, I want to feel welcomed and integrated, so I can build connections and feel at home.",
+        "current_solution": "New member orientation and events exist.",
+        "pain_points": "Some new members feel lost or unsure about how to get involved.",
+        "desired_outcomes": "A welcoming environment that fosters connection among new members.",
+        "success_criteria": "New members express feelings of belonging and connection after participating in events."
+      }
+    ],
+    "social_jobs": [
+      {
+        "job_statement": "When I attend events, I want to be perceived as an engaged and active member of the community, so I can build my social network.",
+        "current_solution": "Participation in events is encouraged.",
+        "pain_points": "Difficulties in joining events may lead to feelings of exclusion.",
+        "desired_outcomes": "Increased visibility and acceptance within the community as a proactive member.",
+        "success_criteria": "Members report feeling more connected and recognized within the community after attending events."
+      }
+    ],
+    "supporting_jobs": [
+      {
+        "job_statement": "When I receive notifications about new events or updates, I want them to be clear and actionable, so I can easily engage with the community.",
+        "current_solution": "Notifications are sent through the app.",
+        "pain_points": "Many members do not receive or notice notifications, leading to missed opportunities.",
+        "desired_outcomes": "Effective communication that ensures all members are informed and can participate in community events.",
+        "success_criteria": "High levels of engagement in events following improved notification systems."
+      }
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 26.json",
+    "interview_id": "New Recording 26"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:51:29.465288",
+    "version": "1.0"
+  }
+}

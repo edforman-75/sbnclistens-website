@@ -1,0 +1,40 @@
+{
+  "pain_points": [
+    {
+      "description": "Misplacing messages leads to delayed communication and scheduling.",
+      "supporting_quotes": [
+        "I misplaced a couple other messages along with his",
+        "I'm sorry I didn't call back sooner"
+      ],
+      "frequency_severity": {
+        "frequency": "Occasionally",
+        "severity": "Moderate"
+      },
+      "current_workarounds": "Brandon may try to keep better track of messages or rely on reminders.",
+      "impact": "Delays in responding to clients can impact customer satisfaction and business operations.",
+      "category": "time"
+    },
+    {
+      "description": "Feeling overwhelmed by multiple tasks and messages.",
+      "supporting_quotes": [
+        "I misplaced a couple other messages along with his",
+        "I'm sorry I didn't call back sooner"
+      ],
+      "frequency_severity": {
+        "frequency": "Often",
+        "severity": "High"
+      },
+      "current_workarounds": "Using a physical notebook or digital tools to track tasks and communications.",
+      "impact": "Increased stress levels and potential for lost business opportunities.",
+      "category": "emotional"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/voicemail-695 2.json",
+    "interview_id": "voicemail-695 2"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:52:56.813087",
+    "version": "1.0"
+  }
+}

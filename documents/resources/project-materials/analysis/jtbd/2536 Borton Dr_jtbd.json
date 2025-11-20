@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When I am landscaping my backyard, I want to ensure proper drainage, so I can protect my landscaping from severe weather.",
+      "current_solution": "We installed drains during our landscaping project.",
+      "pain_points": "Some ground cover is being lost to the street during heavy rain.",
+      "desired_outcomes": "Minimal loss of ground cover and effective drainage.",
+      "success_criteria": "The drainage system prevents significant water damage and maintains landscaping integrity."
+    },
+    "emotional_jobs": {
+      "job_statement": "When I host events or complete projects, I want to feel accomplished and proud, so I can enjoy my home and share it with others.",
+      "current_solution": "Successfully completing home renovations and hosting gatherings.",
+      "pain_points": "Feeling stressed when contractors are delayed or materials are not ready.",
+      "desired_outcomes": "A sense of pride and satisfaction in my home and projects.",
+      "success_criteria": "Positive feedback from guests and personal satisfaction with the completed work."
+    },
+    "social_jobs": {
+      "job_statement": "When I engage with my community, I want to be perceived as knowledgeable and helpful, so I can foster connections and friendships.",
+      "current_solution": "Participating in community events and contributing ideas for improvements.",
+      "pain_points": "Feeling out of touch or uninformed about local resources and events.",
+      "desired_outcomes": "Being seen as a reliable source of information and support within my community.",
+      "success_criteria": "Increased social interactions and recognition as a community leader."
+    },
+    "supporting_jobs": {
+      "job_statement": "When I move to a new area, I want to quickly learn about local services and resources, so I can settle in comfortably.",
+      "current_solution": "Networking with other newcomers and using local guides.",
+      "pain_points": "Struggling to find reliable information about essential services like healthcare and utilities.",
+      "desired_outcomes": "Access to a comprehensive newcomer's guide that outlines important local information.",
+      "success_criteria": "Feeling confident and informed about local services and having a smooth transition into the new community."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/2536 Borton Dr.json",
+    "interview_id": "2536 Borton Dr"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:49:56.587326",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When I am renovating or landscaping my home, I want to ensure the project runs smoothly and on schedule, so I can enjoy my new space without stress.",
+      "current_solution": "Hiring a reliable contractor and managing the supply of materials.",
+      "pain_points": "Delays caused by missing materials or miscommunication with contractors.",
+      "desired_outcomes": "A seamless project completion with no delays, resulting in a beautiful and functional outdoor space.",
+      "success_criteria": "The project is completed on time, within budget, and meets my aesthetic and functional expectations."
+    },
+    "emotional_jobs": {
+      "job_statement": "When engaging in community activities, I want to feel a sense of belonging and connection, so I can enjoy my new environment and make friends.",
+      "current_solution": "Participating in community events and clubs.",
+      "pain_points": "Feeling overwhelmed or lost in social situations due to being new in town.",
+      "desired_outcomes": "A welcoming environment that fosters friendships and a sense of community.",
+      "success_criteria": "I have made meaningful connections and feel integrated into the community."
+    },
+    "social_jobs": {
+      "job_statement": "When I participate in community events, I want to be perceived as an active and engaged member, so I can build my social reputation.",
+      "current_solution": "Joining clubs and attending events.",
+      "pain_points": "Not being recognized or feeling invisible at events.",
+      "desired_outcomes": "To be seen as a contributing member of the community, respected for my involvement.",
+      "success_criteria": "I receive positive feedback from peers and feel acknowledged for my contributions."
+    },
+    "supporting_jobs": {
+      "job_statement": "When I am new to an area, I want to access information about local services and events, so I can navigate my new environment easily.",
+      "current_solution": "Using websites and community resources to gather information.",
+      "pain_points": "Difficulty finding reliable information about services and events, leading to confusion.",
+      "desired_outcomes": "A comprehensive guide that provides easy access to essential information about the community.",
+      "success_criteria": "I can easily find and utilize local services, enhancing my settling-in experience."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/2536 Borton Dr 2.json",
+    "interview_id": "2536 Borton Dr 2"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:45:59.823559",
+    "version": "1.0"
+  }
+}

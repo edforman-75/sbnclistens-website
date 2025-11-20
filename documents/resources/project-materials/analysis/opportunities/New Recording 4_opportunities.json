@@ -1,0 +1,54 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we modernize the website's design to feel more inviting and representative of the community?",
+      "evidence": "It just feels like an old person's home, and it just could be spiffed up a lot with better photography, better typography, better layout.",
+      "user_need": "A visually appealing and engaging website that reflects the community's spirit.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we streamline the event registration and management process on the website?",
+      "evidence": "I'm often looking for a particular event to register for...what events am I registered to...what events have openings this coming week.",
+      "user_need": "Quick and easy access to event information and registration options.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a community resource section on the website for newcomers?",
+      "evidence": "wouldn't it be great if we could just have an area that's questions from people moving to Santa Barbara...basic information, where to register to vote, where to pay your taxes, how to get a driver's license.",
+      "user_need": "Access to essential information and resources for new residents.",
+      "potential_impact": "medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enhance self-service support options for administrators and board members?",
+      "evidence": "I'd like to have it be more self-service when it comes to customer support...simplest issues that get people hung up.",
+      "user_need": "Immediate solutions to common issues without needing to contact support.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the calendar app functionality for better event browsing and searching?",
+      "evidence": "to improve the calendar app, just to make it much easier to find events through browsing as well as searching.",
+      "user_need": "An effective way to browse and search for upcoming events.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we implement a help feature or chatbot to assist new users?",
+      "evidence": "perhaps would be a question mark in the corner, which got one to help or chatbot.",
+      "user_need": "Guidance for new users to navigate the website effectively.",
+      "potential_impact": "medium",
+      "type": "new feature"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 4.json",
+    "interview_id": "New Recording 4"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:01:38.433267",
+    "version": "1.0"
+  }
+}

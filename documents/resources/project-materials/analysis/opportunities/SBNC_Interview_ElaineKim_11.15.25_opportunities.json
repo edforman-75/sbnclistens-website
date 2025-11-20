@@ -1,0 +1,54 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we provide clearer visibility on event availability to enhance user engagement?",
+      "evidence": "I think it would be helpful to know which events still have openings or have it blocked out or something like that.",
+      "user_need": "Users need to know event availability to avoid frustration with waitlists.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we simplify the event cancellation process for users?",
+      "evidence": "It sucks up more time for it causes more work for everybody. Because sometimes like I just want to hit cancel if it turns out I can't make something.",
+      "user_need": "Users need an easy way to cancel events to minimize effort and enhance satisfaction.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we better highlight the 20 to 40 somethings committee to attract more engagement from that demographic?",
+      "evidence": "I was not aware of the 20 to 40 somethings committee.",
+      "user_need": "Users need to be aware of specific groups and committees that cater to their interests.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we streamline the website's navigation to improve user experience?",
+      "evidence": "The hierarchy and how we categorize things... there\u2019s a lot of tabs.",
+      "user_need": "Users need a more intuitive navigation structure to find relevant information quickly.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the events tab to ensure it serves as the primary focus for users?",
+      "evidence": "I only go to that link and that's the only thing I use on the website.",
+      "user_need": "Users need a centralized place where all event-related information is easily accessible.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we reduce the amount of unnecessary content on landing pages to increase engagement?",
+      "evidence": "I think there's a lot of verbiage that I'm probably not going to read on the page.",
+      "user_need": "Users need concise and relevant information to quickly understand the purpose of the site.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_ElaineKim_11.15.25.json",
+    "interview_id": "SBNC_Interview_ElaineKim_11.15.25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:02:57.496696",
+    "version": "1.0"
+  }
+}

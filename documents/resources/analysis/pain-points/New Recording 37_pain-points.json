@@ -1,0 +1,27 @@
+{
+  "pain_points": [
+    {
+      "description": "Lack of visibility into waitlist numbers for events.",
+      "supporting_quotes": [
+        "Does it tell you how many people are on the wait list for a given event?",
+        "If there's 20 people on it, how many are you going to buy?",
+        "If there's one or two... That's a good point."
+      ],
+      "frequency_severity": {
+        "frequency": 3,
+        "severity": 4
+      },
+      "current_workarounds": "Users guess based on past experiences or make assumptions about the demand.",
+      "impact": "Users may miss out on buying tickets if they don't know the demand level.",
+      "category": "effort"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 37.json",
+    "interview_id": "New Recording 37"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:54:45.547051",
+    "version": "1.0"
+  }
+}

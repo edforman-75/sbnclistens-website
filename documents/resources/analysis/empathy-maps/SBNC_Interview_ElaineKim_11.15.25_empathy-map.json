@@ -1,0 +1,46 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "I only really care about like when I go to the site, I want to... see, you know, what the goal of the organization is.",
+      "I go to the events thing and really the events tab is all that I use.",
+      "I typically use the events calendar view, just because it has it laid out in a way where I can see it the month at a glance.",
+      "It would be helpful to know which events still have openings or have it blocked out.",
+      "For the most part, if I see wait list for every single thing I'm interested in, then I kind of stop looking at the website too.",
+      "It sucks up more time for it causes more work for everybody.",
+      "I think it creates extra work for the organizers as well if they could just easily have a cancellation button.",
+      "The top I just don't go to the page. It just doesn't really serve much purpose for me.",
+      "I guess, I think it's best if like... why join? I'm not sure we really need to like sell people on this proposition."
+    ],
+    "THINKS": [
+      "The website should prioritize ease of use for current members.",
+      "There\u2019s a disconnect between what potential members need and what current members find useful.",
+      "If I consistently encounter waitlists, I may lose interest in the events altogether.",
+      "I believe there should be clearer indicators for event availability to minimize frustration.",
+      "The organization might benefit from a more streamlined website experience.",
+      "Some tabs seem redundant and could be merged or eliminated for better navigation."
+    ],
+    "DOES": [
+      "Elaine navigates directly to the events tab without exploring other sections.",
+      "She uses the calendar view to quickly assess available events.",
+      "Elaine actively seeks out information about events but gives up if she finds too many waitlists.",
+      "She reached out to the event organizer via email to cancel an event.",
+      "Elaine has engaged with the site\u2019s committee tab only when necessary (for specific events)."
+    ],
+    "FEELS": [
+      "Frustration when encountering waitlists repeatedly.",
+      "A sense of clarity and ease when using the events calendar.",
+      "Annoyance at having to navigate a cluttered website.",
+      "Appreciation for the organization\u2019s goal of community building.",
+      "Anxiety about overcomplicating the user experience for herself and others.",
+      "She feels that the current organization of the website does not align with her needs as a member."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_ElaineKim_11.15.25.json",
+    "interview_id": "SBNC_Interview_ElaineKim_11.15.25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:44:30.742012",
+    "version": "1.0"
+  }
+}

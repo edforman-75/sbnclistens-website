@@ -1,0 +1,72 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When navigating the Santa Barbara Newcomers website, I want to find clear and accurate information about the club and its events, so I can decide whether to join or participate.",
+      "current_solution": "The website provides information about events, committees, and membership details.",
+      "pain_points": [
+        "Inconsistent membership numbers across pages.",
+        "Poor visual appeal of the landing page.",
+        "Confusing navigation and unclear calls to action.",
+        "Content is not segmented for different audiences (prospective vs. current members)."
+      ],
+      "desired_outcomes": [
+        "Accurate, consistent information on the website.",
+        "Improved visual design that enhances user experience.",
+        "Clearer navigation that leads to better decision-making.",
+        "Optimized content that speaks directly to the needs of prospective members."
+      ],
+      "success_criteria": "Increased membership sign-ups and higher engagement rates with the website."
+    },
+    "emotional_jobs": {
+      "job_statement": "When visiting the website, I want to feel welcomed and informed, so I can feel confident about joining the club.",
+      "current_solution": "The website attempts to provide information about the club but lacks emotional engagement.",
+      "pain_points": [
+        "Lack of a welcoming visual and emotional tone.",
+        "Confusion and frustration due to poor navigation.",
+        "Feeling overwhelmed by inconsistent messaging."
+      ],
+      "desired_outcomes": [
+        "Feeling excited and welcomed by the club's offerings.",
+        "Confidence in understanding the club's value and community.",
+        "A sense of belonging before even joining."
+      ],
+      "success_criteria": "Positive feedback from prospective members about their experience on the website."
+    },
+    "social_jobs": {
+      "job_statement": "When looking at the website, I want to be seen as informed and engaged, so I can feel proud to represent the club.",
+      "current_solution": "The website provides basic information, but it doesn't effectively communicate the club's social appeal.",
+      "pain_points": [
+        "Inability to easily share or discuss club offerings with peers.",
+        "Limited visibility of club events that showcase community engagement."
+      ],
+      "desired_outcomes": [
+        "A strong, positive image of the club that I can share with others.",
+        "Opportunities to showcase participation in events or committees."
+      ],
+      "success_criteria": "Increased social sharing of club events and positive word-of-mouth referrals."
+    },
+    "supporting_jobs": {
+      "job_statement": "When using the website, I want to quickly access relevant sections and contact information, so I can efficiently find what I need.",
+      "current_solution": "The website has sections for activities, FAQs, and events, but navigation is cumbersome.",
+      "pain_points": [
+        "Difficulty finding specific information or contacts.",
+        "Excessive clicking required to get relevant details.",
+        "Inadequate support for alumni and non-member queries."
+      ],
+      "desired_outcomes": [
+        "Easy access to contact information for committee chairs.",
+        "Quick navigation to specific events or activities.",
+        "A streamlined user experience that minimizes frustration."
+      ],
+      "success_criteria": "Reduced time spent navigating the website and increased user satisfaction."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Bel Air Dr.json",
+    "interview_id": "Bel Air Dr"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:47:50.010196",
+    "version": "1.0"
+  }
+}

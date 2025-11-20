@@ -1,0 +1,68 @@
+{
+  "POVStatements": [
+    {
+      "POVStatement": "Newcomers need an improved mobile app experience because they often find it confusing and unreliable, leading to frustration when trying to register for events.",
+      "SupportingEvidence": "the phone app says you registered. But you know what? I'm looking at the actual log here. And your registration expired because you didn't pay within the first 15 minutes.",
+      "UnderlyingUserNeed": "A seamless and reliable mobile experience for event registration.",
+      "KeyInsight": "Users primarily rely on their phones, and inconsistencies create barriers to participation.",
+      "Priority": "High"
+    },
+    {
+      "POVStatement": "Committee chairs need better training on the event management system because they struggle with the complexity of the process, hindering their ability to execute successful events.",
+      "SupportingEvidence": "the training process that is undertaken in good faith is really not adequate to allow a committee co-chair to be facile in terms of how to understand and how to use to its greatest potential.",
+      "UnderlyingUserNeed": "Effective training resources for new users of the event management system.",
+      "KeyInsight": "Without proper training, new committee members feel overwhelmed and underprepared, affecting event quality.",
+      "Priority": "High"
+    },
+    {
+      "POVStatement": "Newcomers need clearer event descriptions and scheduling information because they often encounter confusion over conflicting details, impacting their ability to plan effectively.",
+      "SupportingEvidence": "sometimes the event descriptions and especially save the date kinds of things or conflicting scheduling things were not as transparent or not as clear as they could be.",
+      "UnderlyingUserNeed": "Accurate and accessible information about events.",
+      "KeyInsight": "Clarity in communication is essential for engagement and attendance at events.",
+      "Priority": "Medium"
+    },
+    {
+      "POVStatement": "Newcomers need a way to document and share institutional knowledge because the frequent turnover of committee members creates a lack of continuity and memory for best practices.",
+      "SupportingEvidence": "the lack of a formalized institutional memory...to be able to pass that baton to the next term.",
+      "UnderlyingUserNeed": "A reliable system for capturing and sharing historical knowledge.",
+      "KeyInsight": "Continuity in processes is vital for organizational success and member satisfaction.",
+      "Priority": "Medium"
+    },
+    {
+      "POVStatement": "Event organizers need a streamlined system for generating printed name tags because it helps in identifying attendees and managing registrations effectively.",
+      "SupportingEvidence": "I like the printed name tags as an audit function...to quickly spot...anyone walking around with a name tag that was a pencil, sharpie, handwritten name tag rather than a printed name tag.",
+      "UnderlyingUserNeed": "An efficient method for managing event registrations and participant identification.",
+      "KeyInsight": "Clear identification enhances networking and ensures proper registration management.",
+      "Priority": "Medium"
+    },
+    {
+      "POVStatement": "Newcomers need a dedicated technical support person because the administrative tasks can overwhelm volunteers, preventing them from focusing on event planning.",
+      "SupportingEvidence": "having that kind of capacity would be significant...the mechanics of what I'm going to refer to as the back office work.",
+      "UnderlyingUserNeed": "Technical assistance to alleviate administrative burdens.",
+      "KeyInsight": "Reducing administrative strain allows volunteers to apply their efforts toward creative event planning.",
+      "Priority": "High"
+    },
+    {
+      "POVStatement": "Newcomers need user-friendly access to event registration data because it allows them to manage their events more effectively and ensure participant satisfaction.",
+      "SupportingEvidence": "the notion of doing printed name tags...is an issue when you've got over 100 people.",
+      "UnderlyingUserNeed": "Easy access to registration and participant data.",
+      "KeyInsight": "Effective data management is critical for large event coordination and attendee experience.",
+      "Priority": "Medium"
+    },
+    {
+      "POVStatement": "Newcomers need a more vibrant and engaging online presence because a refreshed website can attract more participation from users who are seeking social connections.",
+      "SupportingEvidence": "the good news and the bad news about newcomers is it reinvents itself every six months.",
+      "UnderlyingUserNeed": "A dynamic and appealing platform for community engagement.",
+      "KeyInsight": "A vibrant online presence fosters community involvement and participation.",
+      "Priority": "Low"
+    }
+  ],
+  "_source": {
+    "transcript": "projects/SBNCListens/transcripts/Call_Recording.json",
+    "interview_id": "Call_Recording"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-16T07:03:16.157750",
+    "version": "1.0"
+  }
+}

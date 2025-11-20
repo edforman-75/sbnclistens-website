@@ -1,0 +1,54 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "60-70",
+      "role": "Committee Chair/Member",
+      "experience_level": "Intermediate to Advanced",
+      "technical_proficiency": "Moderate to High"
+    },
+    "background_context": {
+      "situation": "Active member of Santa Barbara Newcomers Club, involved in multiple committees over three years.",
+      "environment": "Nonprofit organization with a need for efficient event management and communication.",
+      "constraints": "High turnover of committee members every six months, leading to challenges in continuity and knowledge transfer."
+    },
+    "goals_motivations": {
+      "drives": "Desire for effective event management and enhanced user experience for all members.",
+      "achievements": "Successful coordination of events, ensuring member satisfaction and engagement."
+    },
+    "behaviors_patterns": {
+      "current_work": "Regularly logs into the website for event planning and participation.",
+      "habits": "Uses computer more than mobile app, checks e-news weekly for event updates."
+    },
+    "pain_points_frustrations": {
+      "obstacles": "Inadequate training for new committee members, reliance on underpowered mobile app, lack of institutional memory.",
+      "frustrations": "Conflicting information between app and website, poor communication around event registrations."
+    },
+    "needs_desires": {
+      "improvements": "Better mobile app functionality, streamlined training processes, and improved communication tools.",
+      "wants": "Formalized systems for knowledge transfer and archives for event management."
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Values utility over aesthetics in web design, believes in the importance of clear communication.",
+      "preferences": "Prefers clean, simple interfaces that prioritize functionality."
+    },
+    "technical_comfort": {
+      "tools_used": "Wild Apricot application, various web applications for committee work.",
+      "technical_abilities": "Comfortable with web tools, experienced in managing events but recognizes others may struggle.",
+      "learning_preferences": "Prefers hands-on training and clear documentation."
+    },
+    "quotes": [
+      "I was impressed with the Wild Apricot application in terms of what they were doing for nonprofit organizations.",
+      "I want to do my business and I want to get out.",
+      "The training process really needs to have some hard, hard look at two issues.",
+      "Having a paid technical person would be significant."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call_Recording_compressed.json",
+    "interview_id": "Call_Recording_compressed"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:06:01.170129",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "pain_points": [
+    {
+      "description": "Difficulty finding events with available spots.",
+      "supporting_quotes": [
+        "I think it would be helpful to know which events still have openings or have it blocked out or something like that.",
+        "when I go into it, it's like most things actually that I'm interested in, I'll go in and then it says, Oh, you have to be on the wait list."
+      ],
+      "frequency_severity": "High - Frequently mentioned and expresses frustration.",
+      "current_workarounds": "None specified; user stops looking at the website when faced with too many waitlisted events.",
+      "impact_on_user": "Leads to frustration and disengagement from the website.",
+      "category": "emotional"
+    },
+    {
+      "description": "Inconvenience in canceling event registrations.",
+      "supporting_quotes": [
+        "I think it creates extra, like, it sucks up more time for it causes more work for everybody.",
+        "I just want to hit cancel if it turns out I can't make something."
+      ],
+      "frequency_severity": "Moderate - Clearly bothers the user but is not the primary focus.",
+      "current_workarounds": "User has to find the organizer's email and manually notify them.",
+      "impact_on_user": "Increases effort and time spent on managing event attendance.",
+      "category": "effort"
+    },
+    {
+      "description": "Navigation and organization issues on the website.",
+      "supporting_quotes": [
+        "the heading, the activity committees takes up, it's a huge bar that takes up a lot of space.",
+        "there's only two items in the hamburger menu and then there's seven top tier like top list items, which is a lot."
+      ],
+      "frequency_severity": "Moderate - Mentioned multiple times but not as emotionally charged.",
+      "current_workarounds": "User adapts by mainly using the events tab.",
+      "impact_on_user": "Makes it more difficult to find relevant information quickly.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of awareness about certain groups or events for specific demographics.",
+      "supporting_quotes": [
+        "I was not aware of the 20 to 40 somethings committee.",
+        "it's clear that this is the thing to meet new people."
+      ],
+      "frequency_severity": "Low - Mentioned but does not seem to affect user experience significantly.",
+      "current_workarounds": "User relies on events tab for engagement with the community.",
+      "impact_on_user": "Potential missed opportunities to engage with a demographic.",
+      "category": "social"
+    },
+    {
+      "description": "Unnecessary information presented to current members.",
+      "supporting_quotes": [
+        "I don't go to the page... it doesn't really serve much purpose for me.",
+        "I think we already know we want to join because we want to meet people."
+      ],
+      "frequency_severity": "Low - User does not feel strongly about this issue.",
+      "current_workarounds": "User simply ignores tabs that don't serve a purpose.",
+      "impact_on_user": "Leads to a feeling of clutter and wasted time.",
+      "category": "effort"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_ElaineKim_11.15.25.json",
+    "interview_id": "SBNC_Interview_ElaineKim_11.15.25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:56:32.969222",
+    "version": "1.0"
+  }
+}

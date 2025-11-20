@@ -1,0 +1,65 @@
+{
+  "painPoints": [
+    {
+      "description": "Lack of organization for events on the website, making it hard to find relevant events.",
+      "supportingQuotes": [
+        "I do think it would be nice if you organized the events.",
+        "Because you're scrolling through and you get interested in something and then I'm reading, oh, 20 to 40, can't do it."
+      ],
+      "frequencySeverity": {
+        "frequency": "Moderate",
+        "severity": "Moderate"
+      },
+      "currentWorkarounds": "Uses the Wild Apricot app instead of the website.",
+      "impactOnUser": "Frustration when trying to find suitable events, leading to a potential lack of participation.",
+      "category": "effort"
+    },
+    {
+      "description": "Preference for using the app over the website, indicating potential shortcomings in the website's functionality.",
+      "supportingQuotes": [
+        "I actually use the Wild Apricot app more than the website.",
+        "I couldn't tell you what challenges the website might have."
+      ],
+      "frequencySeverity": {
+        "frequency": "High",
+        "severity": "High"
+      },
+      "currentWorkarounds": "Continues to use the app for event searching.",
+      "impactOnUser": "The user may miss out on website features or community engagement.",
+      "category": "quality"
+    },
+    {
+      "description": "Limited awareness of other users' challenges, indicating a lack of community feedback.",
+      "supportingQuotes": [
+        "I'd be curious what other people's challenges are.",
+        "There are some. But I use the app."
+      ],
+      "frequencySeverity": {
+        "frequency": "Low",
+        "severity": "Low"
+      },
+      "currentWorkarounds": "None mentioned; user does not actively seek out this information.",
+      "impactOnUser": "Missed opportunities for improvement based on community feedback.",
+      "category": "social"
+    }
+  ],
+  "prioritizedPainPoints": [
+    {
+      "description": "Lack of organization for events on the website, making it hard to find relevant events."
+    },
+    {
+      "description": "Preference for using the app over the website, indicating potential shortcomings in the website's functionality."
+    },
+    {
+      "description": "Limited awareness of other users' challenges, indicating a lack of community feedback."
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 36.json",
+    "interview_id": "New Recording 36"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:54:57.589034",
+    "version": "1.0"
+  }
+}

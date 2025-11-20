@@ -1,0 +1,46 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "It saved my credit card.",
+      "I had to put my card in every single time.",
+      "Maybe there's a way to do that.",
+      "It'll come up on my phone. New events posted.",
+      "I'm like, how the heck am I supposed to know which one was posted and when did it open?",
+      "We're finding that we don't know when things are posted because we're not getting in.",
+      "It'd be nice if it was... Here's all the new stuff. It's easy to find.",
+      "It was maybe a different color or something.",
+      "It'd be nice to see the price, too. Before you click into it.",
+      "I think the app works better."
+    ],
+    "THINKS": [
+      "I wish there was a more straightforward way to find new events.",
+      "I feel frustrated by the lack of clarity on event postings.",
+      "It would be helpful if I could easily differentiate new events from old ones.",
+      "I believe the app could be more user-friendly than the website.",
+      "I might be missing out on events because I don't have the right information.",
+      "I think it would be nice to have the pricing information upfront to avoid surprises."
+    ],
+    "DOES": [
+      "Checks the app for new event postings.",
+      "Navigates through the events to find current information.",
+      "Saves credit card information for convenience.",
+      "Uses both the app and website, but prefers the app.",
+      "Engages with content on both platforms, despite their differences."
+    ],
+    "FEELS": [
+      "Frustrated by the confusion around event postings.",
+      "Anxious about missing important events.",
+      "Overwhelmed by the amount of information and lack of clarity.",
+      "Relieved that the app saves credit card information.",
+      "Disappointed that the website and app function differently and aren\u2019t integrated."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 34.json",
+    "interview_id": "New Recording 34"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:42:26.706869",
+    "version": "1.0"
+  }
+}

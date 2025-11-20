@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBNC Action Timeline - Workshop Plan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #0d1b2a;
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        .slide {
+            display: none;
+            width: 100vw;
+            height: 100vh;
+            padding: 3vh 4vw;
+            background: linear-gradient(135deg, #0d1b2a 0%, #1b263b 100%);
+            position: relative;
+        }
+
+        .slide.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #4ECDC4;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            color: #4ECDC4;
+            border-bottom: 3px solid #4ECDC4;
+            padding-bottom: 12px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            margin-top: 25px;
+            color: #FFA500;
+        }
+
+        .subtitle {
+            font-size: 1.3rem;
+            color: #a8dadc;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        ul {
+            list-style: none;
+            margin-left: 40px;
+            margin-top: 10px;
+        }
+
+        li {
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+            line-height: 1.6;
+            color: #e0f7f5;
+        }
+
+        li:before {
+            content: "▸";
+            color: #4ECDC4;
+            font-size: 1.3rem;
+            position: absolute;
+            left: 0;
+        }
+
+        .milestone {
+            background: rgba(255, 193, 7, 0.15);
+            border-left: 4px solid #ffc107;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 6px;
+        }
+
+        .milestone h3 {
+            color: #ffc107;
+            margin-top: 0;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .column-box {
+            background: rgba(78, 205, 196, 0.1);
+            border-left: 4px solid #4ECDC4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .column-box h3 {
+            color: #4ECDC4;
+            font-size: 1.6rem;
+            margin-top: 0;
+        }
+
+        .navigation {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            gap: 12px;
+            z-index: 1000;
+        }
+
+        .nav-button {
+            background: #4ECDC4;
+            color: #0d1b2a;
+            border: none;
+            padding: 10px 18px;
+            font-size: 0.95rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+            font-weight: 600;
+        }
+
+        .nav-button:hover {
+            background: #7FE8E3;
+        }
+
+        .nav-button:disabled {
+            background: #333;
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+
+        .slide-number {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            font-size: 1rem;
+            color: #a8dadc;
+        }
+
+        /* Navigation Dots */
+        .nav-dots {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 12px;
+            z-index: 1000;
+            background: rgba(13, 27, 42, 0.8);
+            padding: 10px 20px;
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(168, 218, 220, 0.3);
+            border: 2px solid rgba(168, 218, 220, 0.5);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .dot:hover {
+            background: rgba(78, 205, 196, 0.6);
+            border-color: #4ECDC4;
+            transform: scale(1.3);
+        }
+
+        .dot.active {
+            background: #4ECDC4;
+            border-color: #4ECDC4;
+            transform: scale(1.2);
+        }
+
+        .dot-tooltip {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(27, 38, 59, 0.95);
+            color: #ffffff;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            border: 1px solid #4ECDC4;
+            z-index: 1001;
+        }
+
+        .dot:hover .dot-tooltip {
+            opacity: 1;
+        }
+
+        .dot-tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 6px solid transparent;
+            border-top-color: #4ECDC4;
+        }
+
+        .budget-note {
+            font-style: italic;
+            color: #a8dadc;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .decision-box {
+            background: rgba(155, 138, 184, 0.15);
+            border-left: 4px solid #9B8AB8;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Slide 1: Title -->
+<div class="slide">
+    <div class="content" style="text-align: center;">
+        <h1 style="font-size: 3.5rem; margin-bottom: 30px;">SBNC Action Timeline</h1>
+        <h1 style="font-size: 2.5rem; color: #9B8AB8;">From Workshop to Board Presentation</h1>
+        <p class="subtitle" style="margin-top: 60px; font-size: 1.5rem;">November 18 → December 8, 2025</p>
+    </div>
+</div>
+
+<!-- Slide 2: Action Timeline -->
+<div class="slide">
+    <h2>Action Timeline: Interviews → Board Presentation</h2>
+    <div class="content" style="padding: 30px 60px;">
+        <div style="position: relative; padding: 30px 0;">
+            <!-- Timeline Line -->
+            <div style="position: absolute; top: 55px; left: 40px; right: 40px; height: 4px; background: linear-gradient(to right, #a8dadc, #4ECDC4, #ffc107); z-index: 1;"></div>
+
+            <!-- Timeline Items -->
+            <div style="display: flex; justify-content: space-between; position: relative; z-index: 2;">
+                <!-- Early Nov -->
+                <div style="flex: 0.8; text-align: center;">
+                    <div style="width: 25px; height: 25px; background: #a8dadc; border-radius: 50%; margin: 0 auto 12px; border: 3px solid #0d1b2a;"></div>
+                    <div style="background: rgba(168, 218, 220, 0.1); padding: 12px; border-radius: 6px; border-left: 3px solid #a8dadc; min-height: 110px;">
+                        <div style="font-weight: bold; color: #a8dadc; font-size: 0.95rem; margin-bottom: 6px;">Early Nov</div>
+                        <div style="font-size: 0.85rem; line-height: 1.3;">Interviews<br>Started</div>
+                    </div>
+                </div>
+
+                <!-- Nov 18 TODAY -->
+                <div style="flex: 1; text-align: center; margin: 0 10px;">
+                    <div style="width: 30px; height: 30px; background: #4ECDC4; border-radius: 50%; margin: 0 auto 12px; border: 4px solid #0d1b2a;"></div>
+                    <div style="background: rgba(78, 205, 196, 0.15); padding: 12px; border-radius: 6px; border-left: 4px solid #4ECDC4; min-height: 110px;">
+                        <div style="font-weight: bold; color: #4ECDC4; font-size: 1rem; margin-bottom: 6px;">Nov 18 TODAY</div>
+                        <div style="font-size: 0.9rem; line-height: 1.3;">Workshop<br>& Assign</div>
+                    </div>
+                </div>
+
+                <!-- Nov 19-24 -->
+                <div style="flex: 1; text-align: center; margin: 0 10px;">
+                    <div style="width: 25px; height: 25px; background: #4ECDC4; border-radius: 50%; margin: 0 auto 12px; border: 3px solid #0d1b2a;"></div>
+                    <div style="background: rgba(78, 205, 196, 0.15); padding: 12px; border-radius: 6px; border-left: 3px solid #4ECDC4; min-height: 110px;">
+                        <div style="font-weight: bold; color: #4ECDC4; font-size: 0.95rem; margin-bottom: 6px;">Nov 19-24</div>
+                        <div style="font-size: 0.85rem; line-height: 1.3;">Prototype<br>Sprint</div>
+                    </div>
+                </div>
+
+                <!-- Nov 25 -->
+                <div style="flex: 1; text-align: center; margin: 0 10px;">
+                    <div style="width: 25px; height: 25px; background: #9B8AB8; border-radius: 50%; margin: 0 auto 12px; border: 3px solid #0d1b2a;"></div>
+                    <div style="background: rgba(155, 138, 184, 0.15); padding: 12px; border-radius: 6px; border-left: 3px solid #9B8AB8; min-height: 110px;">
+                        <div style="font-weight: bold; color: #9B8AB8; font-size: 0.95rem; margin-bottom: 6px;">Nov 25</div>
+                        <div style="font-size: 0.85rem; line-height: 1.3;">Check-in<br>Meeting</div>
+                    </div>
+                </div>
+
+                <!-- Dec 2-8 -->
+                <div style="flex: 1; text-align: center; margin: 0 10px;">
+                    <div style="width: 25px; height: 25px; background: #FFA500; border-radius: 50%; margin: 0 auto 12px; border: 3px solid #0d1b2a;"></div>
+                    <div style="background: rgba(255, 165, 0, 0.15); padding: 12px; border-radius: 6px; border-left: 3px solid #FFA500; min-height: 110px;">
+                        <div style="font-weight: bold; color: #FFA500; font-size: 0.95rem; margin-bottom: 6px;">Dec 2-8</div>
+                        <div style="font-size: 0.85rem; line-height: 1.3;">Test &<br>Prepare</div>
+                    </div>
+                </div>
+
+                <!-- Dec 8 MILESTONE -->
+                <div style="flex: 1.2; text-align: center;">
+                    <div style="width: 35px; height: 35px; background: #ffc107; border-radius: 50%; margin: 0 auto 10px; border: 4px solid #0d1b2a; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">🎯</div>
+                    <div style="background: rgba(255, 193, 7, 0.2); padding: 12px; border-radius: 6px; border-left: 4px solid #ffc107; min-height: 110px;">
+                        <div style="font-weight: bold; color: #ffc107; font-size: 1.1rem; margin-bottom: 6px;">Dec 8</div>
+                        <div style="font-size: 0.95rem; line-height: 1.3; font-weight: 600;">Board<br>Presentation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 35px;">
+            <p style="font-size: 1.1rem; color: #ffc107; font-style: italic; margin-bottom: 10px;">From research to Board presentation in one month</p>
+            <p style="font-size: 1.2rem; color: #4ECDC4; font-weight: bold; margin: 0;">Goal: Fully implemented & deployed by January 15</p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 3: Task Force Structure -->
+<div class="slide">
+    <h2>Three Task Forces: Divide & Conquer</h2>
+    <div class="content" style="padding: 40px 80px;">
+        <p class="budget-note">Each task force: 2-3 volunteers</p>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 30px; margin-top: 40px;">
+            <div style="text-align: center; background: rgba(78, 205, 196, 0.1); padding: 40px 25px; border-radius: 8px; border-top: 5px solid #4ECDC4;">
+                <div style="font-size: 3.5rem; margin-bottom: 20px;">1</div>
+                <h3 style="color: #4ECDC4; margin-bottom: 15px; font-size: 1.4rem;">Navigation & Page JTBD</h3>
+                <p style="font-size: 1.1rem; line-height: 1.5;">Define job each page must do + simplify paths to get there</p>
+            </div>
+
+            <div style="text-align: center; background: rgba(155, 138, 184, 0.1); padding: 40px 25px; border-radius: 8px; border-top: 5px solid #9B8AB8;">
+                <div style="font-size: 3.5rem; margin-bottom: 20px;">2</div>
+                <h3 style="color: #9B8AB8; margin-bottom: 15px; font-size: 1.4rem;">Brand Voice</h3>
+                <p style="font-size: 1.1rem; line-height: 1.5;">Align Instagram & website tone with 1-page guide</p>
+            </div>
+
+            <div style="text-align: center; background: rgba(255, 165, 0, 0.1); padding: 40px 25px; border-radius: 8px; border-top: 5px solid #FFA500;">
+                <div style="font-size: 3.5rem; margin-bottom: 20px;">3</div>
+                <h3 style="color: #FFA500; margin-bottom: 15px; font-size: 1.4rem;">Event Discovery</h3>
+                <p style="font-size: 1.1rem; line-height: 1.5;">Improve calendar & search to find relevant events</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 45px; padding: 25px; background: rgba(255, 193, 7, 0.15); border-radius: 8px; border-left: 4px solid #ffc107;">
+            <p style="font-size: 1.3rem; margin: 0;"><strong>Dec 8:</strong> Present mockups to Board &nbsp;|&nbsp; <strong>Jan 15:</strong> Fully implemented & deployed</p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 4: Check-in Meeting Structure -->
+<div class="slide">
+    <h2>Check-in Meeting (Nov 25 - 90 min Zoom)</h2>
+    <div class="content" style="padding: 40px 100px;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 30px; margin-top: 30px;">
+            <div style="text-align: center; background: rgba(78, 205, 196, 0.1); padding: 30px 20px; border-radius: 8px; border-top: 4px solid #4ECDC4;">
+                <div style="font-size: 3rem; margin-bottom: 15px;">1</div>
+                <h3 style="color: #4ECDC4; margin-bottom: 15px; font-size: 1.4rem;">Round Robin</h3>
+                <p style="font-size: 1rem; margin-bottom: 5px;">15 min each team</p>
+                <p style="font-size: 0.9rem; color: #a8dadc;">Show prototypes<br>Share challenges</p>
+            </div>
+
+            <div style="text-align: center; background: rgba(155, 138, 184, 0.1); padding: 30px 20px; border-radius: 8px; border-top: 4px solid #9B8AB8;">
+                <div style="font-size: 3rem; margin-bottom: 15px;">2</div>
+                <h3 style="color: #9B8AB8; margin-bottom: 15px; font-size: 1.4rem;">Group Feedback</h3>
+                <p style="font-size: 1rem; margin-bottom: 5px;">30 minutes</p>
+                <p style="font-size: 0.9rem; color: #a8dadc;">Cross-pollinate<br>Find connections</p>
+            </div>
+
+            <div style="text-align: center; background: rgba(255, 165, 0, 0.1); padding: 30px 20px; border-radius: 8px; border-top: 4px solid #FFA500;">
+                <div style="font-size: 3rem; margin-bottom: 15px;">3</div>
+                <h3 style="color: #FFA500; margin-bottom: 15px; font-size: 1.4rem;">Decision Time</h3>
+                <p style="font-size: 1rem; margin-bottom: 5px;">15 minutes</p>
+                <p style="font-size: 0.9rem; color: #a8dadc;">Test or iterate?<br>Adjust timeline</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px; padding: 25px; background: rgba(255, 193, 7, 0.15); border-radius: 8px; border-left: 4px solid #ffc107;">
+            <p style="font-size: 1.3rem; margin: 0; color: #ffc107;"><strong>Goal:</strong> Clear next steps toward Dec 8 Board presentation</p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 5: Designer Support -->
+<div class="slide">
+    <h2>Designer Support: How to Use Budget Wisely</h2>
+    <div class="content" style="padding: 20px 60px;">
+        <div class="two-column">
+            <div class="column-box">
+                <h3>What Designer SHOULD Do</h3>
+                <ul style="margin-left: 20px;">
+                    <li>Create visual prototypes from task force ideas</li>
+                    <li>Design 1-page brand voice guide template</li>
+                    <li>Mock up navigation improvements</li>
+                    <li>Create mobile-responsive layout examples</li>
+                </ul>
+            </div>
+            <div class="column-box" style="border-left-color: #FFA500; background: rgba(255, 165, 0, 0.1);">
+                <h3 style="color: #FFA500;">What Designer Should NOT Do</h3>
+                <ul style="margin-left: 20px;">
+                    <li>Full website redesign (too big!)</li>
+                    <li>Write content (that's our job!)</li>
+                    <li>Implement code</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 30px;">Estimated Budget</h3>
+        <ul>
+            <li>$500-1,500 for 8-12 hours designer time</li>
+            <li>Fiverr/Upwork: $50-150/hr for UX/web designer</li>
+            <li>Local SBCC/UCSB student: $25-50/hr</li>
+        </ul>
+
+        <h3>Deliverables from Designer</h3>
+        <ul>
+            <li>Figma/PDF prototypes (not final code)</li>
+            <li>Simple brand guide template</li>
+            <li>Mobile mockups ready for Dec 8 Board presentation</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Slide 6: Today's Workshop Output -->
+<div class="slide">
+    <h2>What We Need to Decide Today</h2>
+    <div class="content" style="padding: 40px 80px;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+            <div class="decision-box">
+                <h3 style="color: #9B8AB8; margin-top: 0; font-size: 1.3rem;">1. Brand Voice</h3>
+                <p style="font-size: 1rem; margin: 0;">Elegant, enthusiastic, or unified?</p>
+            </div>
+
+            <div class="decision-box">
+                <h3 style="color: #9B8AB8; margin-top: 0; font-size: 1.3rem;">2. Quick Wins</h3>
+                <p style="font-size: 1rem; margin: 0;">Top 3-4 projects to complete by Dec 8</p>
+            </div>
+
+            <div class="decision-box">
+                <h3 style="color: #9B8AB8; margin-top: 0; font-size: 1.3rem;">3. Volunteers</h3>
+                <p style="font-size: 1rem; margin: 0;">Who leads? Who contributes?</p>
+            </div>
+
+            <div class="decision-box">
+                <h3 style="color: #9B8AB8; margin-top: 0; font-size: 1.3rem;">4. Designer Budget</h3>
+                <p style="font-size: 1rem; margin: 0;">$500-1,500 for which projects?</p>
+            </div>
+        </div>
+
+        <div class="decision-box" style="margin-top: 25px;">
+            <h3 style="color: #9B8AB8; margin-top: 0; font-size: 1.3rem;">5. Check-in Meeting Date</h3>
+            <p style="font-size: 1rem; margin: 0;">When can we meet Nov 25-26?</p>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; padding: 25px; background: rgba(78, 205, 196, 0.15); border-radius: 8px; border-left: 4px solid #4ECDC4;">
+            <p style="font-size: 1.4rem; margin: 0;"><strong>Let's get started!</strong></p>
+        </div>
+    </div>
+</div>
+
+<!-- Navigation -->
+<div class="navigation">
+    <button class="nav-button" id="prevBtn" onclick="changeSlide(-1)">← Previous</button>
+    <button class="nav-button" id="nextBtn" onclick="changeSlide(1)">Next →</button>
+</div>
+
+<div class="slide-number">
+    <span id="currentSlide">1</span> / <span id="totalSlides">6</span>
+</div>
+
+<div class="nav-dots" id="navDots"></div>
+
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+
+    // Slide titles for tooltips
+    const slideTitles = [
+        "Title Slide",
+        "Action Timeline",
+        "Task Force Structure",
+        "Check-in Meeting",
+        "Designer Support",
+        "Today's Decisions"
+    ];
+
+    document.getElementById('totalSlides').textContent = totalSlides;
+
+    // Create navigation dots
+    function createDots() {
+        const dotsContainer = document.getElementById('navDots');
+        for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement('div');
+            dot.className = 'dot';
+            dot.onclick = () => showSlide(i);
+
+            const tooltip = document.createElement('div');
+            tooltip.className = 'dot-tooltip';
+            tooltip.textContent = `${i + 1}. ${slideTitles[i]}`;
+
+            dot.appendChild(tooltip);
+            dotsContainer.appendChild(dot);
+        }
+    }
+
+    function showSlide(n) {
+        if (n >= totalSlides) {
+            currentSlide = totalSlides - 1;
+        } else if (n < 0) {
+            currentSlide = 0;
+        } else {
+            currentSlide = n;
+        }
+
+        slides.forEach(slide => slide.classList.remove('active'));
+        slides[currentSlide].classList.add('active');
+
+        document.getElementById('currentSlide').textContent = currentSlide + 1;
+
+        // Update button states
+        document.getElementById('prevBtn').disabled = currentSlide === 0;
+        document.getElementById('nextBtn').disabled = currentSlide === totalSlides - 1;
+
+        // Update dots
+        const dots = document.querySelectorAll('.dot');
+        dots.forEach((dot, index) => {
+            if (index === currentSlide) {
+                dot.classList.add('active');
+            } else {
+                dot.classList.remove('active');
+            }
+        });
+    }
+
+    function changeSlide(direction) {
+        showSlide(currentSlide + direction);
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowLeft') {
+            changeSlide(-1);
+        } else if (e.key === 'ArrowRight' || e.key === ' ') {
+            changeSlide(1);
+        } else if (e.key === 'Home') {
+            showSlide(0);
+        } else if (e.key === 'End') {
+            showSlide(totalSlides - 1);
+        }
+    });
+
+    // Initialize
+    createDots();
+    showSlide(0);
+</script>
+
+</body>
+</html>

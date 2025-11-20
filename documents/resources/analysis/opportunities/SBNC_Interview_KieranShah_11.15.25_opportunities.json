@@ -1,0 +1,75 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we improve the website's visual design to make it more inviting and engaging?",
+      "evidence": "The website appears very dated and confusing, lacking a header that identifies it as the Santa Barbara newcomers.",
+      "user_need": "Users need a visually appealing and clear website that reflects the organization's identity.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we simplify the process for navigating the website and finding relevant information?",
+      "evidence": "Kieran found the overwhelming number of clubs and groups daunting and struggled to find specific information.",
+      "user_need": "Users need a streamlined navigation experience that allows them to easily access information about committees and events.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a more engaging events calendar that showcases upcoming activities visually?",
+      "evidence": "Kieran suggested having a calendar that reflects actual events and is more engaging, possibly with visuals.",
+      "user_need": "Users need an intuitive and visually appealing way to view upcoming events.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enhance the homepage to better communicate the mission and activities of Santa Barbara newcomers?",
+      "evidence": "Kieran mentioned that the homepage looks generic and could belong to any club, lacking specific identification.",
+      "user_need": "Users need a homepage that clearly communicates what Santa Barbara newcomers is about and invites them to participate.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we reduce the amount of text on the homepage to make it more digestible?",
+      "evidence": "Kieran pointed out that there is too much detail on the homepage, which can overwhelm users.",
+      "user_need": "Users need concise information that highlights key points without overwhelming them.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the visibility and usability of the committees information on the website?",
+      "evidence": "Kieran noted that there are too many revolving tiles for committees, making it hard for users to engage with the content.",
+      "user_need": "Users need a better way to discover and engage with various committees that match their interests.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the contact page to make it more inviting and user-friendly?",
+      "evidence": "The contact page has a bland appearance and does not invite interaction.",
+      "user_need": "Users need a contact page that encourages them to reach out and engage with the organization.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we ensure that the website is mobile-friendly and accessible to all users?",
+      "evidence": "Kieran suggested checking mobile compatibility and mentioned the need for translation features for accessibility.",
+      "user_need": "Users need a website that is easily accessible on mobile devices and complies with accessibility regulations.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we clarify membership levels to avoid confusion among users?",
+      "evidence": "Kieran noted that the 'newbie' level was confusing as it implied there might be other levels when there are not.",
+      "user_need": "Users need clear information about membership levels and options to enhance their understanding of the organization.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_KieranShah_11.15.25.json",
+    "interview_id": "SBNC_Interview_KieranShah_11.15.25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:03:56.530352",
+    "version": "1.0"
+  }
+}

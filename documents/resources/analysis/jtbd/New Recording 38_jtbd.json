@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When navigating the website, I want to receive guidance on how to use it, so I can have a successful and efficient experience.",
+      "current_solution": "Orientation sessions and personal walkthroughs by experienced users.",
+      "pain_points": "Not all new users attend orientation or have access to experienced users for help.",
+      "desired_outcomes": "New users can navigate the website independently and find what they need without frustration.",
+      "success_criteria": "Increased user satisfaction and reduced support requests from new users."
+    },
+    "emotional_jobs": {
+      "job_statement": "When I am using the website, I want to feel confident and competent, so I can enjoy my experience without frustration.",
+      "current_solution": "Using the website with the help of an experienced user or through trial and error.",
+      "pain_points": "Feeling overwhelmed or confused, especially for those with limited computer skills.",
+      "desired_outcomes": "Confidence in using the website and feeling capable of navigating it independently.",
+      "success_criteria": "Users report feeling more confident and less stressed when using the site."
+    },
+    "social_jobs": {
+      "job_statement": "When I engage with the website, I want to be perceived as knowledgeable and tech-savvy, so I can fit in with others who use it easily.",
+      "current_solution": "Relying on personal assistance from experienced users to understand the website.",
+      "pain_points": "Struggling to use the website can lead to feelings of inadequacy compared to peers.",
+      "desired_outcomes": "Being able to navigate the website successfully and share that knowledge with others.",
+      "success_criteria": "Increased peer recognition and positive feedback from others regarding my website navigation skills."
+    },
+    "supporting_jobs": {
+      "job_statement": "When exploring events on the website, I want to easily find relevant information, so I can make informed decisions about attending.",
+      "current_solution": "Searching through the website manually for event details.",
+      "pain_points": "Difficulty finding event dates, prices, and status of waiting lists.",
+      "desired_outcomes": "Quick access to event details, including dates, prices, and availability.",
+      "success_criteria": "Ability to find event information quickly and accurately without confusion."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 38.json",
+    "interview_id": "New Recording 38"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:47:31.068047",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "I probably won't have a lot to say because I don't have any opinions about technological things, but anyway.",
+      "I joined newcomers in March 2023, and I have been a chairman of the pop-up committee.",
+      "The main purpose I use the website is only to look for events, and then sign up for them if I can do them, if I want to do them.",
+      "I think it's very good. I don't know how it can be improved, but yeah, it seems to be, it gets the job done.",
+      "Each time I want to go back to the calendar of events, it goes back to the beginning of like many months ago.",
+      "It also makes me go back to clicking on list view versus the other calendar view.",
+      "I only could do things in the evenings or weekends, so to me, it's very important if I know if it's a Saturday or a Monday through Friday at 10am when I can't do it.",
+      "I don't have any suggestions for that really."
+    ],
+    "THINKS": [
+      "I am not very tech-savvy and may struggle with complex features.",
+      "The website meets my basic needs, so I don't feel the urgency to explore it further.",
+      "Frustration with navigation could lead to avoidance of using the website more extensively.",
+      "I find it hard to remember how I navigated the website in the past.",
+      "I hope there will be a clear way to access alumni information in the future."
+    ],
+    "DOES": [
+      "Uses the website primarily to find and sign up for events.",
+      "Looks for events by date and prefers list view over calendar view.",
+      "Has attempted to find contact information but does not frequently navigate beyond event sign-up.",
+      "Participated in discussions about website functionality in committee meetings, indicating she is engaged with the community."
+    ],
+    "FEELS": [
+      "Feels satisfied with the basic functionality of the website but wishes for smoother navigation.",
+      "Experiences frustration when the website does not remember her previous position in the calendar view.",
+      "Feels uncertain about the future accessibility of alumni events and how to stay connected after graduation.",
+      "Has a sense of belonging within the newcomer community but is concerned about maintaining connections as an alum."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call with Joy Fournier.json",
+    "interview_id": "Call with Joy Fournier"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:45:23.285450",
+    "version": "1.0"
+  }
+}

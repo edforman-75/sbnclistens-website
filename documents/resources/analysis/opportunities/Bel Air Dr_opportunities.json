@@ -1,0 +1,75 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we improve the homepage to enhance visual appeal and user engagement?",
+      "evidence": "the homepage here just needs a lot of work... visually, it's not pleasing.",
+      "user_need": "A more attractive and engaging landing page that clearly communicates the club's value.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we ensure consistency in membership numbers across the website?",
+      "evidence": "we say we have 700 members... on some pages, we say we have 750 members.",
+      "user_need": "Accurate and consistent information regarding membership statistics.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we optimize the placement of the 'Join Us' button for better visibility?",
+      "evidence": "we should actually put that Join Us button at the bottom after people read about us... I kind of forgot that thing was even at the top.",
+      "user_need": "A more intuitive and effective call to action for potential members.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create separate content for prospective members and existing members?",
+      "evidence": "we shouldn't be asking them if they've joined recently... we should bifurcate the experience.",
+      "user_need": "Tailored content that addresses the specific needs of prospective versus current members.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the Activities page to better represent the club's offerings?",
+      "evidence": "this is literally a listing of our committees... not really activities.",
+      "user_need": "Clear and accurate representation of activities and events available to members.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the FAQs section to provide clearer and more relevant information?",
+      "evidence": "fixing the FAQs and fixing the Learn More About Us.",
+      "user_need": "Easily accessible and straightforward answers regarding membership and events.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the event registration process on mobile?",
+      "evidence": "I don't see where any of the waitlisted events are actually showing up right now in the mobile app.",
+      "user_need": "A seamless event registration experience, especially on mobile devices.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we differentiate events for alumni and non-members on the website?",
+      "evidence": "it might be interesting there to say, are you an alumni? Click here for events that you can attend.",
+      "user_need": "Relevant event information tailored to different user groups.",
+      "potential_impact": "medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we streamline the navigation to reduce repetitive information across pages?",
+      "evidence": "I got repeated information in different areas and it's not consistent.",
+      "user_need": "A more intuitive navigation structure that minimizes repetition and enhances user experience.",
+      "potential_impact": "high",
+      "type": "improvement"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Bel Air Dr.json",
+    "interview_id": "Bel Air Dr"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:00:40.531609",
+    "version": "1.0"
+  }
+}

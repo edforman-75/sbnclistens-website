@@ -1,0 +1,94 @@
+{
+  "pain_points": [
+    {
+      "description": "Difficulty finding event times on the website.",
+      "supporting_quotes": [
+        "it might be nice to have the time reflected easily so I don't have to open it first to see what time it is",
+        "you have to open close your app go to your calendar and see the date"
+      ],
+      "frequency_severity": "Moderate - mentioned by multiple users with a mild sense of frustration.",
+      "current_workarounds": "Users manually open the event details to find the time.",
+      "impact_on_user": "Leads to extra steps and potential confusion when planning attendance.",
+      "category": "time"
+    },
+    {
+      "description": "Inability to easily find new announcements on the website and app.",
+      "supporting_quotes": [
+        "it would be really great to have both on the app and the website the new things are highlighted in some fashion",
+        "you can't find them and that's you just took my just been"
+      ],
+      "frequency_severity": "Moderate - significant enough to be mentioned multiple times.",
+      "current_workarounds": "Users scroll back through the list to find new items.",
+      "impact_on_user": "Time-consuming and frustrating, leading to missed opportunities.",
+      "category": "time"
+    },
+    {
+      "description": "Issues with the JotForm for sign-ups.",
+      "supporting_quotes": [
+        "my partner does that and she had a lot of trouble with it"
+      ],
+      "frequency_severity": "Low - mentioned specifically by one user.",
+      "current_workarounds": "Users rely on partners or others who are familiar with the tool.",
+      "impact_on_user": "Creates barriers for those unfamiliar with the tool.",
+      "category": "effort"
+    },
+    {
+      "description": "Complexity in handling cancellations and waitlists.",
+      "supporting_quotes": [
+        "extremely time-consuming and then I did it wrong"
+      ],
+      "frequency_severity": "Moderate - one user had a significant issue.",
+      "current_workarounds": "Users rely on others to resolve issues.",
+      "impact_on_user": "Frustration and inefficiency in managing event participation.",
+      "category": "time"
+    },
+    {
+      "description": "Lack of location details in email reminders for events.",
+      "supporting_quotes": [
+        "it would be nice to have the address in that reminder"
+      ],
+      "frequency_severity": "Moderate - mentioned by at least two users.",
+      "current_workarounds": "Users scramble to find previous emails for addresses.",
+      "impact_on_user": "Causes last-minute stress and confusion before events.",
+      "category": "time"
+    },
+    {
+      "description": "Overwhelming number of emails related to the club.",
+      "supporting_quotes": [
+        "my email is just swamp with Santa Barbara newcomers club"
+      ],
+      "frequency_severity": "High - one user expressed significant frustration.",
+      "current_workarounds": "Users have to sift through emails to find relevant information.",
+      "impact_on_user": "Leads to missing important emails and feeling overwhelmed.",
+      "category": "emotional"
+    },
+    {
+      "description": "Inflexibility of event scheduling for working members.",
+      "supporting_quotes": [
+        "it would be helpful for people who are working because there are activities you cannot do obviously because it's during the day"
+      ],
+      "frequency_severity": "Moderate - mentioned by multiple users.",
+      "current_workarounds": "Users miss events or feel disappointed.",
+      "impact_on_user": "Limits participation and engagement in the community.",
+      "category": "social"
+    },
+    {
+      "description": "Confusion and errors due to outdated information on the website.",
+      "supporting_quotes": [
+        "the registration on the website was not correct"
+      ],
+      "frequency_severity": "Moderate - specific incident caused confusion.",
+      "current_workarounds": "Users rely on others to confirm information.",
+      "impact_on_user": "Risk of participants going to wrong locations, causing stress.",
+      "category": "quality"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 25.json",
+    "interview_id": "New Recording 25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:52:02.891195",
+    "version": "1.0"
+  }
+}

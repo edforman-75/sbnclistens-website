@@ -1,0 +1,82 @@
+{
+  "pain_points": [
+    {
+      "description": "Difficulty in identifying new events and their posting times.",
+      "supporting_quotes": [
+        "I'm like, how the heck am I supposed to know which one was posted and when did it open?",
+        "It's hard to find out."
+      ],
+      "frequency_severity": {
+        "frequency": "Often mentioned",
+        "severity": "High"
+      },
+      "current_workarounds": "User tries to keep track of events manually or relies on vague information provided.",
+      "impact_on_user": "Frustration leads to missing out on events and confusion about available options.",
+      "category": "time"
+    },
+    {
+      "description": "Inconsistent experience between the app and website.",
+      "supporting_quotes": [
+        "The app works better... but they're completely separate.",
+        "I did not know."
+      ],
+      "frequency_severity": {
+        "frequency": "Occasionally mentioned",
+        "severity": "Medium"
+      },
+      "current_workarounds": "User prefers to use the app for a better experience.",
+      "impact_on_user": "User may miss features available on the website, leading to a fragmented experience.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of upfront pricing information for events.",
+      "supporting_quotes": [
+        "It'd be nice to see the price, too, before you click into it.",
+        "Oh, $100? No."
+      ],
+      "frequency_severity": {
+        "frequency": "Frequently mentioned",
+        "severity": "High"
+      },
+      "current_workarounds": "User clicks into events to find pricing but finds it inconvenient.",
+      "impact_on_user": "Time wasted on exploring events that may not fit their budget, leading to frustration.",
+      "category": "money"
+    },
+    {
+      "description": "Confusing notification system for new events.",
+      "supporting_quotes": [
+        "New events posted... we're finding that we don't know when things are posted.",
+        "There might just be some time when things are posted regularly."
+      ],
+      "frequency_severity": {
+        "frequency": "Occasionally mentioned",
+        "severity": "Medium"
+      },
+      "current_workarounds": "User relies on a newsletter for updates but still feels unsure.",
+      "impact_on_user": "User may miss important updates and feel disconnected from new offerings.",
+      "category": "social"
+    },
+    {
+      "description": "The app and website have different functionalities leading to confusion.",
+      "supporting_quotes": [
+        "I think the app works better... but they're completely separate.",
+        "I did not know."
+      ],
+      "frequency_severity": {
+        "frequency": "Occasionally mentioned",
+        "severity": "Medium"
+      },
+      "current_workarounds": "User sticks to the app for its perceived superiority.",
+      "impact_on_user": "Users may not utilize all features available, leading to a reduced experience.",
+      "category": "effort"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 34.json",
+    "interview_id": "New Recording 34"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:53:37.574430",
+    "version": "1.0"
+  }
+}

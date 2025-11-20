@@ -1,0 +1,82 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we enable users to easily update their personal information on the website?",
+      "evidence": "I want to second your comments about not being able to update our information...",
+      "user_need": "Users want to maintain and update their own profiles without complex processes.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we improve the visibility and accessibility of the membership join workflow?",
+      "evidence": "It's remarkably convoluted... I feel very, very lucky when I find that button to join.",
+      "user_need": "New members need a simplified and clear process to join the club.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a centralized dashboard for users to track their registered events?",
+      "evidence": "I really want a my newcomers page that just lists in one place all of the events I'm registered for...",
+      "user_need": "Members need a way to see and manage their upcoming events easily.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enhance the website's aesthetics to present a more modern image?",
+      "evidence": "Our website just kind of feels old... I don't want to be a member of an old person's club.",
+      "user_need": "Users desire a contemporary and appealing online presence.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the event calendar's navigation and user experience?",
+      "evidence": "I find the calendaring part clunky... it just takes a bit more time, I think, to manage the calendar.",
+      "user_need": "Users want a more intuitive and less frustrating way to navigate the event calendar.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we implement automated notifications for members to update their information?",
+      "evidence": "Why not an automated announcement that goes out to everybody? Monthly update, have you moved, changed your telephone number...",
+      "user_need": "Members want reminders to keep their contact information current.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we facilitate weekend events for working members?",
+      "evidence": "I wish there were more events like during, like on the weekends or, you know, during the evening.",
+      "user_need": "Working members want more flexible event scheduling that accommodates their availability.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the onboarding experience for new members?",
+      "evidence": "It was literally right at midnight and it was already full... People get in the book group and then they think they're in the book group.",
+      "user_need": "New members need clear guidance on how to participate and what the processes are.",
+      "potential_impact": "Medium",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we enhance communication about new events to ensure all members are informed?",
+      "evidence": "They should be highlighted in some way, and not just that you have to kind of burrow through to find them.",
+      "user_need": "Members want clear and prominent notifications for new events.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we streamline the communication process for event organizers?",
+      "evidence": "It would be nice to be more creative, like a little more exciting... it's not that easy to find.",
+      "user_need": "Event organizers need tools that make it easy to communicate and promote events effectively.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 26.json",
+    "interview_id": "New Recording 26"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:04:23.439905",
+    "version": "1.0"
+  }
+}

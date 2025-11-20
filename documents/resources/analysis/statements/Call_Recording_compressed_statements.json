@@ -1,0 +1,117 @@
+{
+  "insights": [
+    {
+      "quote": "The biggest problem I had with the whole process, frankly, was dealing with people who were not savvy users and, you know, wanted to rely strictly on their phone.",
+      "timestamp": null,
+      "significance": "Highlights frustration with less tech-savvy users and reliance on a subpar mobile app.",
+      "insight": "Users struggle with technology, particularly those without experience, leading to miscommunication and confusion.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I felt the user interface on the computer based system was helpful. It was easy to find events.",
+      "timestamp": null,
+      "significance": "Contrasts experiences between mobile and desktop interfaces, showcasing preference for desktop usability.",
+      "insight": "Users have a clear preference for a functional desktop interface over a less reliable mobile app.",
+      "category": "behavior"
+    },
+    {
+      "quote": "The training process really needs to have some hard, hard look at two issues.",
+      "timestamp": null,
+      "significance": "Calls for improvements in training for new committee members, highlighting inadequacies.",
+      "insight": "A proper training program is crucial for ensuring user success and system functionality.",
+      "category": "pain point"
+    },
+    {
+      "quote": "There is a lack of a formalized institutional memory.",
+      "timestamp": null,
+      "significance": "Points to challenges in continuity and knowledge transfer within the organization.",
+      "insight": "Frequent turnover leads to knowledge gaps that can negatively impact event management.",
+      "category": "context"
+    },
+    {
+      "quote": "The cosmetics, you know, it's like anything else, there's a learning curve. I'm looking for utility.",
+      "timestamp": null,
+      "significance": "Emphasizes that users prioritize functionality over aesthetics.",
+      "insight": "Users value a clean, functional design more than visual appeal, indicating a need for pragmatic design.",
+      "category": "belief"
+    },
+    {
+      "quote": "The only criticism I would raise... were not as transparent or clear as they could be.",
+      "timestamp": null,
+      "significance": "Critique of event descriptions indicating a need for clearer communication.",
+      "insight": "Lack of clarity in event information can lead to misunderstandings and unmet expectations.",
+      "category": "pain point"
+    },
+    {
+      "quote": "The current president is trying to figure out how to spend money and rather than leave too much in the kitty.",
+      "timestamp": null,
+      "significance": "Sheds light on financial management priorities within the organization.",
+      "insight": "There is an opportunity for investment in resources that could enhance user experience and event management.",
+      "category": "context"
+    },
+    {
+      "quote": "Having someone serving as a VP for activities who had not been previously already working with the system... was really a negative.",
+      "timestamp": null,
+      "significance": "Critiques the selection process for leadership positions, emphasizing the need for experience.",
+      "insight": "Leadership roles should be filled by those with prior experience to ensure effective event management.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I was impressed with the wild apricot application in terms of what they were doing for nonprofit organizations.",
+      "timestamp": null,
+      "significance": "Acknowledges the strengths of the application while hinting at areas needing improvement.",
+      "insight": "Users appreciate when applications serve their needs but can still identify areas for enhancement.",
+      "category": "emotion"
+    },
+    {
+      "quote": "I think there ought to be a paid technical kind of person that really could be there, you know, as the glue to hold together.",
+      "timestamp": null,
+      "significance": "Proposes a solution to streamline operations and improve user experience.",
+      "insight": "Investing in technical support could alleviate user frustrations and enhance event planning efficiency.",
+      "category": "desire"
+    },
+    {
+      "quote": "I found the e-news a hugely important source of information.",
+      "timestamp": null,
+      "significance": "Highlights the significance of communication tools for user engagement.",
+      "insight": "Effective communication is vital for user engagement and participation in events.",
+      "category": "desire"
+    },
+    {
+      "quote": "If I saw anyone walking around with the name tag that was a pencil Sharpie handwritten name tag rather than a printed name tag, that was a clue that that person may not have been registered.",
+      "timestamp": null,
+      "significance": "Describes how name tags serve as an audit function during events.",
+      "insight": "Small details, like name tags, can significantly impact event management and user experience.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I often thought, why not at least a year? And maybe it's because some people don't want to continue for more than six months.",
+      "timestamp": null,
+      "significance": "Raises questions about the organization's leadership term limits, indicating a need for stability.",
+      "insight": "Longer terms could lead to better continuity and institutional knowledge.",
+      "category": "belief"
+    },
+    {
+      "quote": "I think the requirement for the VP of activities absolutely has to be someone who has been a not only a co-chair, but... in these committees.",
+      "timestamp": null,
+      "significance": "Emphasizes the need for experienced leadership in critical roles.",
+      "insight": "Experience in the system is crucial for effective leadership and event success.",
+      "category": "pain point"
+    },
+    {
+      "quote": "The notion of doing printed name tags... is a critical aspect for me, having hosted a number of events.",
+      "timestamp": null,
+      "significance": "Expresses the importance of name tags for organization and event management.",
+      "insight": "Attention to detail, like printed name tags, can greatly enhance the professional feel of events.",
+      "category": "emotion"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call_Recording_compressed.json",
+    "interview_id": "Call_Recording_compressed"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:32:23.521937",
+    "version": "1.0"
+  }
+}

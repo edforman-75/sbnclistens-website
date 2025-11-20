@@ -1,0 +1,55 @@
+{
+  "jobs": {
+    "functional_jobs": [
+      {
+        "job_statement": "When I am joining a new community group, I want to easily sign up and navigate the website/app, so I can quickly participate in events and feel a part of the community.",
+        "current_solution": "The sign-up process was straightforward and user-friendly.",
+        "pain_points": "The app lacks some functionalities, like easily contacting committee chairs if I cannot attend an event.",
+        "desired_outcomes": "A seamless registration experience and easy access to committee contact information.",
+        "success_criteria": "Users can register, navigate, and communicate regarding events without confusion."
+      },
+      {
+        "job_statement": "When I want to participate in events, I want to find relevant events quickly, so I can manage my time and commitments effectively.",
+        "current_solution": "The website has a list and calendar view for events.",
+        "pain_points": "Finding specific events can be overwhelming due to the large number of activities and the lack of filtering options.",
+        "desired_outcomes": "An efficient way to filter or search for events based on my interests.",
+        "success_criteria": "Users can easily filter events and find those relevant to their interests without excessive scrolling."
+      }
+    ],
+    "emotional_jobs": [
+      {
+        "job_statement": "When I join a new group, I want to feel welcomed and engaged, so I can build connections and feel part of the community.",
+        "current_solution": "The orientation and meet and greet events were helpful.",
+        "pain_points": "The website/app does not feel very inviting or visually appealing.",
+        "desired_outcomes": "A welcoming online experience that reflects the community spirit.",
+        "success_criteria": "Users report feeling engaged and excited about participating in events."
+      }
+    ],
+    "social_jobs": [
+      {
+        "job_statement": "When I participate in community events, I want to be perceived as an active member and contributor, so I can build my social reputation.",
+        "current_solution": "Attending events and engaging with members.",
+        "pain_points": "Difficulty in contacting organizers could hinder participation and visibility.",
+        "desired_outcomes": "Easily communicate with event organizers to confirm attendance or express interest.",
+        "success_criteria": "Users feel recognized and valued within the community due to active participation."
+      }
+    ],
+    "supporting_jobs": [
+      {
+        "job_statement": "When I have questions or need assistance, I want to quickly find help, so I can resolve issues without frustration.",
+        "current_solution": "Access to committee chairs' emails for direct communication.",
+        "pain_points": "Finding the right contact information on the app is not straightforward.",
+        "desired_outcomes": "Clear access to support and resources when needed.",
+        "success_criteria": "Users can find help quickly and effectively address any issues they encounter."
+      }
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call with Christine Beckman.json",
+    "interview_id": "Call with Christine Beckman"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:47:02.529574",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pain_points": [
+    {
+      "description": "The website occasionally fails to complete the sign-up process.",
+      "supporting_quotes": [
+        "It just wouldn't complete. Like when I was signing up for something, it didn't.",
+        "So then I just gave up and came back later."
+      ],
+      "frequency_severity": "Moderate frequency, significant frustration.",
+      "current_workarounds": "User gives up and attempts to sign up later.",
+      "impact_on_user": "Causes frustration and delays in signing up for events.",
+      "category": "effort"
+    },
+    {
+      "description": "Difficulty in navigating the app due to lack of clarity on whether it needs to be downloaded.",
+      "supporting_quotes": [
+        "I don't think I've downloaded the app.",
+        "Do you have to download the app to use it?"
+      ],
+      "frequency_severity": "Occasional confusion, moderate emotional intensity.",
+      "current_workarounds": "User attempts to access the website instead of the app.",
+      "impact_on_user": "Leads to uncertainty and potential missed opportunities to use the app features.",
+      "category": "effort"
+    },
+    {
+      "description": "Limited understanding of the directory functionality.",
+      "supporting_quotes": [
+        "I go to the directory to look people up."
+      ],
+      "frequency_severity": "Infrequently mentioned, low emotional intensity.",
+      "current_workarounds": "User manually searches for information instead of relying on directory.",
+      "impact_on_user": "Potentially inefficient use of time when trying to find information about event attendees.",
+      "category": "time"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 33.json",
+    "interview_id": "New Recording 33"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:52:11.114246",
+    "version": "1.0"
+  }
+}

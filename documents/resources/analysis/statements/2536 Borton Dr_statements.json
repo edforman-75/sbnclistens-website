@@ -1,0 +1,89 @@
+{
+  "insights": [
+    {
+      "quote": "I think that the biggest thing that makes jobs go awry is when the materials aren't there, and then the crew has to go off and find a different job to work on, and then it's hard to get them back.",
+      "timestamp": null,
+      "significance": "This statement highlights a common frustration in project management, specifically in home renovations.",
+      "insight": "The user has experienced significant stress when projects are delayed due to material shortages, indicating a need for better supply chain management.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think that's one of the best ideas going. And if there were a better way to market that, I think it's well worth it.",
+      "timestamp": null,
+      "significance": "The user expresses strong support for a marketing idea that resonates with their personal experience.",
+      "insight": "The user desires effective marketing strategies that can enhance community engagement and connection.",
+      "category": "desire"
+    },
+    {
+      "quote": "I wish that there was a way to just either press the email address of a person or press the phone number of a person and have it go through.",
+      "timestamp": null,
+      "significance": "This reflects frustration with the limitations of current communication methods.",
+      "insight": "The user values efficiency and ease of communication, which suggests a need for better digital tools.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I just find it to be really drab. The photography is boring. The fonts are boring. The colors are boring.",
+      "timestamp": null,
+      "significance": "The user is expressing dissatisfaction with the aesthetics of the website.",
+      "insight": "There's a desire for a more visually appealing and engaging online presence that reflects the community's character.",
+      "category": "emotion"
+    },
+    {
+      "quote": "I think that if there were a way to host some of this information that are, you know, government sites, not necessarily promoting somebody's individual business, but things that are really helpful tools when you move here would be great.",
+      "timestamp": null,
+      "significance": "The user identifies a need for accessible resources that help newcomers integrate into the community.",
+      "insight": "The user desires a comprehensive guide to local services, indicating a gap in information for new residents.",
+      "category": "desire"
+    },
+    {
+      "quote": "I mean, any kind of number of things like that, that when you first move here, you have no idea how to do things.",
+      "timestamp": null,
+      "significance": "The user acknowledges the challenges faced by newcomers in navigating a new environment.",
+      "insight": "There is a need for structured support and guidance for new residents to help them adjust to their new community.",
+      "category": "context"
+    },
+    {
+      "quote": "I wish there was a way to just either press the email address of a person or press the phone number of a person and have it go through.",
+      "timestamp": null,
+      "significance": "The user expresses a strong desire for simpler digital interactions.",
+      "insight": "This indicates a need for more intuitive digital solutions within community applications.",
+      "category": "desire"
+    },
+    {
+      "quote": "And I think also you could even just create a tab on the website for realtors.",
+      "timestamp": null,
+      "significance": "The user suggests a straightforward improvement that could enhance communication with realtors.",
+      "insight": "The user is focused on practical solutions that facilitate better community connections.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I think that it would have to be something, first of all, more trendy and upscale looking to kind of reflect the membership.",
+      "timestamp": null,
+      "significance": "This reflects the user's desire for the club's online presence to match its perceived status.",
+      "insight": "The user believes the branding needs to align with the values and demographics of the membership, indicating a desire for modernization.",
+      "category": "belief"
+    },
+    {
+      "quote": "It's just very stale and old-fashioned compared to anything.",
+      "timestamp": null,
+      "significance": "This statement highlights a strong emotional reaction to the current state of the organization\u2019s online presence.",
+      "insight": "There is a clear frustration with outdated practices, pointing to the need for innovation and creativity.",
+      "category": "emotion"
+    },
+    {
+      "quote": "I know how to implement it. You know, if it comes out as being a priority that people want to implement, it really wouldn't take very long.",
+      "timestamp": null,
+      "significance": "The user shows confidence in their ability to execute ideas if they gain traction.",
+      "insight": "This reflects an underlying motivation to contribute positively to the community and drive change.",
+      "category": "behavior"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/2536 Borton Dr.json",
+    "interview_id": "2536 Borton Dr"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:38:03.058589",
+    "version": "1.0"
+  }
+}

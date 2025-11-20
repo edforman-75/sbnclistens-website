@@ -1,0 +1,117 @@
+{
+  "insights": [
+    {
+      "quote": "It saved my credit card. They did. Really? I had to put my card in every single time.",
+      "timestamp": null,
+      "significance": "This statement highlights the frustration of the user having to repeatedly enter their credit card information.",
+      "insight": "Users desire convenience and efficiency in payment processes.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I'm like, how the heck am I supposed to know which one was posted and when did it open?",
+      "timestamp": null,
+      "significance": "This expresses confusion regarding the notification system for new events.",
+      "insight": "There is a need for clearer communication about event postings and updates.",
+      "category": "pain point"
+    },
+    {
+      "quote": "It'd be nice if it was... Here's all the new stuff. It's easy to find.",
+      "timestamp": null,
+      "significance": "The user is advocating for a more streamlined interface to view new events.",
+      "insight": "Users want intuitive navigation that minimizes effort in finding information.",
+      "category": "desire"
+    },
+    {
+      "quote": "It was maybe a different color or something.",
+      "timestamp": null,
+      "significance": "The suggestion of using color coding indicates a desire for visual cues.",
+      "insight": "Users are looking for simple yet effective design alterations to improve usability.",
+      "category": "desire"
+    },
+    {
+      "quote": "It'd be nice to see the price, too. Before you click into it.",
+      "timestamp": null,
+      "significance": "The user wants upfront pricing information to avoid unexpected costs.",
+      "insight": "Transparency in pricing is essential for user satisfaction.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think the app works better. Don't you?",
+      "timestamp": null,
+      "significance": "This reflects a preference for the app over the website, suggesting differences in user experience.",
+      "insight": "Users may favor certain platforms based on functionality and ease of use.",
+      "category": "behavior"
+    },
+    {
+      "quote": "But they're completely separate. Because the app is Wild Apricot.",
+      "timestamp": null,
+      "significance": "The user is highlighting the disconnect between the app and website.",
+      "insight": "Inconsistent experiences across platforms can lead to user confusion.",
+      "category": "pain point"
+    },
+    {
+      "quote": "Some people think, oh, that's cool. Oh, $100? No.",
+      "timestamp": null,
+      "significance": "This reflects the emotional reaction users have to pricing when it\u2019s revealed.",
+      "insight": "Users are sensitive to pricing and can quickly change their interest based on cost.",
+      "category": "emotion"
+    },
+    {
+      "quote": "You're saying that you don't get that information.",
+      "timestamp": null,
+      "significance": "The user is frustrated about the lack of communication regarding event updates.",
+      "insight": "Effective communication is a critical need for users to stay engaged.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I just get the app.",
+      "timestamp": null,
+      "significance": "The user's choice to use the app exclusively indicates a preference for mobile solutions.",
+      "insight": "Mobile accessibility is a significant factor in user engagement.",
+      "category": "behavior"
+    },
+    {
+      "quote": "They're posted on that Monday night. Is it Monday night? Midnight. Theoretically.",
+      "timestamp": null,
+      "significance": "The uncertainty around event posting times indicates a lack of clear scheduling.",
+      "insight": "Users need reliable and clear timelines for event posting to plan accordingly.",
+      "category": "pain point"
+    },
+    {
+      "quote": "But you're saying that it's hard to find out.",
+      "timestamp": null,
+      "significance": "This reiterates the user's struggle with the current system of information dissemination.",
+      "insight": "Users are likely to abandon platforms that require excessive effort to navigate.",
+      "category": "pain point"
+    },
+    {
+      "quote": "And this is the app, too.",
+      "timestamp": null,
+      "significance": "The user distinguishes between the app and the website experience.",
+      "insight": "Understanding the different experiences on each platform can inform design improvements.",
+      "category": "context"
+    },
+    {
+      "quote": "It's really popular ones. People stay up.",
+      "timestamp": null,
+      "significance": "This indicates that users are motivated to engage with events that have high demand.",
+      "insight": "Understanding user engagement patterns can help in scheduling and marketing events.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I agree. It'd be nice to know the price.",
+      "timestamp": null,
+      "significance": "The user\u2019s agreement highlights a shared concern among users regarding pricing visibility.",
+      "insight": "This insight indicates a collective demand for better pricing transparency across the user base.",
+      "category": "desire"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 34.json",
+    "interview_id": "New Recording 34"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:33:59.514729",
+    "version": "1.0"
+  }
+}

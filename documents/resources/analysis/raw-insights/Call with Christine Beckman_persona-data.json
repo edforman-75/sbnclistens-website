@@ -1,0 +1,54 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "30-40",
+      "role": "Newcomer Member",
+      "experience_level": "Beginner",
+      "technical_proficiency": "Moderate"
+    },
+    "background_context": {
+      "situation": "Joined Santa Barbara Newcomer's Club approximately six weeks ago.",
+      "environment": "Participating in a community club to meet new people.",
+      "constraints": "Limited familiarity with the club's website and app."
+    },
+    "goals_motivations": {
+      "drives": "Desire to connect with new people and integrate into the community.",
+      "achievements": "Wants to make the most of club events and activities."
+    },
+    "behaviors_patterns": {
+      "current_work_style": "Primarily uses the app for event management.",
+      "habits": "Participates in club events and engages with the website to explore options."
+    },
+    "pain_points_frustrations": {
+      "obstacles": "Difficulty in navigating the app to find committee contacts and event details.",
+      "what_does_not_work": "Complexity in accessing information about events and committee chairs."
+    },
+    "needs_desires": {
+      "life_better": "A more intuitive app and website that improves navigation and access to information.",
+      "looking_for": "Easier ways to filter events and contact committee chairs."
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Believes that the website is functional but can be improved.",
+      "preferences": "Prefers list views over calendar views for event organization.",
+      "values": "Values clear communication and ease of use in community platforms."
+    },
+    "technical_comfort": {
+      "tools_used": "Uses the Santa Barbara Newcomer's Club app and website.",
+      "technical_abilities": "Moderate; comfortable with basic navigation but struggles with complex features.",
+      "learning_preferences": "Learns by engaging with the app and website, tends to skip lengthy reading materials."
+    },
+    "quotes": [
+      "I thought the signing up process was really quite easy.",
+      "I don't love the calendar view. I find that the font's smaller.",
+      "It's a pretty terrific organization. It's just such a neat way to meet people."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call with Christine Beckman.json",
+    "interview_id": "Call with Christine Beckman"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:06:39.002699",
+    "version": "1.0"
+  }
+}

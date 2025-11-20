@@ -1,0 +1,77 @@
+{
+  "pain_points": [
+    {
+      "description": "Navigation issues when returning to the calendar of events.",
+      "supporting_quotes": [
+        "each time I want to go back to the calendar of events after clicking on an event, it goes back to the beginning of like many months ago.",
+        "I have to scroll down, try to find it."
+      ],
+      "frequency_severity": "Frequently mentioned as a significant frustration.",
+      "current_workarounds": "Manually scrolls back to the desired date and changes the view to list view.",
+      "impact_on_user": "Increases time spent navigating the website and adds unnecessary steps to find relevant events.",
+      "category": "time"
+    },
+    {
+      "description": "Lack of day-of-week information for event dates.",
+      "supporting_quotes": [
+        "it often would put the date, like November 14th, but it doesn't say what day of the week it is.",
+        "to me, it's very important if I know if it's a Saturday or Monday through Friday at 10am when I can't do it kind of thing."
+      ],
+      "frequency_severity": "Previously a significant issue, but resolved.",
+      "current_workarounds": "None, as this pain point has been addressed.",
+      "impact_on_user": "Previously caused confusion in planning attendance for events.",
+      "category": "quality"
+    },
+    {
+      "description": "Difficulty understanding the overall structure of the website and where to find certain documents.",
+      "supporting_quotes": [
+        "it's not always clear where that stuff is.",
+        "it's, you need to kind of search those out."
+      ],
+      "frequency_severity": "Mentioned but not emphasized as a major frustration.",
+      "current_workarounds": "Users may explore the website to find necessary information.",
+      "impact_on_user": "May lead to frustration and wasted time trying to locate information.",
+      "category": "effort"
+    },
+    {
+      "description": "Concerns about access to events and information as an alumni.",
+      "supporting_quotes": [
+        "I know that I'll be popped out of like seeing full calendar and I'll only have to view the public events calendar.",
+        "how will we find out about those when we graduate?"
+      ],
+      "frequency_severity": "Significant concern for future use of the website.",
+      "current_workarounds": "Currently uncertain; waiting for potential updates.",
+      "impact_on_user": "Potential loss of connection to community and events after graduation.",
+      "category": "social"
+    },
+    {
+      "description": "Overall aesthetic and invitation of the website.",
+      "supporting_quotes": [
+        "it's not super pretty or anything like that, but it's not bad.",
+        "it needs to be prettied up a little bit just to be more attractive."
+      ],
+      "frequency_severity": "Mentioned as a general observation, not a primary pain point.",
+      "current_workarounds": "None; users have adjusted to the current design.",
+      "impact_on_user": "May affect first impressions for new users.",
+      "category": "emotional"
+    },
+    {
+      "description": "Complicated job forms.",
+      "supporting_quotes": [
+        "the job form is a nightmare for most."
+      ],
+      "frequency_severity": "Noted as a significant issue, but not the main focus of the interview.",
+      "current_workarounds": "Delegation to others who find it less complicated.",
+      "impact_on_user": "Frustration and reliance on others to complete tasks.",
+      "category": "effort"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call with Joy Fournier.json",
+    "interview_id": "Call with Joy Fournier"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:58:08.827736",
+    "version": "1.0"
+  }
+}

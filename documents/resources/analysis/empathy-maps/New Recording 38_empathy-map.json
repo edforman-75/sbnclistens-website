@@ -1,0 +1,96 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      {
+        "quote": "I think it would be very useful if there was a way that we could walk new people through how to use the website.",
+        "context": "Expresses the need for guidance for new users."
+      },
+      {
+        "quote": "Most people who are successful right away either go to the orientation and walk through it there or they meet somebody like Debbie Rare and have a personal view orientation step by step.",
+        "context": "Highlights current successful methods for onboarding new users."
+      },
+      {
+        "quote": "The people that are sort of non-very computer literate would have a better experience up front.",
+        "context": "Identifies a specific user group that struggles with the website."
+      },
+      {
+        "quote": "I think they want to see what are my tickets, where am I going, and what can I sign up for right now?",
+        "context": "Outlines key information that users are seeking."
+      },
+      {
+        "quote": "It would be also good if the navigation was segmented by category, especially the 20 to 40s and the 40 and above.",
+        "context": "Suggests a categorization method for improved navigation."
+      },
+      {
+        "quote": "If you sign up for the waiting list, it's not clear how many people are on the waiting list.",
+        "context": "Expresses concern about lack of transparency in waiting list information."
+      },
+      {
+        "quote": "It might be good to have that be also available in the summary.",
+        "context": "Advocates for transparency in event pricing."
+      }
+    ],
+    "THINKS": [
+      {
+        "inference": "The user likely believes that the website's current design is not accommodating for those who are less tech-savvy.",
+        "context": "Concern about non-computer literate users."
+      },
+      {
+        "inference": "The user may feel that the existing orientation methods are insufficient for all new users.",
+        "context": "Highlights reliance on personal interactions for onboarding."
+      },
+      {
+        "inference": "The user thinks that clear navigation is essential for a positive user experience.",
+        "context": "Emphasizes the importance of easy access to information."
+      },
+      {
+        "inference": "The user might be frustrated with the lack of immediate information about event pricing.",
+        "context": "Concerns about users being deterred by unexpected costs."
+      }
+    ],
+    "DOES": [
+      {
+        "observation": "The user engages in self-reflection to identify issues with the website.",
+        "context": "Conducting a self-interview indicates proactive behavior."
+      },
+      {
+        "observation": "The user suggests multiple solutions, such as videos, apps, or committees, to improve onboarding.",
+        "context": "Actively thinks about various ways to enhance user experience."
+      },
+      {
+        "observation": "The user identifies specific navigation improvements to help others find information.",
+        "context": "Shows a focus on practical solutions to existing problems."
+      },
+      {
+        "observation": "The user compares the website's features to other systems (like library books).",
+        "context": "Utilizes familiar concepts to suggest enhancements."
+      }
+    ],
+    "FEELS": [
+      {
+        "emotion": "Concern",
+        "context": "Worries about non-tech-savvy users struggling with the website."
+      },
+      {
+        "emotion": "Frustration",
+        "context": "Expresses dissatisfaction with current navigation and event information."
+      },
+      {
+        "emotion": "Hopefulness",
+        "context": "Wants to see improvements that will enhance user experience."
+      },
+      {
+        "emotion": "Empathy",
+        "context": "Shows understanding for the challenges faced by less computer-literate users."
+      }
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 38.json",
+    "interview_id": "New Recording 38"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:42:42.706609",
+    "version": "1.0"
+  }
+}

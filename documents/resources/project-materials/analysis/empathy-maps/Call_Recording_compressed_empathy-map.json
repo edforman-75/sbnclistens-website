@@ -1,0 +1,42 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "I was impressed with the wild apricot application in terms of what they were doing for nonprofit organizations like the newcomers in terms of its flexibility and really the power of the whole approach.",
+      "I have to tell you, I was impressed with the wild apricot application.",
+      "The biggest problem I had with the whole process, frankly, was dealing with people who were not savvy users and wanted to rely strictly on their phone.",
+      "I rarely use the phone app, quite frankly, because I felt it was underpowered and gave conflicting information.",
+      "From the normal user, the real impact is every Sunday morning when you get the news and you're looking at events that are just announced and you're making plans.",
+      "The e-news is a hugely important source of information.",
+      "I felt very strongly about having formal printed name tags for our events."
+    ],
+    "THINKS": [
+      "The phone app is inadequate for most users, which may lead to miscommunication about event registrations.",
+      "Many users are not tech-savvy, leading to frustrations when they use tools that are not intuitive.",
+      "The organization suffers from a lack of continuity due to frequent turnover, which complicates the training of new committee members.",
+      "Having someone dedicated to technical support would ease the burden of event planning and execution.",
+      "The aesthetic aspects of the website are less important compared to its functionality and ease of use."
+    ],
+    "DOES": [
+      "Logs into the website as both a user and an administrator to manage events.",
+      "Attends meetings and actively participates in committees, utilizing the website to schedule events and gather information.",
+      "Relies on the e-news to plan activities and connect with friends.",
+      "Uses the computer-based system more frequently than the phone app, indicating a preference for desktop functionality over mobile.",
+      "Advocates for printed name tags at events, using them as a means to verify registrations."
+    ],
+    "FEELS": [
+      "Frustration when users rely on the phone app, leading to conflicts in registrations.",
+      "A sense of pride and satisfaction when organizing successful events.",
+      "Concern about the lack of a formalized institutional memory within the organization.",
+      "Aspirational about improving the training process for new committee members to ensure a smoother event planning experience.",
+      "Appreciation for the potential improvements that could be made to the website and event management tools."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call_Recording_compressed.json",
+    "interview_id": "Call_Recording_compressed"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:41:56.532055",
+    "version": "1.0"
+  }
+}

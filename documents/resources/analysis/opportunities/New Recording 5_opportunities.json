@@ -1,0 +1,54 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we modernize the website to create a more engaging and visually appealing experience for users?",
+      "evidence": "It just feels like an old person's home, and it just could be spiffed up a lot with better photography, better typography, better layout.",
+      "user_need": "Desire for a visually appealing and modern website.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we simplify the event registration process and provide easier access to event information?",
+      "evidence": "I'm often looking for a particular event to register for. I'm often looking for what events am I registered to.",
+      "user_need": "Need for easy access to event registration and related information.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a community resource section to provide newcomers with essential local information?",
+      "evidence": "Wouldn't it be great if we could just have an area that's questions from people moving to Santa Barbara, with just basic information.",
+      "user_need": "Need for local resources and information for newcomers.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enhance self-service options for customer support to empower users?",
+      "evidence": "I'd like to have it be more self-service when it comes to customer support.",
+      "user_need": "Desire for easier access to support and problem resolution.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we redesign the calendar app to improve event browsing and searching capabilities?",
+      "evidence": "I think we could do a whole lot better [with the calendar app].",
+      "user_need": "Need for an improved method for browsing and searching for events.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we implement a help feature or chatbot for new users to facilitate their navigation?",
+      "evidence": "Perhaps would be a question mark in the corner, which got one to help or chatbot.",
+      "user_need": "Need for guidance and support for new users navigating the website.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 5.json",
+    "interview_id": "New Recording 5"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:03:37.528487",
+    "version": "1.0"
+  }
+}

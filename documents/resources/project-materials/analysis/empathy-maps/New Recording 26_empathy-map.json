@@ -1,0 +1,47 @@
+{
+  "empathy_map": {
+    "SAYS": {
+      "quotes": [
+        "We really don't have a process for enabling people to update their data.",
+        "I have this love-hate relationship with wild apricot.",
+        "I think that we as a club need to present ourselves as being fresher and more contemporary.",
+        "I feel very, very lucky when I find that button to join.",
+        "I really want a my newcomers page that just lists in one place all of the events I'm registered for.",
+        "I want to second your comments about not being able to update our information.",
+        "Joining was easy peasy."
+      ]
+    },
+    "THINKS": {
+      "inferences": [
+        "Ed likely feels frustrated with the outdated technology and the lack of user-friendly features on the website.",
+        "He may be concerned about how the club is perceived by new and potential members.",
+        "Jamie, as a new member, might be relieved to have found a welcoming community but could also feel overwhelmed by the technology.",
+        "Todd seems to have pride in the legacy of his family involvement but may worry about how to remain engaged in the community."
+      ]
+    },
+    "DOES": {
+      "observations": [
+        "Ed actively navigates and tests the membership join workflow, indicating his hands-on approach to understanding the system.",
+        "Jamie jumps into the calendar to see events, showing her eagerness to participate despite finding it clunky.",
+        "Todd shares tips with other new members, demonstrating a willingness to help others and share his positive experience.",
+        "Pam expresses the need for more weekend events, highlighting her current engagement with the community."
+      ]
+    },
+    "FEELS": {
+      "emotions": [
+        "Ed expresses a sense of frustration and disappointment with the current system, which impacts his pride in the club.",
+        "Jamie feels lucky and honored to be part of the community, but also experiences anxiety about fitting in and utilizing the technology.",
+        "Todd feels a sense of nostalgia and pride in his family's history with the club, contributing to his overall positive experience.",
+        "Pam feels overwhelmed by the limitations in scheduling events, but also expresses a desire to contribute to improvements."
+      ]
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 26.json",
+    "interview_id": "New Recording 26"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:45:15.306165",
+    "version": "1.0"
+  }
+}

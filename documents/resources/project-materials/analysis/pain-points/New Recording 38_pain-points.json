@@ -1,0 +1,73 @@
+{
+  "pain_points": [
+    {
+      "description": "Lack of onboarding for new users unfamiliar with the website.",
+      "supporting_quotes": [
+        "it would be very useful if there was a way that we could walk new people through how to use the website.",
+        "the people that are sort of non-very computer literate would have a better experience up front."
+      ],
+      "frequency_severity": "High frequency; described with emotional intensity.",
+      "current_workarounds": "Relying on orientation sessions or personal walkthroughs from knowledgeable individuals.",
+      "impact_on_user": "New users struggle to navigate the site, leading to frustration and potential disengagement.",
+      "category": "effort"
+    },
+    {
+      "description": "Difficult navigation on the website.",
+      "supporting_quotes": [
+        "people have a hard time finding where they want to go.",
+        "I think that the navigation can be improved."
+      ],
+      "frequency_severity": "High frequency; mentioned as a significant issue.",
+      "current_workarounds": "Users may try to guess or explore but often get lost.",
+      "impact_on_user": "Users waste time and become frustrated trying to locate events and information.",
+      "category": "time"
+    },
+    {
+      "description": "Lack of clarity on event details such as day of the week and pricing.",
+      "supporting_quotes": [
+        "it would be really important to include the day of the week of the events like Thursday or Friday.",
+        "it might be good to have that be also available in the summary."
+      ],
+      "frequency_severity": "Moderate frequency; described with moderate emotional intensity.",
+      "current_workarounds": "Users might check multiple pages or contact support for details.",
+      "impact_on_user": "Users may overlook events due to missing information, affecting their participation.",
+      "category": "quality"
+    },
+    {
+      "description": "Unclear information on waiting lists for events.",
+      "supporting_quotes": [
+        "if you sign up for the waiting list, it's not clear how many people are on the waiting list."
+      ],
+      "frequency_severity": "Moderate frequency; the issue is significant for users interested in events.",
+      "current_workarounds": "Users may have to guess their chances or wait without knowing their status.",
+      "impact_on_user": "Users may miss out on events or feel uncertain about their participation.",
+      "category": "emotional"
+    }
+  ],
+  "prioritization": [
+    {
+      "pain_point": "Lack of onboarding for new users unfamiliar with the website.",
+      "priority_score": 10
+    },
+    {
+      "pain_point": "Difficult navigation on the website.",
+      "priority_score": 9
+    },
+    {
+      "pain_point": "Lack of clarity on event details such as day of the week and pricing.",
+      "priority_score": 6
+    },
+    {
+      "pain_point": "Unclear information on waiting lists for events.",
+      "priority_score": 5
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 38.json",
+    "interview_id": "New Recording 38"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:53:53.715365",
+    "version": "1.0"
+  }
+}

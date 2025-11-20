@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When I want to find events on the website, I want to easily filter them by age group, so I can quickly find relevant events to attend.",
+      "current_solution": "Using the website and the Wild Apricot app.",
+      "pain_points": "The website lacks organization and filtering options for events based on age group.",
+      "desired_outcomes": "A more organized event listing with filtering options to quickly identify suitable events.",
+      "success_criteria": "Ability to find relevant events without scrolling through unrelated options."
+    },
+    "emotional_jobs": {
+      "job_statement": "When I use the event listing, I want to feel included in the community, so I can enjoy social interactions with people in my age group.",
+      "current_solution": "Using the app to find events.",
+      "pain_points": "Feeling excluded from events that are not targeted towards my age group.",
+      "desired_outcomes": "A sense of belonging and inclusion in events that match my interests and age.",
+      "success_criteria": "Participating in events that resonate with my demographic and interests."
+    },
+    "social_jobs": {
+      "job_statement": "When I attend events, I want to be perceived as an active and engaged member of the community, so I can build connections and friendships.",
+      "current_solution": "Attending events that I find suitable through the app.",
+      "pain_points": "Difficulty in finding events that match my age, which could affect my participation.",
+      "desired_outcomes": "Being seen as an involved and socially active member of my community.",
+      "success_criteria": "Building social connections and being involved in community activities."
+    },
+    "supporting_jobs": {
+      "job_statement": "When I sign up for events, I want the process to be seamless, so I can quickly secure my spot without any hassle.",
+      "current_solution": "Using the app to sign up for events.",
+      "pain_points": "Potential delays or complications in the signup process if the app or website has issues.",
+      "desired_outcomes": "Quick and easy registration for events without complications.",
+      "success_criteria": "Completing event registration successfully and effortlessly."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 36.json",
+    "interview_id": "New Recording 36"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:48:39.891385",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": {
+    "functional_jobs": [
+      {
+        "job_statement": "When I am new to Santa Barbara, I want to connect with other newcomers, so I can build a social network in my new environment.",
+        "current_solution": "Joining Santa Barbara newcomers and exploring events through the app.",
+        "pain_points": "Overwhelmed by the number of clubs and committees; difficulty finding relevant information on the website.",
+        "desired_outcomes": "Easily identify and join groups that match my interests.",
+        "success_criteria": "Successfully connect with other newcomers and participate in events that align with my interests."
+      },
+      {
+        "job_statement": "When I want to register for events, I want a seamless experience, so I can easily join without frustration.",
+        "current_solution": "Using the app to register for events.",
+        "pain_points": "Website is confusing and not user-friendly; reliance on the app due to dissatisfaction with the website.",
+        "desired_outcomes": "A more intuitive registration process that encourages engagement.",
+        "success_criteria": "Easily register for events without confusion or technical issues."
+      }
+    ],
+    "emotional_jobs": [
+      {
+        "job_statement": "When I explore the newcomers' website, I want to feel excited and welcomed, so I can feel comfortable joining and participating.",
+        "current_solution": "The current website and app.",
+        "pain_points": "Website feels dated and uninviting; does not evoke excitement.",
+        "desired_outcomes": "An engaging and visually appealing website that makes me feel valued.",
+        "success_criteria": "Feel motivated to explore and participate in events based on the website\u2019s design and content."
+      }
+    ],
+    "social_jobs": [
+      {
+        "job_statement": "When I participate in newcomers' events, I want to be perceived as an engaged and friendly member, so I can build a positive reputation within the community.",
+        "current_solution": "Joining and attending events organized by Santa Barbara newcomers.",
+        "pain_points": "Difficulty in finding relevant events makes it challenging to engage meaningfully.",
+        "desired_outcomes": "Establish a reputation as an active and sociable newcomer.",
+        "success_criteria": "Gain recognition among peers as an active participant in community events."
+      }
+    ],
+    "supporting_jobs": [
+      {
+        "job_statement": "When I want to gather information about the newcomers' activities, I want it to be easily accessible, so I can make informed decisions about my participation.",
+        "current_solution": "Using the app and occasionally checking the website.",
+        "pain_points": "Information is scattered and hard to find; the website lacks a clear structure.",
+        "desired_outcomes": "Centralized and organized information about events and committees.",
+        "success_criteria": "Quickly find and understand information regarding activities and how to participate."
+      }
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_KieranShah_11.15.25.json",
+    "interview_id": "SBNC_Interview_KieranShah_11.15.25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:51:08.264694",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "insights": [
+    {
+      "quote": "I think it would be very useful if there was a way that we could walk new people through how to use the website.",
+      "timestamp": null,
+      "significance": "This statement highlights a clear need for onboarding resources for new users.",
+      "insight": "New users often struggle to navigate the website without guidance.",
+      "category": "pain point"
+    },
+    {
+      "quote": "Most people who are successful right away either go to the orientation and walk through it there or they meet somebody like Debbie Rare and have a personal view orientation step by step.",
+      "timestamp": null,
+      "significance": "This indicates that success is often dependent on personal interaction or structured orientation.",
+      "insight": "There is a reliance on personal connections for effective website navigation.",
+      "category": "behavior"
+    },
+    {
+      "quote": "The people that are sort of non-very computer literate would have a better experience up front.",
+      "timestamp": null,
+      "significance": "This statement emphasizes the disparity in experiences between users with varying computer skills.",
+      "insight": "Non-tech-savvy users face significant barriers when using the website.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I also think that the navigation can be improved because people have a hard time finding where they want to go.",
+      "timestamp": null,
+      "significance": "This reflects a broad frustration with the current navigation system.",
+      "insight": "Navigation issues lead to user frustration and hinder overall satisfaction.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think they want to see what are my tickets, where am I going, and what can I sign up for right now?",
+      "timestamp": null,
+      "significance": "This showcases specific user needs regarding event visibility and accessibility.",
+      "insight": "Users desire immediate clarity on their engagement with the service.",
+      "category": "desire"
+    },
+    {
+      "quote": "I think it would be also good if the navigation was segmented by category, especially the 20 to 40s and the 40 and above.",
+      "timestamp": null,
+      "significance": "Segmenting navigation by demographics suggests a nuanced understanding of user needs.",
+      "insight": "Users are looking for tailored experiences that cater to their specific age groups.",
+      "category": "desire"
+    },
+    {
+      "quote": "If you sign up for the waiting list, it's not clear how many people are on the waiting list.",
+      "timestamp": null,
+      "significance": "This highlights a lack of transparency in the waiting list process.",
+      "insight": "Uncertainty in the waiting list can lead to user frustration and dissatisfaction.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I know in the library books it usually says what number you are in the queue.",
+      "timestamp": null,
+      "significance": "This comparison indicates a desired feature that is standard in other contexts.",
+      "insight": "Users expect similar functionalities across different platforms and services.",
+      "category": "belief"
+    },
+    {
+      "quote": "It might be good to have that be also available in the summary.",
+      "timestamp": null,
+      "significance": "This statement suggests a desire for improved information accessibility.",
+      "insight": "Users prefer concise and clear summaries of essential information.",
+      "category": "desire"
+    },
+    {
+      "quote": "Sometimes you get interested in an event and you find out it's $105.",
+      "timestamp": null,
+      "significance": "This reflects the frustration of discovering hidden costs after expressing interest.",
+      "insight": "Lack of upfront pricing information leads to user disappointment.",
+      "category": "pain point"
+    },
+    {
+      "quote": "It should be possible to list on the website.",
+      "timestamp": null,
+      "significance": "This indicates a belief that essential features are feasible but currently lacking.",
+      "insight": "Users feel that the website can and should be more functional than it currently is.",
+      "category": "belief"
+    },
+    {
+      "quote": "The people who are computer experienced don't have a problem.",
+      "timestamp": null,
+      "significance": "This highlights a divide between different user skill levels.",
+      "insight": "Experienced users navigate the website easily, while novices struggle significantly.",
+      "category": "context"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 38.json",
+    "interview_id": "New Recording 38"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:34:20.226235",
+    "version": "1.0"
+  }
+}

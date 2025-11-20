@@ -1,0 +1,110 @@
+{
+  "statements": [
+    {
+      "quote": "I didn't want to be first but if you insist.",
+      "timestamp": null,
+      "significance": "This statement reveals a reluctance to take the lead, suggesting a possible feeling of insecurity or anxiety in social situations.",
+      "insight": "The user may need encouragement and reassurance in new social environments.",
+      "category": "emotion"
+    },
+    {
+      "quote": "This is without a doubt the friendliest place I have ever moved to.",
+      "timestamp": null,
+      "significance": "This highlights the user's positive emotional connection to the community, indicating a strong desire for social belonging.",
+      "insight": "The user values community and warmth in their new environment, which influences their overall satisfaction.",
+      "category": "emotion"
+    },
+    {
+      "quote": "Whenever these you know when you have the app and you get a notification and it says four new things have been launched... it would be really great to have both on the app and the website the new things are highlighted.",
+      "timestamp": null,
+      "significance": "This suggests frustration with the current system's usability and a desire for clearer organization.",
+      "insight": "The user struggles to navigate the information efficiently, indicating a need for improved user experience in the app/website.",
+      "category": "pain point"
+    },
+    {
+      "quote": "If someone cancels and you go to the waitlist... that was extremely time-consuming and then I did it wrong.",
+      "timestamp": null,
+      "significance": "This statement reveals the complexity and confusion surrounding the registration process.",
+      "insight": "Users face significant barriers in the registration system, which can discourage participation.",
+      "category": "pain point"
+    },
+    {
+      "quote": "It would be nice to have the address in that reminder since it's only going to the people who are registered.",
+      "timestamp": null,
+      "significance": "This indicates a need for convenience and clarity in communication.",
+      "insight": "Users are looking for more streamlined information that reduces their effort in event participation.",
+      "category": "desire"
+    },
+    {
+      "quote": "I have to scramble back and figure out where it is.",
+      "timestamp": null,
+      "significance": "This expresses frustration with the lack of readily available information.",
+      "insight": "The user is overwhelmed by the information management, indicating a need for improved communication tools.",
+      "category": "pain point"
+    },
+    {
+      "quote": "When I\u2019m working because there are activities you cannot do obviously because it's during the day.",
+      "timestamp": null,
+      "significance": "This reveals a conflict between work schedules and available activities.",
+      "insight": "The user desires more accommodating scheduling for activities that consider working individuals.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I get a lot of emails... I cannot even know which one when I need to go back with the address.",
+      "timestamp": null,
+      "significance": "This highlights an overwhelming amount of communication that leads to confusion.",
+      "insight": "Users may benefit from a more organized and less frequent communication strategy.",
+      "category": "pain point"
+    },
+    {
+      "quote": "Sometimes when it\u2019s after working hours people think they do that don\u2019t start any event at five o'clock.",
+      "timestamp": null,
+      "significance": "This indicates a misunderstanding of participants' availability.",
+      "insight": "There is a need for scheduling events that cater to different lifestyles, especially for working individuals.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I\u2019ve lived in nine states and six years in Germany... this newcomers club is so perfect.",
+      "timestamp": null,
+      "significance": "The user's extensive moving history emphasizes their quest for community.",
+      "insight": "The user values the sense of belonging that the newcomers club provides, showing the importance of community in their life.",
+      "category": "context"
+    },
+    {
+      "quote": "It's a great place to meet people and to do different things then you didn't even know existed in this town.",
+      "timestamp": null,
+      "significance": "This underscores the user's appreciation for the diversity of activities available.",
+      "insight": "Users are eager to explore new opportunities and connections through the organization.",
+      "category": "desire"
+    },
+    {
+      "quote": "I moved here based on criteria that I had for what I was looking for and high on that list was community.",
+      "timestamp": null,
+      "significance": "This statement reveals the user's prioritization of community in their relocation decision.",
+      "insight": "Community is a fundamental value for the user, influencing their choices and satisfaction in their new environment.",
+      "category": "belief"
+    },
+    {
+      "quote": "It's very easy to use for a person that's not really a computer person.",
+      "timestamp": null,
+      "significance": "This indicates the website's accessibility for users with varying tech skills.",
+      "insight": "Usability is key for attracting and retaining users who may feel intimidated by technology.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I chose Santa Barbara based on criteria that I had for what I was looking for.",
+      "timestamp": null,
+      "significance": "This indicates that the user is intentional and thoughtful about their living choices.",
+      "insight": "Users have specific needs and expectations when relocating, which can inform how services are tailored.",
+      "category": "belief"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 25.json",
+    "interview_id": "New Recording 25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:30:20.219543",
+    "version": "1.0"
+  }
+}

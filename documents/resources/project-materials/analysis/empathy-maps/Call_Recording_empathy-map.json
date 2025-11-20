@@ -1,0 +1,45 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "I'm John Ruffin. I'm talking with David Warnock.",
+      "My major focus initially was on the golf committee, the wine committee.",
+      "I was impressed with Wild Apricot application in terms of what they were doing for nonprofit organizations.",
+      "There are a couple of bumps in the road, of course, with everything.",
+      "The biggest problem I had with the whole process, frankly, was dealing with people who were not savvy users.",
+      "I rarely use the phone app, quite frankly, because I felt it was underpowered and gave conflicting information.",
+      "The user interface on the computer-based system was helpful.",
+      "Cleaner, simpler, better is my approach.",
+      "The training process really needs to have some hard, hard look at two issues.",
+      "I think the requirement for the VP of activities absolutely has to be someone who has been a co-chair."
+    ],
+    "THINKS": [
+      "Frustration with users who only rely on mobile apps rather than the full website.",
+      "Concern about the learning curve for new users and the lack of adequate training.",
+      "Belief that a dedicated technical person would improve event management and user experience.",
+      "Thinks that the organization would benefit from a formal alumni relations initiative.",
+      "May feel that while the website is functional, it lacks the ease of use for less tech-savvy users."
+    ],
+    "DOES": [
+      "Logs into the website as both a user and an admin.",
+      "Participates actively in multiple committees.",
+      "Uses the website weekly to check events and updates.",
+      "Communicates issues with users who face challenges with registration.",
+      "Tracks registration issues through name tags at events."
+    ],
+    "FEELS": [
+      "Generally impressed with the capabilities of the Wild Apricot application.",
+      "Frustrated with the limitations of the mobile app.",
+      "Concerned about the lack of institutional memory and continuity in the organization.",
+      "Feels a strong sense of responsibility as a committee chair to ensure events run smoothly.",
+      "Appreciates the vibrancy and renewal of the organization but recognizes the challenges that come with frequent turnover."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call_Recording.json",
+    "interview_id": "Call_Recording"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:43:03.525405",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "observations": [
+    {
+      "statement": "User experience is shaped by both administrative and regular user perspectives.",
+      "category_hint": "context",
+      "quote": "I had administrative credentials, if you will, privileges... that, frankly, colored my impression and my utilization of the website.",
+      "timestamp": null
+    },
+    {
+      "statement": "Users find the Wild Apricot application flexible and powerful for nonprofit needs.",
+      "category_hint": "insight",
+      "quote": "I was impressed with wild apricot application in terms of what they were doing for nonprofit organizations like the newcomers.",
+      "timestamp": null
+    },
+    {
+      "statement": "The phone app is seen as underpowered and conflicting, causing frustration for users.",
+      "category_hint": "pain point",
+      "quote": "I rarely use the phone app, quite frankly, because I felt it was underpowered and gave conflicting information.",
+      "timestamp": null
+    },
+    {
+      "statement": "Clear communication about registration status is a significant issue.",
+      "category_hint": "pain point",
+      "quote": "I'm looking at the actual log here. And your registration expired because you didn't pay within the first 15 minutes.",
+      "timestamp": null
+    },
+    {
+      "statement": "Regular users rely heavily on the website for event information.",
+      "category_hint": "behavior",
+      "quote": "I found the news a hugely important source of information.",
+      "timestamp": null
+    },
+    {
+      "statement": "Users appreciate the ability to see who is attending events as a social connector.",
+      "category_hint": "need",
+      "quote": "I like the feature of being able to see who's actually already registered for events.",
+      "timestamp": null
+    },
+    {
+      "statement": "Event descriptions can lack clarity and transparency, leading to confusion.",
+      "category_hint": "pain point",
+      "quote": "Sometimes the event descriptions... were not as transparent or not as clear as they could be.",
+      "timestamp": null
+    },
+    {
+      "statement": "Users prioritize functionality over aesthetics when navigating websites.",
+      "category_hint": "goal",
+      "quote": "I'm looking for utility... I want to do my business and I want to get out.",
+      "timestamp": null
+    },
+    {
+      "statement": "There is a lack of institutional memory due to frequent turnover in leadership.",
+      "category_hint": "pain point",
+      "quote": "The problem is the lack of a formalized institutional memory.",
+      "timestamp": null
+    },
+    {
+      "statement": "Training for new committee members is inadequate and needs improvement.",
+      "category_hint": "pain point",
+      "quote": "The training process really needs to have some hard, hard look at two issues.",
+      "timestamp": null
+    },
+    {
+      "statement": "The VP of activities should have prior experience with the system for effectiveness.",
+      "category_hint": "need",
+      "quote": "The requirement for the VP of activities absolutely has to be someone who has been a not only a co-chair.",
+      "timestamp": null
+    },
+    {
+      "statement": "Event management requires familiarity with the system, which new users lack.",
+      "category_hint": "pain point",
+      "quote": "The brand new person that's just getting going is really challenged by that.",
+      "timestamp": null
+    },
+    {
+      "statement": "Printed name tags are important for large events to verify registrations.",
+      "category_hint": "goal",
+      "quote": "If I saw anyone walking around with a name tag... that was a clue that that person may not have been registered.",
+      "timestamp": null
+    },
+    {
+      "statement": "There is a need for a technical resource person to assist with event organization.",
+      "category_hint": "need",
+      "quote": "There ought to be a paid technical kind of person that really could be there, you know, as the glue to hold together all the aspects.",
+      "timestamp": null
+    },
+    {
+      "statement": "Users desire a more streamlined process for creating and managing events.",
+      "category_hint": "need",
+      "quote": "The mechanics of what I'm going to refer to as the back office work.",
+      "timestamp": null
+    },
+    {
+      "statement": "User feedback indicates that the website requires ongoing updates and improvements.",
+      "category_hint": "insight",
+      "quote": "There are a couple of bumps in the road, of course, with everything.",
+      "timestamp": null
+    },
+    {
+      "statement": "Users are willing to pay for added value in services, such as alumni relations.",
+      "category_hint": "desire",
+      "quote": "I'd be willing to pay 25 bucks a year for that privilege.",
+      "timestamp": null
+    },
+    {
+      "statement": "Users value the social aspect of events and networking opportunities.",
+      "category_hint": "emotion",
+      "quote": "I want to contact your friends and so forth and so on.",
+      "timestamp": null
+    },
+    {
+      "statement": "Event planning requires attention to detail, especially with cancellations and waitlists.",
+      "category_hint": "goal",
+      "quote": "How do you manage a wait list? All of that is important.",
+      "timestamp": null
+    },
+    {
+      "statement": "Users experience a steep learning curve when transitioning into new roles.",
+      "category_hint": "pain point",
+      "quote": "The learning curve just hits the peak at the time of transition.",
+      "timestamp": null
+    },
+    {
+      "statement": "Frequent changes in leadership can hinder continuity and effective event planning.",
+      "category_hint": "pain point",
+      "quote": "Imagine running an organization, a corporation like that.",
+      "timestamp": null
+    },
+    {
+      "statement": "Users want a cleaner and simpler interface for better usability.",
+      "category_hint": "need",
+      "quote": "Cleaner, simpler, better is my approach.",
+      "timestamp": null
+    },
+    {
+      "statement": "Regular users often feel overwhelmed by the technical aspects of event management.",
+      "category_hint": "emotion",
+      "quote": "The mechanics of what I'm going to refer to as the back office work.",
+      "timestamp": null
+    },
+    {
+      "statement": "Users appreciate features that enhance the event experience, such as name tags.",
+      "category_hint": "goal",
+      "quote": "I like the printed name tags as an audit function.",
+      "timestamp": null
+    },
+    {
+      "statement": "Users feel positive about the overall functionality of the website despite its flaws.",
+      "category_hint": "emotion",
+      "quote": "It's astounding to me that this thing works as well as it does.",
+      "timestamp": null
+    }
+  ],
+  "_source": {
+    "transcript": "projects/SBNCListens/transcripts/Call_Recording.json",
+    "interview_id": "Call_Recording"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-16T07:04:29.235436",
+    "version": "1.0"
+  }
+}

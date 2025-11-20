@@ -1,0 +1,53 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "35-50",
+      "role": "Event Organizer/Participant",
+      "experience_level": "Intermediate",
+      "technical_proficiency": "Moderate"
+    },
+    "background_context": {
+      "situation": "Uses website for event sign-ups and directory searches",
+      "environment": "Works on a computer all day",
+      "constraints": "Occasional technical issues with the website"
+    },
+    "goals_motivations": {
+      "drives": "Desires to connect with others and stay informed about events",
+      "achievements": "Successfully sign up for events and find information about attendees"
+    },
+    "behaviors_patterns": {
+      "current_work_style": "Uses the website a couple of times a week",
+      "habits": "Checks the events calendar and looks up names before attending events"
+    },
+    "pain_points_frustrations": {
+      "obstacles": "Difficulty completing sign-ups on the website",
+      "issues": "Has experienced instances where sign-up wouldn't complete, leading to abandonment"
+    },
+    "needs_desires": {
+      "life_improvements": "A more reliable sign-up process",
+      "looking_for": "Easier access to event information and attendee details"
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Values being informed about event participants",
+      "preferences": "Prefers using the website over the app for most tasks"
+    },
+    "technical_comfort": {
+      "tools_used": "Website for event sign-ups and directory lookups",
+      "technical_abilities": "Comfortable with basic website navigation but hesitant with app usage",
+      "learning_preferences": "Learns through use and exploration, prefers not to download apps unnecessarily"
+    },
+    "quotes": [
+      "I go on to sign up for stuff.",
+      "It just wouldn't complete. Like when I was signing up for something, it didn't.",
+      "I like to have some idea of, gee, is anybody from Minnesota or does anybody, you know, what are they?"
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 33.json",
+    "interview_id": "New Recording 33"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:05:27.952571",
+    "version": "1.0"
+  }
+}

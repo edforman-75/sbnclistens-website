@@ -1,0 +1,52 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When I visit the website, I want to quickly access my signed-up events and upcoming events, so I can easily manage my participation.",
+      "current_solution": "Using the website to navigate to my events.",
+      "pain_points": [
+        "The website is cumbersome to navigate.",
+        "Lack of direct access to personalized information upon logging in."
+      ],
+      "desired_outcomes": "A more streamlined experience that allows me to find and manage my events easily.",
+      "success_criteria": "I can log in and immediately see my events and upcoming opportunities without extra clicks or confusion."
+    },
+    "emotional_jobs": {
+      "job_statement": "When I use the website, I want to feel confident and informed about my participation, so I can enjoy my experience without frustration.",
+      "current_solution": "Using the website, but feeling overwhelmed by navigation.",
+      "pain_points": [
+        "Feeling confused and frustrated due to the website's layout.",
+        "Worrying that I might miss important events."
+      ],
+      "desired_outcomes": "A sense of clarity and control over my event participation.",
+      "success_criteria": "I feel calm and satisfied when using the website, knowing I have all necessary information at my fingertips."
+    },
+    "social_jobs": {
+      "job_statement": "When I attend events, I want to be perceived as an engaged and active member, so I can build connections with others.",
+      "current_solution": "Participating in events that align with my interests.",
+      "pain_points": [
+        "Missing out on valuable events due to lack of guidance about their importance.",
+        "Not knowing how to better engage with the community."
+      ],
+      "desired_outcomes": "To be recognized as a knowledgeable and active participant in the community.",
+      "success_criteria": "Others acknowledge my participation and seek me out for social interactions at events."
+    },
+    "supporting_jobs": {
+      "job_statement": "When I first join, I want to receive guidance on valuable events to attend, so I can maximize my engagement from the start.",
+      "current_solution": "Trial and error in finding valuable events without clear guidance.",
+      "pain_points": [
+        "Not being aware of the importance of certain events like the meet and greet.",
+        "Feeling lost and uncertain about where to focus my efforts initially."
+      ],
+      "desired_outcomes": "To receive clear recommendations for events that will enhance my experience as a new member.",
+      "success_criteria": "I feel well-informed and excited about participating in events that are valuable to my integration into the community."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 28.json",
+    "interview_id": "New Recording 28"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:46:45.379477",
+    "version": "1.0"
+  }
+}

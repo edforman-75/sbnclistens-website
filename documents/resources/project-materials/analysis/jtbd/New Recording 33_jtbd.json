@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When I want to sign up for events, I want to complete the sign-up process smoothly, so I can participate in the events I\u2019m interested in.",
+      "current_solution": "Using the website to sign up for events.",
+      "pain_points": "Occasionally, the sign-up process does not complete, causing frustration and leading to abandonment.",
+      "desired_outcomes": "A seamless sign-up experience that allows me to register for events without issues.",
+      "success_criteria": "I can successfully sign up for events without encountering errors."
+    },
+    "emotional_jobs": {
+      "job_statement": "When I\u2019m preparing to attend an event, I want to feel informed and ready, so I can confidently engage with other attendees.",
+      "current_solution": "Looking up attendees in the directory to learn about them.",
+      "pain_points": "Not knowing attendees can lead to anxiety about social interactions at events.",
+      "desired_outcomes": "A sense of preparedness and confidence when meeting new people.",
+      "success_criteria": "I feel comfortable and knowledgeable about who I might meet at events."
+    },
+    "social_jobs": {
+      "job_statement": "When I attend events, I want to be perceived as knowledgeable and engaged, so I can build connections with others.",
+      "current_solution": "Using the website to research attendees and events.",
+      "pain_points": "Lack of information about attendees can make me feel unprepared and less confident.",
+      "desired_outcomes": "A positive social standing among peers, where I am seen as informed and approachable.",
+      "success_criteria": "I can initiate conversations easily and feel included in discussions."
+    },
+    "supporting_jobs": {
+      "job_statement": "When I want to find event details quickly, I want to access information easily, so I can make timely decisions about attending.",
+      "current_solution": "Checking the events calendar on the website.",
+      "pain_points": "Navigating the website can sometimes be cumbersome or confusing.",
+      "desired_outcomes": "Quick and easy access to event information without unnecessary delays.",
+      "success_criteria": "I can find event details within a few clicks and without frustration."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 33.json",
+    "interview_id": "New Recording 33"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:45:48.548275",
+    "version": "1.0"
+  }
+}

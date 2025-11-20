@@ -1,0 +1,110 @@
+{
+  "insights": [
+    {
+      "quote": "I only really care about like when I go to the site, I want to ... see, you know, what the goal of the organization is.",
+      "timestamp": null,
+      "significance": "Highlights the user's primary focus when visiting the site.",
+      "insight": "Users prioritize understanding the organization's purpose quickly.",
+      "category": "desire"
+    },
+    {
+      "quote": "I typically the events calendar view, just because it has it laid out in a way where I can ... see the various see more than I can with the list view.",
+      "timestamp": null,
+      "significance": "Reveals the user's preference for visual layouts over textual lists.",
+      "insight": "Users find visual representations of information more helpful in navigating events.",
+      "category": "behavior"
+    },
+    {
+      "quote": "If I see wait list, wait list, wait list for every single thing I'm interested in, then I kind of stop looking at the website too.",
+      "timestamp": null,
+      "significance": "Expresses frustration with repeated waitlisting, leading to disengagement.",
+      "insight": "Frequent waitlists discourage users from continuing to explore events.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think that creates extra, like, it sucks up more time for it causes more work for everybody.",
+      "timestamp": null,
+      "significance": "Indicates the user's concern about the impact of cancellation processes.",
+      "insight": "Users desire a more efficient way to cancel events to save time for themselves and organizers.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I just want to hit cancel if it turns out I can't make something.",
+      "timestamp": null,
+      "significance": "Directly expresses the user's need for a straightforward cancellation option.",
+      "insight": "Users want simplicity and ease in managing their event participation.",
+      "category": "desire"
+    },
+    {
+      "quote": "I think we could streamline the website to make it more minimal.",
+      "timestamp": null,
+      "significance": "Suggests a desire for a more organized and less cluttered user experience.",
+      "insight": "Users feel overwhelmed by excessive options and prefer a cleaner interface.",
+      "category": "desire"
+    },
+    {
+      "quote": "There's a lot of verbiage that I'm probably not going to read on the page.",
+      "timestamp": null,
+      "significance": "Reveals the user's tendency to skip over lengthy text.",
+      "insight": "Users prefer concise information and may overlook important details if overwhelmed by text.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I wasn't aware of the 20 to 40 somethings committee.",
+      "timestamp": null,
+      "significance": "Shows a disconnect between the organization's offerings and user awareness.",
+      "insight": "Users may miss out on relevant groups or events due to ineffective communication.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I don't go to the page ... it just doesn't really serve much purpose for me.",
+      "timestamp": null,
+      "significance": "Indicates that certain features of the website are not valuable to the user.",
+      "insight": "Not all content is relevant to users, leading to disengagement.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I mean, I guess ... it doesn't really matter to me.",
+      "timestamp": null,
+      "significance": "Reflects the user's lack of interest in certain website features.",
+      "insight": "Users may not see value in features that are not directly aligned with their needs.",
+      "category": "belief"
+    },
+    {
+      "quote": "It was really clear to me, you know, you want to meet people in the community.",
+      "timestamp": null,
+      "significance": "Affirms the primary motivation for joining the organization.",
+      "insight": "Community engagement is a key driver for users seeking membership.",
+      "category": "belief"
+    },
+    {
+      "quote": "I think it would be helpful to know which events still have openings.",
+      "timestamp": null,
+      "significance": "Expresses a desire for more transparency regarding event availability.",
+      "insight": "Users want to know their chances of participating in events to avoid disappointment.",
+      "category": "desire"
+    },
+    {
+      "quote": "I did go in the committees tab once ... because I wanted to see what else was.",
+      "timestamp": null,
+      "significance": "Indicates that users may only engage with certain features when they have a specific purpose.",
+      "insight": "User engagement with less popular features is driven by necessity rather than interest.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I think your point- I'm not saying it's too extra.",
+      "timestamp": null,
+      "significance": "Highlights the user's consideration of balancing functionality with simplicity.",
+      "insight": "Users recognize the need for a streamlined approach while valuing available features.",
+      "category": "belief"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_ElaineKim_11.15.25.json",
+    "interview_id": "SBNC_Interview_ElaineKim_11.15.25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:38:29.045316",
+    "version": "1.0"
+  }
+}

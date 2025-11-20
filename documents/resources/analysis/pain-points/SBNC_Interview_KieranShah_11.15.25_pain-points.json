@@ -1,0 +1,88 @@
+{
+  "painPoints": [
+    {
+      "description": "The website feels dated and uninviting.",
+      "supportingQuotes": [
+        "It feels very dated.",
+        "It looks like something that was kind of put together, and I don't want to offend anyone, but it looks like something that was very simply put together.",
+        "The color scheme is not very inviting or exciting either way."
+      ],
+      "frequencySeverity": "High - mentioned multiple times with strong emotional language.",
+      "currentWorkarounds": "User primarily used the app instead of the website.",
+      "impactOnUser": "User feels confused and overwhelmed by the website, leading to avoidance of it.",
+      "category": "quality"
+    },
+    {
+      "description": "Overwhelming amount of clubs and committees.",
+      "supportingQuotes": [
+        "There's an overwhelming amount of clubs and groups to join.",
+        "I did feel a little bit overwhelmed by the committees."
+      ],
+      "frequencySeverity": "Medium - mentioned a couple of times with moderate emotional impact.",
+      "currentWorkarounds": "User has to sift through and identify shared interests manually.",
+      "impactOnUser": "User may miss out on opportunities due to feeling overwhelmed and uncertain.",
+      "category": "emotional"
+    },
+    {
+      "description": "Lack of engaging features on the events page.",
+      "supportingQuotes": [
+        "Having a calendar would be very, very helpful.",
+        "It just doesn't seem inviting to me."
+      ],
+      "frequencySeverity": "Medium - specific suggestion for improvement.",
+      "currentWorkarounds": "User has to navigate through multiple pages to find event information.",
+      "impactOnUser": "User may find it difficult to stay informed about events, leading to less participation.",
+      "category": "effort"
+    },
+    {
+      "description": "Confusing homepage content and layout.",
+      "supportingQuotes": [
+        "The homepage looks like you're starting either a surfing club or a lifeguarding club.",
+        "It could be a homepage for any club."
+      ],
+      "frequencySeverity": "Medium - specifically commented on layout and clarity.",
+      "currentWorkarounds": "User has limited engagement with the homepage due to lack of clarity.",
+      "impactOnUser": "User may not understand the purpose of the organization, leading to disinterest.",
+      "category": "quality"
+    },
+    {
+      "description": "The contact page lacks an inviting design.",
+      "supportingQuotes": [
+        "Just doesn't look inviting.",
+        "It\u2019s just not very inviting."
+      ],
+      "frequencySeverity": "Low - mentioned once with mild concern.",
+      "currentWorkarounds": "User might not reach out for information due to lack of engagement.",
+      "impactOnUser": "User may not feel comfortable contacting the organization for help or information.",
+      "category": "emotional"
+    },
+    {
+      "description": "Website may not be mobile-friendly.",
+      "supportingQuotes": [
+        "I haven't looked at it from a mobile standpoint."
+      ],
+      "frequencySeverity": "Low - mentioned once.",
+      "currentWorkarounds": "User may attempt to access the site on mobile but could face usability issues.",
+      "impactOnUser": "User may have a difficult experience accessing information on mobile devices.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of translation features for accessibility.",
+      "supportingQuotes": [
+        "It needs to have a translation aspect to it."
+      ],
+      "frequencySeverity": "Low - mentioned once.",
+      "currentWorkarounds": "User may need to find alternative resources for translation.",
+      "impactOnUser": "Users who need translation may feel excluded from accessing information.",
+      "category": "social"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_KieranShah_11.15.25.json",
+    "interview_id": "SBNC_Interview_KieranShah_11.15.25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:57:30.856971",
+    "version": "1.0"
+  }
+}

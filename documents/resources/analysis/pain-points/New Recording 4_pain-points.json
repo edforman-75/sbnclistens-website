@@ -1,0 +1,96 @@
+{
+  "pain_points": [
+    {
+      "description": "The website looks outdated and uninviting.",
+      "supporting_quotes": [
+        "It just feels like an old person's home",
+        "It looks like a 20-year-old website."
+      ],
+      "frequency_severity": {
+        "frequency": "High",
+        "severity": "High"
+      },
+      "current_workarounds": "Users may try to ignore the design or adapt to it, but it's not a satisfactory solution.",
+      "impact_on_user": "Users may feel disconnected or less engaged with the community.",
+      "category": "emotional"
+    },
+    {
+      "description": "Difficulty in finding specific events and information on the website.",
+      "supporting_quotes": [
+        "I find difficulty in accessing on the website.",
+        "I'm often looking for what events am I registered to.",
+        "I'm often looking for who else is going to the events that I'm going to."
+      ],
+      "frequency_severity": {
+        "frequency": "High",
+        "severity": "High"
+      },
+      "current_workarounds": "Users may resort to contacting support or searching through multiple pages manually.",
+      "impact_on_user": "Frustration and wasted time leading to lower satisfaction with the service.",
+      "category": "time"
+    },
+    {
+      "description": "Lack of community resources and information for newcomers.",
+      "supporting_quotes": [
+        "Wouldn't it be great if we could just have an area that's questions from people moving to Santa Barbara.",
+        "I just think that that would be a great resource for the club to offer."
+      ],
+      "frequency_severity": {
+        "frequency": "Medium",
+        "severity": "Medium"
+      },
+      "current_workarounds": "Newcomers may seek information elsewhere, such as other websites or community forums.",
+      "impact_on_user": "Newcomers may feel lost or unsupported in their transition.",
+      "category": "emotional"
+    },
+    {
+      "description": "Need for improved self-service options for customer support.",
+      "supporting_quotes": [
+        "I'd like to have it be more self-service when it comes to customer support.",
+        "Too often, it's the simplest issues that get people hung up."
+      ],
+      "frequency_severity": {
+        "frequency": "Medium",
+        "severity": "High"
+      },
+      "current_workarounds": "Users may reach out for help via email or phone, which can be time-consuming.",
+      "impact_on_user": "Increased frustration and reduced efficiency in resolving issues.",
+      "category": "effort"
+    },
+    {
+      "description": "Need for better event calendar functionality.",
+      "supporting_quotes": [
+        "I think we could do a whole lot better.",
+        "To improve the calendar app, just to make it much easier to find events through browsing as well as searching."
+      ],
+      "frequency_severity": {
+        "frequency": "Medium",
+        "severity": "Medium"
+      },
+      "current_workarounds": "Users may use external calendars or reminders to keep track of events.",
+      "impact_on_user": "Users miss out on events or feel overwhelmed by the process of finding them.",
+      "category": "time"
+    },
+    {
+      "description": "Desire for a help feature or chatbot for new users.",
+      "supporting_quotes": [
+        "Kind of provide more of a route for new users to make it easy for them to do what they want to do."
+      ],
+      "frequency_severity": {
+        "frequency": "Low",
+        "severity": "Medium"
+      },
+      "current_workarounds": "Users may rely on existing support channels or community members for assistance.",
+      "impact_on_user": "New users may feel unsupported and overwhelmed.",
+      "category": "emotional"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 4.json",
+    "interview_id": "New Recording 4"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:55:30.003274",
+    "version": "1.0"
+  }
+}

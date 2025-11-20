@@ -1,0 +1,37 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "I'm just returning Ed Borman's phone call.",
+      "I got his message this morning.",
+      "I'm sorry I didn't call back sooner.",
+      "He said he had some leaks that he wanted to get looked at.",
+      "If you guys still need a hand with that stuff, let me know."
+    ],
+    "THINKS": [
+      "I need to manage my messages better to avoid missing important calls.",
+      "I hope Ed is still interested in my help despite the delay.",
+      "I feel guilty for not responding promptly and fear it might affect my reputation.",
+      "I should follow up on my other messages to ensure nothing else is overlooked."
+    ],
+    "DOES": [
+      "Returns phone calls to maintain communication with clients.",
+      "Acknowledges missed messages and apologizes for the delay.",
+      "Offers assistance with the specific issue mentioned (leaks).",
+      "Provides his contact information proactively."
+    ],
+    "FEELS": [
+      "Frustrated about losing track of messages, leading to delays.",
+      "Anxious about the potential impact of his late response on client relationships.",
+      "Relieved to have the opportunity to follow up and help.",
+      "Concerned about maintaining a professional image and reliability."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/voicemail-695 2.json",
+    "interview_id": "voicemail-695 2"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:42:04.031293",
+    "version": "1.0"
+  }
+}

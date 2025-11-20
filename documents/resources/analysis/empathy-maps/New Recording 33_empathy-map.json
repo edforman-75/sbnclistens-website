@@ -1,0 +1,42 @@
+{
+  "empathyMap": {
+    "SAYS": [
+      "I go on, you know, to sign up for stuff.",
+      "Generally it's gone pretty well.",
+      "I have on occasion... it just wouldn't complete.",
+      "I just gave up and came back later.",
+      "I go to the directory to look people up.",
+      "I use it for that too.",
+      "I use it to look at the events calendar."
+    ],
+    "THINKS": [
+      "I want to understand who I might meet at events.",
+      "It\u2019s important for me to feel prepared before attending an event.",
+      "The website should be user-friendly and reliable.",
+      "I might feel hesitant to fully rely on the app if I have to download it.",
+      "I hope that technical issues won't prevent me from signing up for events."
+    ],
+    "DOES": [
+      "Uses the website a couple of times a week.",
+      "Signs up for events through the website.",
+      "Looks up names in the directory before attending events.",
+      "Checks the events calendar regularly.",
+      "Occasionally uses the website on her phone to check event details."
+    ],
+    "FEELS": [
+      "Frustrated when the sign-up process fails.",
+      "Relieved when things work smoothly.",
+      "Curious about the people she might meet at events.",
+      "Cautious about using the app due to download concerns.",
+      "Determined to find out more about event attendees."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 33.json",
+    "interview_id": "New Recording 33"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:41:26.680844",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we enhance the event discovery experience on the website by introducing better organization and filtering options?",
+      "evidence": "I do think it would be nice if you organized the events... Put those in their own section or have a way to filter for that.",
+      "user_need": "Users need more efficient ways to filter and find relevant events based on age groups.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we better understand and address the challenges faced by users who prefer the website over the app?",
+      "evidence": "I actually use the Wild Apricot app more than the website. So I couldn't tell you what challenges the website might have.",
+      "user_need": "Users need clarity on the specific challenges that exist on the website to improve their overall experience.",
+      "potential_impact": "Medium",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we create a feedback loop to gather insights from users about their experiences on the website?",
+      "evidence": "I'd be curious what other people's challenges are.",
+      "user_need": "Users need a way to share their experiences and challenges to inform website improvements.",
+      "potential_impact": "Medium",
+      "type": "support"
+    },
+    {
+      "opportunity_statement": "How might we promote the website's features to users who primarily use the app?",
+      "evidence": "I use the app... I haven't ever had a challenge.",
+      "user_need": "Users need awareness of the website's functionalities that may complement their app usage.",
+      "potential_impact": "Medium",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we enhance the onboarding experience for new users joining the website?",
+      "evidence": "It was very easy from what I remember. Smooth.",
+      "user_need": "New users need a seamless onboarding process that is easy to navigate.",
+      "potential_impact": "Low",
+      "type": "improvement"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 36.json",
+    "interview_id": "New Recording 36"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:01:11.139039",
+    "version": "1.0"
+  }
+}

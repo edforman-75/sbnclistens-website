@@ -1,0 +1,1707 @@
+{
+  "pain_points": [
+    {
+      "description": "Difficulty navigating the website compared to the app.",
+      "supporting_quotes": [
+        "I feel like I'm, I have to go back a lot more steps that way than with the app.",
+        "Now that I put the app on my phone, it is much easier than the website."
+      ],
+      "frequency_severity": "High - frequently mentioned and strongly felt.",
+      "current_workarounds": "Using the app instead of the website.",
+      "impact_on_user": "Leads to frustration and inefficiency when trying to find event information.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of a search function on the website.",
+      "supporting_quotes": [
+        "I noticed it's the app has a search bar, a search field and you can put in a keyword and it'll bring up that but on the website, it doesn't."
+      ],
+      "frequency_severity": "Moderate - mentioned as a point of frustration.",
+      "current_workarounds": "Manually scrolling through the calendar.",
+      "impact_on_user": "Increases time spent trying to locate specific events.",
+      "category": "time"
+    },
+    {
+      "description": "Inability to easily find previously signed-up events.",
+      "supporting_quotes": [
+        "No, I actually haven't. Yeah. I look at my emails to see what I've signed up for."
+      ],
+      "frequency_severity": "Moderate - noted as inconvenient.",
+      "current_workarounds": "Checking email for event confirmations.",
+      "impact_on_user": "Causes confusion and uncertainty about event participation.",
+      "category": "time"
+    },
+    {
+      "description": "Issues with event registration visibility and capacity.",
+      "supporting_quotes": [
+        "Sometimes, I think it's a little frustrating it'll be like a hold the date or that it'll be. Oh, it's registration full but then there's no names.",
+        "I have seen events that I was interested in that were sold out. But you couldn't join the waitlist."
+      ],
+      "frequency_severity": "Moderate - affects decision-making for events.",
+      "current_workarounds": "Contacting committee chairs for information.",
+      "impact_on_user": "Limits opportunities to participate in desired events.",
+      "category": "quality"
+    },
+    {
+      "description": "Lack of visibility for alumni members in the directory.",
+      "supporting_quotes": [
+        "I couldn't find it so that's why I messaged you.",
+        "How do they find each other after they're done?"
+      ],
+      "frequency_severity": "Moderate - impacts networking opportunities.",
+      "current_workarounds": "Directly asking current members for contact info.",
+      "impact_on_user": "Hinders ability to reconnect with former members.",
+      "category": "social"
+    },
+    {
+      "description": "Unclear refund process for event cancellations.",
+      "supporting_quotes": [
+        "I canceled something and I was supposed to get and I didn't get a refund.",
+        "I think I actually mentioned that to you. And I never did."
+      ],
+      "frequency_severity": "Moderate - creates distrust in the process.",
+      "current_workarounds": "Following up via email with committee chairs.",
+      "impact_on_user": "Generates frustration and concerns about financial transactions.",
+      "category": "money"
+    },
+    {
+      "description": "Absence of a centralized bulletin for announcements and updates.",
+      "supporting_quotes": [
+        "I don't think like we have anything like that on our website.",
+        "You need to have it readily available and accessible."
+      ],
+      "frequency_severity": "Moderate - noted as a missed opportunity for communication.",
+      "current_workarounds": "Relying on email updates.",
+      "impact_on_user": "Missed information and potential engagement opportunities.",
+      "category": "time"
+    },
+    {
+      "description": "Inadequate training processes for new committee chairs and vice presidents.",
+      "supporting_quotes": [
+        "The training process that is undertaken in good faith is really not adequate.",
+        "The venue for training has been woefully inadequate."
+      ],
+      "frequency_severity": "High - identified as a critical barrier to effective event management.",
+      "current_workarounds": "Experienced members may provide informal training to newcomers.",
+      "impact_on_user": "Leads to confusion and inefficiencies in event planning, impacting overall satisfaction.",
+      "category": "effort"
+    },
+    {
+      "description": "Issues with clarity and transparency in event descriptions and scheduling.",
+      "supporting_quotes": [
+        "Sometimes the event descriptions... were not as transparent or not as clear as they could be."
+      ],
+      "frequency_severity": "Medium - mentioned as a downside that affects user understanding.",
+      "current_workarounds": "Users may reach out to event organizers for clarification.",
+      "impact_on_user": "Can lead to missed events or misunderstandings about event details.",
+      "category": "quality"
+    },
+    {
+      "description": "Need for printed name tags for events to assist with registration verification.",
+      "supporting_quotes": [
+        "I felt very strongly about having formal printed name tags for our events.",
+        "That was a clue that that person may not have been registered or may not have been registered properly."
+      ],
+      "frequency_severity": "Medium - highlighted as a significant aspect for large events.",
+      "current_workarounds": "Currently rely on handwritten name tags, which create confusion.",
+      "impact_on_user": "Important for event management and ensuring attendees are registered, impacts user experience.",
+      "category": "quality"
+    },
+    {
+      "description": "Lack of a dedicated technical person to manage the system and support event planning.",
+      "supporting_quotes": [
+        "There ought to be a paid technical kind of person that really could be there... as the glue to hold together all the aspects."
+      ],
+      "frequency_severity": "High - suggested as a necessary improvement for better functionality.",
+      "current_workarounds": "Current members often have to fill this role informally without official support.",
+      "impact_on_user": "Hinders the effectiveness of event planning and increases the workload on committee members.",
+      "category": "effort"
+    },
+    {
+      "description": "The website's design and usability are outdated and unappealing.",
+      "supporting_quotes": [
+        "I just find it to be really drab. The photography is boring. The fonts are boring. The colors are boring.",
+        "It's just very stale and old-fashioned compared to anything.",
+        "It's not very friendly."
+      ],
+      "frequency_severity": {
+        "frequency": "Frequently mentioned",
+        "severity": "High emotional intensity"
+      },
+      "current_workarounds": "Users navigate the site but find it difficult to locate information.",
+      "impact_on_user": "Users may feel disengaged and less likely to join or participate in club activities.",
+      "category": "quality"
+    },
+    {
+      "description": "The membership sign-up process is not intuitive and hard to find.",
+      "supporting_quotes": [
+        "If I were on the website and not logged in, I don't know how you... where do I find out about becoming a member?",
+        "It takes you to a... it doesn't tell you anything about us."
+      ],
+      "frequency_severity": {
+        "frequency": "Occasionally mentioned",
+        "severity": "Moderate emotional intensity"
+      },
+      "current_workarounds": "Users have to search extensively for the membership link.",
+      "impact_on_user": "Potential members might give up on signing up due to frustration.",
+      "category": "effort"
+    },
+    {
+      "description": "Communication and collaboration tools for committee members are inadequate.",
+      "supporting_quotes": [
+        "I wish that there was a way... I'm much better off texting sometimes than emailing, and I hate reply all.",
+        "I try to set up like some kind of a smaller group text just for that particular event."
+      ],
+      "frequency_severity": {
+        "frequency": "Occasionally mentioned",
+        "severity": "Moderate emotional intensity"
+      },
+      "current_workarounds": "Users create group texts for communication.",
+      "impact_on_user": "Communication inefficiencies can lead to disorganization and confusion.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of a community forum for members to share recommendations and advice.",
+      "supporting_quotes": [
+        "I wish that there was even a member event where they, or part of new member orientation that would include how to get your driver's license.",
+        "If there were some closed forum that was like that would be a huge help to current members."
+      ],
+      "frequency_severity": {
+        "frequency": "Rarely mentioned",
+        "severity": "High emotional intensity"
+      },
+      "current_workarounds": "Members rely on informal networks for advice.",
+      "impact_on_user": "New members feel lost and unsupported in navigating the community.",
+      "category": "social"
+    },
+    {
+      "description": "Website content is not organized effectively, making it hard to find important information.",
+      "supporting_quotes": [
+        "Too many words and not enough bullet points.",
+        "It's just... you have to dig through a little bit."
+      ],
+      "frequency_severity": {
+        "frequency": "Frequently mentioned",
+        "severity": "Moderate emotional intensity"
+      },
+      "current_workarounds": "Users spend extra time searching for information.",
+      "impact_on_user": "Users may miss important events or information, impacting participation.",
+      "category": "time"
+    },
+    {
+      "description": "Difficulty in identifying new events and their posting times.",
+      "supporting_quotes": [
+        "when I... It'll come up on my phone. New events posted. And then I go into the events and I'm like, how the heck am I supposed to know which one was posted and when did it open?",
+        "it's hard to find out. I'm just putting this for the record."
+      ],
+      "frequency_severity": "High frequency mentioned, with a strong frustration expressed.",
+      "current_workarounds": "No specific workaround mentioned; user relies on notifications.",
+      "impact_on_user": "Leads to confusion and potentially missing out on events.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of clear visual indication for new events.",
+      "supporting_quotes": [
+        "it'd be nice if it was... Here's all the new stuff. It's easy to find.",
+        "maybe a different color or something."
+      ],
+      "frequency_severity": "Moderate frequency; user expresses a desire for improvement.",
+      "current_workarounds": "User manually searches for updates; no efficient solution.",
+      "impact_on_user": "Increases time spent searching for relevant information, leading to frustration.",
+      "category": "time"
+    },
+    {
+      "description": "Confusion between the app and website functionality.",
+      "supporting_quotes": [
+        "the app works better, but they're completely separate.",
+        "I did not know."
+      ],
+      "frequency_severity": "Moderate frequency; user expresses confusion.",
+      "current_workarounds": "User chooses to use the app over the website.",
+      "impact_on_user": "Leads to uncertainty about features and potential missed functionalities.",
+      "category": "quality"
+    },
+    {
+      "description": "Unclear pricing information until after clicking into events.",
+      "supporting_quotes": [
+        "it'd be nice to see the price, too. Before you click into it.",
+        "Oh, $100? No."
+      ],
+      "frequency_severity": "Moderate frequency; user expresses concern for hidden costs.",
+      "current_workarounds": "User checks prices after clicking into events, leading to potential frustration.",
+      "impact_on_user": "Unnecessary effort to discover costs can lead to disappointment and wasted time.",
+      "category": "effort"
+    },
+    {
+      "description": "Cumbersome website navigation",
+      "supporting_quotes": [
+        "I find the website a little cumbersome.",
+        "I would love to be able to go on and once you log in, then it sends you right to your page where these are the things you've signed up for and upcoming events for you."
+      ],
+      "frequency_severity": {
+        "frequency": "Frequently mentioned",
+        "severity": "Moderate"
+      },
+      "current_workarounds": "Uses the Apricot app which is easier.",
+      "impact_on_user": "Makes it difficult to quickly access relevant information, leading to frustration.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of clear guidance during initial sign-up",
+      "supporting_quotes": [
+        "I think there were some early on things that we missed because it just wasn't clear that, oh, it's valuable to attend the meet and greet or it's valuable to attend some of the other things."
+      ],
+      "frequency_severity": {
+        "frequency": "Occasionally mentioned",
+        "severity": "Moderate"
+      },
+      "current_workarounds": "Attended events based on personal interest without guidance.",
+      "impact_on_user": "Leads to missed opportunities for valuable experiences and connections.",
+      "category": "social"
+    },
+    {
+      "description": "Lack of visibility on waitlist numbers for events.",
+      "supporting_quotes": [
+        "Does it tell you how many people are on the wait list for a given event?",
+        "If there's 20 people on it, how many are you going to buy?",
+        "If there's one or two..."
+      ],
+      "frequency_severity": "Frequently expressed as a concern, indicating it is a significant issue for users.",
+      "current_workarounds": "Users may guess or assume the availability based on previous experiences, but this is not reliable.",
+      "impact_on_user": "Users may miss out on events or make poor purchasing decisions due to uncertainty about waitlist numbers.",
+      "category": "quality"
+    },
+    {
+      "description": "Need for printed name tags for events to ensure proper registration and identification.",
+      "supporting_quotes": [
+        "I felt very strongly about having formal printed name tags for our events.",
+        "If I saw anyone walking around with the name tag... that was a clue that that person may not have been registered."
+      ],
+      "frequency_severity": "Medium - Emphasized as important for large events but not a frequent issue.",
+      "current_workarounds": "Using handwritten name tags but relying on them is problematic.",
+      "impact_on_user": "Helps identify attendees and manage registrations effectively, reducing confusion.",
+      "category": "quality"
+    },
+    {
+      "description": "Difficulty in managing event logistics, particularly with cancellations and waitlists.",
+      "supporting_quotes": [
+        "How do you manage a wait list? All of that is important.",
+        "Having someone serving as a VP for activities... who had not been previously already working with the system... was really a negative."
+      ],
+      "frequency_severity": "Medium - Highlighted as a critical element for successful events.",
+      "current_workarounds": "Potentially relying on more experienced members to manage logistics informally.",
+      "impact_on_user": "Can lead to attendee dissatisfaction if not managed properly, impacting overall event success.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of onboarding resources for new users",
+      "supporting_quotes": [
+        "it would be very useful if there was a way that we could walk new people through how to use the website",
+        "the people that are sort of non-very computer literate would have a better experience up front"
+      ],
+      "frequency_severity": "High - frequently mentioned, emotional intensity reflects frustration with lack of support for new users",
+      "current_workarounds": "Attending orientation or finding a knowledgeable person for personal guidance",
+      "impact_on_user": "New users face challenges using the website effectively, leading to frustration and potential disengagement",
+      "category": "effort"
+    },
+    {
+      "description": "Difficulties with website navigation",
+      "supporting_quotes": [
+        "the navigation can be improved because people have a hard time finding where they want to go",
+        "I think it would be also good if the navigation was segmented by category"
+      ],
+      "frequency_severity": "High - mentioned multiple times with emotional emphasis on frustration",
+      "current_workarounds": "Users may guess or randomly click through the site, leading to wasted time",
+      "impact_on_user": "Users may become frustrated and give up trying to find information, leading to a poor user experience",
+      "category": "time"
+    },
+    {
+      "description": "Unclear event scheduling and availability information",
+      "supporting_quotes": [
+        "it would be really important to include the day of the week of the events",
+        "if you sign up for the waiting list, it's not clear how many people are on the waiting list"
+      ],
+      "frequency_severity": "Moderate - mentioned with clear frustration but less frequently than onboarding and navigation issues",
+      "current_workarounds": "Users may contact support or try to find information elsewhere",
+      "impact_on_user": "Users may miss out on events or feel uncertain about their participation, leading to a less satisfying experience",
+      "category": "quality"
+    },
+    {
+      "description": "Lack of pricing information for events",
+      "supporting_quotes": [
+        "it might be good to have that be also available in the summary"
+      ],
+      "frequency_severity": "Moderate - mentioned as an important improvement but not as strongly emphasized as other points",
+      "current_workarounds": "Users may have to click into each event to find pricing or avoid events with unclear costs",
+      "impact_on_user": "Potential users may be discouraged from signing up for events upon discovering high costs, affecting attendance",
+      "category": "money"
+    },
+    {
+      "description": "Difficulty returning to the calendar of events after viewing an event.",
+      "supporting_quotes": [
+        "each time I want to go back to the calendar of events... it goes back to the beginning of like many months ago.",
+        "I have to scroll down, try to find it."
+      ],
+      "frequency_severity": "Frequently frustrating; described as the only frustrating aspect.",
+      "current_workarounds": "Manually scroll to find the desired date.",
+      "impact_on_user": "Increases time spent navigating the site, causing annoyance.",
+      "category": "time"
+    },
+    {
+      "description": "Initial confusion regarding the display of event days.",
+      "supporting_quotes": [
+        "it often would put the date... but it doesn't say what day of the week it is.",
+        "it was changed. So now it says Friday, November 14th."
+      ],
+      "frequency_severity": "Mentioned as an issue that was resolved; not currently a problem.",
+      "current_workarounds": "Previously relied on remembering which day it was.",
+      "impact_on_user": "Reduced ability to quickly assess event availability.",
+      "category": "quality"
+    },
+    {
+      "description": "Desire for better visual appeal of the website.",
+      "supporting_quotes": [
+        "it's not super pretty... but it's not bad.",
+        "I think it needs to be prettied up a little bit."
+      ],
+      "frequency_severity": "Mentioned as a general opinion; not a direct frustration.",
+      "current_workarounds": "No workarounds; acceptance of current state.",
+      "impact_on_user": "May affect users who prefer more visually appealing websites.",
+      "category": "emotional"
+    },
+    {
+      "description": "Lack of information about alumni events and access post-membership.",
+      "supporting_quotes": [
+        "I know that I'll be popped out of like seeing full calendar...",
+        "how do I find out about those when we graduate?"
+      ],
+      "frequency_severity": "Expressed concern; not a current issue but a future worry.",
+      "current_workarounds": "No current workarounds; reliance on communication from the organization.",
+      "impact_on_user": "Creates anxiety about missing events and staying connected.",
+      "category": "social"
+    },
+    {
+      "description": "Complexity of job forms and related technology.",
+      "supporting_quotes": [
+        "the job form is a nightmare for most.",
+        "it was too complicated, all the technology."
+      ],
+      "frequency_severity": "Noted as a significant frustration for multiple users.",
+      "current_workarounds": "Delegating the task to others familiar with the technology.",
+      "impact_on_user": "Limits participation in events that require job forms.",
+      "category": "effort"
+    },
+    {
+      "description": "The website has an outdated and unappealing design.",
+      "supporting_quotes": [
+        "It just feels like an old person's home.",
+        "It looks like a 20-year-old website."
+      ],
+      "frequency_severity": "High - frequently mentioned as a primary concern.",
+      "current_workarounds": "None mentioned.",
+      "impact_on_user": "Decreases engagement and trust in the website.",
+      "category": "emotional"
+    },
+    {
+      "description": "Difficulty in finding specific information on the website.",
+      "supporting_quotes": [
+        "I'm often looking for a particular event to register for.",
+        "I'm often looking for what events am I registered to.",
+        "I find difficulty in accessing...what events have openings this coming week."
+      ],
+      "frequency_severity": "High - frequently emphasized as a major issue.",
+      "current_workarounds": "Users may resort to contacting support or searching multiple times.",
+      "impact_on_user": "Frustration and wasted time can lead to missed opportunities.",
+      "category": "time"
+    },
+    {
+      "description": "Lack of community resources and basic information for newcomers.",
+      "supporting_quotes": [
+        "Wouldn't it be great if we could just have an area that's questions from people moving to Santa Barbara?",
+        "Basic information, where to register to vote, where to pay your taxes, how to get a driver's license."
+      ],
+      "frequency_severity": "Moderate - mentioned as a valuable addition.",
+      "current_workarounds": "Users may look for this information elsewhere, such as on other websites or forums.",
+      "impact_on_user": "Increased anxiety and confusion for newcomers.",
+      "category": "quality"
+    },
+    {
+      "description": "Need for self-service options in customer support.",
+      "supporting_quotes": [
+        "I'd like to have it be more self-service when it comes to customer support.",
+        "Too often, it's the simplest issues that get people hung up."
+      ],
+      "frequency_severity": "Moderate - mentioned as a way to improve user satisfaction.",
+      "current_workarounds": "Users currently rely on direct support from admins or other members.",
+      "impact_on_user": "Increased frustration and dependency on others for simple issues.",
+      "category": "effort"
+    },
+    {
+      "description": "Inefficient calendar app for finding events.",
+      "supporting_quotes": [
+        "I think we could do a whole lot better with the calendar app, just to make it much easier to find events."
+      ],
+      "frequency_severity": "Moderate - noted as a priority for improvement.",
+      "current_workarounds": "Users may manually check events or use external calendars.",
+      "impact_on_user": "Leads to potential missed events and decreased participation.",
+      "category": "time"
+    },
+    {
+      "description": "Lack of a support feature like a chatbot for immediate assistance.",
+      "supporting_quotes": [
+        "Perhaps would be a question mark in the corner, which got one to help or chatbot..."
+      ],
+      "frequency_severity": "Low - mentioned as a suggestion for improvement.",
+      "current_workarounds": "Users may resort to emailing the webmaster or searching FAQ sections.",
+      "impact_on_user": "Delays in getting help can lead to frustration.",
+      "category": "effort"
+    },
+    {
+      "description": "Inconsistent sign-up process on the website.",
+      "supporting_quotes": [
+        "It just wouldn't complete. Like when I was signing up for something, it didn't.",
+        "So then I just gave up and came back later."
+      ],
+      "frequency_severity": {
+        "frequency": "Occasional",
+        "severity": "Moderate"
+      },
+      "current_workarounds": "User gives up and returns later.",
+      "impact_on_user": "Frustrates the user and causes delays in signing up for events.",
+      "category": "effort"
+    },
+    {
+      "description": "Difficulty in navigating the app and lack of clarity on its necessity.",
+      "supporting_quotes": [
+        "I don\u2019t think I\u2019ve downloaded the app.",
+        "Do you have to download the app to use it?"
+      ],
+      "frequency_severity": {
+        "frequency": "Infrequent",
+        "severity": "Low"
+      },
+      "current_workarounds": "User uses the website instead of the app.",
+      "impact_on_user": "Creates uncertainty about whether the app is needed, leading to underutilization.",
+      "category": "effort"
+    },
+    {
+      "description": "Limited information about attendees at events.",
+      "supporting_quotes": [
+        "I look them up just to see what they say about themselves.",
+        "Just because I like to have some idea of, gee, is anybody from Minnesota or does anybody, you know, what are they?"
+      ],
+      "frequency_severity": {
+        "frequency": "Frequent",
+        "severity": "Moderate"
+      },
+      "current_workarounds": "User searches the directory for information about other attendees.",
+      "impact_on_user": "May lead to anxiety about networking and attending events.",
+      "category": "emotional"
+    },
+    {
+      "description": "Need for better event calendar functionality.",
+      "supporting_quotes": [
+        "I use it to look at the events calendar."
+      ],
+      "frequency_severity": {
+        "frequency": "Frequent",
+        "severity": "Low"
+      },
+      "current_workarounds": "User manually checks the calendar.",
+      "impact_on_user": "Can lead to missed events or confusion about event details.",
+      "category": "time"
+    },
+    {
+      "description": "Misplaced messages leading to delayed responses.",
+      "supporting_quotes": [
+        "I misplaced a couple other messages along with his.",
+        "I'm sorry I didn't call back sooner."
+      ],
+      "frequency_severity": "High - Frequent issue causing delays in communication.",
+      "current_workarounds": "Manually checking messages regularly, but still results in delays.",
+      "impact_on_user": "Leads to frustration and potential loss of business opportunities.",
+      "category": "time"
+    },
+    {
+      "description": "Uncertainty about the status of clients' needs.",
+      "supporting_quotes": [
+        "He said he had some leaks that he wanted to get looked at."
+      ],
+      "frequency_severity": "Medium - Occasional but can be significant depending on the urgency of the client's needs.",
+      "current_workarounds": "Following up with clients for updates, but this can take time.",
+      "impact_on_user": "Creates anxiety about client satisfaction and operational efficiency.",
+      "category": "emotional"
+    },
+    {
+      "description": "Lack of event organization and filtering on the website.",
+      "supporting_quotes": [
+        "It would be nice if you organized the events.",
+        "Put those in their own section or have a way to filter for that.",
+        "I'm reading, oh, 20 to 40, can't do it. Yeah, I'm too young."
+      ],
+      "frequency_severity": "Moderate - mentioned as a preference but not a significant barrier.",
+      "current_workarounds": "User relies on the Wild Apricot app for event information.",
+      "impact_on_user": "Creates frustration when navigating the website, leading to missed opportunities for events.",
+      "category": "effort"
+    },
+    {
+      "description": "The website feels dated and confusing, lacking clear branding.",
+      "supporting_quotes": [
+        "The website appears very dated.",
+        "You could mistake it for another website here in Santa Barbara.",
+        "It looks like something that was kind of put together."
+      ],
+      "frequency_severity": "High - repeatedly mentioned and emphasized as a major issue.",
+      "current_workarounds": "User prefers using the app instead of the website.",
+      "impact": "Users may not engage with the website or understand the offerings, leading to lost opportunities.",
+      "category": "quality"
+    },
+    {
+      "description": "Overwhelming amount of clubs and groups to choose from.",
+      "supporting_quotes": [
+        "There\u2019s an overwhelming amount of clubs and groups to join.",
+        "I did feel a little bit overwhelmed by the committees."
+      ],
+      "frequency_severity": "Medium - mentioned once but with significant emotional weight.",
+      "current_workarounds": "User focused on a few committees of interest but still found it daunting.",
+      "impact": "Users may feel discouraged or confused, potentially leading to disengagement.",
+      "category": "emotional"
+    },
+    {
+      "description": "Lack of engaging and user-friendly event calendar.",
+      "supporting_quotes": [
+        "Having a calendar would be very, very helpful.",
+        "It just doesn't seem inviting to me."
+      ],
+      "frequency_severity": "High - user mentioned this as a key need.",
+      "current_workarounds": "User accesses event information through the app instead.",
+      "impact": "Without an engaging calendar, users may miss events or lose interest.",
+      "category": "time"
+    },
+    {
+      "description": "Homepage content is not engaging or specific enough.",
+      "supporting_quotes": [
+        "The homepage looks like you're starting either a surfing club or a lifeguarding club.",
+        "It could be a homepage for any club."
+      ],
+      "frequency_severity": "Medium - highlighted as a significant issue.",
+      "current_workarounds": "User did not rely on the homepage, preferring other methods.",
+      "impact": "Users may not realize the unique offerings of the newcomers group, leading to lesser engagement.",
+      "category": "quality"
+    },
+    {
+      "description": "Too much text and detail on key pages.",
+      "supporting_quotes": [
+        "Too many words. It's way too much detail.",
+        "You need to shorten that up and then make it pop."
+      ],
+      "frequency_severity": "Medium - mentioned as an area of improvement.",
+      "current_workarounds": "No specific workaround mentioned; user may skim or skip content.",
+      "impact": "Users may overlook important information, leading to misunderstandings.",
+      "category": "quality"
+    },
+    {
+      "description": "Contact page feels bland and uninviting.",
+      "supporting_quotes": [
+        "Just doesn't look inviting.",
+        "It's just not very inviting."
+      ],
+      "frequency_severity": "Low - mentioned briefly as part of overall feedback.",
+      "current_workarounds": "No specific workaround mentioned.",
+      "impact": "Users may hesitate to reach out or contact the organization.",
+      "category": "emotional"
+    },
+    {
+      "description": "Issues with social media integration and appearance.",
+      "supporting_quotes": [
+        "I think it makes you look very small.",
+        "Some of the pictures are blank."
+      ],
+      "frequency_severity": "Low - mentioned but not a central issue.",
+      "current_workarounds": "User may not rely on this integration.",
+      "impact": "Could affect the organization's perceived credibility and appeal.",
+      "category": "social"
+    },
+    {
+      "description": "Website may not be mobile-friendly or accessible.",
+      "supporting_quotes": [
+        "You'll just want to make sure that it's mobile friendly.",
+        "There\u2019s a regulation with the website that it needs to have a translation aspect."
+      ],
+      "frequency_severity": "Medium - noted as a concern but not elaborated on in detail.",
+      "current_workarounds": "No workarounds mentioned; uncertainty about current mobile experience.",
+      "impact": "Could limit access for users on mobile devices, affecting overall engagement.",
+      "category": "quality"
+    },
+    {
+      "description": "The website has an outdated and unattractive design.",
+      "supporting_quotes": [
+        "It just feels like an old person's home, and it just could be spiffed up a lot with better photography, better typography, better layout.",
+        "It looks like a 20-year-old website."
+      ],
+      "frequency_severity": "High - frequently mentioned and emotionally charged.",
+      "current_workarounds": "None mentioned.",
+      "impact_on_user": "Makes users feel disengaged and less likely to explore the website.",
+      "category": "emotional"
+    },
+    {
+      "description": "Difficulty in finding relevant information and events on the website.",
+      "supporting_quotes": [
+        "I find difficulty in accessing on the website.",
+        "What I'm often looking for is a particular event to register for."
+      ],
+      "frequency_severity": "High - mentioned multiple times with frustration.",
+      "current_workarounds": "Users may resort to external sources or contacting others for information.",
+      "impact_on_user": "Frustration and potential loss of interest in participating in events.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of community resources and information for newcomers.",
+      "supporting_quotes": [
+        "Wouldn't it be great if we could just have an area that's questions from people moving to Santa Barbara?",
+        "I just think that would be a great resource for the club to offer."
+      ],
+      "frequency_severity": "Medium - mentioned with a hopeful tone for improvement.",
+      "current_workarounds": "No specific workarounds mentioned; users may seek information from other newcomers or local sources.",
+      "impact_on_user": "Feeling of disconnect and lack of support in navigating the new community.",
+      "category": "social"
+    },
+    {
+      "description": "Need for a more self-service approach for customer support.",
+      "supporting_quotes": [
+        "I think that we could make it much easier for admins, chairs, and board members to find the information they're looking for.",
+        "Too often, it's the simplest issues that get people hung up."
+      ],
+      "frequency_severity": "Medium - mentioned as a significant issue.",
+      "current_workarounds": "Users may rely on direct communication with others for support.",
+      "impact_on_user": "Increased frustration and decreased satisfaction among users.",
+      "category": "effort"
+    },
+    {
+      "description": "Improvements needed for the calendar app to find events easily.",
+      "supporting_quotes": [
+        "I think we could do a whole lot better.",
+        "To improve the calendar app, just to make it much easier to find events through browsing as well as searching."
+      ],
+      "frequency_severity": "Medium - mentioned as a priority.",
+      "current_workarounds": "Users may keep track of events through other methods or platforms.",
+      "impact_on_user": "Hinders ability to participate in events and engage with the community.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of a help or support feature for new users.",
+      "supporting_quotes": [
+        "Perhaps would be a question mark in the corner, which got one to help or chatbot.",
+        "Provide more of a route for new users to make it easy for them to do what they want to do."
+      ],
+      "frequency_severity": "Low - mentioned but not emphasized strongly.",
+      "current_workarounds": "Users may ask for help from existing members.",
+      "impact_on_user": "New users may feel lost and unsupported when trying to navigate the website.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of process for users to update their data.",
+      "supporting_quotes": [
+        "We really don't have a process for enabling people to update their data.",
+        "Yes, so let me add that one. Being able to add features that would allow users with proper authentication to update their own information."
+      ],
+      "frequency_severity": "High; mentioned multiple times with frustration.",
+      "current_workarounds": "Currently, users can change information on the app, but it\u2019s not obvious how.",
+      "impact_on_user": "Users struggle to keep their information up-to-date, leading to confusion and potential misinformation.",
+      "category": "effort"
+    },
+    {
+      "description": "Website feels outdated and uninviting.",
+      "supporting_quotes": [
+        "It's a very old-fashioned system.",
+        "Our website just kind of feels old."
+      ],
+      "frequency_severity": "High; expresses a strong desire for a modern look.",
+      "current_workarounds": "No effective workarounds; users feel stuck with the current design.",
+      "impact_on_user": "Users feel embarrassed about the club's online presence, affecting their perception of the organization.",
+      "category": "emotional"
+    },
+    {
+      "description": "Convoluted membership join workflow.",
+      "supporting_quotes": [
+        "I feel very, very lucky when I find that button to join. It's pretty well hidden beneath layers of information."
+      ],
+      "frequency_severity": "Moderate; described as frustrating but manageable.",
+      "current_workarounds": "Users may eventually find the button, but it requires extra effort.",
+      "impact_on_user": "New users may become discouraged during the joining process, affecting membership growth.",
+      "category": "effort"
+    },
+    {
+      "description": "Clunky calendaring experience.",
+      "supporting_quotes": [
+        "I do find the calendaring part clunky. It seems antiquated.",
+        "You click on something, and then you wanna see what a time or what it costs or if it's sold out, and then you have to go back."
+      ],
+      "frequency_severity": "Moderate; mentioned by multiple users with visible frustration.",
+      "current_workarounds": "Users manually scroll and try to remember their previous positions.",
+      "impact_on_user": "Increased time and effort required to navigate events, leading to potential missed opportunities.",
+      "category": "time"
+    },
+    {
+      "description": "Limited customization options for the application.",
+      "supporting_quotes": [
+        "The application is really, really canned, and the opportunities for customization are quite limited."
+      ],
+      "frequency_severity": "Moderate; expresses frustration but not as intense as other issues.",
+      "current_workarounds": "Users may have to adapt to the limitations or use the website instead.",
+      "impact_on_user": "Users may feel restricted in their ability to utilize the app effectively.",
+      "category": "quality"
+    },
+    {
+      "description": "Desire for more weekend and evening events.",
+      "supporting_quotes": [
+        "I wish there were more events like during, like on the weekends or, you know, during the evening."
+      ],
+      "frequency_severity": "Low; mentioned by a few users as a wish rather than a strong frustration.",
+      "current_workarounds": "Users may try to propose new events or attend existing ones despite scheduling conflicts.",
+      "impact_on_user": "Working members may feel excluded or unable to participate fully in club activities.",
+      "category": "social"
+    }
+  ],
+  "jtbd": [],
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we create a more streamlined training process for committee members to effectively use the website's features?",
+      "evidence": "the training process that is undertaken in good faith is really not adequate to allow a committee co-chair to be facile in terms of how to understand and how to use to its greatest potential all the all the power of the system for organizing, you know, large scale events.",
+      "user_need": "Committee members need comprehensive training to utilize the website efficiently and to manage events successfully.",
+      "potential_impact": "high",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we establish a formal archival process to retain knowledge and information across committee terms?",
+      "evidence": "the lack of a formalized institutional memory... to be able to pass that baton to the next term... there\u2019s not a facile way to have some kind of archival process.",
+      "user_need": "Users need a way to access historical data and processes to ensure continuity and efficiency across committee transitions.",
+      "potential_impact": "medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we enhance the communication of event details to minimize conflicts and confusion?",
+      "evidence": "event descriptions and especially save the date kinds of things or conflicting scheduling things were not as transparent or not as clear as they could be.",
+      "user_need": "Users need clear and transparent information about events to make informed decisions about attendance.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we implement a paid technical resource to assist with the back-office operations of event management?",
+      "evidence": "there ought to be a paid technical kind of person that really could be there... to hold together the all the aspects of... getting these projects up and running.",
+      "user_need": "Committee chairs and members need support for technical and logistical aspects of event management.",
+      "potential_impact": "high",
+      "type": "support"
+    },
+    {
+      "opportunity_statement": "How might we improve the name tag process to enhance event organization and attendee identification?",
+      "evidence": "having printed name tags as an audit function... If I saw anyone walking around with a name tag that was a pencil, sharpie, handwritten name tag... that was a clue that that person may not have been registered.",
+      "user_need": "Event organizers need an effective system to identify registered attendees and ensure smooth event operations.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we develop a formal alumni network to strengthen relationships and engagement with past members?",
+      "evidence": "to have a nice cemented relationship with a formal alumni group would be a positive... I'd be willing to pay 25 bucks a year for that privilege.",
+      "user_need": "Users want a structured way to engage with alumni and foster community connections.",
+      "potential_impact": "medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we ensure a seamless sign-up experience on the website?",
+      "evidence": "I have on occasion... it just wouldn't complete. Like when I was signing up for something, it didn't. And so then I just gave up and came back later.",
+      "user_need": "Users need a reliable and efficient sign-up process to avoid frustration.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide users with more information about events and attendees?",
+      "evidence": "I use it to look at the events calendar... I look them up just to see what they say about themselves.",
+      "user_need": "Users desire more insights into events and attendees to enhance their networking experience.",
+      "potential_impact": "medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we promote the app to encourage more users to download and use it?",
+      "evidence": "I don\u2019t think I\u2019ve downloaded the app... Do you have to download the app to use it?",
+      "user_need": "Users need clarity on the app's utility and the benefits of downloading it.",
+      "potential_impact": "medium",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we improve the website's directory search functionality?",
+      "evidence": "I go to the directory to look people up... to see what they say about themselves.",
+      "user_need": "Users require an easy and efficient way to search for and find information on individuals.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance mobile accessibility for event information?",
+      "evidence": "I look it up on my phone... I get...the calendar.",
+      "user_need": "Users need easy access to event information on mobile devices without requiring an app.",
+      "potential_impact": "high",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we improve the navigation between calendar and list views to enhance user experience?",
+      "evidence": "I want to go back to the calendar of events after clicking on an event... it goes back to the beginning of like many months ago. It doesn't start where I just left off.",
+      "user_need": "Users need a seamless way to navigate between different views of event listings without losing their place.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide a clearer indication of event days of the week alongside their dates?",
+      "evidence": "It often would put the date... but it doesn't say what day of the week it is.",
+      "user_need": "Users need to quickly identify which days events fall on to better plan their attendance.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a dedicated alumni section on the website to keep former members engaged?",
+      "evidence": "I would love to know... will they be listing alumni events that I can click on and look for?",
+      "user_need": "Alumni need easy access to events and information relevant to them post-membership.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enhance the visual appeal of the website to make it more inviting for users?",
+      "evidence": "I think the visual in our website needs can use some small thing up a bit... just to be more attractive.",
+      "user_need": "Users want a visually appealing interface that invites exploration and engagement.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we simplify the job form process to reduce complexity for users?",
+      "evidence": "The job form is a nightmare for most.",
+      "user_need": "Users need a simpler, more intuitive process for completing job forms.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the accessibility of important documents like bylaws and governing documents?",
+      "evidence": "It's not always clear where that stuff is... it's hard to navigate for things like policies and bylaws.",
+      "user_need": "Users need easier access to critical documents to understand the organization's structure and rules.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we simplify the process of reviewing essential documents during the registration process?",
+      "evidence": "I think I probably just clicked okay... I'm pretty sure I didn't read them and I just clicked okay.",
+      "user_need": "Clarity and understanding of important documents before agreeing to them.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the app to allow users to easily contact committee chairs?",
+      "evidence": "My only challenge with the app was when there was something that I couldn't do, I couldn't figure out how to tell the committee chair that I wouldn't be there...",
+      "user_need": "Ability to communicate easily with event organizers.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a more intuitive navigation experience on the app to help users find relevant events?",
+      "evidence": "The principal frustration... is just figuring out how do I figure out which things to look through, and having to scroll through a lot of things to say, I remember seeing something...",
+      "user_need": "Easier navigation and filtering of events based on personal interests.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we implement a filtering system for events on the app and website?",
+      "evidence": "If there's a way to do it, I'm not sure how to do it, how to just sort of see just the parts that are most relevant to them.",
+      "user_need": "Desire for personalized event recommendations and easier access to specific types of events.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we improve the visibility of event details such as location and organizer information?",
+      "evidence": "It still just says private home... it now says Bethany Marshall, Noel Circle.",
+      "user_need": "Access to complete event details directly through the app.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the aesthetics and user experience of the website?",
+      "evidence": "My particular view is it's not very pretty... it's a lot... given how many events there are, that it's not overwhelming and easy to find.",
+      "user_need": "A more visually appealing and user-friendly website.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide a clearer indication of new events and registrations?",
+      "evidence": "When, when the new registrations open, how do you know, how do you find, how do you know which the new ones are that are just opening versus ones that have been opening?",
+      "user_need": "Awareness of new events and registration openings.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we streamline the waitlist and cancellation processes for events?",
+      "evidence": "I think that the cancellation... you got to reach out to the committee chair somehow.",
+      "user_need": "Simplified process for managing event attendance, including cancellations and waitlisting.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we modernize the website's design to make it more engaging and representative of the community?",
+      "evidence": "It just feels like an old person's home, and it just could be spiffed up a lot with better photography, better typography, better layout.",
+      "user_need": "A visually appealing and modern website that reflects the community's vibrancy.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we simplify the process of finding and registering for events on the website?",
+      "evidence": "I'm often looking for a particular event to register for. I'm often looking for what events am I registered to.",
+      "user_need": "Easy access to event registration and personal event information.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a community resource section for newcomers to access essential information?",
+      "evidence": "wouldn't it be great if we could just have an area that's questions from people moving to Santa Barbara, with just basic information, where to register to vote, where to pay your taxes, how to get a driver's license.",
+      "user_need": "A centralized hub for newcomers to find essential information about the community.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enhance self-service customer support for admins and board members?",
+      "evidence": "I'd like to have it be more self-service when it comes to customer support. Too often, it's the simplest issues that get people hung up.",
+      "user_need": "Quick access to support resources for troubleshooting common issues.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the calendar app to facilitate easier event discovery?",
+      "evidence": "I think we could do a whole lot better [with the calendar app].",
+      "user_need": "An intuitive calendar interface for browsing and searching events.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we implement a help feature or chatbot for new users navigating the website?",
+      "evidence": "perhaps would be a question mark in the corner, which got one to help or chatbot or left a message for the webmaster.",
+      "user_need": "Immediate assistance for new users to navigate the website effectively.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we create a more user-friendly and engaging website for Newcomers that reflects the upscale nature of the club?",
+      "evidence": "I just find it to be really drab. The photography is boring. The fonts are boring. The colors are boring. I don't think it reflects the upscale nature of our club.",
+      "user_need": "A visually appealing and informative online presence that attracts new members.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we streamline the membership application process to make it more intuitive for potential members?",
+      "evidence": "It's hard to find the button that allows you to begin a membership application. It's there, but it's not that obvious.",
+      "user_need": "A straightforward and easy-to-navigate membership application process for new users.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide a platform for members to share local recommendations and advice?",
+      "evidence": "I suggested would be Facebook...you'd write on there, I need a new doctor. Who would you recommend? I need a plumber.",
+      "user_need": "A community space for newcomers to seek and share local information and recommendations.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we develop a newcomers guide that offers essential information for settling into Santa Barbara?",
+      "evidence": "I wish that there was even a member event where they...how to get your driver's license. How do I find a new doctor?",
+      "user_need": "Accessible resources that help with practical tasks and information for new residents.",
+      "potential_impact": "High",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we enhance communication tools within the app to facilitate better coordination among committee members?",
+      "evidence": "I wish there was a way...to just either press the email address of a person or press the phone number of a person and have it go through.",
+      "user_need": "Efficient communication tools that simplify outreach and coordination for event planning.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a digital gift membership option that realtors can easily share with their clients?",
+      "evidence": "I think that's one of the best ideas going...and just have an easy way to go online and actually buy a gift membership.",
+      "user_need": "A convenient way for realtors to offer memberships as gifts to new homeowners.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we improve event visibility and engagement through a more dynamic digital calendar?",
+      "evidence": "I think that it would have to be something...quick links to events and maybe things to do around town.",
+      "user_need": "A comprehensive and engaging event calendar that highlights upcoming activities and local attractions.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a forum for members and alumni to provide ongoing support and share valuable insights?",
+      "evidence": "If there were some closed forum that was like that would be a huge help to current, to members.",
+      "user_need": "A supportive environment for current and alumni members to connect and share experiences.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we enhance the clarity of event descriptions and scheduling to prevent misunderstandings?",
+      "evidence": "Sometimes the event descriptions and especially save the date kinds of things or conflicting scheduling things were not as transparent or not as clear as they could be.",
+      "user_need": "Users need clear and transparent event information.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create an archival process to support knowledge transfer between committee terms?",
+      "evidence": "There\u2019s not a facile way to have some kind of archival process or some way to, you know, to put in a note to the file for the information.",
+      "user_need": "Committee members need a way to retain knowledge and processes for continuity.",
+      "potential_impact": "High",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we implement a role for a dedicated technical support person to assist event organizers?",
+      "evidence": "I think there ought to be a paid technical kind of person that really could be there...to hold together the all the aspects of...the mechanics of getting these projects up and running.",
+      "user_need": "Committee members need dedicated support to manage event logistics.",
+      "potential_impact": "High",
+      "type": "support"
+    },
+    {
+      "opportunity_statement": "How might we leverage printed name tags as an audit function to improve event check-in?",
+      "evidence": "I like the printed name tags as an audit function...that was a clue that that person may not have been registered or may not have been registered properly.",
+      "user_need": "Event organizers need a way to quickly verify registrations at events.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we improve the communication of registration requirements to prevent issues at events?",
+      "evidence": "People can't come. Well, is there a wait list? How do you manage a wait list? All of that is important.",
+      "user_need": "Users need clear communication about event registration and waitlist processes.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the system to facilitate alumni engagement in events?",
+      "evidence": "I think to have a nice cemented relationship with a formal alumni group would be a positive.",
+      "user_need": "Alumni need a way to engage and participate in events.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we help users manage and organize their messages more effectively?",
+      "evidence": "I misplaced a couple other messages along with his...",
+      "user_need": "Users need a reliable way to track and organize important messages.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide a more effective notification system for urgent issues?",
+      "evidence": "He said he had some leaks that he wanted to get looked at.",
+      "user_need": "Users need timely reminders for urgent issues that require prompt attention.",
+      "potential_impact": "high",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we facilitate better communication between service providers and clients?",
+      "evidence": "If you guys still need a hand with that stuff, let me know.",
+      "user_need": "Users need easy ways to communicate their ongoing needs and follow up with service providers.",
+      "potential_impact": "medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we streamline the process of managing and responding to service requests?",
+      "evidence": "I got his message this morning. I... didn't call back sooner.",
+      "user_need": "Users need a simplified process to handle incoming service requests to avoid delays.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a more organized event listing that allows users to filter events by demographics?",
+      "evidence": "I do think it would be nice if you organized the events. Because there's 20 to 40 somethings and then there's everything else. Put those in their own section or have a way to filter for that.",
+      "user_need": "Users need an efficient way to find relevant events without having to scroll through unrelated listings.",
+      "potential_impact": "high",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enhance the website to encourage more users to engage with it instead of relying solely on the app?",
+      "evidence": "I actually use the Wild Apricot app more than the website. So I couldn't tell you what challenges the website might have.",
+      "user_need": "Users need a compelling reason to use the website as much as the app.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we gather user feedback to understand challenges other users face when using the website?",
+      "evidence": "I\u2019d be curious what other people's challenges are.",
+      "user_need": "Understanding the challenges faced by other users can lead to better overall user experience.",
+      "potential_impact": "medium",
+      "type": "support"
+    },
+    {
+      "opportunity_statement": "How might we create a seamless process for users to update their personal information on the platform?",
+      "evidence": "I really want a my newcomers page that just lists in one place all of the events I'm registered for as a way of keeping track. ... Yes, I second your comments about not being able to update our information.",
+      "user_need": "Users need an easy way to update their personal information and track their events.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we modernize the user interface to present a fresher and more contemporary look on the website?",
+      "evidence": "Our website just kind of feels old. ... I have this love-hate relationship with wild apricot.",
+      "user_need": "Users want a more modern and appealing user experience.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we simplify the membership joining workflow to make it more intuitive?",
+      "evidence": "The membership join workflow from time to time, and it's remarkably convoluted. ... I feel very lucky when I find that button to join.",
+      "user_need": "Potential members need a straightforward and intuitive way to join.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the event calendar experience to make it more user-friendly?",
+      "evidence": "I do find the calendaring part clunky. ... It seems antiquated. ... It just takes a bit more time, I think, to manage the calendar.",
+      "user_need": "Users need a more efficient and streamlined way to navigate the events calendar.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we implement a feature that automatically notifies users about updates to their personal information?",
+      "evidence": "Perhaps, perhaps so. Maybe that's something we should bring up at the board meeting... automated announcement that goes out to everybody.",
+      "user_need": "Users want to stay informed about necessary updates to their personal information.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we provide more event options during weekends and evenings to accommodate working members?",
+      "evidence": "I wish there were more events like during, like on the weekends or, you know, during the evening.",
+      "user_need": "Working members need more flexible event scheduling.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the communication around new events to ensure all members are informed?",
+      "evidence": "There should be full information about it, not just here's a thing that's coming, you'll love it.",
+      "user_need": "Members need clear and detailed information about upcoming events.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the onboarding experience for new members to ensure they understand how to engage with the community?",
+      "evidence": "I don't really know how they work as far as like, I've joined the book club, but I know ...",
+      "user_need": "New members need a comprehensive introduction to community activities and how to participate.",
+      "potential_impact": "High",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we leverage user-generated content to create more engaging communications for events?",
+      "evidence": "It would be nice to be more creative, like a little more exciting.",
+      "user_need": "Members desire engaging and enticing communication about events.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create an onboarding experience for new users to improve their understanding of the website?",
+      "evidence": "If there was some type of video or app or even a committee of people who would be willing to walk people through the website, the people that are sort of non-very computer literate would have a better experience up front.",
+      "user_need": "New users need guidance to navigate the website effectively, especially those who are not computer literate.",
+      "potential_impact": "high",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we enhance the website navigation to make it more intuitive for users?",
+      "evidence": "I also think that the navigation can be improved because people have a hard time finding where they want to go.",
+      "user_need": "Users need easier access to information about tickets, events, and sign-ups.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we implement a segmented navigation system to cater to different age groups?",
+      "evidence": "I think it would be also good if the navigation was segmented by category, especially the 20 to 40s and the 40 and above.",
+      "user_need": "Users need a way to quickly find relevant content based on their demographic.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we clarify event details, including the day of the week and availability on waiting lists?",
+      "evidence": "I think that it would be really important to include the day of the week of the events... it's not clear how many people are on the waiting list.",
+      "user_need": "Users need clear information about event dates and waiting list status to make informed decisions.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we display event pricing upfront to avoid user frustration?",
+      "evidence": "It might be good to have that be also available in the summary.",
+      "user_need": "Users need transparency about event costs to prevent disappointment after expressing interest.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we make event times more readily accessible on the website and app?",
+      "evidence": "It might be nice to have the time reflected easily so I don't have to open it first to see what time it is.",
+      "user_need": "Users need quick access to event times without additional clicks.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we highlight new events more effectively on the website and app?",
+      "evidence": "It would be great to have both on the app and the website the new things are highlighted in some fashion maybe they're up at the top of the list.",
+      "user_need": "Users want to easily find new events without searching through the entire list.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we simplify the registration process and waitlist management?",
+      "evidence": "If someone cancels and you go to the waitlist then the person who cancels theoretically gets a refund... that was extremely time-consuming.",
+      "user_need": "Users need a more efficient and straightforward way to manage registrations and refunds.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide clear event address details in reminder emails?",
+      "evidence": "It would be nice to have the address in that reminder since it's only going to the people who are registered.",
+      "user_need": "Users want essential event details delivered directly to them to avoid scrambling for information.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we reduce email clutter for users involved with multiple communications?",
+      "evidence": "My email is just swamp with Santa Barbara newcomers club so I cannot even know which one when I need to go back with the address.",
+      "user_need": "Users need a way to manage and streamline communication related to events.",
+      "potential_impact": "Medium",
+      "type": "support"
+    },
+    {
+      "opportunity_statement": "How might we improve the usability and contemporary feel of the website?",
+      "evidence": "We need to have somebody overseeing the website and who's not around who's moved that sort of stuff.",
+      "user_need": "Users need a modern and user-friendly website to navigate information efficiently.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we better accommodate working users with event scheduling?",
+      "evidence": "Yes, please have more things on the weekends.",
+      "user_need": "Users need events scheduled at times that are accessible for those with work commitments.",
+      "potential_impact": "High",
+      "type": "feature"
+    },
+    {
+      "opportunity_statement": "How might we streamline the website navigation to provide users with quick access to their personal dashboard and upcoming events?",
+      "evidence": "I would love to be able to go on and once you log in, then it sends you right to your page where these are the things you've signed up for and upcoming events for you.",
+      "user_need": "Users need a more intuitive and direct navigation experience upon logging into the website.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the onboarding experience to highlight valuable events such as meet and greets for new users?",
+      "evidence": "There were some early on things that we missed because it just wasn't clear that, oh, it's valuable to attend the meet and greet...",
+      "user_need": "New users need clear guidance on what events are beneficial for their integration into the community.",
+      "potential_impact": "Medium",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we improve the website to match the ease of use found in the Apricot app?",
+      "evidence": "the Apricot app, that's a little easier, I think. But when I'm home, I tend to sit at my computer and use the website.",
+      "user_need": "Users desire a consistent and user-friendly experience across both web and mobile platforms.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide users with personalized recommendations for events based on their interests?",
+      "evidence": "we just kind of looked for things that were of interest to us and started going to those.",
+      "user_need": "Users want a more tailored experience where they can easily discover relevant events.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we offer support to users during their early engagement to enhance their experience?",
+      "evidence": "No, but thank you. Overall, it's wonderful.",
+      "user_need": "Users need ongoing support and resources to maximize their engagement with the platform.",
+      "potential_impact": "Medium",
+      "type": "support"
+    },
+    {
+      "opportunity_statement": "How might we simplify the event search process on the website?",
+      "evidence": "the app has a search bar, a search field and you can put in a keyword and it'll bring up that but on the website, it doesn't.",
+      "user_need": "Users want an easier way to find events by category or keyword.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we improve the navigation experience on the website?",
+      "evidence": "when you're scrolling through the calendar on the website, you have to let go back to the top in order to go to the next month.",
+      "user_need": "Users need a more intuitive navigation experience to browse events quickly.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we ensure users are aware of event registration deadlines?",
+      "evidence": "it should say that in the title of everyone.",
+      "user_need": "Users want clear visibility of registration deadlines to avoid missing out on events.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the visibility of alumni members in the directory?",
+      "evidence": "once they graduate, they don't show in the directory anymore.",
+      "user_need": "Users want to connect with alumni but currently cannot find their contact information.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a more transparent process for committee roles and responsibilities?",
+      "evidence": "it would be interesting for certain committees to like the committee chairs to say whether or not they intend to stay.",
+      "user_need": "Users need clarity on committee positions and their responsibilities to encourage participation.",
+      "potential_impact": "High",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we provide a centralized location for current events and announcements?",
+      "evidence": "having like some sort of current events or announcements or a bulletin or something because then some kind would be useful.",
+      "user_need": "Users need easy access to important updates without searching through the website.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we archive newsletters on the website for user reference?",
+      "evidence": "the newsletter is not archived on the website.",
+      "user_need": "Users want access to past newsletters without having to search through emails.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we streamline the event cancellation process?",
+      "evidence": "there should just be a way to should have just been processed.",
+      "user_need": "Users need a simple method to cancel event registrations without unnecessary steps.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we automate the refund process for event cancellations?",
+      "evidence": "I never got a refund... it just seems like so archaic.",
+      "user_need": "Users expect a quick and efficient refund process for canceled events.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create an onboarding process that helps new users navigate the website effectively?",
+      "evidence": "Most people who are successful right away either go to the orientation and walk through it there or they meet somebody like Debbie Rare and have a personal view orientation step by step.",
+      "user_need": "New users need guidance on how to use the website, especially those who are not very computer literate.",
+      "potential_impact": "High",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we improve the website's navigation to make it easier for users to find specific information?",
+      "evidence": "I also think that the navigation can be improved because people have a hard time finding where they want to go.",
+      "user_need": "Users need a more intuitive navigation system to easily access necessary information.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we segment navigation by age groups to cater to different user demographics?",
+      "evidence": "I think it would be also good if the navigation was segmented by category, especially the 20 to 40s and the 40 and above.",
+      "user_need": "Users want to find relevant information quickly based on their demographic.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we display event dates and availability more clearly on the website?",
+      "evidence": "I think it would be really important to include the day of the week of the events like Thursday or Friday because that's not always clear.",
+      "user_need": "Users need clear visibility of event dates and their status in the registration process.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide users with visibility into their position on waiting lists?",
+      "evidence": "If you sign up for the waiting list, it's not clear how many people are on the waiting list.",
+      "user_need": "Users want to understand their chances of getting into an event by knowing their position in the queue.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we display event pricing upfront to avoid user frustration?",
+      "evidence": "It might be good to have that be also available in the summary.",
+      "user_need": "Users need to know the costs associated with events before expressing interest.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a more engaging and visually appealing website for Santa Barbara newcomers?",
+      "evidence": "The website appears very dated and confusing. Kieran mentions it looks like something that was simply put together and not intended to draw individuals in.",
+      "user_need": "Users need a modern and inviting website to easily navigate and engage with the community.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we simplify the process of exploring and selecting clubs and committees for users?",
+      "evidence": "Kieran felt overwhelmed by the number of clubs and committees available.",
+      "user_need": "Users need a simplified way to explore and select clubs that align with their interests.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the events page with a more intuitive calendar feature?",
+      "evidence": "Kieran suggested having a calendar that reflects actual events and is more engaging, as well as being easier to access.",
+      "user_need": "Users need a clear and accessible way to view upcoming events.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we make the homepage more specific and relevant to Santa Barbara newcomers?",
+      "evidence": "The homepage looks generic and could belong to any club; Kieran suggests it needs to specifically reflect the newcomers' community.",
+      "user_need": "Users need a homepage that clearly communicates the purpose and activities of Santa Barbara newcomers.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a more inviting and user-friendly contact page?",
+      "evidence": "Kieran mentioned the contact page is bland and not inviting.",
+      "user_need": "Users need a contact page that encourages them to reach out and engage with the organization.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the integration of social media links and visuals on the website?",
+      "evidence": "Kieran pointed out that the social media links make the organization appear small and some images were blank.",
+      "user_need": "Users need better integration of social media to showcase community activities and engagement.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we ensure that the website is mobile-friendly and accessible?",
+      "evidence": "Kieran mentioned the importance of mobile accessibility and translation features for compliance.",
+      "user_need": "Users need a website that is accessible on mobile devices and meets accessibility standards.",
+      "potential_impact": "High",
+      "type": "support"
+    },
+    {
+      "opportunity_statement": "How might we clarify membership levels and options for users?",
+      "evidence": "Kieran noted confusion around the membership levels, particularly the default 'newbie' level.",
+      "user_need": "Users need clear information about membership options and levels to encourage sign-ups.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we make it easier for users to identify new events and their posting times?",
+      "evidence": "I go into the events and I'm like, how the heck am I supposed to know which one was posted and when did it open? ... it was maybe a different color or something. Oh. Okay. Different color. Or you could click to see everything new.",
+      "user_need": "Users need a clearer indication of new events and their posting times.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide users with upfront pricing information for events before they click into them?",
+      "evidence": "It'd be nice to see the price, too. Before you click into it.",
+      "user_need": "Users need to see event prices quickly to avoid frustration with unexpected costs.",
+      "potential_impact": "medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we integrate the app and website functionalities to provide a seamless user experience?",
+      "evidence": "I just get the app. I think the app works better. ... they're completely separate. Because the app is Wild Apricot.",
+      "user_need": "Users require a consistent experience across platforms (app and website).",
+      "potential_impact": "high",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we enhance communication regarding event posting schedules to increase user awareness?",
+      "evidence": "There might just be some time when things are posted regularly... theoretically. That's my knowledge.",
+      "user_need": "Users need better communication about when events are regularly posted.",
+      "potential_impact": "medium",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we simplify the credit card saving process to enhance user convenience?",
+      "evidence": "It saved my credit card. They did. Really? I had to put my card in every single time.",
+      "user_need": "Users want a more streamlined credit card management system to avoid repetitive input.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a more visually appealing and modern website to better reflect the club's upscale nature?",
+      "evidence": "the photography is boring. The fonts are boring. The colors are boring. I don't think it reflects the upscale nature of our club.",
+      "user_need": "Users desire a visually engaging and modern online presence that reflects the club's values and community.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we streamline communication within the app to make it easier for members to contact each other?",
+      "evidence": "I wish there was a way to just either press the email address of a person or press the phone number of a person and have it go through.",
+      "user_need": "Members need an easier way to communicate with each other directly through the app.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we implement a digital platform for members to share recommendations and local services?",
+      "evidence": "if there were some closed forum that was like that would be a huge help to current, to members and, and maybe open-ended so that even alums can still participate.",
+      "user_need": "Members want a community platform to share local recommendations and advice.",
+      "potential_impact": "high",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we provide a more intuitive membership sign-up process on the website?",
+      "evidence": "It's just very stale and old-fashioned compared to anything. And too many words and not enough bullet points.",
+      "user_need": "Potential members need a clear and straightforward way to understand how to join the club.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the event calendar to better highlight annual events and activities in the local area?",
+      "evidence": "it would be great. A calendar of annual events.",
+      "user_need": "Users want easy access to a comprehensive calendar of local events and activities.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a gift membership program for realtors to offer to their clients?",
+      "evidence": "I think that's one of the best ideas going. And if there were a better way to market that, I think it's well worth it.",
+      "user_need": "Realtors and new homeowners need an easy way to connect and offer club memberships as gifts.",
+      "potential_impact": "medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we improve the visibility of event registration statuses on the calendar?",
+      "evidence": "It would be nice to know like when you're supposed to, when it's open for registration and when is the last day you can register. The event calendar does not show this information.",
+      "user_need": "Users want clarity on event registration timelines to avoid confusion.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we simplify the event cancellation process for users?",
+      "evidence": "There isn't an easy way to say that you want to cancel; you need to send an email to the committee.",
+      "user_need": "Users need a straightforward method to cancel event registrations without unnecessary steps.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we make the member directory more accessible, including alumni?",
+      "evidence": "Alumni are not visible in the directory anymore, which confuses users who want to reconnect.",
+      "user_need": "Users want to find and connect with alumni easily.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the navigation and organization of the admin section for committee chairs?",
+      "evidence": "The current navigation is confusing, and users often get lost while trying to access necessary resources.",
+      "user_need": "Chairs need a streamlined way to access admin tools without confusion.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the user experience of the website's member and committee information pages?",
+      "evidence": "The member pages and committee descriptions are not visually engaging or clearly organized.",
+      "user_need": "Users want clear and visually appealing access to committee and member information.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide better notifications or reminders for upcoming events?",
+      "evidence": "Users mentioned wanting notifications for registration openings.",
+      "user_need": "Users want timely reminders to ensure they do not miss event registrations.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we archive past e-newsletters for user access?",
+      "evidence": "There is interest in having an archive of e-newsletters for reference.",
+      "user_need": "Users want to access past communications for information they may have missed.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we make it easier for users to identify which events have openings?",
+      "evidence": "I think it would be helpful to know which events still have openings or have it blocked out or something like that.",
+      "user_need": "Users want to quickly find available events without having to click into each one.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enable users to easily cancel their event registrations?",
+      "evidence": "I think it would be nice... if there was an easy way to cancel if you could no longer make it.",
+      "user_need": "Users need a quick and efficient way to cancel attendance without causing additional work for event organizers.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we better highlight the 20 to 40 somethings committee to new members?",
+      "evidence": "I was not aware of the 20 to 40 somethings committee.",
+      "user_need": "New members want to know about all community opportunities that fit their demographic.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we simplify the navigation structure of the website?",
+      "evidence": "I think your point... usually some of the other stuff can go in the hamburger menu.",
+      "user_need": "Users need a more streamlined navigation to find the events they care about quickly.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the visibility of event details in the calendar view?",
+      "evidence": "I typically use the events calendar view... I can see it laid out in a way where I can see the month at a glance.",
+      "user_need": "Users want comprehensive visibility of event details at a glance, including availability.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we reduce the amount of unnecessary information on the website?",
+      "evidence": "I think there's a lot of verbiage that I'm probably not going to read on the page.",
+      "user_need": "Users need concise and relevant information that directly serves their needs without excess content.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a more engaging and useful 'Why Join' section for current members?",
+      "evidence": "I don't go to this tab... it doesn't really serve much purpose for me.",
+      "user_need": "Current members need a section that provides meaningful value and engagement rather than redundant information.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide users with real-time information about waitlist numbers for events?",
+      "evidence": "Does it tell you how many people are on the wait list for a given event? Is that something that you'd be interested in seeing?",
+      "user_need": "Users want transparency about event popularity and their chances of securing a spot.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we help users make informed decisions about ticket purchases based on waitlist data?",
+      "evidence": "Because if there's 20 people on it, how many are you going to buy?",
+      "user_need": "Users need guidance on whether to purchase tickets based on the likelihood of getting access.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the website's design to feel more modern and engaging?",
+      "evidence": "It just feels like an old person's home, and it just could be spiffed up a lot with better photography, better typography, better layout, just all the fundamental things.",
+      "user_need": "A visually appealing and modern website design.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the event registration and tracking process?",
+      "evidence": "I'm often looking for a particular event to register for. I'm often looking for what events am I registered to.",
+      "user_need": "Easy access to event registration and personal event tracking.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we facilitate community engagement by providing a resource area for newcomers?",
+      "evidence": "Wouldn't it be great if we could just have an area that's questions from people moving to Santa Barbara, with just basic information, where to register to vote, where to pay your taxes, how to get a driver's license...",
+      "user_need": "Access to local resources and community information for newcomers.",
+      "potential_impact": "medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we create a self-service support system for club admins and board members?",
+      "evidence": "I'd like to have it be more self-service when it comes to customer support... if there were an easy way for them to resolve those issues in the moment.",
+      "user_need": "Quick and efficient self-service support for administrative tasks.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the event calendar functionality for better usability?",
+      "evidence": "I think perhaps would be to improve the calendar app, just to make it much easier to find events through browsing as well as searching.",
+      "user_need": "An improved calendar interface that supports both browsing and searching for events.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we implement a help feature or chatbot for new users?",
+      "evidence": "Perhaps would be a question mark in the corner, which got one to help or chatbot or left a message for the webmaster.",
+      "user_need": "Accessible help and guidance for new users navigating the website.",
+      "potential_impact": "medium",
+      "type": "new feature"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we improve the event sign-up process to ensure completion without frustration?",
+      "evidence": "I have on occasion... it just wouldn't complete. Like when I was signing up for something, it didn't. And so then I just gave up and came back later.",
+      "user_need": "Users need a reliable and seamless sign-up experience.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the user experience for searching and exploring event attendees?",
+      "evidence": "I go to the directory... to look people up... just to see what they say about themselves.",
+      "user_need": "Users need a more efficient and informative way to look up event attendees.",
+      "potential_impact": "medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we encourage app downloads and usage among users who primarily use the website?",
+      "evidence": "I don\u2019t think I\u2019ve downloaded the app.",
+      "user_need": "Users need clarity on the benefits of using the app versus the website.",
+      "potential_impact": "medium",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we streamline the directory access to improve the usability of attendee information?",
+      "evidence": "I go to the directory... to look people up just to have some idea of... who they are.",
+      "user_need": "Users need easy and quick access to relevant attendee information.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide real-time updates on event registration and status?",
+      "evidence": "I just gave up and came back later.",
+      "user_need": "Users need reassurance or updates on their registration process.",
+      "potential_impact": "high",
+      "type": "support"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 33.json",
+    "interview_id": "New Recording 33"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:58:35.143205",
+    "version": "1.0"
+  }
+}

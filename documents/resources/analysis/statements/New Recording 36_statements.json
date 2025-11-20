@@ -1,0 +1,89 @@
+{
+  "insights": [
+    {
+      "quote": "I actually use the Wild Apricot app more than the website.",
+      "timestamp": null,
+      "significance": "This statement highlights the user's preference for the app over the website, indicating a potential area for improvement in the website's functionality.",
+      "insight": "Users may find the app more convenient or user-friendly, which raises questions about the website's effectiveness.",
+      "category": "behavior"
+    },
+    {
+      "quote": "It would be nice if you organized the events.",
+      "timestamp": null,
+      "significance": "The desire for better organization suggests that the current event layout does not meet user expectations.",
+      "insight": "Users are looking for tailored experiences that cater to their specific demographics, which could enhance engagement.",
+      "category": "desire"
+    },
+    {
+      "quote": "Because you're scrolling through and you get interested in something and then I'm reading, oh, 20 to 40, can't do it.",
+      "timestamp": null,
+      "significance": "This reflects a frustration with the current event filtering system, where users encounter barriers based on age restrictions.",
+      "insight": "Users want more intuitive filtering options that prevent them from wasting time on irrelevant events.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think that signing up is easy for events. Information is plentiful.",
+      "timestamp": null,
+      "significance": "This indicates a positive experience regarding the sign-up process, suggesting that at least some aspects of the website are functioning well.",
+      "insight": "While there are challenges in event organization, the sign-up experience is satisfactory, which could be leveraged in marketing.",
+      "category": "emotion"
+    },
+    {
+      "quote": "I'd be curious what other people's challenges are.",
+      "timestamp": null,
+      "significance": "This curiosity shows an openness to understanding the community, indicating that the user values shared experiences.",
+      "insight": "Users may feel a sense of community and are interested in collective feedback for improvement.",
+      "category": "belief"
+    },
+    {
+      "quote": "I think it works well.",
+      "timestamp": null,
+      "significance": "This statement reflects a general satisfaction with the website, despite the noted shortcomings.",
+      "insight": "Users may have a baseline level of satisfaction but still seek enhancements, suggesting a gap between current satisfaction and potential improvements.",
+      "category": "emotion"
+    },
+    {
+      "quote": "I haven't ever had a challenge.",
+      "timestamp": null,
+      "significance": "The lack of challenges faced by the user may downplay the concerns that others could experience.",
+      "insight": "This highlights potential disparities in user experience, where some may find the system easy while others struggle.",
+      "category": "context"
+    },
+    {
+      "quote": "You know how to go. But that's just one thought.",
+      "timestamp": null,
+      "significance": "This statement shows the user's self-awareness about their age and social context, along with a hint of frustration about feeling out of place.",
+      "insight": "Users may feel excluded from certain events, revealing a desire for more inclusive options.",
+      "category": "emotion"
+    },
+    {
+      "quote": "I do think it would be nice if you organized the events.",
+      "timestamp": null,
+      "significance": "This reiteration of the desire for organization emphasizes its importance to the user.",
+      "insight": "Recurrent themes in feedback suggest a strong need for improved navigation and organization of content.",
+      "category": "desire"
+    },
+    {
+      "quote": "I couldn't tell you what challenges the website might have.",
+      "timestamp": null,
+      "significance": "Lack of awareness of challenges may indicate either satisfaction or disconnect from the broader user experience.",
+      "insight": "Users who primarily use the app may miss important website issues that could impact others.",
+      "category": "context"
+    },
+    {
+      "quote": "There are some.",
+      "timestamp": null,
+      "significance": "This vague acknowledgment hints at underlying issues that the user is aware of but may not fully articulate.",
+      "insight": "Users may have a sense that there are challenges within the website experience, suggesting a need for further exploration.",
+      "category": "pain point"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 36.json",
+    "interview_id": "New Recording 36"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:35:53.028138",
+    "version": "1.0"
+  }
+}

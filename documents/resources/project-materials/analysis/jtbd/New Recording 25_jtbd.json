@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When attending events, I want to easily find event times, so I can plan my schedule without confusion.",
+      "current_solution": "Using the website and app to check event details.",
+      "pain_points": "Event times are not prominently displayed, requiring extra steps to find them.",
+      "desired_outcomes": "Quick access to event times without needing to navigate multiple screens.",
+      "success_criteria": "Event times are clearly visible at a glance directly on the event listing."
+    },
+    "emotional_jobs": {
+      "job_statement": "When moving to a new place, I want to feel welcomed and connected, so I can enjoy my new environment.",
+      "current_solution": "Joining the newcomers club and attending events.",
+      "pain_points": "Difficulty in finding relevant activities causes stress and a feeling of disconnect.",
+      "desired_outcomes": "Feelings of belonging and community through easier access to events.",
+      "success_criteria": "Increased participation at events and positive feedback about feeling welcomed."
+    },
+    "social_jobs": {
+      "job_statement": "When meeting new people, I want to be perceived as knowledgeable about local activities, so I can build connections.",
+      "current_solution": "Engaging with the newcomers club and attending events.",
+      "pain_points": "Not being informed about new events leads to missing opportunities to engage.",
+      "desired_outcomes": "Ability to share information about local events confidently with others.",
+      "success_criteria": "Frequent participation in conversations about local activities and being sought out for recommendations."
+    },
+    "supporting_jobs": {
+      "job_statement": "When organizing events, I want to efficiently manage registrations and communications, so I can ensure smooth operation.",
+      "current_solution": "Using the app and website for managing sign-ups.",
+      "pain_points": "Complex registration processes and overwhelming email notifications make management difficult.",
+      "desired_outcomes": "Streamlined processes for registration and clearer communication.",
+      "success_criteria": "Increased efficiency in managing events with fewer errors in registrations and communications."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 25.json",
+    "interview_id": "New Recording 25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:45:36.180692",
+    "version": "1.0"
+  }
+}

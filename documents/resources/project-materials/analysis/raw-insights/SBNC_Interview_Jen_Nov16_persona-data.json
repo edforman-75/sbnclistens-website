@@ -1,0 +1,53 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "40-60",
+      "role": "Committee Chair / Administrator",
+      "experience_level": "Intermediate",
+      "technical_proficiency": "Moderate"
+    },
+    "background_context": {
+      "situation": "Has experience using both the website and app for event management and member engagement.",
+      "environment": "Active member of a community organization, often volunteering and participating in committee activities.",
+      "constraints": "Limited time to navigate and familiarize with the website features."
+    },
+    "goals_motivations": {
+      "drives": "Wants to facilitate member engagement and streamline event registration.",
+      "achievements": "Seeks to improve the usability of the website to enhance user experience for new and existing members."
+    },
+    "behaviors_patterns": {
+      "current_work": "Primarily uses the app for organizing events but relies on the website for administrative tasks.",
+      "habits": "Frequently checks the calendar and member directory; uses the app for ease of access."
+    },
+    "pain_points_frustrations": {
+      "obstacles": "Difficulty in finding information on the website, such as event registrations and committee descriptions.",
+      "frustrations": "Confusing navigation between public and admin views; unclear visibility of important features."
+    },
+    "needs_desires": {
+      "improvements": "Desires a more user-friendly website layout that highlights essential features; easier access to event registration and committee information.",
+      "expectations": "Looking for streamlined communication tools for event cancellations and member directories."
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Believes that technology should simplify processes, not complicate them.",
+      "preferences": "Prefers intuitive design and clear navigation; values accessibility of information for all members."
+    },
+    "technical_comfort": {
+      "tools_used": "Website and mobile app for event management.",
+      "technical_abilities": "Comfortable with digital tools but finds some features cumbersome.",
+      "learning_preferences": "Prefers hands-on training and immediate application of new tools."
+    },
+    "quotes": [
+      "I think that thing needs to get... more front and center.",
+      "It's kind of a roundabout way, but there is a way to do it.",
+      "It's just a list of links. It's not very visually engaging."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_Jen_Nov16.json",
+    "interview_id": "SBNC_Interview_Jen_Nov16"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:08:44.409525",
+    "version": "1.0"
+  }
+}

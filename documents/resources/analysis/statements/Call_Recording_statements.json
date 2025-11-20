@@ -1,0 +1,117 @@
+{
+  "insights": [
+    {
+      "quote": "I had more problems with the phone app than I did with the computer based web application.",
+      "timestamp": null,
+      "significance": "Highlights frustration with the mobile experience.",
+      "insight": "Users face significant challenges when trying to use the phone app, suggesting a need for improvement in mobile usability.",
+      "category": "pain point"
+    },
+    {
+      "quote": "The biggest problem I had with the whole process, frankly, was dealing with people who were not savvy users.",
+      "timestamp": null,
+      "significance": "Illustrates a disconnect between tech-savvy users and those who struggle with technology.",
+      "insight": "There is a significant divide in user capabilities, which complicates communication and event management.",
+      "category": "context"
+    },
+    {
+      "quote": "I felt the user interface on the computer based system was helpful. It was easy to find events.",
+      "timestamp": null,
+      "significance": "Shows appreciation for the desktop experience.",
+      "insight": "While the desktop version is effective, the mobile version does not meet the same standards, indicating a need for consistent design across platforms.",
+      "category": "desire"
+    },
+    {
+      "quote": "The training process really needs to have some hard, hard look at two issues.",
+      "timestamp": null,
+      "significance": "Emphasizes the inadequacy of training for users.",
+      "insight": "Users feel unprepared due to inadequate training, which negatively affects their event management experience.",
+      "category": "pain point"
+    },
+    {
+      "quote": "The lack of a formalized institutional memory... is a bigger challenge.",
+      "timestamp": null,
+      "significance": "Points to a systemic issue within the organization.",
+      "insight": "Frequent turnover leads to loss of knowledge, making it difficult for new members to carry on successful practices.",
+      "category": "context"
+    },
+    {
+      "quote": "I think the requirement for the VP of activities absolutely has to be someone who has been a not only a co-chair.",
+      "timestamp": null,
+      "significance": "Critiques the qualifications for leadership roles.",
+      "insight": "Current selection criteria for leadership may not ensure the necessary expertise, impacting the effectiveness of event management.",
+      "category": "belief"
+    },
+    {
+      "quote": "Cleaner, simpler, better is my approach.",
+      "timestamp": null,
+      "significance": "Articulates a desire for straightforward design.",
+      "insight": "Users prioritize functionality over aesthetics, suggesting that design changes should focus on usability.",
+      "category": "desire"
+    },
+    {
+      "quote": "I would take that person with the name tag aside and say, well, you know, you really didn't register properly.",
+      "timestamp": null,
+      "significance": "Depicts a proactive approach to problem-solving.",
+      "insight": "The need for effective registration processes is critical for event success and user satisfaction.",
+      "category": "behavior"
+    },
+    {
+      "quote": "Having that kind of capacity, I think, would be significant.",
+      "timestamp": null,
+      "significance": "Proposes a resource allocation for better event management.",
+      "insight": "Investing in dedicated roles can alleviate pressure on volunteers and improve organization.",
+      "category": "desire"
+    },
+    {
+      "quote": "I found the news a hugely important source of information.",
+      "timestamp": null,
+      "significance": "Highlights the importance of timely information dissemination.",
+      "insight": "Regular updates are critical for user engagement and planning, indicating a need for streamlined communication.",
+      "category": "emotion"
+    },
+    {
+      "quote": "There is a comfort in the current overlap of information between all these websites.",
+      "timestamp": null,
+      "significance": "Expresses a positive experience with interconnected systems.",
+      "insight": "Users appreciate a cohesive experience across multiple platforms, which can enhance their overall satisfaction.",
+      "category": "emotion"
+    },
+    {
+      "quote": "I think there ought to be a paid technical kind of person that really could be there.",
+      "timestamp": null,
+      "significance": "Advocates for professional support within the organization.",
+      "insight": "The need for technical expertise suggests that volunteer-led support may not be sufficient for complex event management.",
+      "category": "desire"
+    },
+    {
+      "quote": "The only behind the scenes person that really has any long term history is Charlie, the bookkeeper of all things.",
+      "timestamp": null,
+      "significance": "Identifies a single point of knowledge within the organization.",
+      "insight": "A reliance on one individual for historical context poses risks and limits organizational continuity.",
+      "category": "context"
+    },
+    {
+      "quote": "I felt very strongly about having formal printed name tags for our events.",
+      "timestamp": null,
+      "significance": "Stresses the importance of professional presentation at events.",
+      "insight": "Name tags serve both a functional and social purpose, enhancing the event experience.",
+      "category": "desire"
+    },
+    {
+      "quote": "It's astounding to me that this thing works as well as it does.",
+      "timestamp": null,
+      "significance": "Expresses surprise at organizational resilience despite challenges.",
+      "insight": "A recognition of the hard work put in by volunteers, but also an acknowledgment of underlying issues that could be improved.",
+      "category": "emotion"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call_Recording.json",
+    "interview_id": "Call_Recording"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:35:16.808038",
+    "version": "1.0"
+  }
+}

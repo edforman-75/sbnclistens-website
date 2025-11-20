@@ -1,0 +1,79 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When navigating the website, I want to easily find event information and registration options, so I can participate in community activities without frustration.",
+      "current_solution": "The current website provides event information but is difficult to navigate and outdated in design.",
+      "pain_points": [
+        "Difficult to find specific events.",
+        "Confusing layout that feels outdated.",
+        "Lack of self-service options for common inquiries."
+      ],
+      "desired_outcomes": [
+        "A user-friendly website with a modern design.",
+        "Quick access to event registration and participation information.",
+        "A better calendar app for browsing and searching events."
+      ],
+      "success_criteria": [
+        "Increased user engagement with the website.",
+        "Higher registration numbers for events.",
+        "Positive feedback from users about website usability."
+      ]
+    },
+    "emotional_jobs": {
+      "job_statement": "When using the website, I want to feel welcomed and engaged, so I can enjoy my experience and feel a sense of belonging to the community.",
+      "current_solution": "The existing website does not evoke a warm or engaging atmosphere.",
+      "pain_points": [
+        "The website feels cold and uninviting.",
+        "Lack of community feel in the design and content."
+      ],
+      "desired_outcomes": [
+        "A warm, inviting design that reflects community spirit.",
+        "Emotional connection with the club and its members."
+      ],
+      "success_criteria": [
+        "Positive emotional responses from users about the website.",
+        "Increased sense of community among members."
+      ]
+    },
+    "social_jobs": {
+      "job_statement": "When I share my experiences online, I want to be seen as an engaged and informed community member, so I can enhance my social standing and connections.",
+      "current_solution": "The current website does not facilitate sharing or community interaction effectively.",
+      "pain_points": [
+        "Limited opportunities for social interaction on the site.",
+        "Difficulty in showing involvement in community events."
+      ],
+      "desired_outcomes": [
+        "Easier ways to connect with others attending events.",
+        "A platform that supports community discussions and sharing."
+      ],
+      "success_criteria": [
+        "Increased social interactions among users.",
+        "More user-generated content on the website."
+      ]
+    },
+    "supporting_jobs": {
+      "job_statement": "When managing my responsibilities in the club, I want to access customer support resources easily, so I can resolve issues quickly and effectively.",
+      "current_solution": "Current support options are limited and can be hard to locate.",
+      "pain_points": [
+        "Lack of self-service resources for members.",
+        "Time-consuming process to find answers to simple questions."
+      ],
+      "desired_outcomes": [
+        "A self-service support section that addresses common issues.",
+        "Quick access to help resources, such as a chatbot or FAQ."
+      ],
+      "success_criteria": [
+        "Reduced time spent resolving issues.",
+        "Higher satisfaction rates among club members for support."
+      ]
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 4.json",
+    "interview_id": "New Recording 4"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:49:06.413678",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "jobs_to_be_done": {
+    "functional": {
+      "total": 17,
+      "jobs": [
+        {
+          "job_statement": "When I am looking for events to join, I want to easily find the events and their details, so I can choose which ones to participate in.",
+          "current_solution": "Using the website to check the calendar and event details.",
+          "pain_points": [
+            "Difficult navigation requiring multiple backtracking steps.",
+            "No search functionality on the website.",
+            "Lack of clarity on registration status and event capacity."
+          ],
+          "desired_outcomes": "A streamlined process for finding and signing up for events with clear status updates.",
+          "success_criteria": "Ability to quickly locate events using a search function and easily access event details.",
+          "_source": {
+            "interview_id": "SBNC_Interview_Danielle_Nov16",
+            "file": "SBNC_Interview_Danielle_Nov16_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I need to sign up for events, I want a seamless registration process, so I can participate without hassle.",
+          "current_solution": "Using the app for registration.",
+          "pain_points": [
+            "Website registration process is slow and clunky.",
+            "Issues with captcha slowing down the process."
+          ],
+          "desired_outcomes": "A fast and efficient registration process that minimizes unnecessary steps.",
+          "success_criteria": "Ability to register for events quickly without technical difficulties.",
+          "_source": {
+            "interview_id": "SBNC_Interview_Danielle_Nov16",
+            "file": "SBNC_Interview_Danielle_Nov16_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I want to see what events I have signed up for, I want to easily find that information, so I can keep track of my commitments.",
+          "current_solution": "Checking my emails or using the app.",
+          "pain_points": [
+            "Difficulty in locating signed-up events on the website.",
+            "Inconsistent visibility of event registration status."
+          ],
+          "desired_outcomes": "A straightforward way to view all my signed-up events in one place.",
+          "success_criteria": "Ability to see all signed-up events in my profile on the website or app.",
+          "_source": {
+            "interview_id": "SBNC_Interview_Danielle_Nov16",
+            "file": "SBNC_Interview_Danielle_Nov16_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I want to sign up for events, I want to easily access the event registration, so I can participate without confusion.",
+          "current_solution": "Using the app for event registration.",
+          "pain_points": "On the website, users have to navigate multiple pages and clicks to find event registration.",
+          "desired_outcomes": "Streamlined access to event registration from the main calendar view.",
+          "success_criteria": "Users can register for events in a few clicks without confusion.",
+          "_source": {
+            "interview_id": "SBNC_Interview_Jen_Nov16",
+            "file": "SBNC_Interview_Jen_Nov16_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I need to find information about committees, I want to easily locate committee descriptions, so I can get involved in activities.",
+          "current_solution": "Accessing the committee list on the website.",
+          "pain_points": "Committee descriptions are not clearly labeled or easily accessible on the website.",
+          "desired_outcomes": "Clear and direct access to committee descriptions and contact information.",
+          "success_criteria": "Users can find relevant committee information without difficulty.",
+          "_source": {
+            "interview_id": "SBNC_Interview_Jen_Nov16",
+            "file": "SBNC_Interview_Jen_Nov16_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I am new to Santa Barbara, I want to connect with other newcomers, so I can build a social network in my new environment.",
+          "current_solution": "Joining Santa Barbara newcomers and exploring events through the app.",
+          "pain_points": "Overwhelmed by the number of clubs and committees; difficulty finding relevant information on the website.",
+          "desired_outcomes": "Easily identify and join groups that match my interests.",
+          "success_criteria": "Successfully connect with other newcomers and participate in events that align with my interests.",
+          "_source": {
+            "interview_id": "SBNC_Interview_KieranShah_11.15.25",
+            "file": "SBNC_Interview_KieranShah_11.15.25_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I want to register for events, I want a seamless experience, so I can easily join without frustration.",
+          "current_solution": "Using the app to register for events.",
+          "pain_points": "Website is confusing and not user-friendly; reliance on the app due to dissatisfaction with the website.",
+          "desired_outcomes": "A more intuitive registration process that encourages engagement.",
+          "success_criteria": "Easily register for events without confusion or technical issues.",
+          "_source": {
+            "interview_id": "SBNC_Interview_KieranShah_11.15.25",
+            "file": "SBNC_Interview_KieranShah_11.15.25_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I am managing events through the newcomers website, I want to ensure accurate registration and payment processing, so I can effectively communicate with attendees and avoid confusion.",
+          "current_solution": "Using the website and phone app for event registration and management.",
+          "pain_points": "Conflicting information between the phone app and the actual registration log, complicated event management processes, and inadequate training for new committee members.",
+          "desired_outcomes": "A seamless registration process that provides clear information and reduces user errors.",
+          "success_criteria": "Users can register without confusion, and administrators can easily verify registrations.",
+          "_source": {
+            "interview_id": "Call_Recording",
+            "file": "Call_Recording_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I want to find out about upcoming events, I want to easily access and navigate the website, so I can plan my schedule and contact friends.",
+          "current_solution": "Logging into the computer-based website.",
+          "pain_points": "The event descriptions can be unclear, and the phone app is underpowered.",
+          "desired_outcomes": "A clear and intuitive interface on both the website and phone app that provides accurate event information.",
+          "success_criteria": "Users can quickly find and understand event details without needing additional help.",
+          "_source": {
+            "interview_id": "Call_Recording",
+            "file": "Call_Recording_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I am involved in event planning, I want to have a reliable way to archive and pass on information, so I can ensure continuity and efficiency with future events.",
+          "current_solution": "Current informal methods of communication and memory.",
+          "pain_points": "Lack of formalized institutional memory leads to loss of valuable information and processes.",
+          "desired_outcomes": "A structured way to document and share event planning processes and outcomes.",
+          "success_criteria": "New committee members can access historical data and learn from past events easily.",
+          "_source": {
+            "interview_id": "Call_Recording",
+            "file": "Call_Recording_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I am joining a new community group, I want to easily sign up and navigate the website/app, so I can quickly participate in events and feel a part of the community.",
+          "current_solution": "The sign-up process was straightforward and user-friendly.",
+          "pain_points": "The app lacks some functionalities, like easily contacting committee chairs if I cannot attend an event.",
+          "desired_outcomes": "A seamless registration experience and easy access to committee contact information.",
+          "success_criteria": "Users can register, navigate, and communicate regarding events without confusion.",
+          "_source": {
+            "interview_id": "Call with Christine Beckman",
+            "file": "Call with Christine Beckman_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I want to participate in events, I want to find relevant events quickly, so I can manage my time and commitments effectively.",
+          "current_solution": "The website has a list and calendar view for events.",
+          "pain_points": "Finding specific events can be overwhelming due to the large number of activities and the lack of filtering options.",
+          "desired_outcomes": "An efficient way to filter or search for events based on my interests.",
+          "success_criteria": "Users can easily filter events and find those relevant to their interests without excessive scrolling.",
+          "_source": {
+            "interview_id": "Call with Christine Beckman",
+            "file": "Call with Christine Beckman_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I am planning events for the Newcomers Club, I want to utilize the website and app effectively, so I can ensure smooth event registration and management.",
+          "current_solution": "Using the Wild Apricot application for managing events and registrations.",
+          "pain_points": "The phone app is underpowered, provides conflicting information, and is not user-friendly for all members.",
+          "desired_outcomes": "A more reliable and user-friendly mobile app that provides accurate event registration information.",
+          "success_criteria": "Members can easily register for events and access accurate information through their preferred devices without confusion.",
+          "_source": {
+            "interview_id": "Call_Recording_compressed",
+            "file": "Call_Recording_compressed_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I am involved in committee work, I want to access administrative features on the website, so I can manage events effectively.",
+          "current_solution": "Logging in as an administrator to view backend features.",
+          "pain_points": "The administrative interface is complex and not well documented for new users.",
+          "desired_outcomes": "An intuitive administrative interface with better training resources for new committee members.",
+          "success_criteria": "Committee members can navigate the administrative functions efficiently and manage events without frustration.",
+          "_source": {
+            "interview_id": "Call_Recording_compressed",
+            "file": "Call_Recording_compressed_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I need to update my information, I want to easily access the update feature, so I can keep my profile current.",
+          "current_solution": "Users can update their information through the app.",
+          "pain_points": "The process is not obvious, and many users are unaware of how to do it.",
+          "desired_outcomes": "A straightforward method for users to update their information on their own.",
+          "success_criteria": "Users report that they can easily find and use the update feature without external help.",
+          "_source": {
+            "interview_id": "New Recording 26",
+            "file": "New Recording 26_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I want to join events, I want the process to be intuitive and seamless, so I can participate without frustration.",
+          "current_solution": "Users can join events through the website or app.",
+          "pain_points": "The current process is convoluted, and information about events is not easily accessible.",
+          "desired_outcomes": "A simplified and clear event joining process that provides all necessary information upfront.",
+          "success_criteria": "Users report a smooth experience when joining events without confusion or excessive navigation.",
+          "_source": {
+            "interview_id": "New Recording 26",
+            "file": "New Recording 26_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I need to keep track of my events, I want a dedicated page that lists all my registered events, so I can manage my schedule easily.",
+          "current_solution": "A 'my newcomers' page exists but is not user-friendly.",
+          "pain_points": "Users find it challenging to navigate and find their events on the website.",
+          "desired_outcomes": "A well-organized and easily accessible list of events that users are registered for.",
+          "success_criteria": "Users can quickly find and manage their events in one place without unnecessary clicks.",
+          "_source": {
+            "interview_id": "New Recording 26",
+            "file": "New Recording 26_jtbd.json"
+          }
+        }
+      ]
+    },
+    "emotional": {
+      "total": 8,
+      "jobs": [
+        {
+          "job_statement": "When I am using the platform, I want to feel confident and informed, so I can engage with my community effectively.",
+          "current_solution": "Using the app which is more intuitive than the website.",
+          "pain_points": "The website is confusing, leading to feelings of frustration and inadequacy.",
+          "desired_outcomes": "A user-friendly experience that empowers me to engage without hesitation.",
+          "success_criteria": "Users report feeling confident and satisfied with their ability to navigate and use the platform.",
+          "_source": {
+            "interview_id": "SBNC_Interview_Jen_Nov16",
+            "file": "SBNC_Interview_Jen_Nov16_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I explore the newcomers' website, I want to feel excited and welcomed, so I can feel comfortable joining and participating.",
+          "current_solution": "The current website and app.",
+          "pain_points": "Website feels dated and uninviting; does not evoke excitement.",
+          "desired_outcomes": "An engaging and visually appealing website that makes me feel valued.",
+          "success_criteria": "Feel motivated to explore and participate in events based on the website\u2019s design and content.",
+          "_source": {
+            "interview_id": "SBNC_Interview_KieranShah_11.15.25",
+            "file": "SBNC_Interview_KieranShah_11.15.25_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I am using the newcomers website, I want to feel confident in my ability to navigate it, so I can enjoy my involvement without frustration.",
+          "current_solution": "Utilizing the website and phone app.",
+          "pain_points": "Frustration with technical issues and lack of clarity in navigation.",
+          "desired_outcomes": "A user-friendly experience that instills confidence in using the platform.",
+          "success_criteria": "Users express satisfaction with the website's usability and feel empowered to engage with it.",
+          "_source": {
+            "interview_id": "Call_Recording",
+            "file": "Call_Recording_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When attending events, I want to feel included and recognized, so I can build connections with other members.",
+          "current_solution": "Using printed name tags for events.",
+          "pain_points": "Handwritten name tags can indicate registration issues and may exclude some members from feeling welcome.",
+          "desired_outcomes": "Printed name tags that visually signify attendance and roles within the organization.",
+          "success_criteria": "All attendees have professional name tags, and the atmosphere feels inclusive.",
+          "_source": {
+            "interview_id": "Call_Recording",
+            "file": "Call_Recording_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I join a new group, I want to feel welcomed and engaged, so I can build connections and feel part of the community.",
+          "current_solution": "The orientation and meet and greet events were helpful.",
+          "pain_points": "The website/app does not feel very inviting or visually appealing.",
+          "desired_outcomes": "A welcoming online experience that reflects the community spirit.",
+          "success_criteria": "Users report feeling engaged and excited about participating in events.",
+          "_source": {
+            "interview_id": "Call with Christine Beckman",
+            "file": "Call with Christine Beckman_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I am hosting an event, I want to feel confident in the registration process, so I can ensure that attendees have a positive experience.",
+          "current_solution": "Using printed name tags and maintaining accurate registration records.",
+          "pain_points": "Worry about unregistered attendees showing up, which can lead to confusion and embarrassment.",
+          "desired_outcomes": "A reliable system that prevents registration issues and ensures all attendees are accounted for.",
+          "success_criteria": "A seamless registration experience with printed name tags that help identify attendees correctly.",
+          "_source": {
+            "interview_id": "Call_Recording_compressed",
+            "file": "Call_Recording_compressed_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I use the club's website, I want to feel that it represents a contemporary and vibrant community, so I can feel proud to be a member.",
+          "current_solution": "The current website design is outdated.",
+          "pain_points": "Members feel that the website does not reflect the club's modern values or attract new members.",
+          "desired_outcomes": "A refreshed and contemporary website design that resonates with members and potential newcomers.",
+          "success_criteria": "Positive feedback from members regarding the new website design and increased engagement from newcomers.",
+          "_source": {
+            "interview_id": "New Recording 26",
+            "file": "New Recording 26_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I am new to the community, I want to feel welcomed and integrated, so I can build connections and feel at home.",
+          "current_solution": "New member orientation and events exist.",
+          "pain_points": "Some new members feel lost or unsure about how to get involved.",
+          "desired_outcomes": "A welcoming environment that fosters connection among new members.",
+          "success_criteria": "New members express feelings of belonging and connection after participating in events.",
+          "_source": {
+            "interview_id": "New Recording 26",
+            "file": "New Recording 26_jtbd.json"
+          }
+        }
+      ]
+    },
+    "social": {
+      "total": 4,
+      "jobs": [
+        {
+          "job_statement": "When I participate in events, I want to be seen as an engaged member of the community, so I can build my reputation and network.",
+          "current_solution": "Attending events and using the app to sign up.",
+          "pain_points": "Complicated website navigation may limit participation and visibility.",
+          "desired_outcomes": "Easier access to participation opportunities to enhance my social presence.",
+          "success_criteria": "Increased participation in events and recognition from peers.",
+          "_source": {
+            "interview_id": "SBNC_Interview_Jen_Nov16",
+            "file": "SBNC_Interview_Jen_Nov16_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I participate in newcomers' events, I want to be perceived as an engaged and friendly member, so I can build a positive reputation within the community.",
+          "current_solution": "Joining and attending events organized by Santa Barbara newcomers.",
+          "pain_points": "Difficulty in finding relevant events makes it challenging to engage meaningfully.",
+          "desired_outcomes": "Establish a reputation as an active and sociable newcomer.",
+          "success_criteria": "Gain recognition among peers as an active participant in community events.",
+          "_source": {
+            "interview_id": "SBNC_Interview_KieranShah_11.15.25",
+            "file": "SBNC_Interview_KieranShah_11.15.25_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I participate in community events, I want to be perceived as an active member and contributor, so I can build my social reputation.",
+          "current_solution": "Attending events and engaging with members.",
+          "pain_points": "Difficulty in contacting organizers could hinder participation and visibility.",
+          "desired_outcomes": "Easily communicate with event organizers to confirm attendance or express interest.",
+          "success_criteria": "Users feel recognized and valued within the community due to active participation.",
+          "_source": {
+            "interview_id": "Call with Christine Beckman",
+            "file": "Call with Christine Beckman_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I attend events, I want to be perceived as an engaged and active member of the community, so I can build my social network.",
+          "current_solution": "Participation in events is encouraged.",
+          "pain_points": "Difficulties in joining events may lead to feelings of exclusion.",
+          "desired_outcomes": "Increased visibility and acceptance within the community as a proactive member.",
+          "success_criteria": "Members report feeling more connected and recognized within the community after attending events.",
+          "_source": {
+            "interview_id": "New Recording 26",
+            "file": "New Recording 26_jtbd.json"
+          }
+        }
+      ]
+    },
+    "supporting": {
+      "total": 9,
+      "jobs": [
+        {
+          "job_statement": "When I need to update my profile information, I want to do it quickly and easily, so I can keep my details current.",
+          "current_solution": "Accessing the member profile page on the website.",
+          "pain_points": "Finding how to update profile information is not straightforward.",
+          "desired_outcomes": "Quick and intuitive access to profile management.",
+          "success_criteria": "Users can update their profile information without confusion or delay.",
+          "_source": {
+            "interview_id": "SBNC_Interview_Jen_Nov16",
+            "file": "SBNC_Interview_Jen_Nov16_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I need to cancel an event registration, I want a straightforward process, so I can manage my commitments efficiently.",
+          "current_solution": "Contacting the committee via email to cancel.",
+          "pain_points": "There is no direct option to cancel registrations on the app or website, requiring multiple steps.",
+          "desired_outcomes": "A clear, direct method to cancel event registrations.",
+          "success_criteria": "Users can cancel registrations with one or two clicks.",
+          "_source": {
+            "interview_id": "SBNC_Interview_Jen_Nov16",
+            "file": "SBNC_Interview_Jen_Nov16_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I want to gather information about the newcomers' activities, I want it to be easily accessible, so I can make informed decisions about my participation.",
+          "current_solution": "Using the app and occasionally checking the website.",
+          "pain_points": "Information is scattered and hard to find; the website lacks a clear structure.",
+          "desired_outcomes": "Centralized and organized information about events and committees.",
+          "success_criteria": "Quickly find and understand information regarding activities and how to participate.",
+          "_source": {
+            "interview_id": "SBNC_Interview_KieranShah_11.15.25",
+            "file": "SBNC_Interview_KieranShah_11.15.25_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I am planning for events, I want to have effective training resources, so I can maximize my contribution as a committee member.",
+          "current_solution": "Current training sessions that are often inadequate.",
+          "pain_points": "Training sessions do not equip new members with necessary skills and knowledge.",
+          "desired_outcomes": "Comprehensive training that prepares members for their roles effectively.",
+          "success_criteria": "New members feel confident and capable in their roles after training.",
+          "_source": {
+            "interview_id": "Call_Recording",
+            "file": "Call_Recording_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I need to organize events, I want access to a dedicated technical support person, so I can focus on creative aspects instead of technical difficulties.",
+          "current_solution": "Reliance on volunteers and committee members for technical support.",
+          "pain_points": "Lack of availability of knowledgeable support leads to inefficiencies during event planning.",
+          "desired_outcomes": "Access to a technical expert who can assist with website and event management issues.",
+          "success_criteria": "Event planning processes run smoothly with technical support readily available.",
+          "_source": {
+            "interview_id": "Call_Recording",
+            "file": "Call_Recording_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I have questions or need assistance, I want to quickly find help, so I can resolve issues without frustration.",
+          "current_solution": "Access to committee chairs' emails for direct communication.",
+          "pain_points": "Finding the right contact information on the app is not straightforward.",
+          "desired_outcomes": "Clear access to support and resources when needed.",
+          "success_criteria": "Users can find help quickly and effectively address any issues they encounter.",
+          "_source": {
+            "interview_id": "Call with Christine Beckman",
+            "file": "Call with Christine Beckman_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I am training new committee members, I want to provide them with adequate resources, so they can quickly learn how to use the website effectively.",
+          "current_solution": "Conducting informal training sessions.",
+          "pain_points": "Current training methods are inadequate and lead to confusion among new users.",
+          "desired_outcomes": "A structured training program that equips new members with the knowledge they need to use the website.",
+          "success_criteria": "New committee members feel confident and competent in using the website after training.",
+          "_source": {
+            "interview_id": "Call_Recording_compressed",
+            "file": "Call_Recording_compressed_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When managing events, I want to have a system that archives past events and decisions, so I can ensure continuity and avoid repeating past mistakes.",
+          "current_solution": "Relying on informal notes and memory.",
+          "pain_points": "Lack of institutional memory leads to repeated issues and inefficiencies.",
+          "desired_outcomes": "A formalized archival process that documents past events and decisions.",
+          "success_criteria": "Committee members can easily access historical data to inform their planning and decision-making.",
+          "_source": {
+            "interview_id": "Call_Recording_compressed",
+            "file": "Call_Recording_compressed_jtbd.json"
+          }
+        },
+        {
+          "job_statement": "When I receive notifications about new events or updates, I want them to be clear and actionable, so I can easily engage with the community.",
+          "current_solution": "Notifications are sent through the app.",
+          "pain_points": "Many members do not receive or notice notifications, leading to missed opportunities.",
+          "desired_outcomes": "Effective communication that ensures all members are informed and can participate in community events.",
+          "success_criteria": "High levels of engagement in events following improved notification systems.",
+          "_source": {
+            "interview_id": "New Recording 26",
+            "file": "New Recording 26_jtbd.json"
+          }
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "scope": "website_only",
+    "total_interviews_analyzed": 24,
+    "total_jobs_identified": 57,
+    "total_jobs_in_scope": 38,
+    "filtering_applied": true,
+    "statistics": {
+      "raw_counts": {
+        "functional_jobs": 32,
+        "emotional_jobs": 9,
+        "social_jobs": 7,
+        "supporting_jobs": 9
+      },
+      "in_scope_counts": {
+        "functional_jobs": 17,
+        "emotional_jobs": 8,
+        "social_jobs": 4,
+        "supporting_jobs": 9
+      }
+    }
+  }
+}

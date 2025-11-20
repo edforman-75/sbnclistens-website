@@ -1,0 +1,89 @@
+{
+  "pain_points": [
+    {
+      "description": "Frustration with the phone app's functionality and reliability.",
+      "quotes": [
+        "I rarely use the phone app, quite frankly, because I felt it was underpowered and gave conflicting information.",
+        "I'm looking at the actual log here and your registration expired because you didn't pay within the first 15 minutes. And having not paid, you're not actually registered. But my phone app says I'm registered."
+      ],
+      "frequency_severity": "High frustration, frequently affects communication.",
+      "current_workarounds": "User prefers to use the computer-based web application instead of the phone app.",
+      "impact": "Causes confusion and miscommunication among users, leading to frustration and potential loss of participation in events.",
+      "category": "effort"
+    },
+    {
+      "description": "Ineffective training process for new committee chairs.",
+      "quotes": [
+        "The training process that is undertaken in good faith is really not adequate to allow a committee co-chair to be facile... especially if it's a big event in the last week.",
+        "The venue for training has been woefully inadequate."
+      ],
+      "frequency_severity": "Significant issue, particularly for new users, leading to anxiety and confusion.",
+      "current_workarounds": "Experienced users assist new committee chairs, but this is inconsistent.",
+      "impact": "New users struggle to organize events effectively, impacting overall event quality and satisfaction.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of institutional knowledge and continuity within the organization.",
+      "quotes": [
+        "The problem is the lack of a formalized institutional memory.",
+        "To be able to pass that baton to the next term... there's not a facile way to have some kind of archival process."
+      ],
+      "frequency_severity": "Frequent issue due to the organization's cyclical nature, leading to inefficiency.",
+      "current_workarounds": "Informal communication and reliance on a few knowledgeable individuals.",
+      "impact": "Creates challenges in event planning and execution, leading to repeated mistakes and inefficiencies.",
+      "category": "time"
+    },
+    {
+      "description": "Confusion over event registration and payment status.",
+      "quotes": [
+        "If I saw anyone walking around with the name tag, that was a pencil Sharpie handwritten name tag... that was a clue that that person may not have been registered.",
+        "Having not paid, you're not actually registered."
+      ],
+      "frequency_severity": "Common issue during events, leading to embarrassment for users.",
+      "current_workarounds": "Users need to be proactive in following up with individuals who have unclear registration status.",
+      "impact": "Leads to confusion and potential exclusion from events for participants.",
+      "category": "social"
+    },
+    {
+      "description": "Difficulty in managing event logistics, such as waitlists and cancellations.",
+      "quotes": [
+        "How do you manage a wait list? All of that is is important.",
+        "You have a series of cancellations. People can't come."
+      ],
+      "frequency_severity": "Significant during large events, affecting overall attendee satisfaction.",
+      "current_workarounds": "Manual tracking and follow-up by event organizers.",
+      "impact": "Can lead to empty slots at events and dissatisfaction among members.",
+      "category": "effort"
+    },
+    {
+      "description": "Need for better event communication and transparency regarding scheduling.",
+      "quotes": [
+        "Sometimes the event descriptions and especially save the date kinds of things were not as transparent or not as clear.",
+        "We would write newbie or write committee member... things like that."
+      ],
+      "frequency_severity": "Occasional issue, but significant for first-time participants.",
+      "current_workarounds": "Users rely on direct communication with organizers for clarification.",
+      "impact": "Can lead to misunderstandings about events and lower engagement.",
+      "category": "quality"
+    },
+    {
+      "description": "Lack of a dedicated technical support role within the organization.",
+      "quotes": [
+        "I think there ought to be a paid technical kind of person that really could be there.",
+        "Imagine running an organization, a corporation like that. It's astounding."
+      ],
+      "frequency_severity": "Significant impact on operational efficiency.",
+      "current_workarounds": "Current members take on technical support informally, but it's inconsistent.",
+      "impact": "Leads to inefficiencies and potential burnout among volunteers.",
+      "category": "effort"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call_Recording_compressed.json",
+    "interview_id": "Call_Recording_compressed"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:52:50.751949",
+    "version": "1.0"
+  }
+}

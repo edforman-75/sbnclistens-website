@@ -1,0 +1,36 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "Does it tell you how many people are on the wait list for a given event?",
+      "I think so. Yeah, because it shows you...",
+      "Because if there's 20 people on it, how many are you going to buy?",
+      "Okay, that's a good point.",
+      "If there's one or two... That's a good point. Yeah, yeah, yeah."
+    ],
+    "THINKS": [
+      "Knowing the wait list number influences my decision to buy tickets.",
+      "I might prioritize events with fewer people on the wait list.",
+      "I wonder if there's a way to better gauge the popularity of an event.",
+      "I think about the fairness of the ticketing process."
+    ],
+    "DOES": [
+      "Considers the number of people on the wait list before making a ticket purchase.",
+      "Engages in discussions about event popularity with others.",
+      "Evaluates the potential risk of buying tickets based on wait list numbers."
+    ],
+    "FEELS": [
+      "Curious about the demand for events.",
+      "Frustrated by uncertainty in ticketing.",
+      "Apprehensive about making a purchase if the demand is high.",
+      "Satisfaction when making informed decisions based on available data."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 37.json",
+    "interview_id": "New Recording 37"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:43:09.535957",
+    "version": "1.0"
+  }
+}

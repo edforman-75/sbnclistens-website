@@ -1,0 +1,61 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we simplify the document reading and agreement process during registration to ensure users are informed?",
+      "evidence": "I'm pretty sure I didn't read them and I just clicked okay.",
+      "user_need": "Transparency and clarity in terms and conditions.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the app to allow users to easily find and contact committee chairs?",
+      "evidence": "I couldn't figure out how to tell the committee chair that I wouldn't be there, like I couldn't figure out who the committee chair was.",
+      "user_need": "Easy access to committee contact information.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the navigation and filtering of events on the website and app?",
+      "evidence": "It can be hard then to navigate. How to sort, yeah, because not everyone's going to, because they're not interested in everything, of course.",
+      "user_need": "Efficient event discovery based on user interest.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a clearer distinction between different event views (list vs. calendar) to enhance user experience?",
+      "evidence": "I find that the font's smaller. It's like, I like the lists more than I like the calendar view.",
+      "user_need": "Personalized viewing preferences for event listings.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we implement a waitlist management system directly within the app?",
+      "evidence": "I did get off the wait list for one event, and that worked pretty well, you know, I got a phone call.",
+      "user_need": "Streamlined communication for waitlisted events.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enhance the app's event registration process to allow users to cancel their attendance easily?",
+      "evidence": "There's not a cancellation button.",
+      "user_need": "Ease of managing event attendance.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we improve the overall aesthetic appeal of the website to make it more welcoming?",
+      "evidence": "My particular view is it's not very pretty.",
+      "user_need": "A visually appealing and engaging user interface.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call with Christine Beckman.json",
+    "interview_id": "Call with Christine Beckman"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:59:51.632268",
+    "version": "1.0"
+  }
+}

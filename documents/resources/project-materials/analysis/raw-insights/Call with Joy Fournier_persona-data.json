@@ -1,0 +1,53 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "Not specified",
+      "role": "Chairman of the pop-up committee, member of various committees",
+      "experience_level": "Joined newcomers in March 2023, relatively new member",
+      "technical_proficiency": "Low; does not have strong opinions about technology"
+    },
+    "background_context": {
+      "situation": "Involved in a social newcomer organization, uses the website primarily for event information",
+      "environment": "Interacts primarily online; works Monday through Friday, 8 to 5",
+      "constraints": "Limited to evenings and weekends for events"
+    },
+    "goals_motivations": {
+      "drives": "Seeking social engagement and participation in community events",
+      "achievements": "Wants to quickly find and sign up for events that fit into her schedule"
+    },
+    "behaviors_patterns": {
+      "current_work": "Uses the website mainly to look for events and sign up for them",
+      "habits": "Prefers to view events by date and returns to the same calendar view after checking details"
+    },
+    "pain_points_frustrations": {
+      "obstacles": "Frustrated by having to scroll back to previous calendar dates and the switching between list view and calendar view",
+      "does_not_work_well": "Navigating back to the calendar after viewing an event is cumbersome"
+    },
+    "needs_desires": {
+      "life_better": "A more efficient way to navigate back to the calendar and maintain the view she was using",
+      "looking_for": "Clearer navigation and improved usability of the website"
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Functional use of the website is more important than aesthetics",
+      "preferences": "Values simplicity and efficiency in web navigation"
+    },
+    "technical_comfort": {
+      "tools_used": "Website for event information",
+      "technical_abilities": "Limited comfort with technology; finds some tools complicated",
+      "learning_preferences": "Prefers straightforward, uncomplicated processes"
+    },
+    "quotes": [
+      "I think it's very good. I don't know how it can be improved, but yeah, it seems to be, it gets the job done.",
+      "It goes back to the beginning of like many months ago.",
+      "If I know if it's a Saturday or Monday through Friday at 10am when I can't do it kind of thing."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call with Joy Fournier.json",
+    "interview_id": "Call with Joy Fournier"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:10:26.063815",
+    "version": "1.0"
+  }
+}

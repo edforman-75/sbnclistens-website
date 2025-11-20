@@ -1,0 +1,100 @@
+{
+  "pain_points": [
+    {
+      "description": "Website navigation is cumbersome, requiring excessive backtracking.",
+      "supporting_quotes": [
+        "I feel like I have to go back a lot more steps that way than with the app.",
+        "You have to go back to the top in order to go to the next month."
+      ],
+      "frequency_severity": "High - frequently mentioned and described as frustrating.",
+      "current_workarounds": "Users have resorted to using the app exclusively for easier navigation.",
+      "impact_on_user": "Increases time spent finding information and may deter users from engaging with events.",
+      "category": "time"
+    },
+    {
+      "description": "Lack of a search functionality on the website.",
+      "supporting_quotes": [
+        "It would be easier if you could pick whatever committee that you think... and then go through and see what they have.",
+        "The app has a search bar, but the website doesn't."
+      ],
+      "frequency_severity": "High - mentioned multiple times with clear frustration.",
+      "current_workarounds": "Users may scroll through the calendar instead of searching.",
+      "impact_on_user": "Makes it difficult to quickly find relevant events, leading to potential missed opportunities.",
+      "category": "time"
+    },
+    {
+      "description": "Confusion regarding event registration and availability.",
+      "supporting_quotes": [
+        "I was going to sign up because you see it. And you have to remember to go back the next week and sign up.",
+        "Sometimes they have to, you can't sign up for another week or two."
+      ],
+      "frequency_severity": "Moderate - mentioned as a source of confusion, affecting user experience.",
+      "current_workarounds": "Users look for event information in emails, but may miss sign-up periods.",
+      "impact_on_user": "Causes frustration and may lead to missing events or opportunities.",
+      "category": "time"
+    },
+    {
+      "description": "Difficulty in finding signed-up events and confirming participation.",
+      "supporting_quotes": [
+        "I actually haven't [figured that part out].",
+        "I look at my emails to see what I've signed up for."
+      ],
+      "frequency_severity": "Moderate - indicates a common concern but not as intense as others.",
+      "current_workarounds": "Users check their emails instead of using the website.",
+      "impact_on_user": "Increases effort to manage event participation and may lead to confusion.",
+      "category": "effort"
+    },
+    {
+      "description": "Refund process is unclear and inefficient.",
+      "supporting_quotes": [
+        "I never got a refund but it wasn't a big deal.",
+        "It should have just been processed."
+      ],
+      "frequency_severity": "Moderate - mentioned with concern about the lack of refunds.",
+      "current_workarounds": "Users may need to contact committee chairs directly for refunds.",
+      "impact_on_user": "Causes frustration and distrust in the registration process.",
+      "category": "money"
+    },
+    {
+      "description": "Alumni contact information is not accessible.",
+      "supporting_quotes": [
+        "I looked on the website to see if I could get it first.",
+        "How do they find each other after they're done?"
+      ],
+      "frequency_severity": "Moderate - indicates a need for better alumni connectivity.",
+      "current_workarounds": "Users may reach out to others directly or rely on personal contacts.",
+      "impact_on_user": "Limits networking opportunities and connections with past members.",
+      "category": "social"
+    },
+    {
+      "description": "Lack of clarity on committee roles and opportunities.",
+      "supporting_quotes": [
+        "I don't know that there's any job description for board positions out there.",
+        "It would be easier to have a document that you could read."
+      ],
+      "frequency_severity": "Moderate - indicates a barrier to user engagement.",
+      "current_workarounds": "Users have to ask around or dig through emails to find information.",
+      "impact_on_user": "Reduces willingness to get involved due to lack of information.",
+      "category": "effort"
+    },
+    {
+      "description": "Website does not archive past newsletters.",
+      "supporting_quotes": [
+        "It's just in your email and if you wanted to go look at them, you'd have to go look at your old email.",
+        "I think that would be something helpful."
+      ],
+      "frequency_severity": "Low - mentioned as a potential improvement.",
+      "current_workarounds": "Users search through their emails for old newsletters.",
+      "impact_on_user": "Increases effort in finding past information.",
+      "category": "effort"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_Danielle_Nov16.json",
+    "interview_id": "SBNC_Interview_Danielle_Nov16"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:56:56.479295",
+    "version": "1.0"
+  }
+}

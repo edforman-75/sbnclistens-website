@@ -1,0 +1,40 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "I would say I was solely using the website. And once I had downloaded the app and started to use that, that I pretty much never went back to using the website.",
+      "To me, that's great because it's kind of the month at a glance and pretty time efficient in terms of looking through what's coming up and what you might be interested in.",
+      "I thought was really helpful. And certainly because they give you the email of who to contact if you have questions.",
+      "I do find the committee descriptions as helpful.",
+      "I think that thing needs to get... I feel like that was a question, people that wanted their address changed and just didn't know how to do it."
+    ],
+    "THINKS": [
+      "The website's usability is confusing and not intuitive enough for new users.",
+      "There should be an easier way to access important features like event registrations and committee information.",
+      "The current design of the website does not effectively guide users to the information they need.",
+      "Other users share my frustrations but may not voice them.",
+      "Improvements could enhance the overall user experience and encourage more engagement."
+    ],
+    "DOES": [
+      "Primarily uses the app for event registrations and information access.",
+      "Relies on the calendar feature to plan and keep track of upcoming events.",
+      "Navigates the website to find committee descriptions and member directories.",
+      "Uses trial and error to figure out how to navigate the website.",
+      "Discusses usability issues with peers and seeks advice on navigating the site."
+    ],
+    "FEELS": [
+      "Frustrated by the complexity and lack of visibility of certain website features.",
+      "Confused when trying to navigate between the public and admin views.",
+      "Anxious about not being able to find necessary information quickly, which may impact their participation.",
+      "Encouraged when they find features that are user-friendly like the app, but disappointed when the website doesn't match that experience.",
+      "Skeptical about whether changes will actually improve usability for themselves and others."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_Jen_Nov16.json",
+    "interview_id": "SBNC_Interview_Jen_Nov16"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:44:01.885344",
+    "version": "1.0"
+  }
+}

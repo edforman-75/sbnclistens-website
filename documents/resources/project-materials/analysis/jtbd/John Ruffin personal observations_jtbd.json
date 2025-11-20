@@ -1,0 +1,88 @@
+{
+  "jobs": {
+    "FUNCTIONAL_JOBS": {
+      "job_statement": "When I am using the website for the Newcomers Club, I want to easily navigate through the information and find what I'm looking for, so I can efficiently manage my participation and involvement in the club.",
+      "current_solution": "The current website structure is clunky and has redundant information across multiple drop-downs, making navigation difficult.",
+      "pain_points": [
+        "Outdated design and poor visual representation of the club.",
+        "Redundant and confusing navigation with multiple drop-downs containing similar information.",
+        "Inconsistent functionality between list view and calendar view for events."
+      ],
+      "desired_outcomes": [
+        "A visually appealing website that reflects the beauty of Santa Barbara.",
+        "Clear and concise navigation with no redundancy.",
+        "Consistent and intuitive navigation across different views."
+      ],
+      "success_criteria": [
+        "Users can find information quickly and with minimal clicks.",
+        "Positive feedback on the website's appearance and functionality.",
+        "Reduced confusion and frustration when navigating the site."
+      ]
+    },
+    "EMOTIONAL_JOBS": {
+      "job_statement": "When I visit the website, I want to feel confident and satisfied with my experience, so I can enjoy my involvement with the club.",
+      "current_solution": "The current website does not evoke a sense of satisfaction or confidence due to its poor design and navigation.",
+      "pain_points": [
+        "Frustration when navigating the site due to its clunky design.",
+        "Feeling overwhelmed by the amount of redundant information.",
+        "Disappointment in the lack of aesthetic appeal."
+      ],
+      "desired_outcomes": [
+        "A sense of ease and satisfaction when using the website.",
+        "Confidence that I can find the information I need without hassle.",
+        "A feeling of pride in the club's online presence."
+      ],
+      "success_criteria": [
+        "Users report feeling satisfied and confident after using the site.",
+        "Reduced emotional frustration during website interactions.",
+        "Positive emotional responses to the visual appeal of the site."
+      ]
+    },
+    "SOCIAL_JOBS": {
+      "job_statement": "When I share information about the Newcomers Club, I want to be perceived as knowledgeable and engaged, so I can enhance my social reputation within the community.",
+      "current_solution": "The current website does not represent the club well, which affects how I am perceived when I share information.",
+      "pain_points": [
+        "Concerns that the outdated website may reflect poorly on my involvement with the club.",
+        "Difficulty in finding and sharing relevant information about the club's activities.",
+        "The website's lack of appeal may diminish the club's reputation."
+      ],
+      "desired_outcomes": [
+        "To be seen as an informed member of the Newcomers Club.",
+        "To confidently share engaging and relevant information with others.",
+        "To enhance the overall perception of the club through effective communication."
+      ],
+      "success_criteria": [
+        "Increased positive feedback from peers about the club's activities and website.",
+        "Greater engagement from members and potential members based on shared information.",
+        "Improved overall reputation of the club within the community."
+      ]
+    },
+    "SUPPORTING_JOBS": {
+      "job_statement": "When I need to volunteer or participate in events, I want to find organized and relevant opportunities easily, so I can contribute to the club effectively.",
+      "current_solution": "Volunteer opportunities are organized alphabetically by organization, making it difficult to find specific types of opportunities.",
+      "pain_points": [
+        "Inefficient organization of volunteer opportunities.",
+        "Difficulty in finding specific types of volunteer work that interest me.",
+        "Frustration with the overall lack of clarity in event registration processes."
+      ],
+      "desired_outcomes": [
+        "A clear and organized listing of volunteer opportunities by category.",
+        "Easier access to relevant events and registration processes.",
+        "A streamlined experience for contributing to club activities."
+      ],
+      "success_criteria": [
+        "Users can quickly find and sign up for volunteer opportunities.",
+        "Positive feedback regarding the organization of volunteer listings.",
+        "Increased participation in events and volunteer opportunities."
+      ]
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/John Ruffin personal observations.json",
+    "interview_id": "John Ruffin personal observations"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:49:43.889160",
+    "version": "1.0"
+  }
+}

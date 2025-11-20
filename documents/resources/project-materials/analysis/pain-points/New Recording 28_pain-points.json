@@ -1,0 +1,40 @@
+{
+  "pain_points": [
+    {
+      "description": "The website is cumbersome and not user-friendly, making navigation difficult.",
+      "supporting_quotes": [
+        "I find the website a little cumbersome.",
+        "I would love to be able to go on and once you log in, then it sends you right to your page where these are the things you've signed up for and upcoming events for you."
+      ],
+      "frequency_severity": {
+        "frequency": "Frequent mention of frustration",
+        "severity": "Moderate"
+      },
+      "current_workarounds": "Uses the Apricot app, which she finds easier.",
+      "impact_on_user": "Frustration in accessing needed information quickly can lead to missing events or not engaging fully with the platform.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of guidance on valuable events at the beginning of the membership experience.",
+      "supporting_quotes": [
+        "I think there were some early on things that we missed because it just wasn't clear that, oh, it's valuable to attend the meet and greet or it's valuable to attend some of the other things.",
+        "Nobody guided you in terms of what would be really valuable at the beginning? No."
+      ],
+      "frequency_severity": {
+        "frequency": "Mentioned once but with significant emotional weight",
+        "severity": "High"
+      },
+      "current_workarounds": "None mentioned; relied on personal interest to choose events.",
+      "impact_on_user": "Missed opportunities to engage and connect with others, potentially leading to feelings of isolation.",
+      "category": "social"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 28.json",
+    "interview_id": "New Recording 28"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:53:05.177545",
+    "version": "1.0"
+  }
+}

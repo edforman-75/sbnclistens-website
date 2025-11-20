@@ -1,0 +1,67 @@
+{
+  "painPoints": [
+    {
+      "description": "Difficulty in finding and contacting committee chairs through the app.",
+      "supportingQuotes": [
+        "my only challenge with the app was when there was something that I couldn't do, I couldn't figure out how to tell the committee chair that I wouldn't be there, like I couldn't figure out who the committee chair was and all that",
+        "on the app, I can't find the committees. I can, you know, I can go to the events that I am registered for."
+      ],
+      "frequencySeverity": "High - mentioned multiple times with frustration.",
+      "currentWorkarounds": "User has to navigate to the website to find committee chair information.",
+      "impactOnUser": "Increases frustration and complicates the process of attending events.",
+      "category": "effort"
+    },
+    {
+      "description": "Overwhelming amount of events and difficulty navigating them.",
+      "supportingQuotes": [
+        "there's just so many things, and it's overwhelming, and how do you help people organize it so they don't, they can see just the parts that they're most relevant to them?",
+        "my most, the most prevalent one is just figuring out how do I figure out which things to look through."
+      ],
+      "frequencySeverity": "High - consistently mentioned as a significant issue.",
+      "currentWorkarounds": "User scrolls through events but finds it time-consuming.",
+      "impactOnUser": "Leads to missed events and increased effort in event selection.",
+      "category": "time"
+    },
+    {
+      "description": "Lack of filtering or sorting options for events.",
+      "supportingQuotes": [
+        "the filtering of events would be nice on the app and the website.",
+        "I don't know if there's a way to do it, how to just sort by just certain kinds of events."
+      ],
+      "frequencySeverity": "Moderate - mentioned as a desired feature.",
+      "currentWorkarounds": "User manually searches through events without filtering.",
+      "impactOnUser": "Makes it difficult to find relevant events efficiently.",
+      "category": "time"
+    },
+    {
+      "description": "Confusion regarding reading and understanding terms and conditions.",
+      "supportingQuotes": [
+        "I'm pretty sure I didn't read them and I just clicked okay.",
+        "I think probably what I did and probably what most people do is like this has got to be fine, I don't want to read all the fine print."
+      ],
+      "frequencySeverity": "Moderate - indicates a common user behavior.",
+      "currentWorkarounds": "Users typically skip reading these documents.",
+      "impactOnUser": "Users may be unaware of important terms and conditions that affect participation.",
+      "category": "quality"
+    },
+    {
+      "description": "Inconsistencies and delays in communication about event details.",
+      "supportingQuotes": [
+        "I haven't gotten the address yet that I am, but I can see who's registered.",
+        "it was now, because it would have been an email a couple of days ago, probably."
+      ],
+      "frequencySeverity": "Moderate - mentioned in relation to specific events.",
+      "currentWorkarounds": "Users check their email for updates, but may miss details.",
+      "impactOnUser": "Leads to confusion about event logistics and potential missed events.",
+      "category": "effort"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call with Christine Beckman.json",
+    "interview_id": "Call with Christine Beckman"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:53:21.285284",
+    "version": "1.0"
+  }
+}

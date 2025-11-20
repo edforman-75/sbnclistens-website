@@ -1,0 +1,117 @@
+{
+  "insights": [
+    {
+      "quote": "I definitely use the calendar. And to me, that's great because it's kind of the month at a glance and pretty time efficient in terms of looking through what's coming up.",
+      "timestamp": "N/A",
+      "significance": "Highlights the value users find in a clear, organized calendar feature.",
+      "insight": "Users appreciate tools that save time and provide a comprehensive view of upcoming activities.",
+      "category": "desire"
+    },
+    {
+      "quote": "I thought was really helpful... because they give you the email of who to contact if you have questions.",
+      "timestamp": "N/A",
+      "significance": "Indicates the importance of direct communication channels.",
+      "insight": "Users desire accessible support and clarity on how to connect with others in the organization.",
+      "category": "desire"
+    },
+    {
+      "quote": "the description wasn't clear to me, and it really didn't come across as exactly what it was.",
+      "timestamp": "N/A",
+      "significance": "Reveals a point of confusion that led to frustration.",
+      "insight": "Users struggle with unclear information, which can hinder their involvement.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think that thing needs to get... a little bit more like another kind of website where like your account would be kind of one of the main things on the front page.",
+      "timestamp": "N/A",
+      "significance": "Recommends a redesign that prioritizes user needs.",
+      "insight": "Users want a more intuitive and user-centered design in the website's layout.",
+      "category": "desire"
+    },
+    {
+      "quote": "I think there's a lot of people that kind of get, you know, agree to get involved and don't really want to put the time in.",
+      "timestamp": "N/A",
+      "significance": "Indicates a common barrier to engagement.",
+      "insight": "Many users may lack the motivation to navigate complex systems, affecting participation.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I feel like that was a question, people that wanted their address changed and just didn't know how to do it.",
+      "timestamp": "N/A",
+      "significance": "Shows a common usability issue that users face.",
+      "insight": "Users may encounter hurdles in managing their personal information, leading to frustration.",
+      "category": "pain point"
+    },
+    {
+      "quote": "You have to go to your profile. You have to go to the member page.",
+      "timestamp": "N/A",
+      "significance": "Highlights a convoluted process that adds to user frustration.",
+      "insight": "Users experience difficulty navigating the platform due to non-intuitive pathways.",
+      "category": "pain point"
+    },
+    {
+      "quote": "It should be like, of course it's just there.",
+      "timestamp": "N/A",
+      "significance": "Expresses disbelief about the lack of visibility of important information.",
+      "insight": "Users expect straightforward access to essential functionalities without extra effort.",
+      "category": "frustration"
+    },
+    {
+      "quote": "I know a lot of people always talk about the third year process.",
+      "timestamp": "N/A",
+      "significance": "Indicates knowledge gaps among users regarding processes.",
+      "insight": "Users may lack understanding of processes due to insufficient visibility or communication.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think that the whole, it just was too complicated for the training with the two-point verification.",
+      "timestamp": "N/A",
+      "significance": "Shows that training complexity can deter user engagement.",
+      "insight": "Users feel overwhelmed by overly complicated security processes, which may lead to disengagement.",
+      "category": "pain point"
+    },
+    {
+      "quote": "You can visibly see people's confidence just drop.",
+      "timestamp": "N/A",
+      "significance": "Reveals a strong emotional response to usability challenges.",
+      "insight": "Users' confidence and enthusiasm can be significantly affected by their experiences on the platform.",
+      "category": "emotion"
+    },
+    {
+      "quote": "That is the biggest complaint.",
+      "timestamp": "N/A",
+      "significance": "Identifies a critical user concern regarding navigation.",
+      "insight": "Users struggle with understanding how to navigate the platform, impacting their overall experience.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I don't know how to do that. Maybe that's a color code that needs to happen.",
+      "timestamp": "N/A",
+      "significance": "Suggests a simple solution to a complex problem.",
+      "insight": "Users often have practical ideas for improvements that could enhance usability.",
+      "category": "desire"
+    },
+    {
+      "quote": "You're saying we're already meeting- They're already there, they're already like tagged as, do you want to receive the alumni emails?",
+      "timestamp": "N/A",
+      "significance": "Illustrates a disconnect between data management and user experience.",
+      "insight": "Users want better visibility and access to existing resources and data.",
+      "category": "pain point"
+    },
+    {
+      "quote": "If they get lost in it, I think then that's, then their confidence goes way down and they're not so excited.",
+      "timestamp": "N/A",
+      "significance": "Links usability to user engagement and motivation.",
+      "insight": "Users' experiences directly impact their willingness to engage with the platform.",
+      "category": "emotion"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_Jen_Nov16.json",
+    "interview_id": "SBNC_Interview_Jen_Nov16"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:37:09.088297",
+    "version": "1.0"
+  }
+}

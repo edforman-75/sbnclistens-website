@@ -1,0 +1,47 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we streamline the message retrieval process for users to prevent loss of important communication?",
+      "evidence": "I misplaced a couple other messages along with his...",
+      "user_need": "Users need a reliable way to manage and retrieve important messages.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide users with an easy way to prioritize and categorize their incoming messages?",
+      "evidence": "misplaced a couple other messages...",
+      "user_need": "Users need to prioritize messages to ensure timely responses.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we create a notification system that alerts users to follow up on important messages?",
+      "evidence": "he said he had some leaks that he wanted to get looked at.",
+      "user_need": "Users need reminders for urgent issues to ensure they are addressed promptly.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enhance user education on effective communication practices?",
+      "evidence": "I got his message this morning.",
+      "user_need": "Users need guidance on managing communications effectively.",
+      "potential_impact": "Medium",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we integrate a system for tracking follow-ups and acknowledgments in communication?",
+      "evidence": "If you guys still need a hand with that stuff, let me know.",
+      "user_need": "Users need to track ongoing conversations and ensure nothing falls through the cracks.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/voicemail-695 2.json",
+    "interview_id": "voicemail-695 2"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:59:23.170326",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we create a more engaging and visually appealing website for the Santa Barbara Newcomers Club?",
+      "evidence": "I just find it to be really drab. The photography is boring. The fonts are boring. The colors are boring. I don't think it reflects the upscale nature of our club.",
+      "user_need": "A modern, visually appealing online presence that attracts new members.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we streamline the membership application process on our website?",
+      "evidence": "I'm just poking around now... it's really hard to find the button that allows you to begin a membership application.",
+      "user_need": "A clear and straightforward membership sign-up process.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide a platform for members to share recommendations and information about local services?",
+      "evidence": "I suggested... some kind of a forum, a platform... where you could write, I need a new doctor. Who would you recommend?",
+      "user_need": "Access to local recommendations and community support.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we offer educational events to help newcomers navigate local processes?",
+      "evidence": "I wish that there was even a member event where they... include how to get your driver's license. How do I find a new doctor?",
+      "user_need": "Guidance on essential local services and processes for newcomers.",
+      "potential_impact": "Medium",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we create a physical gift membership option for realtors to present to their clients?",
+      "evidence": "If there were a better way to market that, I think it's well worth it... create something that's a really kind of nice card that we could pass around to my realtors.",
+      "user_need": "A tangible membership gift option to enhance the value proposition for realtors.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enhance the digital presence of the club through improved social media integration?",
+      "evidence": "The gallery is just attached to the Instagram. More in-depth information about past events.",
+      "user_need": "A cohesive online presence that highlights the club's activities and community.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we develop a central resource hub for newcomers to access local events and services?",
+      "evidence": "A calendar of annual events. ...things to do that are free around town.",
+      "user_need": "A centralized resource for local activities and services relevant to newcomers.",
+      "potential_impact": "High",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we implement a chatbot feature to assist with inquiries about events and membership?",
+      "evidence": "I actually have something that extracts the data... and ends up being a chatbot where you can type in a question about events or membership.",
+      "user_need": "Instant access to information about events and membership without navigating the website.",
+      "potential_impact": "High",
+      "type": "new feature"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/2536 Borton Dr.json",
+    "interview_id": "2536 Borton Dr"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:02:42.519710",
+    "version": "1.0"
+  }
+}

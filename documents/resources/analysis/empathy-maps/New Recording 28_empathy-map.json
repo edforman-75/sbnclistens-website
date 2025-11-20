@@ -1,0 +1,38 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "I find the website a little cumbersome.",
+      "I would love to be able to go on and once you log in, then it sends you right to your page where these are the things you've signed up for and upcoming events for you.",
+      "And then on the Apricot app, that's a little easier, I think.",
+      "I remember that being fairly painless.",
+      "It's valuable to attend the meet and greet or it's valuable to attend some of the other things.",
+      "Overall, it's wonderful."
+    ],
+    "THINKS": [
+      "The website could be much more user-friendly.",
+      "I wish I had better guidance when I first signed up.",
+      "I might miss out on valuable events because the website isn't organized well.",
+      "The app is more convenient, but I prefer using my computer at home."
+    ],
+    "DOES": [
+      "Logs in to the website to check what events they have signed up for.",
+      "Uses the Apricot app for easier navigation when possible.",
+      "Attends events that interest them rather than those recommended.",
+      "Experiences frustration with the website's navigation."
+    ],
+    "FEELS": [
+      "Frustrated with the cumbersome website experience.",
+      "Valuable and appreciated towards the Newcomers organization.",
+      "Anxious about missing out on important events due to unclear navigation.",
+      "Satisfied with the initial sign-up process."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 28.json",
+    "interview_id": "New Recording 28"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:42:10.809616",
+    "version": "1.0"
+  }
+}

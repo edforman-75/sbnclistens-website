@@ -1,0 +1,89 @@
+{
+  "pain_points": [
+    {
+      "description": "The website's general appearance is unpleasing and does not represent the beauty of Santa Barbara.",
+      "supporting_quotes": [
+        "the general appearance of the website is not pleasing.",
+        "the picture of any place isn't attractive at all."
+      ],
+      "frequency_severity": "High - strongly emphasized dissatisfaction.",
+      "current_workarounds": "No specific workarounds mentioned.",
+      "impact": "Users may feel disconnected from the community and less inclined to engage with the club.",
+      "category": "emotional"
+    },
+    {
+      "description": "The website navigation is clunky and outdated, making it difficult to move through and find information.",
+      "supporting_quotes": [
+        "the website is clunky, it's out of date in terms of navigation.",
+        "the navigation between the calendar view and the list view is very clunky."
+      ],
+      "frequency_severity": "High - repeatedly mentioned and seen as a major obstacle.",
+      "current_workarounds": "Users may try to remember specific paths or rely on others' guidance.",
+      "impact": "Frustration in finding information, which can lead to disengagement.",
+      "category": "effort"
+    },
+    {
+      "description": "Redundant information across different sections of the website creates confusion.",
+      "supporting_quotes": [
+        "there's redundancy there.",
+        "it's the same committee's listing, and yet in this case, it also has the chairs."
+      ],
+      "frequency_severity": "Medium - mentioned multiple times but with less emotional intensity.",
+      "current_workarounds": "Users may try to cross-reference sections to find unique information.",
+      "impact": "Users may waste time and become frustrated trying to get clear information.",
+      "category": "time"
+    },
+    {
+      "description": "The frequently asked questions (FAQs) section is minimal and not representative of users' needs.",
+      "supporting_quotes": [
+        "the frequently asked questions is minimal.",
+        "there's only five questions, that's hardly representative."
+      ],
+      "frequency_severity": "Medium - concerns about usefulness were raised.",
+      "current_workarounds": "Users might seek help from other members or outside resources.",
+      "impact": "New users may feel unsupported and confused about joining or participating.",
+      "category": "quality"
+    },
+    {
+      "description": "Event registration process has inconsistencies, such as registrations being closed unexpectedly.",
+      "supporting_quotes": [
+        "the functioning of the registration process is occasionally out of whack.",
+        "an event that has not happened... will have registration closed."
+      ],
+      "frequency_severity": "Medium - mentioned as a significant issue when hosting events.",
+      "current_workarounds": "Users may contact event organizers directly to rectify registration issues.",
+      "impact": "Potential attendees may miss out on events or feel frustrated with the process.",
+      "category": "effort"
+    },
+    {
+      "description": "The organization of volunteer opportunities is inefficient and not user-friendly.",
+      "supporting_quotes": [
+        "it's organized by, alphabetically, by the organization, as opposed to the type of volunteer.",
+        "it doesn't make any sense, it's inefficient and ineffective."
+      ],
+      "frequency_severity": "Medium - users expressed confusion and frustration.",
+      "current_workarounds": "Users may try to remember organizations or contact coordinators for help.",
+      "impact": "Users may miss out on opportunities that align with their interests.",
+      "category": "effort"
+    },
+    {
+      "description": "The contact us section is poorly organized and haphazard, making it hard to find relevant information.",
+      "supporting_quotes": [
+        "the organization of the drop-downs is ineffective.",
+        "the first thing you see is your own profile, it's update your own profile."
+      ],
+      "frequency_severity": "Low - mentioned but not as a primary concern.",
+      "current_workarounds": "Users may rely on other members for contact information.",
+      "impact": "Users may struggle to get timely help or information.",
+      "category": "quality"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/John Ruffin personal observations.json",
+    "interview_id": "John Ruffin personal observations"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:56:03.857845",
+    "version": "1.0"
+  }
+}

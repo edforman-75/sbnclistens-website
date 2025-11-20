@@ -1,0 +1,48 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "I heard about Santa Barbara newcomers through one of the board members who helped bring me here to Santa Barbara.",
+      "I think selecting which ones you're going to participate in is a little daunting.",
+      "The website appears very dated.",
+      "I think you could be using much newer or more innovative ways to get people's attention.",
+      "I never once used the website. I used the app.",
+      "I was looking for some committees that I had an interest in or that I had a shared interest in.",
+      "The homepage looks like you're starting either a surfing club or a lifeguarding club.",
+      "Too many words. It's way too much detail.",
+      "It just doesn't look inviting."
+    ],
+    "THINKS": [
+      "Joining a community is important for settling into a new area.",
+      "There are too many choices available, leading to confusion about where to engage.",
+      "The website does not reflect the vibrancy of the organization.",
+      "The app is more user-friendly than the website, indicating that the website may not be a priority.",
+      "There is a need for clearer navigation and organization on the website.",
+      "The information overload might deter potential new members.",
+      "The organization could benefit from a more modern and engaging digital presence."
+    ],
+    "DOES": [
+      "Discussed joining the newcomers group with his wife.",
+      "Used the app exclusively for event registration and information.",
+      "Attended events and engaged with the community through the app.",
+      "Skipped using the website after initial registration.",
+      "Provided detailed feedback on the website and its usability.",
+      "Expressed interest in specific committees that matched personal interests."
+    ],
+    "FEELS": [
+      "Excited about the opportunity to connect with new people.",
+      "Overwhelmed by the number of clubs and groups available.",
+      "Frustrated by the dated appearance and usability of the website.",
+      "Concerned that the website might deter new members from joining.",
+      "Desires a more engaging and visually appealing online experience.",
+      "Wants to feel welcomed and informed as a newcomer, which is not reflected in the current website."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_KieranShah_11.15.25.json",
+    "interview_id": "SBNC_Interview_KieranShah_11.15.25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:45:02.900379",
+    "version": "1.0"
+  }
+}

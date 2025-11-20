@@ -1,0 +1,54 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we improve the navigation experience between the event calendar and list view?",
+      "evidence": "Each time I want to go back to the calendar of events after clicking on an event, it goes back to the beginning of many months ago. It doesn't start where I just left off.",
+      "user_need": "Users need a seamless navigation experience when browsing events to save time and frustration.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide clearer access to contact information for members?",
+      "evidence": "I did look once because I was trying to find someone's phone number, I think, but that was probably two years ago. So I don't remember.",
+      "user_need": "Users require easy access to members' contact information for better communication.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a dedicated alumni section on the website?",
+      "evidence": "I would love to know if there will be listing alumni events that I can click on and look for or how I find out about those when we graduate.",
+      "user_need": "Alumni need a way to stay connected and informed about events and opportunities after graduation.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we enhance the visual appeal of the website to make it more inviting?",
+      "evidence": "I think the visual in our website needs can use some small thing up a bit... it needs to be prettied up a little bit just to be more attractive.",
+      "user_need": "Users desire a more aesthetically pleasing website that encourages engagement.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we simplify the process of signing up for events?",
+      "evidence": "The job form is a nightmare for most.",
+      "user_need": "Users need an easier process to sign up for events without technical difficulties.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we ensure that users can easily find and access important governing documents?",
+      "evidence": "It's not always clear where that stuff is... it\u2019s you need to kind of search those out.",
+      "user_need": "Users need straightforward access to important documents and information.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call with Joy Fournier.json",
+    "interview_id": "Call with Joy Fournier"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:04:39.797471",
+    "version": "1.0"
+  }
+}

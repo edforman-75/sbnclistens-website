@@ -1,0 +1,83 @@
+{
+  "jobs": {
+    "functional_jobs": [
+      {
+        "job_statement": "When I am managing events through the newcomers website, I want to ensure accurate registration and payment processing, so I can effectively communicate with attendees and avoid confusion.",
+        "current_solution": "Using the website and phone app for event registration and management.",
+        "pain_points": "Conflicting information between the phone app and the actual registration log, complicated event management processes, and inadequate training for new committee members.",
+        "desired_outcomes": "A seamless registration process that provides clear information and reduces user errors.",
+        "success_criteria": "Users can register without confusion, and administrators can easily verify registrations."
+      },
+      {
+        "job_statement": "When I want to find out about upcoming events, I want to easily access and navigate the website, so I can plan my schedule and contact friends.",
+        "current_solution": "Logging into the computer-based website.",
+        "pain_points": "The event descriptions can be unclear, and the phone app is underpowered.",
+        "desired_outcomes": "A clear and intuitive interface on both the website and phone app that provides accurate event information.",
+        "success_criteria": "Users can quickly find and understand event details without needing additional help."
+      },
+      {
+        "job_statement": "When I am involved in event planning, I want to have a reliable way to archive and pass on information, so I can ensure continuity and efficiency with future events.",
+        "current_solution": "Current informal methods of communication and memory.",
+        "pain_points": "Lack of formalized institutional memory leads to loss of valuable information and processes.",
+        "desired_outcomes": "A structured way to document and share event planning processes and outcomes.",
+        "success_criteria": "New committee members can access historical data and learn from past events easily."
+      }
+    ],
+    "emotional_jobs": [
+      {
+        "job_statement": "When I am using the newcomers website, I want to feel confident in my ability to navigate it, so I can enjoy my involvement without frustration.",
+        "current_solution": "Utilizing the website and phone app.",
+        "pain_points": "Frustration with technical issues and lack of clarity in navigation.",
+        "desired_outcomes": "A user-friendly experience that instills confidence in using the platform.",
+        "success_criteria": "Users express satisfaction with the website's usability and feel empowered to engage with it."
+      },
+      {
+        "job_statement": "When attending events, I want to feel included and recognized, so I can build connections with other members.",
+        "current_solution": "Using printed name tags for events.",
+        "pain_points": "Handwritten name tags can indicate registration issues and may exclude some members from feeling welcome.",
+        "desired_outcomes": "Printed name tags that visually signify attendance and roles within the organization.",
+        "success_criteria": "All attendees have professional name tags, and the atmosphere feels inclusive."
+      }
+    ],
+    "social_jobs": [
+      {
+        "job_statement": "When I participate in events, I want to be perceived as an engaged and knowledgeable member, so I can establish a good reputation within the community.",
+        "current_solution": "Active involvement in committees and events.",
+        "pain_points": "Lack of recognition for the contributions made by knowledgeable members.",
+        "desired_outcomes": "Recognition and respect from peers for my active participation and contributions.",
+        "success_criteria": "Peers acknowledge my efforts and seek my input in future events."
+      },
+      {
+        "job_statement": "When I attend newcomers events, I want to be seen as a valuable resource, so I can foster relationships and network effectively.",
+        "current_solution": "Engaging with other members at events.",
+        "pain_points": "Difficulty in establishing connections due to unclear attendee information.",
+        "desired_outcomes": "An environment where networking is easy and facilitated by clear identification of members.",
+        "success_criteria": "Increased interactions and collaborations among members during events."
+      }
+    ],
+    "supporting_jobs": [
+      {
+        "job_statement": "When I am planning for events, I want to have effective training resources, so I can maximize my contribution as a committee member.",
+        "current_solution": "Current training sessions that are often inadequate.",
+        "pain_points": "Training sessions do not equip new members with necessary skills and knowledge.",
+        "desired_outcomes": "Comprehensive training that prepares members for their roles effectively.",
+        "success_criteria": "New members feel confident and capable in their roles after training."
+      },
+      {
+        "job_statement": "When I need to organize events, I want access to a dedicated technical support person, so I can focus on creative aspects instead of technical difficulties.",
+        "current_solution": "Reliance on volunteers and committee members for technical support.",
+        "pain_points": "Lack of availability of knowledgeable support leads to inefficiencies during event planning.",
+        "desired_outcomes": "Access to a technical expert who can assist with website and event management issues.",
+        "success_criteria": "Event planning processes run smoothly with technical support readily available."
+      }
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call_Recording.json",
+    "interview_id": "Call_Recording"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:48:15.040362",
+    "version": "1.0"
+  }
+}

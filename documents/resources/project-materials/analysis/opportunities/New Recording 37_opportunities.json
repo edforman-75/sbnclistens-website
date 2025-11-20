@@ -1,0 +1,26 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we provide users with real-time information about waitlist numbers for events?",
+      "evidence": "Does it tell you how many people are on the wait list for a given event? Is that something that you'd be interested in seeing?",
+      "user_need": "Users want transparency regarding their chances of securing a spot for an event.",
+      "potential_impact": "high",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we help users make informed decisions about purchasing tickets based on waitlist activity?",
+      "evidence": "Because if there's 20 people on it, how many are you going to buy?",
+      "user_need": "Users need information to assess the likelihood of getting tickets after purchasing.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 37.json",
+    "interview_id": "New Recording 37"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:00:59.555922",
+    "version": "1.0"
+  }
+}

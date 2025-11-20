@@ -1,0 +1,75 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we enhance the visual appeal of the website to better reflect the beauty of Santa Barbara?",
+      "evidence": "The general appearance of the website is not pleasing... the picture of the beach... doesn't really represent the beauty of Santa Barbara.",
+      "user_need": "Aesthetic appeal and representation of local culture.",
+      "potential_impact": "high",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we simplify website navigation to improve user experience?",
+      "evidence": "The website is clunky, it's out of date in terms of navigation and facility of moving through.",
+      "user_need": "Streamlined navigation for easier access to information.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we reduce redundancy in the website's content to enhance clarity and user experience?",
+      "evidence": "Some of the drop-downs are tremendously redundant... there\u2019s a redundancy there.",
+      "user_need": "Clear and concise information without duplication.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the FAQ section to address common queries more comprehensively?",
+      "evidence": "The frequently asked questions is minimal... there's only five questions, that's hardly representative of frequently asked questions.",
+      "user_need": "Comprehensive answers to common user inquiries.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we redesign the event registration process to avoid confusion regarding registration status?",
+      "evidence": "An event that has not happened... will have registration closed, as opposed to waitlist.",
+      "user_need": "Clear communication regarding event registration status.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we organize volunteer opportunities by type rather than alphabetically to improve usability?",
+      "evidence": "Volunteer opportunities are organized alphabetically by the organization... it doesn't make any sense, it's inefficient and ineffective.",
+      "user_need": "Easier access to relevant volunteer opportunities based on interest.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a more intuitive interface for switching between different event views (calendar vs. list)?",
+      "evidence": "The navigation between the calendar view and the list view is very clunky, and not intuitive.",
+      "user_need": "Seamless transition between different formats for viewing events.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the representation of committees to better inform members of their activities?",
+      "evidence": "The committees drop-down... could be a lot better.",
+      "user_need": "Clear representation of committee activities and roles.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the organization of the contact information to make it more user-friendly?",
+      "evidence": "Contact us... is not a, it's contact, follow me if you have membership questions.",
+      "user_need": "Easy access to relevant contact information.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/John Ruffin personal observations.json",
+    "interview_id": "John Ruffin personal observations"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:02:21.563416",
+    "version": "1.0"
+  }
+}

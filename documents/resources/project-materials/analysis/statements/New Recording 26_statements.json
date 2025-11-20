@@ -1,0 +1,117 @@
+{
+  "insights": [
+    {
+      "quote": "We really don't have a process for enabling people to update their data.",
+      "timestamp": null,
+      "significance": "This highlights a fundamental gap in user experience regarding data management.",
+      "insight": "Users struggle with updating their information, which is critical for maintaining accurate records.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I have this love-hate relationship with wild apricot. And it's more on the hate side than the love side because it's a very old-fashioned system.",
+      "timestamp": null,
+      "significance": "This juxtaposition shows a strong emotional response to the current system.",
+      "insight": "Users feel frustrated with outdated technology, impacting their overall satisfaction.",
+      "category": "emotion"
+    },
+    {
+      "quote": "Our website just kind of feels old. And even though I'm old, I don't want to be a member of an old person's club.",
+      "timestamp": null,
+      "significance": "This statement expresses a desire for modernization and relevance.",
+      "insight": "Users want a contemporary image that reflects their identity and aspirations.",
+      "category": "desire"
+    },
+    {
+      "quote": "I feel very, very lucky when I find that button to join. It's pretty well hidden beneath layers of information.",
+      "timestamp": null,
+      "significance": "This reveals frustration with navigation and accessibility.",
+      "insight": "Users face challenges finding critical functions, which can deter engagement.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I really want a my newcomers page that just lists in one place all of the events I'm registered for.",
+      "timestamp": null,
+      "significance": "This highlights a clear user need for better organization of their involvement.",
+      "insight": "Users desire a centralized hub that simplifies event management.",
+      "category": "desire"
+    },
+    {
+      "quote": "We have a lot of control over the website. We have almost no control over the application.",
+      "timestamp": null,
+      "significance": "This indicates a disparity in user experience between the website and app.",
+      "insight": "Users feel constrained by the limitations of the application, affecting their overall experience.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I do find the calendaring part clunky. It seems antiquated.",
+      "timestamp": null,
+      "significance": "This reflects a sentiment of inefficiency in the system.",
+      "insight": "Users are frustrated with outdated interfaces that hinder their experience.",
+      "category": "pain point"
+    },
+    {
+      "quote": "It drives me crazy. Like when you click on something and it doesn't bring you back to that.",
+      "timestamp": null,
+      "significance": "This expresses strong frustration with navigation.",
+      "insight": "Users are hindered by poor user interface design, affecting their ability to efficiently use the system.",
+      "category": "emotion"
+    },
+    {
+      "quote": "I wish there were more events like during, like on the weekends or, you know, during the evening.",
+      "timestamp": null,
+      "significance": "This shows a desire for more accommodating scheduling.",
+      "insight": "Users seek greater flexibility in event timing to fit diverse lifestyles.",
+      "category": "desire"
+    },
+    {
+      "quote": "I think it's a very comforting community, and I'm honored to be a member.",
+      "timestamp": null,
+      "significance": "This expresses a strong emotional connection to the community.",
+      "insight": "Users value the sense of belonging and support within the organization.",
+      "category": "emotion"
+    },
+    {
+      "quote": "It would be nice to be more creative, like a little more exciting.",
+      "timestamp": null,
+      "significance": "This indicates a desire for more engaging communication.",
+      "insight": "Users want more dynamic interaction, which could enhance their overall experience.",
+      "category": "desire"
+    },
+    {
+      "quote": "I've never got an email that says four new things.",
+      "timestamp": null,
+      "significance": "This highlights a communication gap between the app and user expectations.",
+      "insight": "Users are missing out on important updates, affecting their engagement with events.",
+      "category": "pain point"
+    },
+    {
+      "quote": "You have to scroll down, like, where was I?",
+      "timestamp": null,
+      "significance": "This illustrates a navigational frustration.",
+      "insight": "Users experience disorientation in the interface, impacting usability.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think joining was remarkably easy. I have no complaints.",
+      "timestamp": null,
+      "significance": "This contrasts with other statements of frustration, highlighting variability in user experience.",
+      "insight": "Some users have positive experiences that may not reflect the overall sentiment.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I would love to, I read the book.",
+      "timestamp": null,
+      "significance": "This shows enthusiasm but also hints at barriers to participation.",
+      "insight": "Users are eager to engage but may feel limited by current structures or scheduling.",
+      "category": "desire"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 26.json",
+    "interview_id": "New Recording 26"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:40:23.827223",
+    "version": "1.0"
+  }
+}

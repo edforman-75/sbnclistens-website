@@ -1,0 +1,75 @@
+{
+  "insights": [
+    {
+      "insight_statement": "Users with administrative privileges have a different experience than regular users, leading to insights about potential usability issues.",
+      "supporting_evidence": "David mentioned, 'I had more problems with the phone app than I did with the computer based web application.'",
+      "why_it_matters": "Understanding the disparity in experiences can inform design decisions to cater to both administrative and regular users, ensuring that functionalities meet the needs of all user types.",
+      "type": "user need",
+      "confidence_level": "high"
+    },
+    {
+      "insight_statement": "The mobile app is perceived as underpowered and creates confusion among users.",
+      "supporting_evidence": "'...I felt it was underpowered and gave conflicting information.'",
+      "why_it_matters": "Improving the mobile app's functionality could enhance user satisfaction and reduce frustration, particularly among users who primarily rely on mobile devices.",
+      "type": "behavioral pattern",
+      "confidence_level": "high"
+    },
+    {
+      "insight_statement": "Users value clarity and transparency in event information but find descriptions often lacking.",
+      "supporting_evidence": "'...event descriptions and especially save the date kinds of things or conflicting scheduling things were not as transparent or not as clear...'",
+      "why_it_matters": "Enhancing the clarity of event information could improve user engagement and event participation, as users are more likely to attend events they clearly understand.",
+      "type": "user need",
+      "confidence_level": "medium"
+    },
+    {
+      "insight_statement": "There is a significant knowledge gap in the training and onboarding process for new committee members.",
+      "supporting_evidence": "'...the training process really needs to have some hard, hard look at two issues... the venue for training has been woefully inadequate.'",
+      "why_it_matters": "Addressing this gap can enable new members to effectively use the system, thereby improving overall event management and user experience.",
+      "type": "context",
+      "confidence_level": "high"
+    },
+    {
+      "insight_statement": "Institutional memory is lacking, leading to repeated learning curves for new members.",
+      "supporting_evidence": "'...the lack of a formalized institutional memory... there\u2019s not a facile way to have some kind of archival process...'",
+      "why_it_matters": "Creating a system for preserving institutional knowledge can smooth transitions and maintain continuity, benefiting both new and returning members.",
+      "type": "context",
+      "confidence_level": "high"
+    },
+    {
+      "insight_statement": "Printed name tags serve a dual purpose of identification and as an audit function for event registration.",
+      "supporting_evidence": "'...if I saw anyone walking around with a name tag that was a pencil, sharpie, handwritten name tag rather than a printed name tag... that was a clue that that person may not have been registered...'",
+      "why_it_matters": "Incorporating printed name tags can enhance event organization and registration verification, contributing to a smoother attendee experience.",
+      "type": "behavioral pattern",
+      "confidence_level": "medium"
+    },
+    {
+      "insight_statement": "Users prioritize utility over aesthetics in website design.",
+      "supporting_evidence": "'...I want to do my business and I want to get out. And so from that perspective, cleaner, simpler, better is my approach.'",
+      "why_it_matters": "Focusing on utility in design can lead to increased user satisfaction and more efficient interactions with the website.",
+      "type": "mental model",
+      "confidence_level": "high"
+    },
+    {
+      "insight_statement": "There is a demand for a dedicated technical support role to assist with event management.",
+      "supporting_evidence": "'...there ought to be a paid technical kind of person that really could be there, you know, as the glue to hold together...'",
+      "why_it_matters": "Implementing a dedicated support role could relieve administrative burdens from committee members and improve event execution.",
+      "type": "user need",
+      "confidence_level": "medium"
+    },
+    {
+      "insight_statement": "The organization experiences high turnover, affecting continuity and event planning.",
+      "supporting_evidence": "'...it reinvents itself every six months... the learning curve just hits the peak at the time of transition.'",
+      "why_it_matters": "A strategy to address turnover, such as extending terms or improving training, could enhance the stability and effectiveness of event planning.",
+      "type": "context",
+      "confidence_level": "high"
+    }
+  ],
+  "_source": {
+    "transcript": "projects/SBNCListens/transcripts/Call_Recording.json",
+    "interview_id": "Call_Recording"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-16T07:04:53.380566",
+    "version": "1.0"
+  }
+}

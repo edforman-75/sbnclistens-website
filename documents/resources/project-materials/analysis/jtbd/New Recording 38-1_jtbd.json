@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When new users visit the website, I want to guide them through how to use it, so I can ensure they have a successful experience from the start.",
+      "current_solution": "Orientation sessions and personal walkthroughs.",
+      "pain_points": "Not all new users attend orientation, and personal walkthroughs are not scalable.",
+      "desired_outcomes": "A self-service guide or walkthrough (video/app) that is accessible to all new users.",
+      "success_criteria": "Increased user satisfaction and engagement from new users, as evidenced by feedback and usage metrics."
+    },
+    "emotional_jobs": {
+      "job_statement": "When using the website, I want to feel confident and capable, so I can enjoy the experience without frustration.",
+      "current_solution": "Personal interactions or finding information through trial and error.",
+      "pain_points": "Feelings of confusion or frustration due to poor navigation and unclear information.",
+      "desired_outcomes": "A seamless and intuitive experience that boosts my confidence in using the website.",
+      "success_criteria": "Users report feeling more confident and less frustrated after improvements are made."
+    },
+    "social_jobs": {
+      "job_statement": "When participating in events, I want to be seen as knowledgeable and engaged, so I can foster positive connections with others.",
+      "current_solution": "Attending events and discussions with knowledgeable peers.",
+      "pain_points": "Difficulty in finding relevant events or understanding event details can hinder engagement.",
+      "desired_outcomes": "Easier access to event information that allows me to participate meaningfully.",
+      "success_criteria": "Increased participation in events and positive feedback from peers regarding engagement."
+    },
+    "supporting_jobs": {
+      "job_statement": "When browsing events, I want clear information on availability and pricing, so I can make informed decisions about participation.",
+      "current_solution": "Current event listings with limited information.",
+      "pain_points": "Lack of clarity on waiting lists, event dates, and pricing leads to missed opportunities.",
+      "desired_outcomes": "Comprehensive event listings that include availability, pricing, and dates.",
+      "success_criteria": "Higher user satisfaction with event selection process and increased event participation."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 38-1.json",
+    "interview_id": "New Recording 38-1"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:48:52.182311",
+    "version": "1.0"
+  }
+}

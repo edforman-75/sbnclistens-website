@@ -1,0 +1,104 @@
+{
+  "painPoints": [
+    {
+      "description": "Frustration with the phone app's performance and reliability.",
+      "supportingQuotes": [
+        "I rarely use the phone app, quite frankly, because I felt it was underpowered and gave conflicting information.",
+        "I'm looking at the actual log here. And your registration expired because you didn't pay within the first 15 minutes."
+      ],
+      "frequencySeverity": "High severity; mentioned multiple times.",
+      "currentWorkarounds": "Users prefer to use the computer-based web application instead of the phone app.",
+      "impactOnUser": "Confusion and frustration when trying to manage event registrations.",
+      "category": "effort"
+    },
+    {
+      "description": "Inadequate training for committee chairs and volunteers.",
+      "supportingQuotes": [
+        "The training process that is undertaken in good faith is really not adequate to allow a committee co-chair to be facile...",
+        "The venue for training has been woefully inadequate."
+      ],
+      "frequencySeverity": "High frequency; significant emotional intensity due to the impact on event management.",
+      "currentWorkarounds": "Experienced users often help newer users, but it\u2019s inconsistent.",
+      "impactOnUser": "Leads to confusion and inefficiency in organizing events.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of institutional memory and continuity in the organization.",
+      "supportingQuotes": [
+        "The lack of a formalized institutional memory is a bigger challenge.",
+        "There\u2019s not a facile way to have some kind of archival process."
+      ],
+      "frequencySeverity": "Moderate frequency; expresses a sense of loss for continuity.",
+      "currentWorkarounds": "Current leaders try to pass down knowledge informally, but it's inconsistent.",
+      "impactOnUser": "New committee members struggle to understand past decisions and setups.",
+      "category": "quality"
+    },
+    {
+      "description": "Event descriptions and scheduling information are sometimes unclear.",
+      "supportingQuotes": [
+        "Sometimes the event descriptions... were not as transparent or not as clear as they could be.",
+        "I found the news a hugely important source of information..."
+      ],
+      "frequencySeverity": "Moderate frequency; emotional frustration noted.",
+      "currentWorkarounds": "Users communicate with each other to clarify details.",
+      "impactOnUser": "Leads to misunderstandings about event participation and scheduling.",
+      "category": "quality"
+    },
+    {
+      "description": "Need for a dedicated technical resource for website management.",
+      "supportingQuotes": [
+        "I think there ought to be a paid technical kind of person that really could be there.",
+        "Having that kind of capacity would be significant."
+      ],
+      "frequencySeverity": "Low frequency; but highlights a significant gap in support.",
+      "currentWorkarounds": "Current volunteers attempt to manage technical issues but lack expertise.",
+      "impactOnUser": "Technical difficulties hinder the overall user experience and event management.",
+      "category": "effort"
+    },
+    {
+      "description": "Need for printed name tags at events for better identification.",
+      "supportingQuotes": [
+        "I felt very strongly about having formal printed name tags for our events.",
+        "If I saw anyone walking around with a name tag that was a pencil, sharpie, handwritten name tag... that was a clue."
+      ],
+      "frequencySeverity": "Low frequency; but high emotional intensity related to event organization.",
+      "currentWorkarounds": "Manual tracking of registrations and follow-ups by event organizers.",
+      "impactOnUser": "Can lead to confusion and dissatisfaction among attendees.",
+      "category": "quality"
+    }
+  ],
+  "prioritization": [
+    {
+      "painPoint": "Frustration with the phone app's performance and reliability.",
+      "priority": 1
+    },
+    {
+      "painPoint": "Inadequate training for committee chairs and volunteers.",
+      "priority": 2
+    },
+    {
+      "painPoint": "Lack of institutional memory and continuity in the organization.",
+      "priority": 3
+    },
+    {
+      "painPoint": "Event descriptions and scheduling information are sometimes unclear.",
+      "priority": 4
+    },
+    {
+      "painPoint": "Need for a dedicated technical resource for website management.",
+      "priority": 5
+    },
+    {
+      "painPoint": "Need for printed name tags at events for better identification.",
+      "priority": 6
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call_Recording.json",
+    "interview_id": "Call_Recording"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:54:42.048579",
+    "version": "1.0"
+  }
+}

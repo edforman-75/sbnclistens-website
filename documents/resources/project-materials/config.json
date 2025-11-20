@@ -1,0 +1,44 @@
+{
+  "project": {
+    "name": "SBNCListens",
+    "description": "Design thinking interviews for SBNC community listening initiative",
+    "created": "2025-11-16T01:12:55Z",
+    "status": "active",
+    "team": []
+  },
+  "interviews": {
+    "total_count": 0,
+    "completed": 0,
+    "target_count": null
+  },
+  "transcription": {
+    "service": "openai-whisper",
+    "model": "whisper-1",
+    "language": "en",
+    "include_timestamps": true,
+    "speaker_identification": true
+  },
+  "analysis": {
+    "model": "gpt-4",
+    "temperature": 0.7,
+    "artifacts": {
+      "empathy_maps": true,
+      "personas": true,
+      "jobs_to_be_done": true,
+      "poignant_statements": true,
+      "journey_maps": false,
+      "pain_points": true,
+      "opportunities": true
+    },
+    "custom_prompts": {}
+  },
+  "output": {
+    "formats": [
+      "json",
+      "markdown",
+      "html"
+    ],
+    "combine_insights": true,
+    "generate_summary": true
+  }
+}

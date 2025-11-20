@@ -1,0 +1,84 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      {
+        "quote": "I didn't want to be first but if you insist.",
+        "context": "Expresses reluctance to take the lead in the conversation."
+      },
+      {
+        "quote": "I've lived in nine states and six years in Germany and this is without a doubt the friendliest place I have ever moved to.",
+        "context": "Highlights the positive community aspect of Santa Barbara."
+      },
+      {
+        "quote": "The website is great, but it might be nice to have the time reflected easily.",
+        "context": "Provides a suggestion for website improvement."
+      },
+      {
+        "quote": "It would be nice to have the address in that reminder.",
+        "context": "Requests more useful information in event reminders."
+      },
+      {
+        "quote": "Santa Barbara is number one, that's for sure.",
+        "context": "Affirms a strong emotional connection to Santa Barbara."
+      }
+    ],
+    "THINKS": [
+      {
+        "inference": "They might feel overwhelmed by the amount of information and notifications they receive.",
+        "context": "Expresses frustration with the number of emails and notifications."
+      },
+      {
+        "inference": "They believe that improvements in the website could enhance their experience.",
+        "context": "Multiple suggestions for website and app usability indicate a desire for better access to information."
+      },
+      {
+        "inference": "They may be anxious about navigating new social situations in a new community.",
+        "context": "Reluctance to be first in conversations and references to being a 'newbie.'"
+      }
+    ],
+    "DOES": [
+      {
+        "behavior": "Attended a newcomers dinner to meet people.",
+        "context": "Demonstrates a proactive approach to integrating into the community."
+      },
+      {
+        "behavior": "Uses the newcomers club website and app to find events.",
+        "context": "Indicates reliance on technology to facilitate social engagement."
+      },
+      {
+        "behavior": "Provides feedback on the website and event organization.",
+        "context": "Engages in constructive criticism to improve community resources."
+      },
+      {
+        "behavior": "Consults others when faced with issues regarding event information.",
+        "context": "Shows a collaborative approach to problem-solving."
+      }
+    ],
+    "FEELS": [
+      {
+        "emotion": "Excitement about being part of a friendly community.",
+        "context": "Expresses happiness about moving to Santa Barbara and meeting new people."
+      },
+      {
+        "emotion": "Frustration with the website's usability and the number of emails.",
+        "context": "Describes difficulties in managing event information and registration."
+      },
+      {
+        "emotion": "Anxiety about attending new events and navigating the area.",
+        "context": "Mentions not knowing directions and feeling lost sometimes."
+      },
+      {
+        "emotion": "Joy about family connections and events.",
+        "context": "Shares happiness about having a new grandson and family nearby."
+      }
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 25.json",
+    "interview_id": "New Recording 25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:41:18.756941",
+    "version": "1.0"
+  }
+}

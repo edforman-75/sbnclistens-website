@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "functional_jobs": {
+      "job_statement": "When I'm considering attending an event, I want to know how many people are on the waitlist, so I can make an informed decision about whether to buy tickets.",
+      "current_solution": "The current platform does not provide waitlist information.",
+      "pain_points": "Lack of visibility into the waitlist makes it difficult to gauge demand for the event, leading to uncertainty about ticket purchases.",
+      "desired_outcomes": "To have clear visibility on the waitlist numbers to assess my chances of getting a ticket and make a confident purchase decision.",
+      "success_criteria": "Ability to view real-time waitlist counts for events, leading to more confident ticket purchasing decisions."
+    },
+    "emotional_jobs": {
+      "job_statement": "When I am deciding on attending an event, I want to feel reassured about my investment, so I can avoid feeling regret if I miss out.",
+      "current_solution": "Currently, I rely on guesswork or limited information.",
+      "pain_points": "Uncertainty leads to anxiety about whether to buy tickets or not, which can result in missed opportunities.",
+      "desired_outcomes": "To feel confident and secure in my decision to purchase tickets.",
+      "success_criteria": "Feeling of reassurance and confidence when making a decision to attend an event."
+    },
+    "social_jobs": {
+      "job_statement": "When discussing my event attendance plans with friends, I want to appear knowledgeable about the event's popularity, so I can enhance my social standing.",
+      "current_solution": "I share my thoughts based on assumptions without concrete data.",
+      "pain_points": "Insufficient information can make me feel less credible or informed when discussing plans with peers.",
+      "desired_outcomes": "To be perceived as someone who knows about popular events and can make informed choices.",
+      "success_criteria": "Receiving positive feedback from peers about my knowledge of event popularity."
+    },
+    "supporting_jobs": {
+      "job_statement": "When I am planning my event attendance, I want to evaluate the overall interest in the event, so I can decide whether to attend or invite others.",
+      "current_solution": "I look for reviews or past attendance data.",
+      "pain_points": "Lack of specific attendee data makes it challenging to gauge overall interest accurately.",
+      "desired_outcomes": "To have comprehensive insights into both the waitlist and overall attendance trends for making better planning decisions.",
+      "success_criteria": "Being able to assess event interest through detailed metrics, leading to more effective planning and socializing."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 37.json",
+    "interview_id": "New Recording 37"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:48:27.978290",
+    "version": "1.0"
+  }
+}

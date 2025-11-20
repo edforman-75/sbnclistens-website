@@ -1,0 +1,40 @@
+{
+  "empathyMap": {
+    "SAYS": [
+      "Yeah, do I recall that you did like a major landscaping project? Yes.",
+      "That was a great project, like they tore up the entire backyard and the first thing we did was put in drains.",
+      "We're going to see this next week. My friend in L.A. helping him with his new house, and we have a request.",
+      "I think that's one of the best ideas going.",
+      "I wish there was a way, I'm much better off texting sometimes than emailing, and I hate reply all."
+    ],
+    "THINKS": [
+      "The landscaping project has been successful so far, but there are still concerns about ground cover loss.",
+      "The club's digital presence feels outdated and does not reflect the upscale nature of the community.",
+      "There might be better ways to engage new members through physical cards rather than just digital means.",
+      "There's a need for a platform to help newcomers with essential information about moving to the area.",
+      "The current website navigation is not user-friendly, and potential members may struggle to find information."
+    ],
+    "DOES": [
+      "Engages in discussions about home improvement and landscaping projects, showing interest in sharing experiences.",
+      "Participates actively in the community by attending events and being involved in club leadership.",
+      "Suggests ideas for improving club marketing and digital presence based on past experiences.",
+      "Uses text messaging for communication and prefers it over email for efficiency in organizing events.",
+      "Creates and tests membership applications on the website to evaluate user experience."
+    ],
+    "FEELS": [
+      "Excited about the potential for new projects but also anxious about the permitting process.",
+      "Frustrated with the current state of the club\u2019s website and its lack of modern design.",
+      "Passionate about improving the community and providing helpful resources for newcomers.",
+      "Disappointed by the club's digital offerings, feeling they do not represent the vibrant community.",
+      "Hopeful that improvements can be made with the right focus and resources."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/2536 Borton Dr.json",
+    "interview_id": "2536 Borton Dr"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:44:18.273439",
+    "version": "1.0"
+  }
+}

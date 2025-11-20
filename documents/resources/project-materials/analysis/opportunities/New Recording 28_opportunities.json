@@ -1,0 +1,47 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we streamline the user experience on the website to direct users immediately to their personalized dashboard upon login?",
+      "evidence": "I would love to be able to go on and once you log in, then it sends you right to your page where these are the things you've signed up for and upcoming events for you.",
+      "user_need": "Users want a quick and personalized access point to their signed-up events and upcoming opportunities.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the website's navigation to make it easier for users to find upcoming events?",
+      "evidence": "And from there, if it was easy to navigate to... And these are open events that are coming up.",
+      "user_need": "Users need an efficient way to discover and access upcoming events.",
+      "potential_impact": "high",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we provide better onboarding guidance to new members to highlight valuable events and activities?",
+      "evidence": "there were some early on things that we missed because it just wasn't clear that, oh, it's valuable to attend the meet and greet or it's valuable to attend some of the other things.",
+      "user_need": "New members need clear guidance on which events and activities will be beneficial for their integration.",
+      "potential_impact": "medium",
+      "type": "education"
+    },
+    {
+      "opportunity_statement": "How might we enhance the Apricot app's features to match the ease of use that users experience with it compared to the website?",
+      "evidence": "the Apricot app, that's a little easier, I think. But when I'm home, I tend to sit at my computer and use the website.",
+      "user_need": "Users appreciate the ease of the app and desire similar functionality on the website.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a feedback system for users to share their experiences and suggestions for the website?",
+      "evidence": "Overall, it's amazing what Newcomers does. And what about when you signed up? How was that experience?",
+      "user_need": "Users want to share their experiences to help improve the service and website.",
+      "potential_impact": "medium",
+      "type": "support"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 28.json",
+    "interview_id": "New Recording 28"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:59:35.677722",
+    "version": "1.0"
+  }
+}

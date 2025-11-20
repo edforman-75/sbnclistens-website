@@ -1,0 +1,43 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "I primarily look for events.",
+      "I think it works well.",
+      "I actually use the Wild Apricot app more than the website.",
+      "It would be nice if you organized the events.",
+      "Because there's 20 to 40 somethings and then there's everything else.",
+      "Put those in their own section or have a way to filter for that.",
+      "I'm too young. I'm not 20.",
+      "It was very easy from what I remember. Smooth.",
+      "I haven't ever had a challenge.",
+      "I think that signing up is easy for events.",
+      "Information is plentiful."
+    ],
+    "THINKS": [
+      "Peter likely believes that the website could benefit from better organization to enhance user experience.",
+      "He might feel that the current age categorization is limiting and could exclude potential participants.",
+      "Peter seems to value ease of use, as he prefers the app over the website and assumes others might have different challenges.",
+      "He may think that despite his positive experience, there are hidden issues that could be affecting other users."
+    ],
+    "DOES": [
+      "Peter actively uses the Wild Apricot app to find events.",
+      "He scrolls through event listings to find interesting activities.",
+      "He has engaged with the website only minimally, indicating reliance on the app for most tasks.",
+      "Peter joined the platform 18 months ago and had a smooth onboarding experience."
+    ],
+    "FEELS": [
+      "Peter feels positive about the overall functionality of the website and app.",
+      "There is a sense of frustration regarding the lack of event organization by age group.",
+      "He feels a little out of place when encountering events targeted at a younger demographic.",
+      "Peter displays curiosity about the challenges faced by other users, suggesting a sense of community or concern for their experiences."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 36.json",
+    "interview_id": "New Recording 36"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:43:17.012220",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "pain_points": [
+    {
+      "description": "Difficulty finding event registration details on the website.",
+      "quotes": [
+        "You have to go to your profile. You have to go to the member page. You have to go to your profile.",
+        "That's the only way on the web that you can find your ticketed events."
+      ],
+      "frequency_severity": "Frequently mentioned and described as frustrating.",
+      "current_workarounds": "Users have to navigate multiple tabs to find event registrations.",
+      "impact": "Users experience confusion and frustration, which may lead to missed events.",
+      "category": "effort"
+    },
+    {
+      "description": "Confusion over committee and board member descriptions being hard to find.",
+      "quotes": [
+        "It's not so obvious. That's, yeah, I can't say I looked for that.",
+        "Finding those board member descriptions, it's not so obvious."
+      ],
+      "frequency_severity": "Mentioned multiple times with significant frustration.",
+      "current_workarounds": "Users often express confusion and may abandon their search.",
+      "impact": "Leads to a lack of clarity on committee roles and responsibilities.",
+      "category": "quality"
+    },
+    {
+      "description": "Navigational difficulties between public view and admin view.",
+      "quotes": [
+        "People getting lost and confused in the website.",
+        "It's confusing even when you're showing it to them."
+      ],
+      "frequency_severity": "Frequently mentioned as a major source of frustration.",
+      "current_workarounds": "Users try trial and error to navigate through the site.",
+      "impact": "Decreases user confidence and willingness to engage with the website.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of visibility for important event registration deadlines.",
+      "quotes": [
+        "I would have actually have to open each thing to see when it's open.",
+        "It should be like, of course it's just there."
+      ],
+      "frequency_severity": "Mentioned as a significant oversight.",
+      "current_workarounds": "Users manually check each event for registration details.",
+      "impact": "Users may miss deadlines for event registration.",
+      "category": "time"
+    },
+    {
+      "description": "Inconvenient process for canceling event registrations.",
+      "quotes": [
+        "There's not a link on the event to connect to the committee.",
+        "You'd have to like go find the committee."
+      ],
+      "frequency_severity": "Mentioned several times with clear frustration.",
+      "current_workarounds": "Users resort to sending emails to cancel registrations.",
+      "impact": "Increases effort and may deter users from registering for events.",
+      "category": "effort"
+    },
+    {
+      "description": "Two-factor authentication complicating the initial training process.",
+      "quotes": [
+        "It just was too complicated for the training with the two point verification.",
+        "It's a circus."
+      ],
+      "frequency_severity": "Mentioned as a significant barrier during onboarding.",
+      "current_workarounds": "Training with existing chair credentials instead.",
+      "impact": "New chairs may feel overwhelmed and unprepared.",
+      "category": "effort"
+    },
+    {
+      "description": "Website\u2019s unclear organization and layout.",
+      "quotes": [
+        "It's just a list of links. It's not very visually engaging.",
+        "It should be more than just like this, like list."
+      ],
+      "frequency_severity": "Frequently mentioned as a major issue.",
+      "current_workarounds": "Users sift through lists to find information.",
+      "impact": "Users may feel frustrated and less inclined to use the site.",
+      "category": "quality"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_Jen_Nov16.json",
+    "interview_id": "SBNC_Interview_Jen_Nov16"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:55:45.329777",
+    "version": "1.0"
+  }
+}

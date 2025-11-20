@@ -1,0 +1,54 @@
+{
+  "persona": {
+    "demographics": {
+      "ageRange": "41",
+      "role": "User",
+      "experienceLevel": "18 months with the website",
+      "technicalProficiency": "Moderate"
+    },
+    "backgroundAndContext": {
+      "situation": "Uses the website primarily for looking up events.",
+      "environment": "Engages with the website and the Wild Apricot app.",
+      "constraints": "Limited by the organization of events on the website."
+    },
+    "goalsAndMotivations": {
+      "drives": "Seeking relevant events to attend.",
+      "achievements": "Wants to find events suitable for his age group and interests."
+    },
+    "behaviorsAndPatterns": {
+      "currentWork": "Primarily uses the Wild Apricot app over the website.",
+      "habits": "Regularly scrolls through event listings."
+    },
+    "painPointsAndFrustrations": {
+      "obstacles": "Difficulty in filtering events by age group.",
+      "frustrations": "Scrolling through irrelevant events before realizing they are not suitable."
+    },
+    "needsAndDesires": {
+      "lifeBetterment": "Desires better organization of events by age groups.",
+      "lookingFor": "A way to easily filter events that match his demographic."
+    },
+    "attitudesAndBeliefs": {
+      "mentalModels": "Believes in the importance of finding relevant events.",
+      "preferences": "Appreciates a smooth user experience and easy access to information.",
+      "values": "Values efficient access to information."
+    },
+    "technicalComfort": {
+      "toolsUsed": "Wild Apricot app and website.",
+      "technicalAbilities": "Comfortable with using apps and websites for event information.",
+      "learningPreferences": "Prefers intuitive and user-friendly interfaces."
+    },
+    "quotes": [
+      "I think it works well.",
+      "It would be nice if you organized the events.",
+      "Information is plentiful."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 36.json",
+    "interview_id": "New Recording 36"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:07:56.441052",
+    "version": "1.0"
+  }
+}

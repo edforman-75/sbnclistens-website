@@ -1,0 +1,96 @@
+{
+  "insights": [
+    {
+      "quote": "I find the website a little cumbersome.",
+      "timestamp": null,
+      "significance": "This statement highlights a direct frustration with the website's usability.",
+      "insight": "Users may struggle with the website's navigation, leading to decreased engagement.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I would love to be able to go on and once you log in, then it sends you right to your page where these are the things you've signed up for.",
+      "timestamp": null,
+      "significance": "Describes a desired feature that would enhance user experience and streamline interactions.",
+      "insight": "There is a clear need for personalization and efficiency in the user interface.",
+      "category": "desire"
+    },
+    {
+      "quote": "If it was easy to navigate to... and these are open events that are coming up.",
+      "timestamp": null,
+      "significance": "Emphasizes the importance of accessibility to timely information about events.",
+      "insight": "Users want a straightforward way to find relevant and upcoming events.",
+      "category": "desire"
+    },
+    {
+      "quote": "I tend to sit at my computer and use the website.",
+      "timestamp": null,
+      "significance": "Indicates user behavior patterns regarding device usage.",
+      "insight": "Understanding device preferences can guide design improvements for a better experience.",
+      "category": "behavior"
+    },
+    {
+      "quote": "Overall, it's amazing what Newcomers does.",
+      "timestamp": null,
+      "significance": "Despite frustrations, there is a strong positive sentiment towards the organization.",
+      "insight": "Users appreciate the value provided, indicating potential loyalty despite usability issues.",
+      "category": "emotion"
+    },
+    {
+      "quote": "I remember that being fairly painless.",
+      "timestamp": null,
+      "significance": "Reflects a positive experience during the sign-up process.",
+      "insight": "The onboarding process is effective, but areas for improvement still exist in guidance.",
+      "category": "emotion"
+    },
+    {
+      "quote": "It just wasn't clear that, oh, it's valuable to attend the meet and greet.",
+      "timestamp": null,
+      "significance": "Identifies a gap in communication regarding the value of certain events.",
+      "insight": "Users may miss out on beneficial activities due to lack of guidance.",
+      "category": "pain point"
+    },
+    {
+      "quote": "We just kind of looked for things that were of interest to us.",
+      "timestamp": null,
+      "significance": "Highlights user autonomy in navigating the offerings.",
+      "insight": "Users may not fully explore opportunities due to a lack of structured recommendations.",
+      "category": "behavior"
+    },
+    {
+      "quote": "Nobody guided you in terms of what would be really valuable at the beginning?",
+      "timestamp": null,
+      "significance": "Underscores the absence of initial support for new users.",
+      "insight": "There is a need for better onboarding and guidance to enhance user experience.",
+      "category": "pain point"
+    },
+    {
+      "quote": "But when I'm home, I tend to sit at my computer.",
+      "timestamp": null,
+      "significance": "Reaffirms the context in which the user engages with the website.",
+      "insight": "Desktop usability is crucial for users that primarily access services from home.",
+      "category": "context"
+    },
+    {
+      "quote": "That's a little easier, I think.",
+      "timestamp": null,
+      "significance": "Compares the usability of the app to the website.",
+      "insight": "Users perceive the app as more user-friendly, suggesting a need for website improvements.",
+      "category": "belief"
+    },
+    {
+      "quote": "So, those seem like the two reasons that I would visit the website.",
+      "timestamp": null,
+      "significance": "Identifies the main motivations for using the platform.",
+      "insight": "Clarifies the essential functionalities that users expect from the website.",
+      "category": "behavior"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 28.json",
+    "interview_id": "New Recording 28"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:32:58.874968",
+    "version": "1.0"
+  }
+}

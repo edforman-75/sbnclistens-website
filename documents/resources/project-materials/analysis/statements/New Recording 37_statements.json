@@ -1,0 +1,96 @@
+{
+  "statements": [
+    {
+      "quote": "Does it tell you how many people are on the wait list for a given event?",
+      "timestamp": null,
+      "significance": "This question highlights the user's need for transparency regarding event popularity.",
+      "insight": "Users are motivated by social proof; knowing the waitlist size influences their purchasing decision.",
+      "category": "desire"
+    },
+    {
+      "quote": "If there's 20 people on it, how many are you going to buy?",
+      "timestamp": null,
+      "significance": "This statement reflects the user's thought process and decision-making criteria.",
+      "insight": "The user evaluates their purchasing behavior based on perceived demand, indicating a desire to avoid missing out.",
+      "category": "behavior"
+    },
+    {
+      "quote": "That's a good point.",
+      "timestamp": null,
+      "significance": "The acknowledgment of the point indicates an openness to new information.",
+      "insight": "Users are engaged in a collaborative dialogue, suggesting they value feedback in their decision-making.",
+      "category": "emotion"
+    },
+    {
+      "quote": "If there's one or two... That's a good point.",
+      "timestamp": null,
+      "significance": "The contrast between high and low waitlist numbers reflects user anxieties about event attendance.",
+      "insight": "Users may feel more secure purchasing when demand is low, indicating a fear of commitment in crowded events.",
+      "category": "pain point"
+    },
+    {
+      "quote": "Yeah, because it shows you...",
+      "timestamp": null,
+      "significance": "The user connects waitlist data to their purchasing behavior, indicating its importance.",
+      "insight": "There is a clear link between available information and user confidence in making a purchase.",
+      "category": "belief"
+    },
+    {
+      "quote": "That's a good point.",
+      "timestamp": null,
+      "significance": "Repeated agreement signifies validation of the conversation and shared understanding.",
+      "insight": "The user seeks affirmation from peers regarding their decisions, showing reliance on social influences.",
+      "category": "emotion"
+    },
+    {
+      "quote": "Yeah, yeah, yeah.",
+      "timestamp": null,
+      "significance": "The enthusiasm in the user's response indicates engagement and interest.",
+      "insight": "The user is likely excited about the potential features and values them highly.",
+      "category": "emotion"
+    },
+    {
+      "quote": "That\u2019s a good point.",
+      "timestamp": null,
+      "significance": "This phrase's repetition shows a pattern in the user's thought process.",
+      "insight": "Users are processing information collaboratively, highlighting the importance of discussion in decision-making.",
+      "category": "behavior"
+    },
+    {
+      "quote": "How many are you going to buy?",
+      "timestamp": null,
+      "significance": "This question indicates the user's focus on quantitative measures when making decisions.",
+      "insight": "Users quantify their interest based on social indicators, revealing a reliance on metrics for validation.",
+      "category": "pain point"
+    },
+    {
+      "quote": "It shows you...",
+      "timestamp": null,
+      "significance": "The user connects the feature directly to their understanding of market behavior.",
+      "insight": "The user desires clarity and insight into market dynamics to inform their purchasing decisions.",
+      "category": "desire"
+    },
+    {
+      "quote": "If there's one or two...",
+      "timestamp": null,
+      "significance": "The user's response indicates a threshold for comfort in purchasing.",
+      "insight": "Users have specific limits where they feel safe and justified in making a purchase, revealing risk aversion.",
+      "category": "pain point"
+    },
+    {
+      "quote": "Yeah, because it shows you... Because if there's 20 people on it...",
+      "timestamp": null,
+      "significance": "The user's reasoning indicates an active analysis of potential outcomes.",
+      "insight": "Users actively weigh the pros and cons of their decisions, indicating a complex decision-making process.",
+      "category": "behavior"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 37.json",
+    "interview_id": "New Recording 37"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:35:35.027642",
+    "version": "1.0"
+  }
+}

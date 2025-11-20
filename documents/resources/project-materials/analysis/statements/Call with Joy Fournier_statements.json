@@ -1,0 +1,117 @@
+{
+  "insights": [
+    {
+      "quote": "I probably won't have a lot to say because I don't have any opinions about technological things, but anyway.",
+      "timestamp": null,
+      "significance": "This statement reveals the user's self-doubt regarding their technological literacy, which could influence their feedback on the website.",
+      "insight": "Joy may have valuable insights but feels inadequate discussing tech-related issues, possibly limiting her input.",
+      "category": "belief"
+    },
+    {
+      "quote": "I think it's very good. I don't know how it can be improved, but yeah, it seems to be, it gets the job done.",
+      "timestamp": null,
+      "significance": "Joy expresses satisfaction with the website's functionality but lacks specific suggestions for improvement.",
+      "insight": "Users may feel content with basic functionality but may not articulate deeper needs or improvements unless prompted.",
+      "category": "emotion"
+    },
+    {
+      "quote": "Each time I want to go back to the calendar of events after clicking on an event... it goes back to the beginning of like many months ago.",
+      "timestamp": null,
+      "significance": "This frustration highlights a usability issue that affects Joy's ability to efficiently navigate the site.",
+      "insight": "Users experience pain points that disrupt their workflow, indicating a need for improved navigation and session memory.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I only could do things in the evenings or weekends. So to me, it's very important if I know if it's a Saturday or a Monday through Friday at 10 am when I can't do it.",
+      "timestamp": null,
+      "significance": "This statement emphasizes the importance of scheduling for Joy, which affects her engagement with events.",
+      "insight": "Time constraints play a critical role in how users interact with event offerings, highlighting the need for clear scheduling information.",
+      "category": "context"
+    },
+    {
+      "quote": "I just looked at everything on the calendar and pick things I like to do that fit in my calendar.",
+      "timestamp": null,
+      "significance": "Joy\u2019s approach to event selection indicates a preference for flexibility and personal choice.",
+      "insight": "Users prioritize events based on personal availability and interests, suggesting that a personalized recommendation system could enhance engagement.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I think one we've already nailed down, which is having the coordination between the calendar and the list view.",
+      "timestamp": null,
+      "significance": "Joy identifies a specific improvement that has been discussed, showing an awareness of user experience.",
+      "insight": "Users recognize specific functionalities that can enhance their experience, indicating a desire for seamless navigation.",
+      "category": "pain point"
+    },
+    {
+      "quote": "Most people are just clicking the box. Yeah, sure. I clicked the box. I didn't read that.",
+      "timestamp": null,
+      "significance": "Joy candidly admits to ignoring important information, reflecting a common behavior among users.",
+      "insight": "Users often bypass critical content due to convenience, suggesting that information should be presented more engagingly.",
+      "category": "behavior"
+    },
+    {
+      "quote": "I would love to know... if there will be listing alumni events that I can click on and look for.",
+      "timestamp": null,
+      "significance": "This expresses a desire for ongoing engagement even after transitioning to alumni status.",
+      "insight": "There's a need for continuity in community engagement post-membership, indicating that alumni features should be developed.",
+      "category": "desire"
+    },
+    {
+      "quote": "There's no gray area right now. There's just full members and then any public view thing.",
+      "timestamp": null,
+      "significance": "Joy highlights a lack of clarity in membership status and access to information, which can create confusion.",
+      "insight": "Users may feel disconnected from the community if their membership status is not clearly defined or communicated.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think it needs to be prettied up a little bit just to be more attractive.",
+      "timestamp": null,
+      "significance": "Joy suggests that aesthetic improvements could enhance user experience, even if functionality is adequate.",
+      "insight": "Visual appeal can influence user satisfaction and engagement, indicating that design should not be overlooked in usability discussions.",
+      "category": "desire"
+    },
+    {
+      "quote": "I just said, then I never looked again because I just started picking things by... it has to be that weekend and there's many.",
+      "timestamp": null,
+      "significance": "Joy\u2019s change in behavior indicates a shift from exploring content to a more transactional use.",
+      "insight": "Users may initially explore but subsequently gravitate towards efficiency, suggesting that encouraging ongoing exploration is necessary.",
+      "category": "behavior"
+    },
+    {
+      "quote": "But I did look once because I was trying to find someone's phone number, I think, but that was probably two years ago.",
+      "timestamp": null,
+      "significance": "This reflects a lack of frequent engagement with the website's broader content.",
+      "insight": "Users may not utilize all available resources, suggesting a need for clearer pathways to important information.",
+      "category": "pain point"
+    },
+    {
+      "quote": "It just starts off with, I have to log in, you know, that says about us, right.",
+      "timestamp": null,
+      "significance": "Joy's comment on the login process highlights a potential barrier to entry for some users.",
+      "insight": "Login requirements can deter user engagement, indicating that simplifying access may enhance usage.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I don't have any suggestions for that really.",
+      "timestamp": null,
+      "significance": "Joy's hesitance to provide suggestions despite expressing frustrations indicates a disconnect between user experience and feedback.",
+      "insight": "Users may struggle to articulate their needs or solutions, suggesting that guided feedback mechanisms could be beneficial.",
+      "category": "emotion"
+    },
+    {
+      "quote": "I don't know that I, Are you in front of the computer at this point or not?",
+      "timestamp": null,
+      "significance": "This reflects her uncertainty and the challenge of communicating effectively during remote interactions.",
+      "insight": "Technical difficulties can hinder effective communication and user experience, pointing to a need for better support during feedback sessions.",
+      "category": "context"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call with Joy Fournier.json",
+    "interview_id": "Call with Joy Fournier"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:41:03.574684",
+    "version": "1.0"
+  }
+}

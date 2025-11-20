@@ -1,0 +1,53 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "50-65",
+      "role": "Committee Chair/Member of Newcomers Club",
+      "experience_level": "Experienced",
+      "technical_proficiency": "Moderately proficient"
+    },
+    "background_context": {
+      "situation": "Involved in a local newcomers club aimed at helping people who recently moved to Santa Barbara.",
+      "environment": "Community-focused, involved in home improvement and event planning.",
+      "constraints": "Limited budget and time as a volunteer organization."
+    },
+    "goals_motivations": {
+      "drives": "Improving the digital presence of the Newcomers Club and enhancing the member experience.",
+      "achievements": "Wants to create a more vibrant and engaging community platform, facilitating connections for newcomers."
+    },
+    "behaviors_patterns": {
+      "current_work": "Collaborates with other committee members and contractors on improvement projects; actively participates in discussions about digital enhancements.",
+      "habits": "Uses text messaging for quick communication; prefers direct interactions over emails."
+    },
+    "pain_points_frustrations": {
+      "obstacles": "Outdated website design and functionality; challenges in communication and event organization.",
+      "issues": "Frustration with lack of intuitive design in digital tools; difficulties in accessing information quickly."
+    },
+    "needs_desires": {
+      "improvements": "Wants an upgraded website that reflects the upscale nature of the club with better visuals and easier navigation.",
+      "desires": "A platform that facilitates communication among members, including a forum for sharing recommendations and advice."
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Believes in the importance of community support for newcomers; values aesthetics in digital representation.",
+      "preferences": "Prefers a modern, visually appealing online presence that is easy to navigate."
+    },
+    "technical_comfort": {
+      "tools_used": "Wild Apricot for member management; familiar with social media platforms.",
+      "technical_abilities": "Comfortable with digital tools but desires better functionality.",
+      "learning_preferences": "Hands-on experience with tools; values straightforward, user-friendly interfaces."
+    },
+    "quotes": [
+      "I think that's one of the best ideas going, and if there were a better way to market that, I think it's well worth it.",
+      "Our gallery is just attached to the Instagram... More in-depth information about past events. Something to make the club look very exciting.",
+      "It's just very stale and old-fashioned compared to anything."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/2536 Borton Dr 2.json",
+    "interview_id": "2536 Borton Dr 2"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:05:46.270146",
+    "version": "1.0"
+  }
+}

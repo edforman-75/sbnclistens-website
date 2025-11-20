@@ -1,0 +1,53 @@
+{
+  "persona": {
+    "demographics": {
+      "age_range": "20s to 40s",
+      "role": "Member of a community organization",
+      "experience_level": "Moderate experience as a member",
+      "technical_proficiency": "Comfortable with basic website navigation"
+    },
+    "background_context": {
+      "situation": "Engaged with a community organization to meet new people.",
+      "environment": "Uses the organization's website primarily for event information.",
+      "constraints": "Time constraints due to a busy schedule."
+    },
+    "goals_motivations": {
+      "drives": "To meet new people and participate in community events.",
+      "achievements": "Desires clear and accessible information about events."
+    },
+    "behaviors_patterns": {
+      "current_work": "Primarily interacts with the events calendar on the website.",
+      "habits": "Checks the website for events, prefers calendar view for quick access."
+    },
+    "pain_points_frustrations": {
+      "obstacles": "Frustration with events being waitlisted and lack of easy cancellation options.",
+      "issues": "Overwhelmed by excessive information and tabs on the website."
+    },
+    "needs_desires": {
+      "improvement": "Wants a streamlined website with easy access to event availability and cancellation options.",
+      "looking_for": "A more efficient way to view event capacity and manage registrations."
+    },
+    "attitudes_beliefs": {
+      "mental_models": "Values simplicity and clarity in navigation.",
+      "preferences": "Prefers to see essential information without unnecessary content."
+    },
+    "technical_comfort": {
+      "tools": "Uses the organization's website, familiar with basic web navigation.",
+      "abilities": "Comfortable with technology but prefers not to engage with overly complex interfaces.",
+      "learning_preferences": "Learns best through direct, hands-on experience rather than extensive reading."
+    },
+    "quotes": [
+      "I only really care about like when I go to the site, I want to... see what the goal of the organization is.",
+      "I typically use the events calendar view just because it has it laid out in a way where I can see it the month at a glance.",
+      "If I see wait list for every single thing I'm interested in, then I kind of stop looking at the website too."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_ElaineKim_11.15.25.json",
+    "interview_id": "SBNC_Interview_ElaineKim_11.15.25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:09:22.528491",
+    "version": "1.0"
+  }
+}

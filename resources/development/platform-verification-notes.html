@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Verification Notes - SBNC Listens</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-section">
+            <div class="emoji">✅</div>
+            <h1>Platform Verification Notes</h1>
+            <p class="tagline">Technical Reference Guide</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../interviewing-our-users/index.html">Interviewing Our Users</a></li>
+            <li><a href="../../resources/index.html">Resources</a></li>
+            <li><a href="../../resources/development/index.html">Development Resources</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h2>Platform Verification Notes</h2>
+            <p>Technical reference for identifying whether a website is native Wild Apricot, WordPress, or a hybrid integration. Use these techniques when evaluating other organizations' websites.</p>
+        </section>
+
+        <section>
+            <h2>How to Verify a Website Platform</h2>
+            <p>When researching other organizations' websites, use these methods to determine what platform they're built on:</p>
+
+            <div class="platform-cards">
+                <div class="platform-card">
+                    <h3>Method 1: View Page Source</h3>
+                    <ol>
+                        <li>Right-click on the page and select "View Page Source"</li>
+                        <li>Search for platform-specific indicators (see below)</li>
+                        <li>Look in the &lt;head&gt; section for meta tags and scripts</li>
+                    </ol>
+                </div>
+
+                <div class="platform-card">
+                    <h3>Method 2: Check URLs</h3>
+                    <ol>
+                        <li>Navigate through the site and observe URL patterns</li>
+                        <li>Wild Apricot: URLs often contain /sys/, /admin/, or /event-</li>
+                        <li>WordPress: URLs may show /wp-content/, /wp-includes/</li>
+                    </ol>
+                </div>
+
+                <div class="platform-card">
+                    <h3>Method 3: Inspect Developer Tools</h3>
+                    <ol>
+                        <li>Press F12 or right-click → Inspect</li>
+                        <li>Check Network tab for loaded resources</li>
+                        <li>Look for platform-specific JavaScript libraries</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Platform Indicators</h2>
+            
+            <h3>Wild Apricot Native Site Indicators</h3>
+            <div class="info-box">
+                <ul>
+                    <li><strong>Meta tags:</strong> &lt;meta name="generator" content="Wild Apricot"&gt;</li>
+                    <li><strong>URL patterns:</strong> /sys/, /admin/, /event-, /Sys/</li>
+                    <li><strong>Footer text:</strong> "Powered by Wild Apricot" (often hidden in small text)</li>
+                    <li><strong>HTML classes:</strong> wa-widget, wa-event, WaGadgetBlog</li>
+                    <li><strong>JavaScript:</strong> wildapricot.org/widget/, /Sys/PublicProfiles/</li>
+                </ul>
+            </div>
+
+            <h3>WordPress Site Indicators</h3>
+            <div class="info-box">
+                <ul>
+                    <li><strong>Meta tags:</strong> &lt;meta name="generator" content="WordPress"&gt;</li>
+                    <li><strong>URL patterns:</strong> /wp-content/, /wp-includes/, /wp-json/</li>
+                    <li><strong>HTML classes:</strong> wp-*, wordpress, post-, page-</li>
+                    <li><strong>JavaScript:</strong> wp-includes/js/, wp-content/themes/</li>
+                    <li><strong>RSS feeds:</strong> /feed/, /comments/feed/</li>
+                </ul>
+            </div>
+
+            <h3>Hybrid Integration Indicators</h3>
+            <div class="info-box warning">
+                <ul>
+                    <li><strong>Mixed indicators:</strong> Both WordPress and Wild Apricot signatures present</li>
+                    <li><strong>URL switching:</strong> Domain changes between sections (e.g., example.com → example.wildapricot.org)</li>
+                    <li><strong>Design inconsistency:</strong> Visible style changes when navigating to member areas</li>
+                    <li><strong>iframes:</strong> Wild Apricot content embedded in WordPress pages</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Example Site Verification Results</h2>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 1rem;">
+                <thead>
+                    <tr style="background-color: #f8fafc; border-bottom: 2px solid #e2e8f0;">
+                        <th style="padding: 1rem; text-align: left;">Organization</th>
+                        <th style="padding: 1rem; text-align: left;">Platform</th>
+                        <th style="padding: 1rem; text-align: left;">Key Indicators Found</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 1rem;">SBNC (sbnewcomers.org)</td>
+                        <td style="padding: 1rem;"><strong>Native Wild Apricot</strong></td>
+                        <td style="padding: 1rem;">/sys/ URLs, wa-widget classes, WA generator tag</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 1rem;">CMMA.org</td>
+                        <td style="padding: 1rem;"><strong>WordPress + WA Plugin</strong></td>
+                        <td style="padding: 1rem;">WordPress generator tag, WA widgets embedded, mixed URLs</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 1rem;">Nicasio Design Examples</td>
+                        <td style="padding: 1rem;"><strong>Native Wild Apricot (Custom Theme)</strong></td>
+                        <td style="padding: 1rem;">WA generator, custom CSS, professional design on WA platform</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Quick Verification Checklist</h2>
+            <p>Use this checklist when evaluating a new site:</p>
+            <ol class="steps">
+                <li><strong>View page source</strong> - Look for generator meta tag (usually in first 50 lines)</li>
+                <li><strong>Check footer</strong> - Look for "Powered by" text or small attribution links</li>
+                <li><strong>Navigate to member area</strong> - See if URL or design changes significantly</li>
+                <li><strong>Inspect events page</strong> - Wild Apricot events have distinctive URL patterns</li>
+                <li><strong>Check mobile responsiveness</strong> - Consistent mobile experience suggests single platform</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Why This Matters</h2>
+            <p>Platform verification helps the technology committee:</p>
+            <ul>
+                <li><strong>Learn from peers:</strong> See what other newcomers clubs are using successfully</li>
+                <li><strong>Verify claims:</strong> Confirm whether impressive sites are truly native Wild Apricot</li>
+                <li><strong>Assess feasibility:</strong> Determine if custom designs require WordPress or work within WA</li>
+                <li><strong>Make decisions:</strong> Compare actual platform capabilities vs. vendor claims</li>
+                <li><strong>Set expectations:</strong> Understand what's achievable with current platform</li>
+            </ul>
+        </section>
+
+        <section style="background-color: #f8fafc; border-top: 2px solid #e2e8f0; margin-top: 3rem;">
+            <h3 style="color: #64748b; font-size: 1rem;">Document History</h3>
+            <table style="width: 100%; font-size: 0.9rem; color: #64748b;">
+                <tr>
+                    <td style="padding: 0.5rem 0; width: 150px;"><strong>Created:</strong></td>
+                    <td>November 20, 2025</td>
+                </tr>
+                <tr>
+                    <td style="padding: 0.5rem 0;"><strong>Last Updated:</strong></td>
+                    <td>November 20, 2025</td>
+                </tr>
+                <tr>
+                    <td style="padding: 0.5rem 0;"><strong>Author:</strong></td>
+                    <td>SBNC Technology Committee</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Santa Barbara Newcomers Club</p>
+        <p>Questions? Contact <a href="mailto:technology@sbnewcomers.org">technology@sbnewcomers.org</a></p>
+    </footer>
+</body>
+</html>

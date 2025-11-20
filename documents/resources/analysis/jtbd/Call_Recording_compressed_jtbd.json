@@ -1,0 +1,62 @@
+{
+  "jobs": {
+    "functional_jobs": [
+      {
+        "job_statement": "When I am planning events for the Newcomers Club, I want to utilize the website and app effectively, so I can ensure smooth event registration and management.",
+        "current_solution": "Using the Wild Apricot application for managing events and registrations.",
+        "pain_points": "The phone app is underpowered, provides conflicting information, and is not user-friendly for all members.",
+        "desired_outcomes": "A more reliable and user-friendly mobile app that provides accurate event registration information.",
+        "success_criteria": "Members can easily register for events and access accurate information through their preferred devices without confusion."
+      },
+      {
+        "job_statement": "When I am involved in committee work, I want to access administrative features on the website, so I can manage events effectively.",
+        "current_solution": "Logging in as an administrator to view backend features.",
+        "pain_points": "The administrative interface is complex and not well documented for new users.",
+        "desired_outcomes": "An intuitive administrative interface with better training resources for new committee members.",
+        "success_criteria": "Committee members can navigate the administrative functions efficiently and manage events without frustration."
+      }
+    ],
+    "emotional_jobs": [
+      {
+        "job_statement": "When I am hosting an event, I want to feel confident in the registration process, so I can ensure that attendees have a positive experience.",
+        "current_solution": "Using printed name tags and maintaining accurate registration records.",
+        "pain_points": "Worry about unregistered attendees showing up, which can lead to confusion and embarrassment.",
+        "desired_outcomes": "A reliable system that prevents registration issues and ensures all attendees are accounted for.",
+        "success_criteria": "A seamless registration experience with printed name tags that help identify attendees correctly."
+      }
+    ],
+    "social_jobs": [
+      {
+        "job_statement": "When I attend events, I want to be recognized as an involved member of the Newcomers Club, so I can feel a sense of belonging and community.",
+        "current_solution": "Using printed name tags to denote roles such as 'newbie' or 'committee member'.",
+        "pain_points": "Informal name tags can lead to misidentification and diminish the sense of community.",
+        "desired_outcomes": "Clear identification of members' roles to foster connections among attendees.",
+        "success_criteria": "Attendees can easily identify each other\u2019s roles and engage more meaningfully at events."
+      }
+    ],
+    "supporting_jobs": [
+      {
+        "job_statement": "When I am training new committee members, I want to provide them with adequate resources, so they can quickly learn how to use the website effectively.",
+        "current_solution": "Conducting informal training sessions.",
+        "pain_points": "Current training methods are inadequate and lead to confusion among new users.",
+        "desired_outcomes": "A structured training program that equips new members with the knowledge they need to use the website.",
+        "success_criteria": "New committee members feel confident and competent in using the website after training."
+      },
+      {
+        "job_statement": "When managing events, I want to have a system that archives past events and decisions, so I can ensure continuity and avoid repeating past mistakes.",
+        "current_solution": "Relying on informal notes and memory.",
+        "pain_points": "Lack of institutional memory leads to repeated issues and inefficiencies.",
+        "desired_outcomes": "A formalized archival process that documents past events and decisions.",
+        "success_criteria": "Committee members can easily access historical data to inform their planning and decision-making."
+      }
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call_Recording_compressed.json",
+    "interview_id": "Call_Recording_compressed"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:46:21.529735",
+    "version": "1.0"
+  }
+}

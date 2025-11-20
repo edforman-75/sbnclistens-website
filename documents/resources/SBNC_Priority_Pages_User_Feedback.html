@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBNC Priority Pages - What Users Tell Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #0d1b2a;
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        .slide {
+            display: none;
+            width: 100vw;
+            height: 100vh;
+            padding: 3vh 4vw;
+            background: linear-gradient(135deg, #0d1b2a 0%, #1b263b 100%);
+            position: relative;
+        }
+
+        .slide.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #4ECDC4;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            color: #4ECDC4;
+            border-bottom: 3px solid #4ECDC4;
+            padding-bottom: 12px;
+        }
+
+        .subtitle {
+            font-size: 1.3rem;
+            color: #a8dadc;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .navigation {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            gap: 12px;
+            z-index: 1000;
+        }
+
+        .nav-button {
+            background: #4ECDC4;
+            color: #0d1b2a;
+            border: none;
+            padding: 10px 18px;
+            font-size: 0.95rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+            font-weight: 600;
+        }
+
+        .nav-button:hover {
+            background: #7FE8E3;
+        }
+
+        .nav-button:disabled {
+            background: #333;
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+
+        .slide-number {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            font-size: 1rem;
+            color: #a8dadc;
+        }
+
+        /* Navigation Dots */
+        .nav-dots {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 12px;
+            z-index: 1000;
+            background: rgba(13, 27, 42, 0.8);
+            padding: 10px 20px;
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(168, 218, 220, 0.3);
+            border: 2px solid rgba(168, 218, 220, 0.5);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .dot:hover {
+            background: rgba(78, 205, 196, 0.6);
+            border-color: #4ECDC4;
+            transform: scale(1.3);
+        }
+
+        .dot.active {
+            background: #4ECDC4;
+            border-color: #4ECDC4;
+            transform: scale(1.2);
+        }
+
+        .dot-tooltip {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(27, 38, 59, 0.95);
+            color: #ffffff;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            border: 1px solid #4ECDC4;
+            z-index: 1001;
+        }
+
+        .dot:hover .dot-tooltip {
+            opacity: 1;
+        }
+
+        .dot-tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 6px solid transparent;
+            border-top-color: #4ECDC4;
+        }
+
+        /* Brainstorming Rules Styles */
+        .rules-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .rule-box {
+            background: rgba(78, 205, 196, 0.1);
+            border-left: 4px solid #4ECDC4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .rule-box h3 {
+            color: #4ECDC4;
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .rule-box p {
+            color: #a8dadc;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        /* Priority Page Styles */
+        .page-layout {
+            display: grid;
+            grid-template-columns: 45% 55%;
+            gap: 30px;
+            height: 75vh;
+            margin-top: 20px;
+        }
+
+        .screenshot-container {
+            background: rgba(78, 205, 196, 0.05);
+            border: 2px solid #4ECDC4;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .screenshot-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .comments-container {
+            background: rgba(255, 255, 255, 0.03);
+            border: 2px solid #4ECDC4;
+            border-radius: 8px;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .comments-container::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        .comments-container::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 5px;
+        }
+
+        .comments-container::-webkit-scrollbar-thumb {
+            background: #4ECDC4;
+            border-radius: 5px;
+        }
+
+        .comment {
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 4px solid;
+            font-size: 1rem;
+            line-height: 1.5;
+            font-style: italic;
+        }
+
+        .comment::before {
+            content: '"';
+            font-size: 2rem;
+            opacity: 0.3;
+            margin-right: 5px;
+        }
+
+        .comment::after {
+            content: '"';
+            font-size: 2rem;
+            opacity: 0.3;
+            margin-left: 5px;
+        }
+
+        /* Persona Colors - SBNC Brand */
+        .persona-professional {
+            background: rgba(78, 205, 196, 0.15);
+            border-left-color: #4ECDC4;
+            color: #e0f7f5;
+        }
+
+        .persona-volunteer {
+            background: rgba(155, 138, 184, 0.15);
+            border-left-color: #9B8AB8;
+            color: #f0ecf8;
+        }
+
+        .persona-participant {
+            background: rgba(255, 165, 0, 0.15);
+            border-left-color: #FFA500;
+            color: #fff5e6;
+        }
+
+        .legend {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+
+        .legend-color.professional {
+            background: #4ECDC4;
+        }
+
+        .legend-color.volunteer {
+            background: #9B8AB8;
+        }
+
+        .legend-color.participant {
+            background: #FFA500;
+        }
+
+        /* Jingle Cards */
+        .jingle-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid #4ECDC4;
+            border-radius: 12px;
+            padding: 25px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .jingle-card:hover {
+            border-color: #4ECDC4;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(78, 205, 196, 0.3);
+            background: rgba(78, 205, 196, 0.1);
+        }
+
+        .jingle-card.elegant {
+            border-left: 5px solid #9B8AB8;
+        }
+
+        .jingle-card.elegant:hover {
+            border-color: #9B8AB8;
+            box-shadow: 0 8px 24px rgba(155, 138, 184, 0.3);
+        }
+
+        .jingle-card.energetic {
+            border-left: 5px solid #FFA500;
+        }
+
+        .jingle-card.energetic:hover {
+            border-color: #FFA500;
+            box-shadow: 0 8px 24px rgba(255, 165, 0, 0.3);
+        }
+
+        .jingle-card.warm {
+            border-left: 5px solid #4ECDC4;
+        }
+
+        .jingle-card.poetic {
+            border-left: 5px solid #ffc107;
+        }
+
+        .jingle-card.poetic:hover {
+            border-color: #ffc107;
+            box-shadow: 0 8px 24px rgba(255, 193, 7, 0.3);
+        }
+
+        .jingle-label {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        .elegant .jingle-label {
+            background: rgba(155, 138, 184, 0.2);
+            color: #9B8AB8;
+        }
+
+        .energetic .jingle-label {
+            background: rgba(255, 165, 0, 0.2);
+            color: #FFA500;
+        }
+
+        .warm .jingle-label {
+            background: rgba(78, 205, 196, 0.2);
+            color: #4ECDC4;
+        }
+
+        .poetic .jingle-label {
+            background: rgba(255, 193, 7, 0.2);
+            color: #ffc107;
+        }
+
+        .jingle-icon {
+            font-size: 2.5rem;
+            margin: 15px 0;
+        }
+
+        .jingle-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+
+        .jingle-desc {
+            font-size: 0.95rem;
+            color: #a8dadc;
+        }
+
+        /* Modal for jingle player */
+        .jingle-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 10000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .jingle-modal.active {
+            display: flex;
+        }
+
+        .jingle-modal-content {
+            background: white;
+            border-radius: 16px;
+            width: 90%;
+            max-width: 800px;
+            height: 80vh;
+            max-height: 600px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+        }
+
+        .jingle-modal-header {
+            padding: 20px 25px;
+            background: linear-gradient(135deg, #4ECDC4 0%, #9B8AB8 100%);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .jingle-modal-header h3 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        .close-jingle-modal {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            font-size: 1.8rem;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+
+        .close-jingle-modal:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: rotate(90deg);
+        }
+
+        .jingle-iframe {
+            width: 100%;
+            height: calc(100% - 80px);
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Slide 1: Brainstorming Rules -->
+<div class="slide active">
+    <div class="content">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <img src="sbnc_logo.png" alt="SBNC Logo" style="width: 120px; height: 120px;">
+        </div>
+        <h1>Brainstorming Rules for Design Thinking</h1>
+        <div class="rules-grid">
+            <div class="rule-box">
+                <h3>Defer Judgment</h3>
+                <p>No idea is too wild - criticism comes later</p>
+            </div>
+            <div class="rule-box">
+                <h3>Encourage Wild Ideas</h3>
+                <p>Unusual ideas can spark practical solutions</p>
+            </div>
+            <div class="rule-box">
+                <h3>Build on Ideas of Others</h3>
+                <p>Use "Yes, and..." instead of "Yes, but..."</p>
+            </div>
+            <div class="rule-box">
+                <h3>Stay Focused on Topic</h3>
+                <p>Keep discussions tied to the challenge at hand</p>
+            </div>
+            <div class="rule-box">
+                <h3>One Conversation at a Time</h3>
+                <p>Everyone's voice matters - listen actively</p>
+            </div>
+            <div class="rule-box">
+                <h3>Go for Quantity</h3>
+                <p>More ideas increase chances of finding great ones</p>
+            </div>
+            <div class="rule-box">
+                <h3>Be Visual</h3>
+                <p>Sketch, diagram, use sticky notes - whatever helps</p>
+            </div>
+            <div class="rule-box">
+                <h3>Dream Without Limits</h3>
+                <p>Don't limit ideas to what you think is possible - go wild! Let the engineers and physicists deal with limitations</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 2: Events Calendar -->
+<div class="slide">
+    <h2>Priority Page #1: Events Calendar</h2>
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color professional"></div>
+            <span>Busy Professional</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color volunteer"></div>
+            <span>Active Volunteer</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color participant"></div>
+            <span>Participant Member</span>
+        </div>
+    </div>
+    <div class="page-layout">
+        <div class="screenshot-container">
+            <img src="screenshots/Events Calendar.png" alt="Events Calendar">
+        </div>
+        <div class="comments-container">
+            <div class="comment persona-professional">
+                The events tab is all that I use. I go to that link and that's the only thing I use on the website.
+            </div>
+            <div class="comment persona-participant">
+                I think it would be helpful to know which events still have openings or have it blocked out or something like that.
+            </div>
+            <div class="comment persona-professional">
+                I noticed the app has a search bar, a search field and you can put in a keyword and it'll bring up that but on the website, it doesn't.
+            </div>
+            <div class="comment persona-participant">
+                When I'm scrolling through the calendar on the website you have to go back to the top in order to go to the next month.
+            </div>
+            <div class="comment persona-participant">
+                Sometimes it'll be like a hold the date or that it'll be. Oh, it's registration full but then there's no names.
+            </div>
+            <div class="comment persona-volunteer">
+                It would be easier if you could pick whatever committee that you think or see what they have.
+            </div>
+            <div class="comment persona-professional">
+                It was easy to find events and easy to sort events.
+            </div>
+            <div class="comment persona-participant">
+                Having a calendar would be very, very helpful and it doesn't seem inviting to me.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 3: Member Dashboard -->
+<div class="slide">
+    <h2>Priority Page #2: Member Dashboard</h2>
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color professional"></div>
+            <span>Busy Professional</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color volunteer"></div>
+            <span>Active Volunteer</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color participant"></div>
+            <span>Participant Member</span>
+        </div>
+    </div>
+    <div class="page-layout">
+        <div class="screenshot-container">
+            <img src="screenshots/Member Page.png" alt="Member Dashboard">
+        </div>
+        <div class="comments-container">
+            <div class="comment persona-participant">
+                I look at my emails to see what I've signed up for.
+            </div>
+            <div class="comment persona-participant">
+                I haven't figured out where to find what things that I've signed up for on the website.
+            </div>
+            <div class="comment persona-volunteer">
+                You have to go to your profile, then you have to go to the member page, then you could then find My Event Registrations.
+            </div>
+            <div class="comment persona-volunteer">
+                I've never even been here—I've been in it three years but never seen this part.
+            </div>
+            <div class="comment persona-professional">
+                It's like super easy to do on the app but really hidden on the website.
+            </div>
+            <div class="comment persona-volunteer">
+                People wanted their address changed and just didn't know how to do it.
+            </div>
+            <div class="comment persona-volunteer">
+                There's quite a bit on that page that really isn't something that people are that familiar with.
+            </div>
+            <div class="comment persona-volunteer">
+                The member page could stand to have your account be one of the main things on the front page.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 4: Homepage -->
+<div class="slide">
+    <h2>Priority Page #3: Homepage</h2>
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color professional"></div>
+            <span>Busy Professional</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color volunteer"></div>
+            <span>Active Volunteer</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color participant"></div>
+            <span>Participant Member</span>
+        </div>
+    </div>
+    <div class="page-layout">
+        <div class="screenshot-container">
+            <img src="screenshots/Home Page.png" alt="Homepage">
+        </div>
+        <div class="comments-container">
+            <div class="comment persona-professional">
+                The website appears very dated.
+            </div>
+            <div class="comment persona-participant">
+                The homepage looks like you're starting either a surfing club or a lifeguarding club.
+            </div>
+            <div class="comment persona-professional">
+                The color scheme is not very inviting or exciting.
+            </div>
+            <div class="comment persona-participant">
+                Not having a header at the top saying it was the Santa Barbara newcomers, you could mistake it for another website.
+            </div>
+            <div class="comment persona-volunteer">
+                Have pictures showing the Santa Barbara newcomers sign or the logo.
+            </div>
+            <div class="comment persona-volunteer">
+                I don't know if it's a good idea to have your member exclusive events and then have a listing of things that are canceled.
+            </div>
+            <div class="comment persona-professional">
+                There's a lot of information and people are going to see it, glaze over it and maybe not go deep into where you want them to go.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 5: Committees Directory -->
+<div class="slide">
+    <h2>Priority Page #4: Committees/Groups Directory</h2>
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color professional"></div>
+            <span>Busy Professional</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color volunteer"></div>
+            <span>Active Volunteer</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color participant"></div>
+            <span>Participant Member</span>
+        </div>
+    </div>
+    <div class="page-layout">
+        <div class="screenshot-container">
+            <img src="screenshots/CommitteeGroupsDirectory.png" alt="Committees Directory">
+        </div>
+        <div class="comments-container">
+            <div class="comment persona-participant">
+                I was not aware of the 20 to 40 somethings committee.
+            </div>
+            <div class="comment persona-volunteer">
+                The descriptions weren't clear to me and it really didn't come across as exactly what it was.
+            </div>
+            <div class="comment persona-participant">
+                Once you get to the actual committees list, it's super helpful because the info I need is right here.
+            </div>
+            <div class="comment persona-volunteer">
+                Finding those board member descriptions, it's not so obvious.
+            </div>
+            <div class="comment persona-participant">
+                The heading, the activity committees, takes up a huge bar and the photo takes up so much space, so you have to scroll all the way down to find the names of the committees.
+            </div>
+            <div class="comment persona-professional">
+                There's way too many revolving tiles on the activities page—you're never going to make it through all of those.
+            </div>
+            <div class="comment persona-participant">
+                How do they find each other after they're done?
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 6: Main Navigation -->
+<div class="slide">
+    <h2>Priority Page #5: Main Navigation</h2>
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color professional"></div>
+            <span>Busy Professional</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color volunteer"></div>
+            <span>Active Volunteer</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color participant"></div>
+            <span>Participant Member</span>
+        </div>
+    </div>
+    <div class="page-layout">
+        <div class="screenshot-container">
+            <img src="screenshots/Slide-5-Navigation.png" alt="Main Navigation">
+        </div>
+        <div class="comments-container">
+            <div class="comment persona-professional">
+                I feel like I have to go back a lot more steps that way than with the app.
+            </div>
+            <div class="comment persona-professional">
+                There's only two items in the hamburger menu and then there's seven top tier items, which is a lot.
+            </div>
+            <div class="comment persona-participant">
+                You have to click through a few different buttons to get to the calendar.
+            </div>
+            <div class="comment persona-volunteer">
+                It took a while before I even saw the page with the house logo come up—that's a navigational glitch.
+            </div>
+            <div class="comment persona-volunteer">
+                Governing Documents is at the very bottom tab on that page, so that isn't all that visible.
+            </div>
+            <div class="comment persona-volunteer">
+                It's under Governing Documents which you wouldn't necessarily look for.
+            </div>
+            <div class="comment persona-volunteer">
+                The chair tab is the same—just a list of links that's not visually engaging and doesn't bring a lot of contextual information.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 7: Visual Branding & Design -->
+<div class="slide">
+    <h2>SBNC Visual Branding & Design Feedback</h2>
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color professional"></div>
+            <span>Busy Professional</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color volunteer"></div>
+            <span>Active Volunteer</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color participant"></div>
+            <span>Participant Member</span>
+        </div>
+    </div>
+    <div class="page-layout">
+        <div class="screenshot-container" style="display: flex; align-items: center; justify-content: center; background: white;">
+            <img src="sbnc_logo.png" alt="SBNC Logo" style="width: 80%; max-width: 400px; height: auto;">
+        </div>
+        <div class="comments-container">
+            <div class="comment persona-professional">
+                It feels very dated. The website appears very dated. When I first looked at it, not having a header at the top saying that it was the Santa Barbara newcomers, you could mistake it for another website here in Santa Barbara.
+            </div>
+            <div class="comment persona-professional">
+                The color scheme is not very inviting or exciting either way. You're using basic font, using bold to highlight. I think you could be using much newer or more innovative ways to get people's attention.
+            </div>
+            <div class="comment persona-professional">
+                It looks like something that was kind of put together, and I don't want to offend anyone, but it looks like something that was very simply put together and not intended to be drawing individuals into something.
+            </div>
+            <div class="comment persona-professional">
+                I think the way it looks right now with just a white background, with the white text boxes, the black font, it's just not very inviting.
+            </div>
+            <div class="comment persona-volunteer">
+                I'm not as wowed and impressed by the latest little wrinkle or cosmetic—is the color right, is the font right? That kind of stuff. I'm looking for utility.
+            </div>
+            <div class="comment persona-volunteer">
+                And so from that perspective, cleaner, simpler, better is my approach.
+            </div>
+            <div class="comment persona-volunteer">
+                It's not super pretty or anything like that, but it's not bad. It's just...I don't know. I don't have any suggestions for that really.
+            </div>
+            <div class="comment persona-volunteer">
+                Well, I'm not sure we really need to sell people on this proposition, because we already know we want to join because we want to meet people. But the website needs to be prettied up a little bit just to be more attractive.
+            </div>
+            <div class="comment persona-professional">
+                Just doesn't look inviting. Again, it's got the same kind of blandness that the website has.
+            </div>
+            <div class="comment persona-professional">
+                The homepage looks like you're starting either a surfing club or a lifeguarding club. I think you need to be way more specific or have pictures showing the events that you're doing, have pictures showing the Santa Barbara newcomers sign or the logo.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 8: Brand Identity Title -->
+<div class="slide">
+    <div class="content" style="text-align: center;">
+        <h1 style="font-size: 3.5rem; margin-bottom: 30px;">SBNC Brand Identity</h1>
+        <h1 style="font-size: 3rem; color: #9B8AB8;">Who Are We?</h1>
+        <p class="subtitle" style="margin-top: 60px; font-size: 1.5rem;">Design Thinking Workshop - November 18, 2025</p>
+    </div>
+</div>
+
+<!-- Slide 9: Brand in Music -->
+<div class="slide">
+    <h2>SBNC Brand in Music</h2>
+    <div class="content" style="padding: 20px 60px;">
+        <p style="text-align: center; font-size: 1.3rem; color: #a8dadc; margin-bottom: 40px;">
+            Which voice represents who we are?<br>
+            Listen to each jingle and feel the personality it conveys.
+        </p>
+
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 25px; margin-bottom: 40px;">
+            <div class="jingle-card elegant" onclick="playJingle('https://www.jinglemaker.ai/mi5750rz5dw4w7vadpe', 'Sailing into Connections', 'Madison Avenue')">
+                <span class="jingle-label">Madison Avenue</span>
+                <div class="jingle-icon">⛵</div>
+                <div class="jingle-title">Sailing into Connections</div>
+                <div class="jingle-desc">Sophisticated advertising appeal</div>
+            </div>
+
+            <div class="jingle-card energetic" onclick="playJingle('https://www.jinglemaker.ai/mi577uto04kitelkbh3e', 'Join the Vibe, SB Tribe', 'Funky Rap')">
+                <span class="jingle-label">Funky Rap</span>
+                <div class="jingle-icon">🎵</div>
+                <div class="jingle-title">Join the Vibe, SB Tribe</div>
+                <div class="jingle-desc">Groovy beats with smooth flow</div>
+            </div>
+
+            <div class="jingle-card warm" onclick="playJingle('https://www.jinglemaker.ai/mi5a2lklsziuyzn3li', 'Embrace Our Community', 'US Politician')">
+                <span class="jingle-label">US Politician</span>
+                <div class="jingle-icon">🤝</div>
+                <div class="jingle-title">Embrace Our Community</div>
+                <div class="jingle-desc">Campaign, patriotic, inspiring</div>
+            </div>
+
+            <div class="jingle-card poetic" onclick="playJingle('https://www.jinglemaker.ai/mi5a7kp0v7axsy0aboe', 'Heartland Connections', 'Midwest Farmer')">
+                <span class="jingle-label">Midwest Farmer</span>
+                <div class="jingle-icon">🌅</div>
+                <div class="jingle-title">Heartland Connections</div>
+                <div class="jingle-desc">Country, folk, heartland vibes</div>
+            </div>
+        </div>
+
+        <div style="text-align: center; padding: 25px; background: rgba(78, 205, 196, 0.15); border-radius: 8px;">
+            <p style="font-size: 1.2rem; color: #4ECDC4; font-weight: bold;">The Brand Identity Question</p>
+            <p style="font-size: 1.1rem; margin-top: 10px; font-style: italic;">"If SBNC were a person, which jingle would they hum while welcoming a newcomer to the neighborhood?"</p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 10: What We Heard -->
+<div class="slide">
+    <h2>What Our Members Said: Brand Perception</h2>
+    <div class="content" style="padding: 20px 60px;">
+        <h3 style="color: #FFA500; font-size: 1.8rem; margin-bottom: 20px;">From Member Interviews</h3>
+        <div style="margin-left: 40px; margin-bottom: 30px; font-size: 1.3rem; line-height: 1.8;">
+            <p style="font-style: italic; margin: 10px 0; color: #e0f7f5;">"Welcoming and fun community"</p>
+            <p style="font-style: italic; margin: 10px 0; color: #e0f7f5;">"So many activities - almost overwhelming"</p>
+            <p style="font-style: italic; margin: 10px 0; color: #e0f7f5;">"Hard to know what's happening when"</p>
+            <p style="font-style: italic; margin: 10px 0; color: #e0f7f5;">"Love the social events, but navigation is tricky"</p>
+            <p style="font-style: italic; margin: 10px 0; color: #e0f7f5;">"Instagram looks elegant, website feels busy"</p>
+            <p style="font-style: italic; margin: 10px 0; color: #e0f7f5;">"Are we casual or sophisticated? Both?"</p>
+        </div>
+        <h3 style="color: #FFA500; font-size: 1.8rem; margin-top: 40px; margin-bottom: 15px;">Key Insight</h3>
+        <p style="margin-left: 40px; font-size: 1.3rem; color: #a8dadc;">Members experience our brand differently depending on where they encounter us</p>
+    </div>
+</div>
+
+<!-- Slide 10: Instagram Voice -->
+<div class="slide">
+    <h2>Our Instagram Voice: Elegant & Aspirational</h2>
+    <div class="content" style="padding: 20px 40px;">
+        <div style="display: grid; grid-template-columns: 50% 50%; gap: 30px; height: 70vh;">
+            <!-- Left: Text Content -->
+            <div style="display: flex; flex-direction: column; justify-content: center;">
+                <h3 style="color: #4ECDC4; font-size: 1.6rem; margin-bottom: 15px;">Visual Identity</h3>
+                <ul style="margin-left: 30px; margin-bottom: 25px; font-size: 1.1rem; line-height: 1.7;">
+                    <li>Serif italic fonts, polished graphics</li>
+                    <li>Professional event photography</li>
+                    <li>Curated, lifestyle-magazine aesthetic</li>
+                </ul>
+                <h3 style="color: #4ECDC4; font-size: 1.6rem; margin-bottom: 15px;">Tone & Copy</h3>
+                <ul style="margin-left: 30px; margin-bottom: 25px; font-size: 1.1rem; line-height: 1.7;">
+                    <li style="font-style: italic;">"Be In-volved in ur life's vision"</li>
+                    <li style="font-style: italic;">"Fridays = Funday With Newcomers"</li>
+                    <li>Minimal text, visual storytelling</li>
+                    <li>Sophisticated, aspirational, refined</li>
+                </ul>
+                <p style="font-size: 1.3rem; color: #FFA500; font-weight: bold; margin-top: 20px;">Target: Attract prospects with lifestyle appeal</p>
+            </div>
+
+            <!-- Right: Instagram Images Placeholder -->
+            <div style="display: flex; flex-direction: column; gap: 15px; justify-content: center;">
+                <div style="background: rgba(78, 205, 196, 0.1); border: 2px solid #4ECDC4; border-radius: 8px; padding: 40px; text-align: center; height: 200px; display: flex; align-items: center; justify-content: center;">
+                    <p style="color: #4ECDC4; font-size: 1.2rem; font-style: italic;">Instagram Post Example 1<br><span style="font-size: 0.9rem;">(elegant event photo)</span></p>
+                </div>
+                <div style="background: rgba(78, 205, 196, 0.1); border: 2px solid #4ECDC4; border-radius: 8px; padding: 40px; text-align: center; height: 200px; display: flex; align-items: center; justify-content: center;">
+                    <p style="color: #4ECDC4; font-size: 1.2rem; font-style: italic;">Instagram Post Example 2<br><span style="font-size: 0.9rem;">(serif fonts, polished graphics)</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 11: Website Voice -->
+<div class="slide">
+    <h2>Our Website Voice: Enthusiastic & Detailed</h2>
+    <div class="content" style="padding: 20px 40px;">
+        <div style="display: grid; grid-template-columns: 50% 50%; gap: 30px; height: 70vh;">
+            <!-- Left: Text Content -->
+            <div style="display: flex; flex-direction: column; justify-content: center;">
+                <h3 style="color: #4ECDC4; font-size: 1.6rem; margin-bottom: 15px;">Visual Identity</h3>
+                <ul style="margin-left: 30px; margin-bottom: 25px; font-size: 1.1rem; line-height: 1.7;">
+                    <li>Lots of information, dense layouts</li>
+                    <li>Exclamation points throughout</li>
+                    <li>645 pages of content</li>
+                </ul>
+                <h3 style="color: #4ECDC4; font-size: 1.6rem; margin-bottom: 15px;">Tone & Copy</h3>
+                <ul style="margin-left: 30px; margin-bottom: 25px; font-size: 1.1rem; line-height: 1.7;">
+                    <li style="font-style: italic;">"Make waves!" "Dive in!" "Join us!"</li>
+                    <li style="font-style: italic;">"No experience needed - all levels welcome"</li>
+                    <li>Detailed descriptions, specific logistics</li>
+                    <li>Playful, inclusive, high-energy</li>
+                </ul>
+                <p style="font-size: 1.3rem; color: #FFA500; font-weight: bold; margin-top: 20px;">Target: Convert & inform with warmth and detail</p>
+            </div>
+
+            <!-- Right: Website Screenshots -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; overflow-y: auto;">
+                <div style="background: rgba(78, 205, 196, 0.05); border: 2px solid #4ECDC4; border-radius: 6px; overflow: hidden; height: fit-content;">
+                    <img src="screenshots/Home Page.png" alt="Homepage" style="width: 100%; display: block;">
+                </div>
+                <div style="background: rgba(78, 205, 196, 0.05); border: 2px solid #4ECDC4; border-radius: 6px; overflow: hidden; height: fit-content;">
+                    <img src="screenshots/Events Calendar.png" alt="Events Calendar" style="width: 100%; display: block;">
+                </div>
+                <div style="background: rgba(78, 205, 196, 0.05); border: 2px solid #4ECDC4; border-radius: 6px; overflow: hidden; height: fit-content;">
+                    <img src="screenshots/CommitteeGroupsDirectory.png" alt="Committees" style="width: 100%; display: block;">
+                </div>
+                <div style="background: rgba(78, 205, 196, 0.05); border: 2px solid #4ECDC4; border-radius: 6px; overflow: hidden; height: fit-content;">
+                    <img src="screenshots/Member Page.png" alt="Member Page" style="width: 100%; display: block;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 12: The Brand Voice Gap -->
+<div class="slide">
+    <h2>The Brand Voice Gap</h2>
+    <div class="content" style="padding: 20px 80px;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 40px;">
+            <div>
+                <h3 style="color: #FFA500; font-size: 1.9rem; margin-bottom: 20px;">Instagram</h3>
+                <ul style="font-size: 1.3rem; line-height: 1.8;">
+                    <li>Curated, elegant, minimal</li>
+                    <li>Aspirational lifestyle appeal</li>
+                    <li>Professional, polished</li>
+                </ul>
+            </div>
+            <div>
+                <h3 style="color: #FFA500; font-size: 1.9rem; margin-bottom: 20px;">Website</h3>
+                <ul style="font-size: 1.3rem; line-height: 1.8;">
+                    <li>Enthusiastic, detailed, busy</li>
+                    <li>Practical, welcoming warmth</li>
+                    <li>Lots of personality & info</li>
+                </ul>
+            </div>
+        </div>
+        <h3 style="color: #FFA500; font-size: 1.9rem; margin-top: 50px; margin-bottom: 20px; text-align: center;">The Question</h3>
+        <p style="font-size: 1.4rem; text-align: center; line-height: 1.7; color: #a8dadc;">Is this gap intentional or problematic?<br>Does it confuse or does it serve different purposes?</p>
+    </div>
+</div>
+
+<!-- Slide 13: Two Audiences -->
+<div class="slide">
+    <h2>Two Audiences: Public vs Members</h2>
+    <div class="content" style="padding: 20px 60px;">
+        <h3 style="color: #4ECDC4; font-size: 1.8rem; margin-bottom: 15px;">Public Pages (Prospects)</h3>
+        <ul style="margin-left: 40px; margin-bottom: 35px; font-size: 1.2rem; line-height: 1.8;">
+            <li>Instagram, homepage, about, events calendar</li>
+            <li>Goal: Attract & convert new members</li>
+            <li>Need: Clear value, easy to understand</li>
+        </ul>
+        <h3 style="color: #4ECDC4; font-size: 1.8rem; margin-bottom: 15px;">Member Pages (Members Only)</h3>
+        <ul style="margin-left: 40px; margin-bottom: 35px; font-size: 1.2rem; line-height: 1.8;">
+            <li>Most website content (committees, registration)</li>
+            <li>Goal: Enable participation & connection</li>
+            <li>Need: Easy navigation, clear next steps</li>
+        </ul>
+        <h3 style="color: #4ECDC4; font-size: 1.8rem; margin-bottom: 15px;">Current Challenge</h3>
+        <ul style="margin-left: 40px; font-size: 1.2rem; line-height: 1.8;">
+            <li>Both audiences see inconsistent brand voices</li>
+            <li>Navigation complexity affects both equally</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Slide 14: Discussion Questions -->
+<div class="slide">
+    <h2>Questions for Discussion</h2>
+    <div class="content" style="padding: 20px 60px;">
+        <h3 style="color: #FFA500; font-size: 1.8rem; margin-bottom: 15px;">Brand Voice</h3>
+        <ul style="margin-left: 40px; margin-bottom: 30px; font-size: 1.2rem; line-height: 1.7;">
+            <li>Should Instagram and website sound the same?</li>
+            <li>What ONE word should describe SBNC's personality?</li>
+            <li>Elegant or enthusiastic? Can we be both?</li>
+        </ul>
+        <h3 style="color: #FFA500; font-size: 1.8rem; margin-bottom: 15px;">Visual Identity</h3>
+        <ul style="margin-left: 40px; margin-bottom: 30px; font-size: 1.2rem; line-height: 1.7;">
+            <li>What should visitors and members see first?</li>
+            <li>Does our current look match who we are?</li>
+            <li>How do we balance polish with warmth?</li>
+        </ul>
+        <h3 style="color: #FFA500; font-size: 1.8rem; margin-bottom: 15px;">Audience Experience</h3>
+        <ul style="margin-left: 40px; font-size: 1.2rem; line-height: 1.7;">
+            <li>Should prospects and members have different experiences?</li>
+            <li>What do we want people to feel when they encounter SBNC?</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Slide 15: Brainstorming Prompt -->
+<div class="slide">
+    <div class="content" style="text-align: center; padding: 40px 100px;">
+        <h2 style="color: #9B8AB8; font-size: 2.3rem; margin-bottom: 40px;">If SBNC were a person, how would they...</h2>
+        <p style="font-size: 1.1rem; color: #a8dadc; margin-bottom: 40px; font-style: italic;">(answer in a word or short phrase)</p>
+        <div style="font-size: 1.8rem; line-height: 2.2; color: #4ECDC4;">
+            <p style="margin: 20px 0;">Introduce themselves at a party?</p>
+            <p style="margin: 20px 0;">Dress for a first date?</p>
+            <p style="margin: 20px 0;">Welcome a newcomer to the neighborhood?</p>
+            <p style="margin: 20px 0;">Greet you at their front door?</p>
+        </div>
+    </div>
+</div>
+
+<!-- Navigation -->
+<div class="navigation">
+    <button class="nav-button" id="prevBtn" onclick="changeSlide(-1)">← Previous</button>
+    <button class="nav-button" id="nextBtn" onclick="changeSlide(1)">Next →</button>
+</div>
+
+<div class="slide-number">
+    <span id="currentSlide">1</span> / <span id="totalSlides">15</span>
+</div>
+
+<div class="nav-dots" id="navDots"></div>
+
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+
+    // Slide titles for tooltips
+    const slideTitles = [
+        "Brainstorming Rules",
+        "Events Calendar",
+        "Member Dashboard",
+        "Homepage",
+        "Committees Directory",
+        "Main Navigation",
+        "Visual Branding",
+        "Brand Identity",
+        "Brand in Music",
+        "Brand Perception",
+        "Instagram Voice",
+        "Website Voice",
+        "Brand Voice Gap",
+        "Two Audiences",
+        "Discussion Questions",
+        "Brainstorming Prompt"
+    ];
+
+    document.getElementById('totalSlides').textContent = totalSlides;
+
+    // Create navigation dots
+    function createDots() {
+        const dotsContainer = document.getElementById('navDots');
+        for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement('div');
+            dot.className = 'dot';
+            dot.onclick = () => showSlide(i);
+
+            const tooltip = document.createElement('div');
+            tooltip.className = 'dot-tooltip';
+            tooltip.textContent = `${i + 1}. ${slideTitles[i]}`;
+
+            dot.appendChild(tooltip);
+            dotsContainer.appendChild(dot);
+        }
+    }
+
+    function showSlide(n) {
+        if (n >= totalSlides) {
+            currentSlide = totalSlides - 1;
+        } else if (n < 0) {
+            currentSlide = 0;
+        } else {
+            currentSlide = n;
+        }
+
+        slides.forEach(slide => slide.classList.remove('active'));
+        slides[currentSlide].classList.add('active');
+
+        document.getElementById('currentSlide').textContent = currentSlide + 1;
+
+        // Update button states
+        document.getElementById('prevBtn').disabled = currentSlide === 0;
+        document.getElementById('nextBtn').disabled = currentSlide === totalSlides - 1;
+
+        // Update dots
+        const dots = document.querySelectorAll('.dot');
+        dots.forEach((dot, index) => {
+            if (index === currentSlide) {
+                dot.classList.add('active');
+            } else {
+                dot.classList.remove('active');
+            }
+        });
+    }
+
+    function changeSlide(direction) {
+        showSlide(currentSlide + direction);
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowLeft') {
+            changeSlide(-1);
+        } else if (e.key === 'ArrowRight' || e.key === ' ') {
+            changeSlide(1);
+        } else if (e.key === 'Home') {
+            showSlide(0);
+        } else if (e.key === 'End') {
+            showSlide(totalSlides - 1);
+        }
+    });
+
+    // Initialize
+    createDots();
+    showSlide(0);
+
+    // Jingle player functions
+    function playJingle(url, title, style) {
+        const modal = document.getElementById('jingleModal');
+        const modalTitle = document.getElementById('jingleModalTitle');
+        const iframe = document.getElementById('jingleFrame');
+
+        modalTitle.textContent = title + ' • ' + style;
+        iframe.src = url;
+        modal.classList.add('active');
+    }
+
+    function closeJingleModal() {
+        const modal = document.getElementById('jingleModal');
+        const iframe = document.getElementById('jingleFrame');
+
+        modal.classList.remove('active');
+        setTimeout(() => {
+            iframe.src = '';
+        }, 300);
+    }
+
+    // Close modal when clicking outside
+    document.addEventListener('click', function(e) {
+        const modal = document.getElementById('jingleModal');
+        if (modal && e.target === modal) {
+            closeJingleModal();
+        }
+    });
+</script>
+
+<!-- Modal for playing jingles -->
+<div id="jingleModal" class="jingle-modal">
+    <div class="jingle-modal-content">
+        <div class="jingle-modal-header">
+            <h3 id="jingleModalTitle">Now Playing</h3>
+            <button class="close-jingle-modal" onclick="closeJingleModal()">×</button>
+        </div>
+        <iframe id="jingleFrame" class="jingle-iframe" src="" allow="autoplay"></iframe>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+# Backup files
+*.bak
+*~
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Audio files (large)
+*.m4a
+*.mp3
+*.wav
+
+# Large presentation files
+*.pptx
+
+# Log files
+*.log

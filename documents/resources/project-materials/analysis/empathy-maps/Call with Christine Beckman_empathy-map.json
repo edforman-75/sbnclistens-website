@@ -1,0 +1,40 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "I thought the signing up process was really quite easy.",
+      "I mostly have been using the app.",
+      "My only challenge with the app was when there was something that I couldn't do, I couldn't figure out how to tell the committee chair that I wouldn't be there.",
+      "I think the filtering of events would be nice on the app and the website.",
+      "I felt like it's generally been super user friendly."
+    ],
+    "THINKS": [
+      "I hope the website and app are easy to navigate for other newcomers.",
+      "People might not care about reading the fine print when signing up.",
+      "The overwhelming amount of events might deter some members from participating.",
+      "I need to find a way to contact the committee chair easily when I can't attend an event.",
+      "I wish there was a better way to filter events based on my interests."
+    ],
+    "DOES": [
+      "Joined the club and attended the orientation and meet and greet.",
+      "Primarily uses the app to navigate events and activities.",
+      "Scrolls through events to find relevant activities.",
+      "Contacts committee chairs through email if necessary.",
+      "Checks member information and governing documents on the website."
+    ],
+    "FEELS": [
+      "Feels relieved that the sign-up process was easy.",
+      "Experiences frustration when unable to contact committee chairs.",
+      "Feels overwhelmed by the number of events available.",
+      "Expresses a sense of appreciation for the organization and its structure.",
+      "Shows a desire for improvement in the app's functionality and aesthetics."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call with Christine Beckman.json",
+    "interview_id": "Call with Christine Beckman"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:42:18.022700",
+    "version": "1.0"
+  }
+}

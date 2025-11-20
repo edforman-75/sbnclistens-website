@@ -1,0 +1,62 @@
+{
+  "jobs": {
+    "functional_jobs": [
+      {
+        "job_statement": "When I want to sign up for events, I want to easily access the event registration, so I can participate without confusion.",
+        "current_solution": "Using the app for event registration.",
+        "pain_points": "On the website, users have to navigate multiple pages and clicks to find event registration.",
+        "desired_outcomes": "Streamlined access to event registration from the main calendar view.",
+        "success_criteria": "Users can register for events in a few clicks without confusion."
+      },
+      {
+        "job_statement": "When I need to find information about committees, I want to easily locate committee descriptions, so I can get involved in activities.",
+        "current_solution": "Accessing the committee list on the website.",
+        "pain_points": "Committee descriptions are not clearly labeled or easily accessible on the website.",
+        "desired_outcomes": "Clear and direct access to committee descriptions and contact information.",
+        "success_criteria": "Users can find relevant committee information without difficulty."
+      }
+    ],
+    "emotional_jobs": [
+      {
+        "job_statement": "When I am using the platform, I want to feel confident and informed, so I can engage with my community effectively.",
+        "current_solution": "Using the app which is more intuitive than the website.",
+        "pain_points": "The website is confusing, leading to feelings of frustration and inadequacy.",
+        "desired_outcomes": "A user-friendly experience that empowers me to engage without hesitation.",
+        "success_criteria": "Users report feeling confident and satisfied with their ability to navigate and use the platform."
+      }
+    ],
+    "social_jobs": [
+      {
+        "job_statement": "When I participate in events, I want to be seen as an engaged member of the community, so I can build my reputation and network.",
+        "current_solution": "Attending events and using the app to sign up.",
+        "pain_points": "Complicated website navigation may limit participation and visibility.",
+        "desired_outcomes": "Easier access to participation opportunities to enhance my social presence.",
+        "success_criteria": "Increased participation in events and recognition from peers."
+      }
+    ],
+    "supporting_jobs": [
+      {
+        "job_statement": "When I need to update my profile information, I want to do it quickly and easily, so I can keep my details current.",
+        "current_solution": "Accessing the member profile page on the website.",
+        "pain_points": "Finding how to update profile information is not straightforward.",
+        "desired_outcomes": "Quick and intuitive access to profile management.",
+        "success_criteria": "Users can update their profile information without confusion or delay."
+      },
+      {
+        "job_statement": "When I need to cancel an event registration, I want a straightforward process, so I can manage my commitments efficiently.",
+        "current_solution": "Contacting the committee via email to cancel.",
+        "pain_points": "There is no direct option to cancel registrations on the app or website, requiring multiple steps.",
+        "desired_outcomes": "A clear, direct method to cancel event registrations.",
+        "success_criteria": "Users can cancel registrations with one or two clicks."
+      }
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_Jen_Nov16.json",
+    "interview_id": "SBNC_Interview_Jen_Nov16"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:49:25.586462",
+    "version": "1.0"
+  }
+}

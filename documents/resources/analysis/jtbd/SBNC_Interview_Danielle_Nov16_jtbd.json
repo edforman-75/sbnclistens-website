@@ -1,0 +1,111 @@
+{
+  "jobs": {
+    "functional_jobs": [
+      {
+        "job_statement": "When I am looking for events to join, I want to easily find the events and their details, so I can choose which ones to participate in.",
+        "current_solution": "Using the website to check the calendar and event details.",
+        "pain_points": [
+          "Difficult navigation requiring multiple backtracking steps.",
+          "No search functionality on the website.",
+          "Lack of clarity on registration status and event capacity."
+        ],
+        "desired_outcomes": "A streamlined process for finding and signing up for events with clear status updates.",
+        "success_criteria": "Ability to quickly locate events using a search function and easily access event details."
+      },
+      {
+        "job_statement": "When I need to sign up for events, I want a seamless registration process, so I can participate without hassle.",
+        "current_solution": "Using the app for registration.",
+        "pain_points": [
+          "Website registration process is slow and clunky.",
+          "Issues with captcha slowing down the process."
+        ],
+        "desired_outcomes": "A fast and efficient registration process that minimizes unnecessary steps.",
+        "success_criteria": "Ability to register for events quickly without technical difficulties."
+      },
+      {
+        "job_statement": "When I want to see what events I have signed up for, I want to easily find that information, so I can keep track of my commitments.",
+        "current_solution": "Checking my emails or using the app.",
+        "pain_points": [
+          "Difficulty in locating signed-up events on the website.",
+          "Inconsistent visibility of event registration status."
+        ],
+        "desired_outcomes": "A straightforward way to view all my signed-up events in one place.",
+        "success_criteria": "Ability to see all signed-up events in my profile on the website or app."
+      }
+    ],
+    "emotional_jobs": [
+      {
+        "job_statement": "When I participate in events, I want to feel connected and included, so I can enjoy the social aspect of the newcomers club.",
+        "current_solution": "Attending events and engaging with other members.",
+        "pain_points": [
+          "Feeling left out if I cannot see who else is attending.",
+          "Frustration with event descriptions that lack clarity."
+        ],
+        "desired_outcomes": "A sense of belonging and assurance that I am part of a community.",
+        "success_criteria": "Feeling welcomed and able to connect with others at events."
+      },
+      {
+        "job_statement": "When I interact with the website or app, I want to feel confident in my ability to navigate it, so I can manage my participation easily.",
+        "current_solution": "Using the app for a more user-friendly experience.",
+        "pain_points": [
+          "Confusion with website navigation.",
+          "Anxiety about missing important event details."
+        ],
+        "desired_outcomes": "Confidence in using the platform without frustration.",
+        "success_criteria": "Ease of use without needing assistance or guidance."
+      }
+    ],
+    "social_jobs": [
+      {
+        "job_statement": "When I attend events, I want to be perceived as an engaged and active member of the community, so I can build my social network.",
+        "current_solution": "Participating in various events and connecting with members.",
+        "pain_points": [
+          "Difficulty in finding events that suit my interests.",
+          "Uncertainty about who else will be attending."
+        ],
+        "desired_outcomes": "Recognition as a proactive and involved member.",
+        "success_criteria": "Building relationships and being recognized by other members."
+      },
+      {
+        "job_statement": "When I seek information about alumni, I want to be seen as someone who values past connections, so I can maintain relationships.",
+        "current_solution": "Inquiring about contact information for alumni.",
+        "pain_points": [
+          "Inability to find alumni in the directory.",
+          "Lack of visibility for alumni members."
+        ],
+        "desired_outcomes": "Easily connect with alumni to foster ongoing relationships.",
+        "success_criteria": "Access to an alumni directory or contact information."
+      }
+    ],
+    "supporting_jobs": [
+      {
+        "job_statement": "When I consider joining committees, I want to have clear information about roles and responsibilities, so I can make informed decisions.",
+        "current_solution": "Occasionally checking committee information on the website.",
+        "pain_points": [
+          "Lack of detailed descriptions for committee roles.",
+          "Difficulty in understanding the application process for board positions."
+        ],
+        "desired_outcomes": "Comprehensive understanding of opportunities for involvement.",
+        "success_criteria": "Availability of clear, accessible information about committee roles and responsibilities."
+      },
+      {
+        "job_statement": "When I need to cancel an event, I want a straightforward process to do so, so I can manage my commitments effectively.",
+        "current_solution": "Contacting the committee chair to cancel.",
+        "pain_points": [
+          "Inefficient cancellation process through the website.",
+          "Lack of automated cancellation options."
+        ],
+        "desired_outcomes": "A simple, automated cancellation process.",
+        "success_criteria": "Ability to cancel events with a single click or straightforward method."
+      }
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_Danielle_Nov16.json",
+    "interview_id": "SBNC_Interview_Danielle_Nov16"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:50:41.847468",
+    "version": "1.0"
+  }
+}

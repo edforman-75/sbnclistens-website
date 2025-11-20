@@ -1,0 +1,130 @@
+{
+  "userJourney": {
+    "stages": [
+      {
+        "name": "Discovery",
+        "touchpoints": [
+          "Santa Barbara Newcomers Club website",
+          "Email newsletters",
+          "Committee meetings"
+        ],
+        "actions": [
+          "Exploring the website for event information",
+          "Receiving newsletters on Sundays",
+          "Communicating with friends about events"
+        ],
+        "thoughts": [
+          "Is there an event I want to attend?",
+          "What are my friends doing this week?"
+        ],
+        "emotions": [
+          "Curiosity",
+          "Excitement"
+        ],
+        "painPoints": [
+          "Confusion over event registration statuses",
+          "Lack of clarity in event descriptions"
+        ],
+        "opportunities": [
+          "Improve clarity in event descriptions",
+          "Enhance the newsletter format for better readability"
+        ]
+      },
+      {
+        "name": "Planning",
+        "touchpoints": [
+          "Wild Apricot application",
+          "Website interface",
+          "Committee communications"
+        ],
+        "actions": [
+          "Registering for events",
+          "Checking event details",
+          "Coordinating with other committee members"
+        ],
+        "thoughts": [
+          "How do I ensure everyone's registered?",
+          "Is the app providing accurate information?"
+        ],
+        "emotions": [
+          "Frustration",
+          "Anxiety"
+        ],
+        "painPoints": [
+          "Inconsistencies between app and website data",
+          "Difficulty in managing registrations and waitlists"
+        ],
+        "opportunities": [
+          "Enhance training for committee members",
+          "Improve app functionality for ease of use"
+        ]
+      },
+      {
+        "name": "Execution",
+        "touchpoints": [
+          "Event venue",
+          "Printed name tags",
+          "Event registration desk"
+        ],
+        "actions": [
+          "Attending the event",
+          "Distributing name tags",
+          "Following up on registrations"
+        ],
+        "thoughts": [
+          "Are all attendees properly registered?",
+          "How can we improve the event experience?"
+        ],
+        "emotions": [
+          "Satisfaction",
+          "Stress"
+        ],
+        "painPoints": [
+          "Last-minute cancellations",
+          "Confusion over attendee registrations"
+        ],
+        "opportunities": [
+          "Implement a system for printed name tags for easy identification",
+          "Create a better follow-up process for cancellations"
+        ]
+      },
+      {
+        "name": "Reflection",
+        "touchpoints": [
+          "Feedback surveys",
+          "Post-event meetings",
+          "Committee discussions"
+        ],
+        "actions": [
+          "Providing feedback on the event",
+          "Discussing improvements in committees",
+          "Reflecting on personal experiences"
+        ],
+        "thoughts": [
+          "What worked well?",
+          "What could have been better?"
+        ],
+        "emotions": [
+          "Contentment",
+          "Motivation for improvement"
+        ],
+        "painPoints": [
+          "Lack of formalized processes for feedback",
+          "Difficulty in remembering past experiences due to turnover"
+        ],
+        "opportunities": [
+          "Establish a formal feedback mechanism",
+          "Create an archive of past events and learnings"
+        ]
+      }
+    ]
+  },
+  "_source": {
+    "transcript": "projects/SBNCListens/transcripts/Call_Recording.json",
+    "interview_id": "Call_Recording"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-16T07:02:30.824586",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "insights": [
+    {
+      "quote": "I think it would be very useful if there was a way that we could walk new people through how to use the website.",
+      "timestamp": null,
+      "significance": "This statement underscores the need for user onboarding.",
+      "insight": "New users face challenges navigating the website, suggesting a lack of structured guidance.",
+      "category": "pain point"
+    },
+    {
+      "quote": "Most people who are successful right away either go to the orientation and walk through it there or they meet somebody like Debbie Rare and have a personal view orientation step by step.",
+      "timestamp": null,
+      "significance": "Highlights reliance on informal support for successful navigation.",
+      "insight": "The existing onboarding process is dependent on personal connections, which may not be accessible to all.",
+      "category": "behavior"
+    },
+    {
+      "quote": "The people that are sort of non-very computer literate would have a better experience up front.",
+      "timestamp": null,
+      "significance": "Identifies a specific user group that struggles with the website.",
+      "insight": "Non-tech-savvy users feel excluded, indicating a need for more inclusive design.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think the navigation can be improved because people have a hard time finding where they want to go.",
+      "timestamp": null,
+      "significance": "Directly addresses usability issues with the current navigation.",
+      "insight": "Users are frustrated with navigation, leading to potential disengagement.",
+      "category": "pain point"
+    },
+    {
+      "quote": "I think they want to see what are my tickets, where am I going, and what can I sign up for right now?",
+      "timestamp": null,
+      "significance": "Reflects users' immediate informational needs.",
+      "insight": "Users seek clarity and immediacy in accessing their event information.",
+      "category": "desire"
+    },
+    {
+      "quote": "I think it would be also good if the navigation was segmented by category, especially the 20 to 40s and the 40 and above.",
+      "timestamp": null,
+      "significance": "Advocates for a more tailored user experience.",
+      "insight": "Users desire a personalized approach to navigation that considers demographic differences.",
+      "category": "desire"
+    },
+    {
+      "quote": "It would be really important to include the day of the week of the events like Thursday or Friday because that's not always clear.",
+      "timestamp": null,
+      "significance": "Emphasizes a need for clarity in event listings.",
+      "insight": "Ambiguity around event timing contributes to user confusion.",
+      "category": "pain point"
+    },
+    {
+      "quote": "If you sign up for the waiting list, it's not clear how many people are on the waiting list.",
+      "timestamp": null,
+      "significance": "Points out a lack of transparency in the waiting list process.",
+      "insight": "Users feel uncertain about their chances when signing up for events.",
+      "category": "pain point"
+    },
+    {
+      "quote": "If you're number one, you probably get in. If you're number 40, you won't get in.",
+      "timestamp": null,
+      "significance": "Illustrates the frustration of uncertainty in event access.",
+      "insight": "Users seek assurance and clarity regarding their position on waiting lists.",
+      "category": "pain point"
+    },
+    {
+      "quote": "It might be good to have that be also available in the summary.",
+      "timestamp": null,
+      "significance": "Indicates a desire for concise and accessible information.",
+      "insight": "Users prefer a summary view that consolidates essential details for quick decision-making.",
+      "category": "desire"
+    },
+    {
+      "quote": "Sometimes you get interested in an event and you find out it's $105.",
+      "timestamp": null,
+      "significance": "Points to frustration with hidden costs.",
+      "insight": "Users want upfront pricing information to avoid disappointment.",
+      "category": "pain point"
+    },
+    {
+      "quote": "This should be possible to list on the website.",
+      "timestamp": null,
+      "significance": "Expresses a belief in the feasibility of suggested improvements.",
+      "insight": "Users have confidence in the technological potential for enhancements to the site.",
+      "category": "belief"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 38-1.json",
+    "interview_id": "New Recording 38-1"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:36:13.996043",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "painPoints": [
+    {
+      "description": "No process for users to update their own data easily.",
+      "supportingQuotes": [
+        "We really don't have a process for enabling people to update their data.",
+        "Being able to add features that would allow users with proper authentication to update their own information."
+      ],
+      "frequencySeverity": "High severity, frequently mentioned by multiple users.",
+      "currentWorkarounds": "Some users manually update their information on the app, but it's not obvious how.",
+      "impactOnUser": "Frustrates users who need to keep their information current, leading to outdated data.",
+      "category": "effort"
+    },
+    {
+      "description": "Website feels outdated and not contemporary.",
+      "supportingQuotes": [
+        "It's a very old-fashioned system.",
+        "I just think that we as a club need to present ourselves as being fresher and more contemporary."
+      ],
+      "frequencySeverity": "High severity, mentioned multiple times.",
+      "currentWorkarounds": "Users try to adapt but feel the need for a redesign.",
+      "impactOnUser": "Users feel embarrassed and disconnected from a modern community.",
+      "category": "emotional"
+    },
+    {
+      "description": "Convoluted membership join workflow.",
+      "supportingQuotes": [
+        "I feel very, very lucky when I find that button to join.",
+        "It's pretty well hidden beneath layers of information."
+      ],
+      "frequencySeverity": "Moderate severity, mentioned by a single user but with strong feelings.",
+      "currentWorkarounds": "Users go through the process multiple times to familiarize themselves.",
+      "impactOnUser": "Creates confusion and frustration, especially for new members.",
+      "category": "effort"
+    },
+    {
+      "description": "Clunky and unintuitive calendaring system.",
+      "supportingQuotes": [
+        "I do find the calendaring part clunky.",
+        "It just takes a bit more time, I think, to manage the calendar."
+      ],
+      "frequencySeverity": "Moderate severity, mentioned by multiple users.",
+      "currentWorkarounds": "Users adapt by trying to memorize their positions in the calendar.",
+      "impactOnUser": "Increases the time and effort needed to manage event participation.",
+      "category": "time"
+    },
+    {
+      "description": "Limited control over the application compared to the website.",
+      "supportingQuotes": [
+        "We have almost no control over the application.",
+        "The application is really, really canned."
+      ],
+      "frequencySeverity": "Moderate severity, mentioned by a key stakeholder.",
+      "currentWorkarounds": "Users rely mostly on the website for customization.",
+      "impactOnUser": "Limits users' ability to tailor their experience, leading to dissatisfaction.",
+      "category": "effort"
+    },
+    {
+      "description": "Difficulty getting into popular events or groups.",
+      "supportingQuotes": [
+        "Newbies have priority, so always... get on the wait list.",
+        "I know all those ladies. And I'm like, hey, I'm on the wait list."
+      ],
+      "frequencySeverity": "Moderate severity, mentioned by multiple users.",
+      "currentWorkarounds": "Users sign up for waitlists or try to form their own groups.",
+      "impactOnUser": "Frustrates users who want to participate but find spaces filled.",
+      "category": "emotional"
+    },
+    {
+      "description": "Lack of evening and weekend events for working members.",
+      "supportingQuotes": [
+        "I wish... there were more events like during... the evening.",
+        "I can't ever go because it's always during the week."
+      ],
+      "frequencySeverity": "Moderate severity, mentioned by multiple users.",
+      "currentWorkarounds": "Users look for informal gatherings or suggest scheduling changes.",
+      "impactOnUser": "Excludes working members from participating in community events.",
+      "category": "social"
+    },
+    {
+      "description": "Confusion regarding notifications and event information.",
+      "supportingQuotes": [
+        "I've never got an email that says four new things.",
+        "There should be full information about it, not just here's a thing that's coming."
+      ],
+      "frequencySeverity": "Moderate severity, mentioned by multiple users.",
+      "currentWorkarounds": "Users check the app manually for updates and details.",
+      "impactOnUser": "Leads to missed opportunities and confusion about events.",
+      "category": "effort"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 26.json",
+    "interview_id": "New Recording 26"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:57:52.548796",
+    "version": "1.0"
+  }
+}

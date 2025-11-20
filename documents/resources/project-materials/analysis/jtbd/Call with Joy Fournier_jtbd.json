@@ -1,0 +1,40 @@
+{
+  "jobs": {
+    "functionalJobs": {
+      "jobStatement": "When I want to find events to attend, I want to easily access the calendar of events, so I can quickly see what fits my schedule.",
+      "currentSolution": "The newcomers website calendar and event listings.",
+      "painPoints": "The website resets to an earlier date when returning from an event, requiring scrolling to find the desired date.",
+      "desiredOutcomes": "A seamless navigation experience that allows returning to the last viewed date in the calendar.",
+      "successCriteria": "I can return to the exact date I was viewing without needing to scroll through weeks or months."
+    },
+    "emotionalJobs": {
+      "jobStatement": "When I visit the newcomers website, I want to feel welcomed and comfortable, so I can enjoy my experience and engage more with the community.",
+      "currentSolution": "The current website layout and design.",
+      "painPoints": "The website is not visually appealing or inviting, which may detract from the experience.",
+      "desiredOutcomes": "A visually appealing and user-friendly website that makes me feel valued as a member.",
+      "successCriteria": "I feel motivated to explore more events and engage with the community because the website feels inviting."
+    },
+    "socialJobs": {
+      "jobStatement": "When I participate in events, I want to be seen as an engaged and active member of the community, so I can build relationships and connections.",
+      "currentSolution": "Attending events and engaging in committees.",
+      "painPoints": "Difficulty in finding relevant events can hinder participation, affecting how others perceive my involvement.",
+      "desiredOutcomes": "I want to be perceived as a committed member who actively participates in community activities.",
+      "successCriteria": "I regularly attend events and am recognized by others as a proactive member of the newcomers community."
+    },
+    "supportingJobs": {
+      "jobStatement": "When I need to connect with other committee members, I want to easily find contact information, so I can collaborate effectively.",
+      "currentSolution": "The directory on the newcomers website.",
+      "painPoints": "Finding contact information can be cumbersome and not easily remembered.",
+      "desiredOutcomes": "A straightforward and accessible directory that allows me to find contact details quickly.",
+      "successCriteria": "I can locate and contact committee members without frustration or delays."
+    }
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/Call with Joy Fournier.json",
+    "interview_id": "Call with Joy Fournier"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:51:43.492778",
+    "version": "1.0"
+  }
+}

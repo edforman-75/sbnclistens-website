@@ -1,0 +1,67 @@
+{
+  "painPoints": [
+    {
+      "description": "Poor website design and user experience that does not reflect the upscale nature of the club.",
+      "supportingQuotes": [
+        "I just find it to be really drab. The photography is boring. The fonts are boring. The colors are boring.",
+        "It's very stale and old-fashioned compared to anything. And too many words and not enough bullet points."
+      ],
+      "frequencySeverity": "Frequently mentioned, with strong emotional intensity.",
+      "currentWorkarounds": "Users navigate through the current site despite its issues, but it is not user-friendly.",
+      "impactOnUser": "Frustration leads to decreased interest in engaging with the club or its offerings.",
+      "category": "quality"
+    },
+    {
+      "description": "Challenges in communication among committee members due to limitations in the app.",
+      "supportingQuotes": [
+        "I wish there was a way... just either press the email address of a person or press the phone number of a person and have it go through.",
+        "I find myself having to copy it or add it as a contact and write down the phone number and type it back in again."
+      ],
+      "frequencySeverity": "Moderately mentioned, with notable frustration.",
+      "currentWorkarounds": "Users are creating smaller group texts instead of using the app.",
+      "impactOnUser": "Increased effort and time spent on communication, leading to inefficiency.",
+      "category": "effort"
+    },
+    {
+      "description": "Lack of a central platform for information sharing and recommendations among members.",
+      "supportingQuotes": [
+        "If there were some closed forum that was like that would be a huge help to current, to members.",
+        "I wish that there was even a member event... that would include how to get your driver's license. How do I find a new doctor?"
+      ],
+      "frequencySeverity": "Frequently mentioned, with high emotional intensity regarding the need for support.",
+      "currentWorkarounds": "Members rely on informal channels for information, which may not be reliable.",
+      "impactOnUser": "New members feel lost and unsupported, affecting their integration into the community.",
+      "category": "social"
+    },
+    {
+      "description": "Difficulties in the membership application process on the website.",
+      "supportingQuotes": [
+        "It really is hard to find the button that allows you to begin a membership application.",
+        "If I were on the website and not logged in, I don't know how you... find out about becoming a member."
+      ],
+      "frequencySeverity": "Moderately mentioned, with notable frustration.",
+      "currentWorkarounds": "Users may ask existing members for guidance on how to join.",
+      "impactOnUser": "Potential new members may abandon the process due to confusion, impacting club growth.",
+      "category": "time"
+    },
+    {
+      "description": "Limited resources and guidance for newcomers on essential local services.",
+      "supportingQuotes": [
+        "I think that if there were a way to host some of this information that are, you know, government sites...",
+        "Somebody mentioned to me, I wish that there was even a member event... that would include how to get your driver's license."
+      ],
+      "frequencySeverity": "Frequently mentioned, with strong emotional intensity.",
+      "currentWorkarounds": "New members rely on word-of-mouth and personal networks for information.",
+      "impactOnUser": "New members feel overwhelmed and unsupported, making their transition more challenging.",
+      "category": "emotional"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/2536 Borton Dr 2.json",
+    "interview_id": "2536 Borton Dr 2"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:52:27.855561",
+    "version": "1.0"
+  }
+}

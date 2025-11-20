@@ -1,0 +1,61 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we improve the onboarding experience for new members to provide essential information about living in the area?",
+      "evidence": "Somebody mentioned to me, I wish that there was even a member event where they, or part of new member orientation that would include how to get your driver's license. How do I find a new doctor? Where do I register to vote?",
+      "user_need": "Newcomers need guidance on essential local processes and services.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we create a streamlined communication system for event organizers within the app?",
+      "evidence": "I wish there was a way to just either press the email address of a person or press the phone number of a person and have it go through. Instead, I find myself having to copy it or add it as a contact.",
+      "user_need": "Users need efficient communication tools to coordinate events.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance our website's visual appeal to reflect the upscale nature of our community?",
+      "evidence": "I find it to be really drab. The photography is boring. The fonts are boring. The colors are boring.",
+      "user_need": "Users desire a modern and engaging web presence that reflects the community's character.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we facilitate easier access to membership information on our website?",
+      "evidence": "If I were on the website and not logged in, I don\u2019t know how you... I don\u2019t see the logo on the website anymore.",
+      "user_need": "Potential members need clear and accessible information about joining.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we develop a community platform for members to ask questions and share recommendations?",
+      "evidence": "If there were some closed forum that was like that would be a huge help to current, to members and, and maybe open-ended so that even alums can still participate.",
+      "user_need": "Members need a platform for sharing local insights and recommendations.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we create a digital gift membership option for realtors to offer to their clients?",
+      "evidence": "I think that's one of the best ideas going, and if there were a better way to market that, I think it's well worth it.",
+      "user_need": "Realtors and clients need a convenient way to gift memberships.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we provide a comprehensive guide to local events and services for newcomers?",
+      "evidence": "It would be great. A calendar of annual events.",
+      "user_need": "Newcomers need a centralized resource for local events and services.",
+      "potential_impact": "High",
+      "type": "new feature"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/2536 Borton Dr 2.json",
+    "interview_id": "2536 Borton Dr 2"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:58:52.389869",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "personas": [
+    {
+      "name": "Helen",
+      "demographics": {
+        "age_range": "50-65",
+        "role": "Newcomer",
+        "experience_level": "New",
+        "technical_proficiency": "Basic"
+      },
+      "background_context": {
+        "situation": "Recently moved to Santa Barbara from Boston",
+        "environment": "Community-focused, friendly environment",
+        "constraints": "Navigating a new city, finding community resources"
+      },
+      "goals_motivations": {
+        "drives": "Building a community and making new friends",
+        "achievements": "Discovering local events and activities"
+      },
+      "behaviors_patterns": {
+        "work_style": "Participates actively in community events",
+        "habits": "Uses the club's website to stay informed"
+      },
+      "pain_points_frustrations": {
+        "obstacles": "Difficulty finding event times on the website",
+        "frustrations": "Website navigation and visibility of new events"
+      },
+      "needs_desires": {
+        "improvements": "Clearer presentation of event times and new features",
+        "desires": "Better organization of website content"
+      },
+      "attitudes_beliefs": {
+        "mental_models": "Values community and friendliness",
+        "preferences": "Prefers straightforward and easy-to-use technology"
+      },
+      "technical_comfort": {
+        "tools_used": "Website and mobile app",
+        "technical_abilities": "Basic user",
+        "learning_preferences": "Visual aids for navigation"
+      },
+      "quotes": [
+        "I'm very happy to have it every event that we've been to has been absolutely fabulous.",
+        "It might be nice to have the time reflected easily."
+      ]
+    },
+    {
+      "name": "Linda",
+      "demographics": {
+        "age_range": "50-65",
+        "role": "Co-Chair of Newcomers Club",
+        "experience_level": "Intermediate",
+        "technical_proficiency": "Moderate"
+      },
+      "background_context": {
+        "situation": "Moved to Santa Barbara for family reasons",
+        "environment": "Community-oriented, supportive network",
+        "constraints": "Technical challenges with event management tools"
+      },
+      "goals_motivations": {
+        "drives": "Contributing to the community and organizing events",
+        "achievements": "Facilitating connections among newcomers"
+      },
+      "behaviors_patterns": {
+        "work_style": "Engaged in community organization and planning",
+        "habits": "Regularly uses event management tools"
+      },
+      "pain_points_frustrations": {
+        "obstacles": "Complicated event registration process",
+        "frustrations": "Inefficiency in managing waitlists and refunds"
+      },
+      "needs_desires": {
+        "improvements": "Easier event registration and refund processes",
+        "desires": "Streamlined communication regarding events"
+      },
+      "attitudes_beliefs": {
+        "mental_models": "Believes in the importance of community support",
+        "preferences": "Values efficient and user-friendly tools"
+      },
+      "technical_comfort": {
+        "tools_used": "JotForm, email notifications",
+        "technical_abilities": "Moderate user but has encountered difficulties",
+        "learning_preferences": "Hands-on experience with tools"
+      },
+      "quotes": [
+        "If I've never done a jot form...she had a lot of trouble with it.",
+        "It would be nice to have the address in that reminder."
+      ]
+    },
+    {
+      "name": "Valerie",
+      "demographics": {
+        "age_range": "40-60",
+        "role": "Newcomer",
+        "experience_level": "New",
+        "technical_proficiency": "Basic"
+      },
+      "background_context": {
+        "situation": "Returned to Santa Barbara from the East Coast",
+        "environment": "Familiar but needs to reintegrate into the community",
+        "constraints": "Balancing work commitments with community activities"
+      },
+      "goals_motivations": {
+        "drives": "Reestablishing connections and engaging in local culture",
+        "achievements": "Finding events that fit into a busy schedule"
+      },
+      "behaviors_patterns": {
+        "work_style": "Participates in events when possible",
+        "habits": "Checks email and app for updates"
+      },
+      "pain_points_frustrations": {
+        "obstacles": "Difficulty navigating the app and calendar",
+        "frustrations": "Overwhelmed by emails related to events"
+      },
+      "needs_desires": {
+        "improvements": "More clarity in event scheduling and notifications",
+        "desires": "Events scheduled at more convenient times"
+      },
+      "attitudes_beliefs": {
+        "mental_models": "Values community but struggles with time management",
+        "preferences": "Prefers clear and concise communication"
+      },
+      "technical_comfort": {
+        "tools_used": "Website and mobile app",
+        "technical_abilities": "Basic user, prefers straightforward tools",
+        "learning_preferences": "Visual aids and easy navigation"
+      },
+      "quotes": [
+        "It's frustrating when you're trying to sign up to something.",
+        "It would be nice to have the address in that reminder."
+      ]
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 25.json",
+    "interview_id": "New Recording 25"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:05:13.161743",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "pain_points": [
+    {
+      "description": "Website and digital presence are outdated and unappealing.",
+      "supporting_quotes": [
+        "I just find it to be really drab.",
+        "The photography is boring. The fonts are boring. The colors are boring.",
+        "It's just very stale and old-fashioned compared to anything."
+      ],
+      "frequency_severity": "High - frequently mentioned with strong dissatisfaction.",
+      "current_workarounds": "Users navigate despite the drab design, but it's not user-friendly.",
+      "impact_on_user": "Users feel the website does not reflect the upscale nature of the club, which may deter potential members.",
+      "category": "quality, emotional"
+    },
+    {
+      "description": "Complexity in contacting members through the app.",
+      "supporting_quotes": [
+        "I wish there was a way to just either press the email address of a person or press the phone number of a person and have it go through.",
+        "Instead, I find myself having to copy it or add it as a contact and write down the phone number and type it back in again."
+      ],
+      "frequency_severity": "Moderate - mentioned with frustration about inefficiency.",
+      "current_workarounds": "Users manually copy and paste or write down contact details.",
+      "impact_on_user": "Increases time and effort required to communicate, leading to frustration.",
+      "category": "time, effort"
+    },
+    {
+      "description": "Difficult navigation to join the club on the website.",
+      "supporting_quotes": [
+        "I'm not logged in. How do I become a member?",
+        "I never noticed it, but there's a Join Us button. Nope. It doesn't tell you anything about us."
+      ],
+      "frequency_severity": "Moderate - mentioned with confusion about the membership process.",
+      "current_workarounds": "Users may search for FAQs or ask others for help.",
+      "impact_on_user": "Potential members may abandon the process if it's not straightforward.",
+      "category": "time, quality"
+    },
+    {
+      "description": "Lack of a community forum for recommendations and support.",
+      "supporting_quotes": [
+        "If there were some closed forum that was like that would be a huge help to current members.",
+        "I wish that there was even a member event where they, or part of new member orientation that would include how to get your driver's license."
+      ],
+      "frequency_severity": "Moderate - expressed as a wish for improvement.",
+      "current_workarounds": "Members rely on informal networks or social media.",
+      "impact_on_user": "New members feel isolated and unsupported in navigating local resources.",
+      "category": "social, emotional"
+    },
+    {
+      "description": "Permitting process for home projects can be lengthy and frustrating.",
+      "supporting_quotes": [
+        "We're going through the permitting process to do a little bit more work.",
+        "I think that the biggest thing that makes jobs go awry is when the materials aren't there."
+      ],
+      "frequency_severity": "Low - mentioned more as an observation rather than a primary frustration.",
+      "current_workarounds": "Planning and preparing materials ahead of time.",
+      "impact_on_user": "Delays in home improvement projects can lead to dissatisfaction.",
+      "category": "time, effort"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/2536 Borton Dr.json",
+    "interview_id": "2536 Borton Dr"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:56:19.038888",
+    "version": "1.0"
+  }
+}

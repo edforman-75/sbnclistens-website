@@ -1,0 +1,77 @@
+{
+  "pain_points": [
+    {
+      "description": "The website looks outdated and unappealing.",
+      "supporting_quotes": [
+        "it\u2019s a very tired looking site",
+        "it looks like a 20-year-old website"
+      ],
+      "frequency_severity": "Frequently mentioned as a major issue; described with negative emotional intensity.",
+      "current_workarounds": "None mentioned; user has to tolerate the outdated design.",
+      "impact_on_user": "Decreases user engagement and overall satisfaction with the website.",
+      "category": "emotional"
+    },
+    {
+      "description": "Difficulty in finding specific information and events on the website.",
+      "supporting_quotes": [
+        "I find difficulty in accessing on the website",
+        "What I'm often looking for is a particular event to register for",
+        "I'm often looking for what events am I registered to"
+      ],
+      "frequency_severity": "Frequently mentioned as a source of frustration; emotionally charged.",
+      "current_workarounds": "User may resort to searching multiple times or contacting others for help.",
+      "impact_on_user": "Causes frustration and may prevent user from participating in events.",
+      "category": "time"
+    },
+    {
+      "description": "Lack of community resources and basic information on the website.",
+      "supporting_quotes": [
+        "wouldn't it be great if we could just have an area that's questions from people moving to Santa Barbara",
+        "basic information, where to register to vote, where to pay your taxes"
+      ],
+      "frequency_severity": "Mentioned as a significant opportunity for improvement; user expresses desire for this feature.",
+      "current_workarounds": "User likely relies on external resources or local knowledge.",
+      "impact_on_user": "Limits the support and information available for newcomers, impacting their integration into the community.",
+      "category": "quality"
+    },
+    {
+      "description": "Need for better self-service options for customer support.",
+      "supporting_quotes": [
+        "I\u2019d like to have it be more self-service when it comes to customer support",
+        "too often, it's the simplest issues that get people hung up"
+      ],
+      "frequency_severity": "Highlighted as an important need; user feels strongly about this.",
+      "current_workarounds": "Users may have to reach out for help or rely on others for support.",
+      "impact_on_user": "Increases frustration and dissatisfaction, especially among admins and board members.",
+      "category": "effort"
+    },
+    {
+      "description": "The calendar app is difficult to use for finding events.",
+      "supporting_quotes": [
+        "to improve the calendar app, just to make it much easier to find events"
+      ],
+      "frequency_severity": "Mentioned as a priority for improvement; user is clearly frustrated.",
+      "current_workarounds": "Users may resort to checking events through other means or struggling with the existing app.",
+      "impact_on_user": "Hinders event participation and user experience.",
+      "category": "quality"
+    },
+    {
+      "description": "Lack of support options for new users.",
+      "supporting_quotes": [
+        "kind of provide more of a route for new users to make it easy for them to do what they want to do"
+      ],
+      "frequency_severity": "Noted as a potential improvement; user acknowledges this as a gap.",
+      "current_workarounds": "New users may have to seek help from existing members or struggle on their own.",
+      "impact_on_user": "Creates a barrier for new users, potentially discouraging them from engaging with the community.",
+      "category": "social"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 5.json",
+    "interview_id": "New Recording 5"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:57:15.424872",
+    "version": "1.0"
+  }
+}

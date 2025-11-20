@@ -1,0 +1,41 @@
+{
+  "empathy_map": {
+    "SAYS": [
+      "I just knew the area and wanted to meet people and just thought it would be the fastest way to get to know the area and just socialize.",
+      "Joining was not a difficult, right, simple.",
+      "Now that I put the app on my phone, it is much easier than the website.",
+      "I have been using this Sunday email more than I did before.",
+      "I feel like that's pretty easy to use. Yeah. Because you can find somebody's email or their phone number.",
+      "I think it would be easier to have a document that you could read and have some idea what's involved before you reach out."
+    ],
+    "THINKS": [
+      "The website has not been updated in a long time, and I hope the refresh will improve the user experience.",
+      "I wish I could easily find events that interest me without scrolling through the entire calendar.",
+      "There are many features on the app that I prefer over the website, making me think the app should be the primary tool.",
+      "It's frustrating that I can't see who else is going to an event to help me decide if I want to sign up.",
+      "I feel like the organization could do better in terms of communication and accessibility of information."
+    ],
+    "DOES": [
+      "Uses the website to look for events but finds it cumbersome to navigate.",
+      "Checks the app for event details and to see what events they've signed up for.",
+      "Relies on the Sunday email for event updates and reminders.",
+      "Has had to call for support when encountering issues with the website.",
+      "Looks at the members' profiles occasionally to remember names from events."
+    ],
+    "FEELS": [
+      "Frustrated with the website's navigation and the need to go back multiple steps.",
+      "Happy that the app is easier to use and helps streamline event sign-ups.",
+      "Concerned about missing out on events due to unclear registration details.",
+      "Disappointed about the lack of visibility for alumni members and the difficulty in reaching out to them.",
+      "Hopeful that the website refresh will address these issues and improve the overall experience."
+    ]
+  },
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_Danielle_Nov16.json",
+    "interview_id": "SBNC_Interview_Danielle_Nov16"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T17:44:40.067162",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we make it easier for users to identify newly posted events in the app?",
+      "evidence": "I'm like, how the heck am I supposed to know which one was posted and when did it open? Because it's kind of confusing.",
+      "user_need": "Users need a clear indication of new events to efficiently plan and engage.",
+      "potential_impact": "high",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we provide a more user-friendly way to display event details, including pricing, before users click into an event?",
+      "evidence": "It'd be nice to see the price, too. Before you click into it.",
+      "user_need": "Users need to know event pricing upfront to make informed decisions.",
+      "potential_impact": "medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we unify the user experience between the app and the website?",
+      "evidence": "Because the app is Wild Apricot. And I don't know what they use on the website. But they're different.",
+      "user_need": "Users desire a seamless experience across platforms without confusion.",
+      "potential_impact": "high",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we enhance the notification system for event postings to ensure users are informed in a timely manner?",
+      "evidence": "You're saying that you don't get that information.",
+      "user_need": "Users need timely notifications about new postings to stay updated.",
+      "potential_impact": "medium",
+      "type": "support"
+    },
+    {
+      "opportunity_statement": "How might we introduce a visual distinction for new events to enhance user engagement?",
+      "evidence": "It was maybe a different color or something.",
+      "user_need": "Users want a simple way to visually differentiate new content from existing content.",
+      "potential_impact": "medium",
+      "type": "new feature"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/New Recording 34.json",
+    "interview_id": "New Recording 34"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:00:01.261077",
+    "version": "1.0"
+  }
+}

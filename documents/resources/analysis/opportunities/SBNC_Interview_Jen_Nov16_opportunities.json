@@ -1,0 +1,75 @@
+{
+  "opportunities": [
+    {
+      "opportunity_statement": "How might we make committee descriptions more clear and accessible for new members?",
+      "evidence": "I was really sure that what I was going to do is get involved with volunteering... But at that time, it was before Volunteers in Action, and they had... the descriptions weren't clear to me.",
+      "user_need": "Clarity and understanding of committee roles and descriptions.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we improve the visibility of event registration deadlines on the calendar?",
+      "evidence": "It'd be nice to know like when you're supposed to, when it's open for registration and when is the last day you can register.",
+      "user_need": "Awareness of registration timelines for events.",
+      "potential_impact": "Medium",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we streamline the event cancellation process for users?",
+      "evidence": "There\u2019s not an easy way to say that you want to cancel... you\u2019d have to go find the committee.",
+      "user_need": "Ease of cancelling event registrations.",
+      "potential_impact": "High",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we redesign the member profile page for better usability?",
+      "evidence": "There's quite a bit on that page that really isn't something that people are that familiar with.",
+      "user_need": "Improved navigation and understanding of user profile options.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we enhance the directory to include alumni for better networking?",
+      "evidence": "You can't do that for alumni because they're not in the directory anymore.",
+      "user_need": "Access to alumni contacts for networking purposes.",
+      "potential_impact": "Medium",
+      "type": "integration"
+    },
+    {
+      "opportunity_statement": "How might we create an archive for past newsletters on the website?",
+      "evidence": "Would that be something of interest to be able to look at back? It would be certainly something of interest for the communications person.",
+      "user_need": "Access to historical communication and newsletters.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    },
+    {
+      "opportunity_statement": "How might we simplify navigation between public and admin views of the website?",
+      "evidence": "The number one issue for people getting lost and confused in the website.",
+      "user_need": "Streamlined navigation for ease of use.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we create a more engaging and informative layout for the chair training resources?",
+      "evidence": "The way that it's appears on the page leaves a lot to be desired.",
+      "user_need": "Effective training resources for committee chairs.",
+      "potential_impact": "High",
+      "type": "improvement"
+    },
+    {
+      "opportunity_statement": "How might we implement a feature to preview event registrations before finalizing?",
+      "evidence": "I think that the whole registration process could be more transparent.",
+      "user_need": "Confidence and clarity in event registration.",
+      "potential_impact": "Medium",
+      "type": "new feature"
+    }
+  ],
+  "_source": {
+    "transcript": "/Users/edf/design-thinking-analysis/projects/SBNCListens/transcripts/SBNC_Interview_Jen_Nov16.json",
+    "interview_id": "SBNC_Interview_Jen_Nov16"
+  },
+  "_metadata": {
+    "analyzed_at": "2025-11-17T18:02:00.680778",
+    "version": "1.0"
+  }
+}
