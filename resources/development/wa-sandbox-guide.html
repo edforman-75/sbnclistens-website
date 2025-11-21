@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wild Apricot Sandbox Guide - SBNC Listens</title>
+    <title>Wild Apricot Playground Guide - SBNC Listens</title>
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <header>
         <div class="logo-section">
             <div class="emoji">🧪</div>
-            <h1>Creating a Wild Apricot Sandbox</h1>
+            <h1>Creating a Wild Apricot Playground</h1>
             <p class="tagline">Safe Testing Environment for SBNC</p>
         </div>
     </header>
@@ -27,9 +27,16 @@
 
     <main>
         <section class="hero">
-            <h2>Wild Apricot Sandbox for SBNC</h2>
-            <p>A true <strong>sandbox</strong> does <strong>not</strong> exist in Wild Apricot (WA). WA does <strong>not</strong> offer dev/staging environments, test databases, or a one-click clone of your live site.</p>
-            <p>The <strong>only</strong> way to build or test a new site safely — without affecting SBNC's live production account — is to create a <strong>completely separate Wild Apricot account</strong> and use that as our sandbox.</p>
+            <h2>Wild Apricot Playground for SBNC</h2>
+            <p>Wild Apricot (WA) does <strong>not</strong> offer dev/staging environments, test databases, or a one-click clone of your live site.</p>
+            <p>The <strong>only</strong> way to build or test a new site safely — without affecting SBNC's live production account — is to create a <strong>completely separate Wild Apricot account</strong> and use that as our playground.</p>
+
+            <div class="info-box" style="margin-top: 1.5rem; background-color: #fff3cd; border-left: 4px solid #ffc107;">
+                <h3>Playground vs. Sandbox</h3>
+                <p><strong>Playground:</strong> A clean Wild Apricot account for building and testing without production data. This is what we'll create using a free trial or small paid account.</p>
+                <p><strong>Sandbox:</strong> A copy of production data used for testing. WA does not provide this capability, though we can manually populate our playground with sample data from our nightly exports.</p>
+                <p>For SBNC, we're creating a <strong>playground</strong> since it won't have a copy of our prod data.</p>
+            </div>
         </section>
 
         <section>
@@ -42,11 +49,11 @@
                 <li>Test API integrations and the chatbot automation</li>
                 <li>Prototype new admin pages before rollout</li>
             </ul>
-            <p>Nothing we do in the sandbox affects real SBNC members, events, or transactions.</p>
+            <p>Nothing we do in the playground affects real SBNC members, events, or transactions.</p>
         </section>
 
         <section>
-            <h2>2. Ways to Create a Sandbox</h2>
+            <h2>2. Ways to Create a Playground</h2>
             <p>There are three viable approaches for SBNC:</p>
 
             <div class="info-box success">
@@ -67,22 +74,23 @@
                     <li>Cannot extend unless WA support intervenes</li>
                     <li>MAX 250 contacts on the lower-tier trial</li>
                     <li>Cannot import SBNC's full 900-person membership</li>
+                    <li><strong>Does not support the Custom HTML Gadget</strong> — quite limiting for advanced customizations</li>
                 </ul>
                 
                 <p><strong>Workaround for data</strong><br>
-                We already generate nightly JSON data exports for the chatbot prototype. We can easily reuse those to repopulate the sandbox nightly with anonymized or reduced data (e.g., a 250-member sample).</p>
+                We already generate nightly JSON data exports for the chatbot prototype. We can easily reuse those to repopulate the playground nightly with anonymized or reduced data (e.g., a 250-member sample).</p>
             </div>
 
             <div class="info-box">
                 <h3>B. Use Referral Discount to Reduce Cost</h3>
-                <p>WA offers referral credits (typically $100 credit for both organizations). If SBNC opens a new account through a referral, the sandbox account cost drops.</p>
+                <p>WA offers referral credits (typically $100 credit for both organizations). If SBNC opens a new account through a referral, the playground account cost drops.</p>
             </div>
 
             <div class="info-box">
                 <h3>C. Create a Paid "Small" Account for 60 Days</h3>
                 <p>If 30 days is too short, the next option is to temporarily pay for a small WA subscription.</p>
                 
-                <p><strong>Pricing for Sandbox-Level Usage (250 contacts)</strong></p>
+                <p><strong>Pricing for Playground-Level Usage (250 contacts)</strong></p>
                 <table style="width: 100%; border-collapse: collapse; margin-top: 1rem;">
                     <thead>
                         <tr style="background-color: #f8fafc; border-bottom: 2px solid #e2e8f0;">
@@ -103,7 +111,7 @@
                             <td style="padding: 1rem;">Small Plus</td>
                             <td style="padding: 1rem;">250</td>
                             <td style="padding: 1rem;">$78/mo</td>
-                            <td style="padding: 1rem;"><strong>ideal sandbox size</strong></td>
+                            <td style="padding: 1rem;"><strong>ideal playground size</strong></td>
                         </tr>
                     </tbody>
                 </table>
@@ -121,7 +129,7 @@
         </section>
 
         <section>
-            <h2>4. API Access in a Sandbox</h2>
+            <h2>4. API Access in a Playground</h2>
             <p>Yes — API works fully during trial, including:</p>
             <ul>
                 <li>OAuth client authentication</li>
@@ -132,15 +140,15 @@
         </section>
 
         <section>
-            <h2>5. Keeping Sandbox Data Updated</h2>
+            <h2>5. Keeping Playground Data Updated</h2>
             <p>We can:</p>
             <ul>
                 <li>Export SBNC production data nightly</li>
                 <li>Reduce to ≤250 contacts</li>
-                <li>Import into the sandbox</li>
+                <li>Import into the playground</li>
                 <li>Rebuild role/committee pseudo-events automatically</li>
             </ul>
-            <p>This gives us a safe, synced mirror of production.</p>
+            <p>This gives us a safe testing environment with sample production data.</p>
         </section>
 
         <section>
@@ -154,12 +162,12 @@
 
         <section class="info-box success">
             <h2>7. Summary</h2>
-            <h3>SBNC Sandbox Key Points:</h3>
+            <h3>SBNC Playground Key Points:</h3>
             <ul>
-                <li>No true WA sandbox exists</li>
-                <li>A sandbox = separate account</li>
-                <li>Free trial provides full API access for 30 days</li>
-                <li>We can populate with nightly-exported data (up to 250 contacts)</li>
+                <li>WA doesn't provide dev/staging environments</li>
+                <li>A playground = separate account for testing without production data</li>
+                <li>Free trial provides full API access for 30 days (but no Custom HTML Gadget support)</li>
+                <li>We can populate with nightly-exported sample data (up to 250 contacts)</li>
                 <li>Estimated cost: $0–$156 for 1–2 months if extending beyond trial</li>
             </ul>
         </section>
@@ -187,7 +195,7 @@
         </section>
 
         <div class="contact-box">
-            <h3>Questions About the Sandbox?</h3>
+            <h3>Questions About the Playground?</h3>
             <p>Email the technology committee at <a href="mailto:technology@sbnewcomers.org">technology@sbnewcomers.org</a></p>
         </div>
     </main>
