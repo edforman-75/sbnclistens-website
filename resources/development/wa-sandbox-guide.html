@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Apricot Sandbox Guide - SBNC Listens</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-section">
+            <div class="emoji">🧪</div>
+            <h1>Creating a Wild Apricot Sandbox</h1>
+            <p class="tagline">Safe Testing Environment for SBNC</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../interviewing-our-users/">Interviewing Our Users</a></li>
+            <li><a href="../../resources/">Resources</a></li>
+            <li><a href="../../meeting-notes/">Meeting Notes</a></li>
+            <li><a href="../../resources/team-roster.html">Project Team</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h2>Wild Apricot Sandbox for SBNC</h2>
+            <p>A true <strong>sandbox</strong> does <strong>not</strong> exist in Wild Apricot (WA). WA does <strong>not</strong> offer dev/staging environments, test databases, or a one-click clone of your live site.</p>
+            <p>The <strong>only</strong> way to build or test a new site safely — without affecting SBNC's live production account — is to create a <strong>completely separate Wild Apricot account</strong> and use that as our sandbox.</p>
+        </section>
+
+        <section>
+            <h2>1. Why We Need a Separate Account</h2>
+            <p>A separate WA account allows us to:</p>
+            <ul>
+                <li>Build the new site layout without touching production</li>
+                <li>Test new workflows, custom fields, membership levels, and event policies</li>
+                <li>Experiment with theme overrides, CSS, JavaScript, widgets</li>
+                <li>Test API integrations and the chatbot automation</li>
+                <li>Prototype new admin pages before rollout</li>
+            </ul>
+            <p>Nothing we do in the sandbox affects real SBNC members, events, or transactions.</p>
+        </section>
+
+        <section>
+            <h2>2. Ways to Create a Sandbox</h2>
+            <p>There are three viable approaches for SBNC:</p>
+
+            <div class="info-box success">
+                <h3>A. Free 30-Day Trial (Most Cost-Effective)</h3>
+                <p>Create a new WA trial account under any email address.</p>
+                
+                <p><strong>Advantages</strong></p>
+                <ul>
+                    <li>Full functionality (pages, themes, widgets, API)</li>
+                    <li>API access is fully enabled during trial</li>
+                    <li>Unlimited site editing and configuration</li>
+                    <li>Perfect for building the new site</li>
+                </ul>
+                
+                <p><strong>Limitations</strong></p>
+                <ul>
+                    <li>Only 30 days</li>
+                    <li>Cannot extend unless WA support intervenes</li>
+                    <li>MAX 250 contacts on the lower-tier trial</li>
+                    <li>Cannot import SBNC's full 900-person membership</li>
+                </ul>
+                
+                <p><strong>Workaround for data</strong><br>
+                We already generate nightly JSON data exports for the chatbot prototype. We can easily reuse those to repopulate the sandbox nightly with anonymized or reduced data (e.g., a 250-member sample).</p>
+            </div>
+
+            <div class="info-box">
+                <h3>B. Use Referral Discount to Reduce Cost</h3>
+                <p>WA offers referral credits (typically $100 credit for both organizations). If SBNC opens a new account through a referral, the sandbox account cost drops.</p>
+            </div>
+
+            <div class="info-box">
+                <h3>C. Create a Paid "Small" Account for 60 Days</h3>
+                <p>If 30 days is too short, the next option is to temporarily pay for a small WA subscription.</p>
+                
+                <p><strong>Pricing for Sandbox-Level Usage (250 contacts)</strong></p>
+                <table style="width: 100%; border-collapse: collapse; margin-top: 1rem;">
+                    <thead>
+                        <tr style="background-color: #f8fafc; border-bottom: 2px solid #e2e8f0;">
+                            <th style="padding: 1rem; text-align: left;">Plan</th>
+                            <th style="padding: 1rem; text-align: left;">Contacts</th>
+                            <th style="padding: 1rem; text-align: left;">Monthly Billing</th>
+                            <th style="padding: 1rem; text-align: left;">Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom: 1px solid #e2e8f0;">
+                            <td style="padding: 1rem;">Small Starter</td>
+                            <td style="padding: 1rem;">100</td>
+                            <td style="padding: 1rem;">$63/mo</td>
+                            <td style="padding: 1rem;">too small</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #e2e8f0;">
+                            <td style="padding: 1rem;">Small Plus</td>
+                            <td style="padding: 1rem;">250</td>
+                            <td style="padding: 1rem;">$78/mo</td>
+                            <td style="padding: 1rem;"><strong>ideal sandbox size</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="margin-top: 1rem;">Total cost for 60 days ≈ <strong>$156</strong>.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Can We Copy Our Existing Site?</h2>
+            <p>WA does not provide any cloning tools, but we can reconstruct a staging site manually using:</p>
+            <ol>
+                <li>Our nightly JSON data export pipeline</li>
+                <li>Manual page rebuild (clean rebuild is often desirable)</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>4. API Access in a Sandbox</h2>
+            <p>Yes — API works fully during trial, including:</p>
+            <ul>
+                <li>OAuth client authentication</li>
+                <li>Contacts, events, memberships</li>
+                <li>Widgets</li>
+                <li>Third-party integrations</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Keeping Sandbox Data Updated</h2>
+            <p>We can:</p>
+            <ul>
+                <li>Export SBNC production data nightly</li>
+                <li>Reduce to ≤250 contacts</li>
+                <li>Import into the sandbox</li>
+                <li>Rebuild role/committee pseudo-events automatically</li>
+            </ul>
+            <p>This gives us a safe, synced mirror of production.</p>
+        </section>
+
+        <section>
+            <h2>6. Recommended Path for SBNC</h2>
+            <ol>
+                <li>Start with a free 30-day trial</li>
+                <li>If needed, convert to a 250-contact paid plan for 1–2 months</li>
+                <li>When ready, either migrate rebuilt content to the existing site or repoint the domain to the new account</li>
+            </ol>
+        </section>
+
+        <section class="info-box success">
+            <h2>7. Summary</h2>
+            <h3>SBNC Sandbox Key Points:</h3>
+            <ul>
+                <li>No true WA sandbox exists</li>
+                <li>A sandbox = separate account</li>
+                <li>Free trial provides full API access for 30 days</li>
+                <li>We can populate with nightly-exported data (up to 250 contacts)</li>
+                <li>Estimated cost: $0–$156 for 1–2 months if extending beyond trial</li>
+            </ul>
+        </section>
+
+        <section style="background-color: #f8fafc; border-top: 2px solid #e2e8f0; margin-top: 3rem;">
+            <h3 style="color: #64748b; font-size: 1rem;">Document History</h3>
+            <table style="width: 100%; font-size: 0.9rem; color: #64748b;">
+                <tr>
+                    <td style="padding: 0.5rem 0; width: 150px;"><strong>Created:</strong></td>
+                    <td>November 20, 2025</td>
+                </tr>
+                <tr>
+                    <td style="padding: 0.5rem 0;"><strong>Last Updated:</strong></td>
+                    <td>November 20, 2025</td>
+                </tr>
+                <tr>
+                    <td style="padding: 0.5rem 0;"><strong>Author:</strong></td>
+                    <td>SBNC Technology Committee</td>
+                </tr>
+                <tr>
+                    <td style="padding: 0.5rem 0;"><strong>Purpose:</strong></td>
+                    <td>Guide for setting up a safe testing environment for Wild Apricot development</td>
+                </tr>
+            </table>
+        </section>
+
+        <div class="contact-box">
+            <h3>Questions About the Sandbox?</h3>
+            <p>Email the technology committee at <a href="mailto:technology@sbnewcomers.org">technology@sbnewcomers.org</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Santa Barbara Newcomers Club</p>
+        <p>Questions? Contact <a href="mailto:technology@sbnewcomers.org">technology@sbnewcomers.org</a></p>
+    </footer>
+</body>
+</html>
