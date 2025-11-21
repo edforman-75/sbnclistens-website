@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wild Apricot Theme Showcase – SBNC Listens</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="nested-list.css">
+</head>
+<body>
+<header class="page-header">
+  <div class="container">
+    <h1>Wild Apricot Theme Showcase</h1>
+    <p>Visual guide to modern WA themes, strengths, weaknesses, and trade-offs</p>
+    <nav class="nav-tabs">
+      <a href="index.html" class="nav-link">Overview</a>
+      <a href="wa-theme-showcase.html" class="nav-link active">Theme Showcase</a>
+      <a href="sbnc-widget-gallery.html" class="nav-link">Widget Gallery</a>
+      <a href="calendar-photos-strategy.html" class="nav-link">Calendar &amp; Photos Strategy</a>
+      <a href="wa-customization-techniques.html" class="nav-link">Customization Techniques</a>
+      <a href="wa-platform-limitations.html" class="nav-link">Platform Limitations</a>
+    </nav>
+  </div>
+</header>
+
+<main class="content">
+  <div class="container">
+    <h2>1. Purpose of This Page</h2>
+    <p>
+      This showcase is written for designers and SBNC volunteers who want a quick, honest view of
+      what Wild Apricot (WA) themes can and cannot do. It complements the <em>Customization Techniques</em>
+      and <em>Platform Limitations</em> pages by focusing on the practical choice of theme family.
+    </p>
+    <p>
+      Key ideas:
+    </p>
+    <ul>
+      <li>Every SBNC page will sit inside a Wild Apricot theme.</li>
+      <li>Theme choice affects typography, spacing, header layout, and mobile behavior.</li>
+      <li>Even the “best” theme still inherits platform-wide limitations described elsewhere.</li>
+    </ul>
+
+    <h2>2. How Wild Apricot Themes Work</h2>
+    <ul>
+      <li>Each site uses one active theme at a time.</li>
+      <li>The theme defines:
+        <ul>
+          <li>Global header and footer layout.</li>
+          <li>Navigation placement and behavior.</li>
+          <li>Default fonts, colors, buttons, and form styles.</li>
+          <li>Standard page templates for system pages (login, profile, events, etc.).</li>
+        </ul>
+      </li>
+      <li>Theme versions are updated by WA; major updates can change spacing or details but keep the overall structure.</li>
+      <li>Custom CSS can override some visual aspects but cannot fundamentally change the layout model.</li>
+    </ul>
+
+    <h2>3. Modern Responsive Themes (High-Level Overview)</h2>
+    <p>
+      Names and details may change over time, but modern WA themes generally fall into a few patterns.
+      Examples below are meant as a guide for SBNC’s design discussions, not an exhaustive catalog.
+    </p>
+
+    <section>
+      <h3>3.1 Hero-Style Themes (Large banner, strong typography)</h3>
+      <p>Examples: modern “landing page” oriented themes.</p>
+      <ul>
+        <li><strong>Strengths:</strong>
+          <ul>
+            <li>Great for first impressions and simple marketing-style home pages.</li>
+            <li>Clear hero area for one main message or call-to-action.</li>
+            <li>Usually good responsive behavior on mobile.</li>
+          </ul>
+        </li>
+        <li><strong>Weaknesses:</strong>
+          <ul>
+            <li>Less flexible for dense navigation or many utility links.</li>
+            <li>Event-heavy or content-heavy pages can feel crowded under a large banner.</li>
+            <li>Limited control of hero height and alignment without custom CSS.</li>
+          </ul>
+        </li>
+        <li><strong>Best fit for SBNC:</strong> Home page, “About SBNC,” and simple outreach pages.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>3.2 Sidebar Navigation Themes</h3>
+      <p>Layouts with a persistent left or right sidebar for navigation and quick links.</p>
+      <ul>
+        <li><strong>Strengths:</strong>
+          <ul>
+            <li>Good for content-heavy sites with many sections.</li>
+            <li>Navigation is always visible on desktop.</li>
+            <li>Works well for documentation-style pages or committee content.</li>
+          </ul>
+        </li>
+        <li><strong>Weaknesses:</strong>
+          <ul>
+            <li>Sidebar behavior on mobile can be inconsistent or feel cramped.</li>
+            <li>Less space for wide event images or large photo galleries.</li>
+            <li>Sometimes feels dated compared to full-width layouts.</li>
+          </ul>
+        </li>
+        <li><strong>Best fit for SBNC:</strong> Internal documentation, board/committee sections, FAQ-style content.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>3.3 Simple Centered Layouts</h3>
+      <p>Clean designs with centered content and standard top navigation.</p>
+      <ul>
+        <li><strong>Strengths:</strong>
+          <ul>
+            <li>Easy to scan and understand for non-technical users.</li>
+            <li>Typically stable across updates and theme versions.</li>
+            <li>Good for forms, event listings, and member-facing tools.</li>
+          </ul>
+        </li>
+        <li><strong>Weaknesses:</strong>
+          <ul>
+            <li>May feel generic if heavily used by other organizations.</li>
+            <li>Less room for “-magazine style” layouts or creative designs.</li>
+            <li>Requires stronger imagery and copy to feel distinctive.</li>
+          </ul>
+        </li>
+        <li><strong>Best fit for SBNC:</strong> Default for most member-facing pages and system pages.</li>
+      </ul>
+    </section>
+
+    <h2>4. Criteria for Choosing a Theme for SBNC</h2>
+    <p>When SBNC selects a theme, we should evaluate it against:</p>
+    <ul>
+      <li><strong>Readability and accessibility</strong>
+        <ul>
+          <li>Clear contrast between text and background.</li>
+          <li>Comfortable font sizes for members using laptops and tablets.</li>
+          <li>Keyboard navigation and focus states that remain visible.</li>
+        </ul>
+      </li>
+      <li><strong>Navigation capacity</strong>
+        <ul>
+          <li>Can it handle the number of top-level pages we have without wrapping awkwardly?</li>
+          <li>Does it support simple secondary navigation where needed?</li>
+        </ul>
+      </li>
+      <li><strong>Event and photo usage</strong>
+        <ul>
+          <li>Do event listings look clean without heavy customization?</li>
+          <li>Is there enough room for occasional photo galleries or highlight images?</li>
+        </ul>
+      </li>
+      <li><strong>Responsiveness and browser behavior</strong>
+        <ul>
+          <li>Works reliably in current Safari, Chrome, Edge, and Firefox.</li>
+          <li>Adapts well to phone portrait, phone landscape, and tablets without per-device tweaks.</li>
+          <li>Behaves well for both mouse/trackpad and touch users.</li>
+        </ul>
+      </li>
+      <li><strong>Long-term stability</strong>
+        <ul>
+          <li>Good track record across WA updates.</li>
+          <li>Does not require fragile custom CSS for basic layouts.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>5. How This Relates to Other Documents</h2>
+    <ul>
+      <li><strong>Customization Techniques:</strong> Explains how far to go beyond themes (custom CSS, custom HTML, APIs).</li>
+      <li><strong>Widget Gallery:</strong> Shows what we can embed inside theme regions using WA widgets and 3rd-party tools.</li>
+      <li><strong>Platform Limitations:</strong> Describes structural limits that no theme choice can eliminate.</li>
+    </ul>
+    <p>
+      Designers should read this Theme Showcase together with those pages to understand both the
+      creative possibilities and the guardrails of working inside Wild Apricot.
+    </p>
+  </div>
+</main>
+
+<footer class="page-footer">
+  <div class="container">
+    <p>SBNC Listens – Wild Apricot Customization Guide (internal use only).</p>
+  </div>
+</footer>
+</body>
+</html>

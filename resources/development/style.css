@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Shared container look (match Resources page) */
+.main-container,
+.page-wrapper,
+.container-like {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* For pages that wrap everything in a div.container (Resources page) */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Top header/nav strip for mini-site */
+.site-header {
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+}
+
+.site-header-inner {
+  background: #ffffff;
+  padding: 24px 40px 12px 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.site-title {
+  font-size: 1.9rem;
+  color: #2c5aa0;
+  margin-bottom: 6px;
+}
+
+.site-subtitle {
+  color: #666;
+  font-size: 1.02rem;
+  margin-bottom: 10px;
+}
+
+/* Nav */
+.top-nav {
+  margin-top: 10px;
+}
+
+.top-nav-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #2c5aa0;
+  background: #eaf1ff;
+}
+
+.nav-link.active {
+  background: #2c5aa0;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  background: #1e4070;
+  color: #ffffff;
+}
+
+/* Headings match Resources page */
+h1 {
+  color: #2c5aa0;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #2c5aa0;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.section-title {
+  color: #2c5aa0;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.section-hint {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+/* Card surfaces for sections inside the mini-site container */
+.card-surface {
+  background: #f9f9f9;
+  border-left: 4px solid #2c5aa0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.page-header.card-surface {
+  border-left: 4px solid #ffc107;
+}
+
+/* Widget gallery layout */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.widget-card {
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 16px 16px 14px 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.widget-name {
+  font-size: 1.05rem;
+  color: #2c5aa0;
+}
+
+.widget-meta {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.badge {
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  background: #e0e0e0;
+  color: #555;
+  white-space: nowrap;
+}
+
+.badge.rec {
+  background: #ffe9a6;
+  color: #856404;
+}
+
+.widget-thumb {
+  background: #f4f4f4;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 0.8rem;
+  color: #777;
+  text-align: center;
+}
+
+.widget-body p {
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #eaf1ff;
+  color: #2c5aa0;
+}
+
+.link-row {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.link-chip {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  background: #2c5aa0;
+  color: #ffffff;
+}
+
+.link-chip:hover {
+  background: #1e4070;
+}
+
+/* Notes / alerts */
+.note {
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.note strong {
+  color: #856404;
+}
+
+/* Footer */
+footer {
+  max-width: 900px;
+  margin: 20px auto 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+  color: #999;
+  font-size: 0.9em;
+}
+
+/* Back link style (if used inside mini-site) */
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #2c5aa0;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .site-header-inner {
+    padding: 18px 20px 10px 20px;
+  }
+
+  .main-container,
+  .container {
+    padding: 24px 20px;
+  }
+}
+
+
+/* SBNC Listens customization header override */
+.page-header {
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  color: #ffffff;
+}
+
+.page-header h1,
+.page-header p {
+  color: #ffffff;
+}
+
+.page-header .nav-link {
+  color: #e0e7ff;
+}
+
+.page-header .nav-link.active {
+  background: #ffffff;
+  color: #2563eb;
+}

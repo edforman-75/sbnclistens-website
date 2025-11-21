@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wild Apricot Data Model &amp; SBNC Roles/Committees</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="nested-list.css" />
+</head>
+<body>
+
+<header class="page-header">
+  <div class="container">
+    <h1>Wild Apricot Data Model &amp; SBNC Roles/Committees</h1>
+    <p>How WA objects fit together, and how SBNC layers committees and roles on top</p>
+
+        <nav class="top-nav">
+      <ul>
+        <li><a href="index.html" class="nav-link">WA Customization Overview</a></li>
+        <li><a href="sbnc-widget-gallery.html" class="nav-link">Widget Gallery</a></li>
+        <li><a href="calendar-photos-strategy.html" class="nav-link">Calendar &amp; Photos Strategy</a></li>
+        <li><a href="wa-customization-techniques.html" class="nav-link">Customization Techniques</a></li>
+        <li><a href="wa-platform-limitations.html" class="nav-link">Platform Limitations</a></li>
+        <li><a href="wa-data-model.html" class="nav-link active">Data Model &amp; SBNC Roles/Committees</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page-main">
+  <div class="container">
+
+    <section class="content-section">
+      <h2>1. Purpose and Audience</h2>
+      <p>
+        This page explains how the main Wild Apricot (WA) data objects relate to each other,
+        which objects are available via the WA API, and how SBNC extends this model to
+        represent <strong>committees</strong> and <strong>leadership roles</strong>.
+      </p>
+
+      <p>It is intended for:</p>
+      <ul>
+        <li>Designers and developers working on SBNC&rsquo;s WA customizations.</li>
+        <li>Volunteers configuring widgets, pages, and automation (API, Make-style tools).</li>
+        <li>Future admins who need to understand where committee and role data actually lives.</li>
+      </ul>
+
+      <p>
+        The goal is not to cover every WA entity, but to focus on the objects SBNC actually uses
+        and extends.
+      </p>
+    </section>
+
+    <section class="content-section">
+      <h2>2. Core Wild Apricot Objects We Rely On</h2>
+
+      <p>
+        At SBNC, most of our workflows center around a few key WA object types. Below is a
+        simplified list, with notes about how we use them and whether they are exposed via
+        the official WA API.
+      </p>
+
+      <h3>2.1 Contacts &amp; Members</h3>
+      <ul>
+        <li>
+          <strong>Contacts</strong> are the base records for people in the database
+          (email, name, address, etc.).
+        </li>
+        <li>
+          <strong>Members</strong> are contacts who currently hold a membership level.
+        </li>
+        <li>
+          SBNC uses <strong>custom fields on contacts/members</strong> heavily to track:
+          <ul>
+            <li>Leadership roles (e.g., President, VP Activities, Committee Chair).</li>
+            <li>Committee affiliations and responsibilities.</li>
+            <li>Internal flags that drive permissions and internal workflows.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>API:</strong> Contacts and Members are available via the WA API, including
+          custom fields (subject to API permissions).
+        </li>
+      </ul>
+
+      <h3>2.2 Membership Levels</h3>
+      <ul>
+        <li>
+          Membership levels define the type of relationship a member has with SBNC
+          (e.g., Newcomer, Extended Newcomer, Admin, etc.).
+        </li>
+        <li>
+          SBNC sometimes uses membership levels as <strong>role buckets</strong>, where
+          a specific level implies broader privileges or responsibilities.
+        </li>
+        <li>
+          <strong>API:</strong> Membership levels are readable via the WA API and can be
+          used to filter members and drive automations.
+        </li>
+      </ul>
+
+      <h3>2.3 Events &amp; Registrations</h3>
+      <ul>
+        <li>
+          <strong>Events</strong> are used both for actual SBNC activities and, in some cases,
+          as <strong>pseudo-events</strong> that encode internal structures (e.g., committees).
+        </li>
+        <li>
+          <strong>Registrations</strong> represent people signed up for an event.
+        </li>
+        <li>
+          SBNC uses registrations on pseudo-events to represent committee membership
+          (more on this below).
+        </li>
+        <li>
+          <strong>API:</strong> Events and Registrations are available via the API, including
+          event categories, registration types, and custom fields.
+        </li>
+      </ul>
+
+      <h3>2.4 Financial Objects (Invoices, Payments, Donations)</h3>
+      <ul>
+        <li>
+          WA tracks <strong>invoices</strong>, <strong>payments</strong>, and
+          <strong>donations</strong>, usually tied to either memberships or events.
+        </li>
+        <li>
+          SBNC primarily uses these for standard membership and event payments,
+          not for committee modeling.
+        </li>
+        <li>
+          <strong>API:</strong> Financial objects are partially exposed via the API
+          (details depend on WA plan and permissions).
+        </li>
+      </ul>
+
+      <h3>2.5 Website Content (Pages, Menus, Gadgets)</h3>
+      <ul>
+        <li>
+          Public and member-facing pages, navigation, and gadgets form the surface layer.
+        </li>
+        <li>
+          From a data-model perspective, pages and gadgets <em>display</em> data from the
+          objects above; they do not store core member or committee data themselves.
+        </li>
+        <li>
+          <strong>API:</strong> Page content is not exposed as structured objects through
+          the standard WA API. Custom integrations are usually built <em>around</em> pages,
+          not <em>through</em> them.
+        </li>
+      </ul>
+    </section>
+
+    <section class="content-section">
+      <h2>3. How These Objects Relate</h2>
+
+      <p>
+        The diagram below shows the main relationships SBNC cares about, focusing on
+        members, events, and the financial trail.
+      </p>
+
+      <pre class="data-diagram"><code>                +--------------------+
+                |  Membership Level  |
+                +--------------------+
+                          ^
+                          | (has level)
+                          |
++-----------------+       |
+|   Contact       |-------+
+| / Member        |
++-----------------+
+        |
+        | (registers for)
+        v
++-----------------+          +--------------------+
+|     Event       |&lt;---------| Event Category     |
++-----------------+          +--------------------+
+        |
+        | (creates)
+        v
++-----------------+      +----------------------+
+|  Registration   |-----&gt;| Invoice / Payment    |
++-----------------+      +----------------------+
+</code></pre>
+
+      <ul>
+        <li>
+          A <strong>Contact/Member</strong> belongs to exactly one
+          <strong>Membership Level</strong> at a time.
+        </li>
+        <li>
+          Members can register for many <strong>Events</strong>; each registration may
+          generate invoices and payments.
+        </li>
+        <li>
+          <strong>Event Categories</strong> group events for calendar views and filtering.
+        </li>
+      </ul>
+
+      <p>
+        SBNC&rsquo;s committee and role modeling builds on top of this structure rather than
+        introducing new native objects.
+      </p>
+    </section>
+
+    <section class="content-section">
+      <h2>4. API Accessibility and Why It Matters</h2>
+
+      <p>
+        For SBNC&rsquo;s automation (including potential use of the WA API, Make, or similar
+        tools), it is important to know which objects can be queried programmatically.
+      </p>
+
+      <h3>4.1 High-level API view</h3>
+      <ul>
+        <li><strong>Contacts/Members:</strong> API-readable and updatable, including custom fields.</li>
+        <li><strong>Membership Levels:</strong> API-readable; can be used for filtering and logic.</li>
+        <li><strong>Events &amp; Registrations:</strong> API-readable; core for automation around attendance and committee pseudo-events.</li>
+        <li><strong>Financial Records (Invoices/Payments/Donations):</strong> Partially API-readable; used mainly for reporting.</li>
+        <li><strong>Pages, menus, and widgets:</strong> <em>Not</em> first-class API objects; usually managed via the admin UI.</li>
+      </ul>
+
+      <h3>4.2 Practical implications for SBNC</h3>
+      <ul>
+        <li>
+          Anything we want to automate (e.g., leadership rosters, committee lists, special emails)
+          should be represented through <strong>API-visible objects</strong> like:
+          <ul>
+            <li>Custom contact/member fields</li>
+            <li>Events and registrations</li>
+          </ul>
+        </li>
+        <li>
+          Design decisions that rely heavily on page structure or theme markup are
+          <strong>harder to automate</strong>, because those are not API-first.
+        </li>
+        <li>
+          For new customizations, we get more long-term leverage by modeling data in
+          contacts/members and events, with pages acting as views on that data.
+        </li>
+      </ul>
+    </section>
+
+    <section class="content-section">
+      <h2>5. SBNC Extensions: Roles and Committees</h2>
+
+      <p>
+        Wild Apricot does <strong>not</strong> have native objects for
+        &ldquo;Committee&rdquo; or &ldquo;Leadership Role.&rdquo; SBNC models these concepts
+        using a combination of membership levels, custom fields, and special events.
+      </p>
+
+      <h3>5.1 Roles via Membership Levels and Custom Fields</h3>
+      <ul>
+        <li>
+          Some roles are represented as <strong>membership levels</strong>
+          (for example, admin-level memberships that imply broader access).
+        </li>
+        <li>
+          More granular roles (e.g., &ldquo;VP Activities,&rdquo; &ldquo;Event Chair,&rdquo;
+          &ldquo;Tech Committee Member&rdquo;) are modeled via
+          <strong>custom fields on the contact/member record</strong>.
+        </li>
+        <li>
+          These custom fields answer questions such as:
+          <ul>
+            <li>What leadership role(s) does this member hold?</li>
+            <li>Which committee(s) is this member part of?</li>
+            <li>What is their primary responsibility?</li>
+          </ul>
+        </li>
+        <li>
+          Because these are contact/member fields, they are
+          <strong>API-accessible</strong>, which allows automated exports, dashboards,
+          and roster pages.
+        </li>
+      </ul>
+
+      <h3>5.2 Committees via Pseudo-Events and Registrations</h3>
+      <ul>
+        <li>
+          Each committee is represented by a <strong>special event</strong>
+          (sometimes called a pseudo-event).
+        </li>
+        <li>
+          The members of a committee are stored as
+          <strong>registrants on that pseudo-event</strong>.
+        </li>
+        <li>
+          This lets SBNC reuse WA&rsquo;s built-in registration UI and API to:
+          <ul>
+            <li>Maintain committee rosters.</li>
+            <li>Track join/leaving dates via registration history.</li>
+            <li>Drive automated communications based on committee membership.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Important:</strong> These pseudo-events must be kept out of public
+          calendars and event listings. At the moment, SBNC needs to
+          <strong>double-check how this is configured</strong> (categories, visibility
+          settings, or naming conventions) to ensure committee events do not appear
+          inadvertently.
+        </li>
+      </ul>
+
+      <h3>5.3 Combined picture</h3>
+      <p>
+        Putting this together, an SBNC committee member might be represented as:
+      </p>
+      <ul>
+        <li>A <strong>Contact/Member</strong> with:
+          <ul>
+            <li>A standard SBNC membership level (e.g., Newcomer, Extended Newcomer).</li>
+            <li>Custom fields indicating current role(s) and committee(s).</li>
+          </ul>
+        </li>
+        <li>
+          One or more <strong>registrations</strong> on committee pseudo-events,
+          providing a roster and history for that committee.
+        </li>
+      </ul>
+
+      <p>
+        This modeling approach is powerful but also introduces complexity:
+      </p>
+      <ul>
+        <li>
+          Committee membership is <strong>split</strong> between:
+          <ul>
+            <li>Custom fields (who holds which role), and</li>
+            <li>Event registrations (who is in which committee event).</li>
+          </ul>
+        </li>
+        <li>
+          Documentation and automation must treat both layers consistently, or rosters
+          can drift out of sync.
+        </li>
+      </ul>
+    </section>
+
+    <section class="content-section">
+      <h2>6. Design &amp; Customization Implications</h2>
+
+      <p>
+        Understanding the data model helps us decide how far to push customization and
+        where to anchor new features.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Good candidates for automation:</strong>
+          <ul>
+            <li>Leadership directories built from contact custom fields.</li>
+            <li>Committee pages driven by pseudo-event registrations.</li>
+            <li>API-based exports and dashboards keyed off membership level and roles.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Areas to use caution:</strong>
+          <ul>
+            <li>
+              Designs that assume committees or roles are first-class WA objects
+              (they are not).
+            </li>
+            <li>
+              Complex logic spread across both custom fields and pseudo-events
+              without clear documentation.
+            </li>
+            <li>
+              Any change that might accidentally expose committee pseudo-events
+              in public calendars or listings.
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <p class="note">
+        Recommendation: When proposing new features or automations, always specify
+        <strong>which WA object(s)</strong> the feature depends on
+        (contacts, custom fields, events, registrations, etc.). This keeps the mental
+        model clear for future SBNC volunteers and developers.
+      </p>
+    </section>
+
+    <section class="content-section back-link">
+      <p>
+        &larr; <a href="index.html">Return to the WA Customization Guide overview</a>
+      </p>
+    </section>
+
+  </div>
+</main>
+
+<footer class="page-footer">
+  <div class="container">
+    <p>SBNC Listens – Internal planning document for Santa Barbara Newcomers Club.</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calendar &amp; Photos Strategy – SBNC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="nested-list.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="site-header-inner">
+    <h1 class="site-title">Calendar &amp; Photos Strategy</h1>
+    <p class="site-subtitle">
+      Deep dive on event calendars, photo systems, member privacy, and iframe behavior.
+    </p>
+            <nav class="top-nav">
+      <ul>
+        <li><a href="index.html" class="nav-link">WA Customization Overview</a></li>
+        <li><a href="sbnc-widget-gallery.html" class="nav-link">Widget Gallery</a></li>
+        <li><a href="calendar-photos-strategy.html" class="nav-link active">Calendar &amp; Photos Strategy</a></li>
+        <li><a href="wa-customization-techniques.html" class="nav-link">Customization Techniques</a></li>
+        <li><a href="wa-platform-limitations.html" class="nav-link">Platform Limitations</a></li>
+        <li><a href="wa-data-model.html" class="nav-link">Data Model &amp; SBNC Roles/Committees</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="main-container">
+
+  <section class="page-header card-surface">
+    <h1>Objectives</h1>
+    <p>
+      SBNC wants a single calendar UI that serves both public visitors and members, plus a photo
+      system that supports event-level organization, face recognition, member privacy, and easy
+      downloads – all embedded cleanly within Wild Apricot and working across modern browsers
+      and devices.
+    </p>
+  </section>
+
+  <section class="card-surface" style="margin-top:1.4rem;">
+    <h2>Assumptions about SBNC capabilities</h2>
+    <ul>
+      <li>We can use the <strong>Wild Apricot API</strong> to read and write data.</li>
+      <li>We can build integrations using <strong>Make.com</strong> or similar tools.</li>
+      <li>Therefore, solutions that require API-based sync or automation are acceptable and
+          should not be disqualified on technical grounds.</li>
+    </ul>
+  </section>
+
+  <section class="card-surface" style="margin-top:1.4rem;">
+    <h2>Single Calendar Strategy – One UI for Public and Members</h2>
+    <p>
+      The guiding principle is: <strong>one source of truth, one calendar UI.</strong>
+      Events are created and managed in Wild Apricot, while a modern calendar UI reads this
+      data through the API and presents it in a filterable, mobile-friendly way.
+    </p>
+
+    <h3>Current Pain Points with Native WA Calendar</h3>
+    <ul>
+      <li>Buggy or inconsistent behavior in some browsers.</li>
+      <li>Limited, awkward filtering (tags/categories are under-exposed to end users).</li>
+      <li>Visually dated; not ideal as the public-facing “front door” calendar.</li>
+      <li>Poor mobile experience compared to modern calendars.</li>
+    </ul>
+
+    <h3>Primary Calendar UI: NewPath WaGadget CalendarPlus</h3>
+    <p>
+      <strong>CalendarPlus</strong> is built specifically for Wild Apricot and uses the WA API.
+      It can act as the single calendar UI for both public visitors and logged-in members.
+    </p>
+
+    <h4>Key Features</h4>
+    <ul>
+      <li>Reads events directly from WA (no double entry).</li>
+      <li>Multiple views (list, tile, grid) with modern styling.</li>
+      <li>Filterable by tags, category, registration status, and date.</li>
+      <li>Color-coding by event type or other categories.</li>
+      <li>Embeddable on both public pages and member-only pages.</li>
+      <li>Respects WA event visibility when configured correctly.</li>
+    </ul>
+
+    <h4>How “One Calendar” Works in Practice</h4>
+    <ol>
+      <li>All events are created in Wild Apricot with:
+        <ul>
+          <li>Visibility: <em>Public</em> vs <em>Members-only</em> / specific member levels.</li>
+          <li>Tags for activity type (Hikes, Wine, 20–40s, Social, Committee, etc.).</li>
+        </ul>
+      </li>
+      <li>CalendarPlus is configured to:
+        <ul>
+          <li>Respect WA visibility (public visitors only see public events; members
+              see public + member-only events they’re allowed to view).</li>
+          <li>Expose filters based on SBNC’s tag taxonomy so users can drill into the events
+              that matter to them.</li>
+        </ul>
+      </li>
+      <li>The same CalendarPlus configuration (or a cloned profile) is embedded:
+        <ul>
+          <li>On a public “Events” page (marketing view).</li>
+          <li>On a members-only “Member Events / Activities” page (full view).</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h4>Role of the Native WA Calendar</h4>
+    <p>
+      Given SBNC’s experience (bugs, limited features, aesthetics), the native WA calendar is
+      <strong>not</strong> recommended as the primary UI. It can be kept as:
+    </p>
+    <ul>
+      <li>A hidden admin-only view for troubleshooting.</li>
+      <li>An emergency fallback if CalendarPlus fails.</li>
+    </ul>
+
+    <h4>Where Tockify Fits</h4>
+    <p>
+      <strong>Tockify</strong> provides an excellent standalone calendar with beautiful layouts.
+      However, it does not natively read WA events. To use it seriously, we would either:
+    </p>
+    <ul>
+      <li>Double-enter events in WA and Tockify (not preferred), or</li>
+      <li>Use Make.com + WA API to sync events into Tockify (more moving parts).</li>
+    </ul>
+    <p>
+      Because SBNC <em>can</em> integrate systems, a WA→Tockify sync is technically feasible,
+      but it introduces more operational risk than a pure WA+CalendarPlus setup. Tockify is best
+      considered a “nice to have” design option if the committee strongly prefers its look.
+    </p>
+  </section>
+
+  <section class="card-surface" style="margin-top:1.4rem;">
+    <h2>Photo Strategy – Event Albums, Tagging, and Member Privacy</h2>
+
+    <h3>Requirements</h3>
+    <ul>
+      <li>Organize photos by <strong>event</strong>, <strong>activity type</strong>, and optionally by <strong>member</strong>.</li>
+      <li>Support <strong>face recognition</strong> and tagging (directly or via workflow tools).</li>
+      <li>Allow members to <strong>download</strong> photos (full or high-res copies).</li>
+      <li>Allow members to <strong>request removal or hiding</strong> of photos containing them.</li>
+      <li>Embed event galleries on WA pages (event recaps, highlight pages, “Why Join” content).</li>
+    </ul>
+
+    <h3>Option A – Wild Apricot Native Photo Albums</h3>
+    <ul>
+      <li>Pros:
+        <ul>
+          <li>Stored directly in WA; permissions match public vs member-only areas.</li>
+          <li>Simple: create an album gadget on a page and upload images.</li>
+          <li>No extra subscriptions or systems to manage.</li>
+        </ul>
+      </li>
+      <li>Cons:
+        <ul>
+          <li>No face recognition or robust tagging by person.</li>
+          <li>Limited metadata: essentially captions only.</li>
+          <li>Not great for large or long-lived archives.</li>
+          <li>Clumsy to support “please remove all photos of me” requests.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>Option B – SmugMug Embedded Galleries (Recommended)</h3>
+    <ul>
+      <li>Pros:
+        <ul>
+          <li>Designed for serious photo archives with folders, albums, and strong search.</li>
+          <li>Works well with Lightroom and other desktop workflows.</li>
+          <li>Supports keyword tagging and, with helper tools, face recognition.</li>
+          <li>Download controls (allow/disallow, original vs smaller sizes).</li>
+          <li>Album-level privacy controls (unlisted, password-protected, etc.).</li>
+          <li>Embeds cleanly into WA via iframe or script widgets.</li>
+          <li>Central location for implementing member removal requests: update once in SmugMug,
+              and all embedded galleries reflect the change.</li>
+        </ul>
+      </li>
+      <li>Cons:
+        <ul>
+          <li>Separate subscription and login.</li>
+          <li>Requires some upfront work to define folder/album structure and tagging conventions.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>Option C – Flickr + POWR Gallery / Elfsight / Google Photos</h3>
+    <p>
+      These provide various mixes of embedding and gallery features, but they generally fall short vs
+      a SmugMug-based approach on one or more of:
+    </p>
+    <ul>
+      <li>Consistent face recognition and tagging.</li>
+      <li>Strong privacy controls and member “hide me” workflows.</li>
+      <li>Long-term platform stability and support.</li>
+    </ul>
+
+    <h3>Recommended Photo Architecture</h3>
+    <ol>
+      <li>Use <strong>SmugMug as the canonical photo archive</strong> for all SBNC event photos.
+        <ul>
+          <li>One album per event.</li>
+          <li>Tags for activity type (Hike, Wine, Social, etc.).</li>
+          <li>Optional tags or face recognition for individual members.</li>
+        </ul>
+      </li>
+      <li>Embed SmugMug albums in WA:
+        <ul>
+          <li>Each event recap page includes its matching SmugMug album.</li>
+          <li>Public highlight pages feature curated SmugMug albums or composite galleries.</li>
+        </ul>
+      </li>
+      <li>Handle member privacy:
+        <ul>
+          <li>Provide a simple “Request photo removal” form (WA or Jotform).</li>
+          <li>Admins hide/remove the relevant images in SmugMug; embedded galleries automatically
+              reflect the change.</li>
+        </ul>
+      </li>
+      <li>Optional automation:
+        <ul>
+          <li>Use Make.com + WA API to keep a mapping between WA event IDs and SmugMug album IDs.</li>
+          <li>Optionally maintain an Airtable “photo index” (photo → event → member) for internal use.</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <section class="card-surface" style="margin-top:1.4rem;">
+    <h2>Build vs. Buy – Calendars and Photos</h2>
+
+    <h3>Custom-Build Scenario</h3>
+    <p>
+      A fully custom calendar and photo system (React front-end, custom database, AWS Rekognition
+      for faces, etc.) is feasible but would involve:
+    </p>
+    <ul>
+      <li>New hosting and application infrastructure.</li>
+      <li>Custom admin UI for events, photos, and tagging.</li>
+      <li>Ongoing security and maintenance responsibilities.</li>
+      <li>Significant initial cost and a non-trivial risk of abandonment if volunteers roll off.</li>
+    </ul>
+    <p>
+      This approach is likely overkill for SBNC’s needs and volunteer capacity.
+    </p>
+
+    <h3>Buy / Integrate Scenario (Recommended)</h3>
+    <ul>
+      <li><strong>Calendars</strong> – Keep WA as the event database, use CalendarPlus as the single UI.</li>
+      <li><strong>Photos</strong> – Use SmugMug as the archive; embed galleries into WA.</li>
+      <li><strong>Automation</strong> – Use Make.com to glue things together where needed (e.g., mapping
+          events to albums, syncing data for analytics).</li>
+    </ul>
+    <p>
+      This keeps complexity manageable while delivering a modern experience for members and prospects.
+    </p>
+  </section>
+
+  <section class="card-surface" style="margin-top:1.4rem;">
+    <h2>iframes in Wild Apricot – Usage, Reliability, and Mobile Behavior</h2>
+
+    <h3>Where iframes Typically Appear</h3>
+    <ul>
+      <li><strong>Calendars</strong>
+        <ul>
+          <li>CalendarPlus usually uses the WA gadget framework and JavaScript embeds, not plain iframes,
+              which tends to behave better responsively.</li>
+          <li>Tockify can be embedded via JS or iframe. The iframe method is common for simple use.</li>
+        </ul>
+      </li>
+      <li><strong>Photo Galleries</strong>
+        <ul>
+          <li>SmugMug albums are commonly embedded with an iframe or JS snippet that renders an iframe.</li>
+          <li>Flickr/POWR and Elfsight galleries often inject content via iframes.</li>
+        </ul>
+      </li>
+      <li><strong>Other Embeds</strong>
+        <ul>
+          <li>Airtable views, some forms, and some chat widgets rely on iframes.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>Reliability & Security Considerations</h3>
+    <ul>
+      <li><strong>HTTPS everywhere</strong> – All SBNC pages and external widgets must be loaded over HTTPS
+          to avoid mixed-content warnings and blocking in modern browsers.</li>
+      <li><strong>Vendor uptime</strong> – If a third-party service is down, the iframe area will appear
+          blank or show an error, but the rest of the WA page will continue to work.</li>
+      <li><strong>Cross-origin restrictions</strong> – For security, browsers prevent us from directly
+          reading or modifying the internals of third-party iframes. Responsiveness and UX must be
+          handled by the vendor’s code.</li>
+    </ul>
+
+    <h3>Mobile, Tablet, and Cross-Browser Behavior</h3>
+    <ul>
+      <li><strong>Responsive width</strong>
+        <ul>
+          <li>Our CSS should ensure iframes sit in containers that are 100% width on small screens.</li>
+          <li>Most modern widgets are mobile-aware and adjust width automatically.</li>
+        </ul>
+      </li>
+      <li><strong>Height and scrolling</strong>
+        <ul>
+          <li>Nested scrollbars (page + internal iframe scroll) can be annoying on phones.</li>
+          <li>Prefer widgets that auto-size their height; if not possible, set a reasonable fixed height
+              and accept a scroll within the iframe.</li>
+        </ul>
+      </li>
+      <li><strong>Privacy blockers</strong>
+        <ul>
+          <li>Safari’s Intelligent Tracking Prevention and similar features can block some tracking cookies,
+              but for calendars/maps/galleries this usually does not break basic display.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>iframes vs JavaScript Embeds</h3>
+    <ul>
+      <li><strong>Preferred</strong> – JavaScript widgets that render content into a WA content gadget.
+          These usually behave more like native page components and can be easier to style responsively.</li>
+      <li><strong>Acceptable</strong> – iframes for SmugMug, Airtable, maps, and specialized widgets, as long as:
+        <ul>
+          <li>They are wrapped in responsive containers.</li>
+          <li>They are tested in Chrome, Safari, Firefox, Edge, and on iOS/Android devices.</li>
+        </ul>
+      </li>
+    </ul>
+
+  </section>
+
+  <section class="card-surface" style="margin-top:1.4rem;">
+    <h2>Summary of Recommended Approach</h2>
+    <ul>
+      <li><strong>Calendar</strong> – NewPath WaGadget CalendarPlus as the single, filterable calendar UI
+          for both public and members; WA remains the event database.</li>
+      <li><strong>Photos</strong> – SmugMug as the main photo archive, with embedded galleries on WA
+          pages and a simple workflow for member removal requests.</li>
+      <li><strong>Integrations</strong> – Use WA API and Make.com where appropriate (e.g., mapping events
+          to albums, analytics, or automation), taking advantage of SBNC’s technical capability.</li>
+      <li><strong>iframes</strong> – Use iframes and JS embeds confidently, but test each major widget across
+          desktop browsers and on phones/tablets before going live.</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2025 Santa Barbara Newcomers Club – Internal planning document.
+</footer>
+</body>
+</html>

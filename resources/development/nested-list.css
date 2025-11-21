@@ -1,0 +1,34 @@
+<style>
+/* SBNC nested list styling */
+ul, ol {
+  margin: 0 0 1rem 0;
+  padding-left: 1.25rem;
+  line-height: 1.55;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0.4rem;
+  margin-bottom: 0.7rem;
+  border-left: 2px solid #e2e2e2;
+  padding-left: 1rem;
+}
+
+ul ul ul, ol ol ol {
+  border-left: 2px dotted #d0d0d0;
+  padding-left: 1rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+ul ul > li::marker,
+ol ol > li::marker {
+  color: #888;
+}
+
+ul ul ul > li::marker,
+ol ol ol > li::marker {
+  color: #bbb;
+}
+</style>

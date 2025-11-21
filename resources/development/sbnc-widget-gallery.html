@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Widget Gallery – SBNC Wild Apricot Customization Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="nested-list.css">
+</head>
+<body>
+<header class="page-header">
+  <div class="container">
+    <h1>Widget Gallery</h1>
+    <p>Native Wild Apricot widgets and recommended 3rd-party embeds for SBNC</p>
+    <nav class="nav-tabs">
+      <a href="index.html" class="nav-link">Overview</a>
+      <a href="wa-theme-showcase.html" class="nav-link">Theme Showcase</a>
+      <a href="sbnc-widget-gallery.html" class="nav-link active">Widget Gallery</a>
+      <a href="calendar-photos-strategy.html" class="nav-link">Calendar &amp; Photos Strategy</a>
+      <a href="wa-customization-techniques.html" class="nav-link">Customization Techniques</a>
+      <a href="wa-platform-limitations.html" class="nav-link">Platform Limitations</a>
+    </nav>
+  </div>
+</header>
+
+<main class="content">
+  <div class="container">
+    <h2>1. How to Read This Page</h2>
+    <p>
+      This gallery lists the main tools we can embed inside Wild Apricot pages. It is organized into:
+    </p>
+    <ul>
+      <li><strong>Native Wild Apricot widgets</strong> – built into WA, safest for data that lives in WA.</li>
+      <li><strong>3rd-party widgets</strong> – external tools embedded via iframe or script.</li>
+    </ul>
+    <p>
+      For each widget type we note:
+    </p>
+    <ul>
+      <li>What it is best at.</li>
+      <li>Key limitations (filtering, styling, mobile behavior).</li>
+      <li>When SBNC should prefer it vs. look at alternatives.</li>
+    </ul>
+
+    <h2>2. Native Wild Apricot Widgets</h2>
+    <p>
+      Native widgets are the safest starting point. They inherit theme styling, respect WA’s permission
+      model, and are maintained by Wild Apricot when the platform changes.
+    </p>
+
+    <section>
+      <h3>2.1 Event List and Event Calendar</h3>
+      <p>Standard WA event gadgets that show upcoming events in list or calendar views.</p>
+      <ul>
+        <li><strong>Strengths:</strong>
+          <ul>
+            <li>Tightly integrated with WA’s event module and registrations.</li>
+            <li>Respects member vs public visibility rules.</li>
+            <li>Works with system emails and registration flows.</li>
+          </ul>
+        </li>
+        <li><strong>Limitations:</strong>
+          <ul>
+            <li>Filtering can be coarse. Fine-grained views (“only social events”, “only hiking”) may require multiple gadgets or custom views.</li>
+            <li>Visual design is controlled by the theme with only limited tweaks in settings.</li>
+            <li>Month-view calendar layout can feel cramped on small screens.</li>
+          </ul>
+        </li>
+        <li><strong>Typical SBNC usage:</strong>
+          <ul>
+            <li>Primary events page for members.</li>
+            <li>Simple public “upcoming events” listing.</li>
+          </ul>
+        </li>
+        <li><strong>Docs:</strong> Wild Apricot help center – search for “event calendar gadget” and “event list gadget”.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>2.2 Member Directory and Member Profile Widgets</h3>
+      <p>Widgets that expose member lists and profile lookup, respecting privacy settings.</p>
+      <ul>
+        <li><strong>Strengths:</strong>
+          <ul>
+            <li>Fully respects member privacy and contact permissions.</li>
+            <li>Search and filter by standard member fields and selected custom fields.</li>
+            <li>Integrated with login and profile pages.</li>
+          </ul>
+        </li>
+        <li><strong>Limitations:</strong>
+          <ul>
+            <li>Layout options are constrained; advanced card or grid layouts are hard without CSS.</li>
+            <li>Filtering UI is basic compared to a dedicated directory product.</li>
+            <li>No built-in “social graph” features (favorites, follow, etc.).</li>
+          </ul>
+        </li>
+        <li><strong>Typical SBNC usage:</strong>
+          <ul>
+            <li>Member-only directory with simple search and filters.</li>
+            <li>Profile view links from internal communications.</li>
+          </ul>
+        </li>
+        <li><strong>Docs:</strong> Wild Apricot help center – search for “member directory gadget”.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>2.3 Login Box and Authorization Widgets</h3>
+      <p>Login box, “logout” link, “change profile” link, and other authorization gadgets.</p>
+      <ul>
+        <li><strong>Strengths:</strong>
+          <ul>
+            <li>Handle authentication correctly and securely inside WA.</li>
+            <li>React automatically when a user logs in or out.</li>
+            <li>Support redirects to profile pages and member-only content.</li>
+          </ul>
+        </li>
+        <li><strong>Limitations:</strong>
+          <ul>
+            <li>Placement is tied to theme regions; moving login into unusual page areas can be awkward.</li>
+            <li>Visual customization is limited without CSS.</li>
+          </ul>
+        </li>
+        <li><strong>Recommendation for SBNC:</strong> Always use native login gadgets rather than external authentication tools.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>2.4 Content and Media Widgets</h3>
+      <p>Includes content gadgets such as:</p>
+      <ul>
+        <li>Content / HTML gadget (rich text, images, embeds).</li>
+        <li>Picture and Slideshow gadgets.</li>
+        <li>File list gadgets (links to documents).</li>
+        <li>Blog and “recent blog posts” gadgets.</li>
+      </ul>
+      <ul>
+        <li><strong>Strengths:</strong>
+          <ul>
+            <li>Easy to use for non-technical editors once templates are set up.</li>
+            <li>Slideshow and picture gadgets provide basic galleries without 3rd-party tools.</li>
+            <li>Blog gadgets can power simple news or update sections.</li>
+          </ul>
+        </li>
+        <li><strong>Limitations:</strong>
+          <ul>
+            <li>Photo galleries lack advanced filtering, tagging, or face recognition.</li>
+            <li>Slideshow behavior and layout are relatively rigid.</li>
+            <li>File lists are functional but not visually rich.</li>
+          </ul>
+        </li>
+        <li><strong>Docs:</strong> Wild Apricot help center – search for “content gadget”, “picture gadget”, “slideshow gadget”, “blog gadget”.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>2.5 Donations, Invoices, and Financial Widgets</h3>
+      <p>Donation forms, payment buttons, and invoice/payment history gadgets.</p>
+      <ul>
+        <li><strong>Strengths:</strong>
+          <ul>
+            <li>Tightly integrated with WA’s contacts and financial reports.</li>
+            <li>Respects member records and payment statuses.</li>
+            <li>Less room for errors than custom payment integrations.</li>
+          </ul>
+        </li>
+        <li><strong>Limitations:</strong>
+          <ul>
+            <li>Design flexibility is limited.</li>
+            <li>Advanced fundraising features (campaign thermometers, peer-to-peer pages) require outside tools.</li>
+          </ul>
+        </li>
+        <li><strong>SBNC usage:</strong> As-needed for donations or specific financial flows; keep inside WA whenever possible.</li>
+      </ul>
+    </section>
+
+    <h2>3. 3rd-Party Widgets and Embeds</h2>
+    <p>
+      3rd-party widgets allow SBNC to go beyond WA’s built-in capabilities. They usually require an
+      iframe or script embed in a Content/HTML gadget and may rely on WA’s API or webhooks for
+      deeper integration.
+    </p>
+    <p>
+      For each tool, we consider:
+    </p>
+    <ul>
+      <li>What it adds beyond native WA widgets.</li>
+      <li>Complexity of setup and maintenance.</li>
+      <li>Impact on reliability, browser behavior, and mobile usability.</li>
+    </ul>
+
+    <section>
+      <h3>3.1 Calendars</h3>
+      <ul>
+        <li><strong>NewPath CalendarPlus (WA-focused)</strong>
+          <ul>
+            <li><strong>Pros:</strong>
+              <ul>
+                <li>Designed specifically for Wild Apricot data.</li>
+                <li>More flexible layouts and filtering than native WA calendar.</li>
+                <li>Can present multiple event types and categories more clearly.</li>
+              </ul>
+            </li>
+            <li><strong>Cons:</strong>
+              <ul>
+                <li>Additional subscription cost.</li>
+                <li>Relies on an external provider; outages affect the calendar view.</li>
+                <li>Styling may not match the theme perfectly without extra work.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li><strong>Tockify Calendar</strong>
+          <ul>
+            <li><strong>Pros:</strong>
+              <ul>
+                <li>Modern, visually rich calendar layouts.</li>
+                <li>Good mobile views and “agenda” style lists.</li>
+              </ul>
+            </li>
+            <li><strong>Cons:</strong>
+              <ul>
+                <li>Events must either sync from WA or be maintained separately.</li>
+                <li>Permissions and “member-only” views are more complex.</li>
+                <li>Another external dependency to monitor.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        For SBNC, 3rd-party calendars are most attractive if we cannot get acceptable filtering and
+        display behavior from native WA event gadgets, especially for public-facing views.
+      </p>
+    </section>
+
+    <section>
+      <h3>3.2 Forms and Surveys</h3>
+      <ul>
+        <li><strong>Jotform (and similar tools)</strong>
+          <ul>
+            <li><strong>Pros:</strong>
+              <ul>
+                <li>Very flexible form layouts and logic.</li>
+                <li>Supports conditional questions, file uploads, and workflows.</li>
+                <li>Embeds easily into a WA content gadget.</li>
+              </ul>
+            </li>
+            <li><strong>Cons:</strong>
+              <ul>
+                <li>Data lives outside WA unless synced via export, API, or automation tools.</li>
+                <li>Requires separate account management and access control.</li>
+                <li>Styling may differ from the WA theme if not tuned.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        Best for complex surveys or special projects where WA’s built-in forms are too limited,
+        especially when data integration can be handled via Make, Zapier, or manual exports.
+      </p>
+    </section>
+
+    <section>
+      <h3>3.3 Photo Galleries</h3>
+      <ul>
+        <li><strong>SmugMug, Flickr, Juicebox, and similar gallery tools</strong>
+          <ul>
+            <li><strong>Pros:</strong>
+              <ul>
+                <li>Much stronger support for albums, tagging, and high-quality image display.</li>
+                <li>Some tools support face recognition and member tagging.</li>
+                <li>Better long-term storage and download options for members.</li>
+              </ul>
+            </li>
+            <li><strong>Cons:</strong>
+              <ul>
+                <li>Photos live outside WA; uploads and album management happen in a separate tool.</li>
+                <li>Permissions must be coordinated between the gallery platform and WA.</li>
+                <li>Embedding uses iframes; behavior can vary slightly across browsers and devices.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        For SBNC, 3rd-party galleries are strong candidates if we want:
+      </p>
+      <ul>
+        <li>Member-downloadable photos.</li>
+        <li>Face recognition or rich tagging of events and people.</li>
+        <li>Long-term archival and backup beyond WA.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>3.4 Social and Maps Widgets</h3>
+      <ul>
+        <li><strong>Elfsight Instagram or similar social feeds</strong>
+          <ul>
+            <li><strong>Pros:</strong>
+              <ul>
+                <li>Visually engaging content pulled from existing social channels.</li>
+                <li>Keeps the site looking fresh without manual updates.</li>
+              </ul>
+            </li>
+            <li><strong>Cons:</strong>
+              <ul>
+                <li>Dependent on social platform APIs and rate limits.</li>
+                <li>Can slow page load if not configured carefully.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><strong>Google Maps or Mapbox embeds</strong>
+          <ul>
+            <li><strong>Pros:</strong>
+              <ul>
+                <li>Clear location display for venues and meeting points.</li>
+                <li>Well understood by members.</li>
+              </ul>
+            </li>
+            <li><strong>Cons:</strong>
+              <ul>
+                <li>Privacy and tracking considerations for embedded maps.</li>
+                <li>Additional API keys or usage limits may apply for advanced use.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <h2>4. Native vs 3rd-Party: How to Decide</h2>
+    <p>At a high level:</p>
+    <ul>
+      <li>Start with <strong>native WA widgets</strong> whenever:
+        <ul>
+          <li>The data already lives in WA (events, members, registrations, donations).</li>
+          <li>We need reliable permissions and login-aware behavior.</li>
+          <li>We want the lowest maintenance burden for future SBNC volunteers.</li>
+        </ul>
+      </li>
+      <li>Consider <strong>3rd-party widgets</strong> when:
+        <ul>
+          <li>We need features WA simply does not have (advanced filtering, tagging, face recognition, rich galleries).</li>
+          <li>We can tolerate another vendor and are willing to maintain API keys or automation workflows.</li>
+          <li>The member experience is meaningfully better and worth the extra complexity.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <section class="note">
+      <p>
+        In customization planning, the Website Committee should:
+      </p>
+      <ul>
+        <li>Default to native WA widgets for core membership and event flows.</li>
+        <li>Use 3rd-party widgets selectively for high-impact experiences (e.g., calendar presentation, photo galleries).</li>
+        <li>Document any 3rd-party dependencies, including who owns the account and how data is backed up.</li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer class="page-footer">
+  <div class="container">
+    <p>SBNC Listens – Widget Gallery (internal use only).</p>
+  </div>
+</footer>
+</body>
+</html>

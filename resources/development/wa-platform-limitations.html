@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wild Apricot Platform Limitations for Designers</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="nested-list.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <h1>Wild Apricot Platform Limitations</h1>
+    <p class="subtitle">What even a sophisticated designer cannot change in WA</p>
+    <nav class="subnav">
+      <a href="index.html">Overview</a>
+      <a href="sbnc-widget-gallery.html">Widget Gallery</a>
+      <a href="calendar-photos-strategy.html">Calendar &amp; Photos Strategy</a>
+      <a href="wa-customization-techniques.html">Customization Techniques</a>
+      <a href="wa-platform-limitations.html" class="active">Platform Limitations</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section>
+    <h2>1. Purpose of This Document</h2>
+    <p>This document is written specifically for designers who may be accustomed to high-freedom CMS platforms such as Webflow, WordPress, Craft, or custom React front-ends. 
+    Wild Apricot is powerful for membership management but structurally limited as a design system.</p>
+  </section>
+
+  <section>
+    <h2>2. Fixed Page and Layout Structure</h2>
+    <p>All WA themes share the same fixed page model that cannot be overridden:</p>
+    <ul>
+      <li>Header region</li>
+      <li>Main menu region</li>
+      <li>Main content region (containing gadgets)</li>
+      <li>Footer region</li>
+    </ul>
+    <p>You cannot replace WA’s templating system or introduce your own layout engine.</p>
+  </section>
+
+  <section>
+    <h2>3. Gadget-Based Rendering Only</h2>
+    <p>WA outputs all dynamic data through gadgets (widgets). Designers cannot replace or override their HTML templates.</p>
+  </section>
+
+  <section>
+    <h2>4. System Pages Cannot Be Rebuilt</h2>
+    <p>Certain pages—event pages, registration pages, membership application, profile pages—cannot be rebuilt from scratch.</p>
+  </section>
+
+  <section>
+    <h2>5. Theme-Level Responsive Behavior</h2>
+    <p>WA themes control:</p>
+    <ul>
+      <li>Menu collapse behavior</li>
+      <li>Grid breakpoints</li>
+      <li>Column stacking</li>
+    </ul>
+    <p>Designers cannot adopt alternate responsive frameworks (Bootstrap, Tailwind, custom grids).</p>
+  </section>
+
+  <section>
+    <h2>6. JavaScript Injection Limits</h2>
+    <p>Custom JS can augment WA pages but cannot modify internal gadget logic or intercept WA AJAX flows.</p>
+  </section>
+
+  <section>
+    <h2>7. External Embeds & IFrames</h2>
+    <p>Embeds are powerful but introduce:</p>
+    <ul>
+      <li>Uptime dependencies</li>
+      <li>Mobile scrolling quirks</li>
+      <li>Touch/keyboard issues</li>
+      <li>SEO invisibility</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. API-Driven Custom UI</h2>
+    <p>Building your own “replacement widgets” using the API is possible, but requires:</p>
+    <ul>
+      <li>A backend for secure API calls</li>
+      <li>Managing auth, tokens, errors, failures</li>
+      <li>Owning cross-browser behavior entirely</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>9. Cross-Browser & Device Compatibility</h2>
+    <p>The more customization added, the more SBNC—not WA—must test and maintain compatibility across browsers and devices.</p>
+  </section>
+
+  <section>
+    <h2>10. How This Document Should Be Used</h2>
+    <p>This is a boundary document that tells designers what cannot be changed, so they can focus creativity where it will work reliably.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2025 Santa Barbara Newcomers Club &mdash; Internal planning document.</p>
+  </div>
+</footer>
+</body>
+</html>

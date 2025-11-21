@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wild Apricot Customization Techniques – SBNC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="nested-list.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <h1>Wild Apricot Customization Techniques</h1>
+    <p>How far to go beyond built-in themes and widgets in WA</p>
+
+        <nav class="top-nav">
+      <ul>
+        <li><a href="index.html" class="nav-link">WA Customization Overview</a></li>
+        <li><a href="sbnc-widget-gallery.html" class="nav-link">Widget Gallery</a></li>
+        <li><a href="calendar-photos-strategy.html" class="nav-link">Calendar &amp; Photos Strategy</a></li>
+        <li><a href="wa-customization-techniques.html" class="nav-link active">Customization Techniques</a></li>
+        <li><a href="wa-platform-limitations.html" class="nav-link">Platform Limitations</a></li>
+        <li><a href="wa-data-model.html" class="nav-link">Data Model &amp; SBNC Roles/Committees</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page-main">
+  <div class="content-card">
+    <h2>1. Purpose and Audience</h2>
+    <p>
+      This page is written for SBNC volunteers, designers, and technical helpers who are deciding
+      how far to push Wild Apricot (WA) customization. It does not tell us what we <em>must</em> do;
+      instead it lays out the <strong>tools, trade-offs, and risks</strong> for each level of
+      customization so we can make informed decisions.
+    </p>
+    <p>
+      A key goal is <strong>site stability and uptime</strong>. Wherever possible, we prefer
+      solutions that:
+    </p>
+    <ul>
+      <li>Survive Wild Apricot upgrades with minimal breakage</li>
+      <li>Work consistently across major browsers and devices</li>
+      <li>Are maintainable by future SBNC volunteers</li>
+    </ul>
+  </div>
+
+  <div class="content-card">
+    <h2>2. Key Criteria for Comparing Approaches</h2>
+    <p>When we evaluate any customization, we should consider:</p>
+    <ul class="nested">
+      <li><strong>Complexity of implementation</strong>
+        <ul>
+          <li>How difficult is it to build the first version?</li>
+          <li>Does it require CSS, JavaScript, or API expertise?</li>
+        </ul>
+      </li>
+      <li><strong>Ongoing maintenance cost</strong>
+        <ul>
+          <li>Who can realistically maintain this over the next 3–5 years?</li>
+          <li>Will small content changes require technical help?</li>
+        </ul>
+      </li>
+      <li><strong>Cross-browser and device compatibility</strong>
+        <ul>
+          <li>Does it work on current versions of Safari, Chrome, Edge, Firefox?</li>
+          <li>Is it responsive on desktop, tablet, and mobile without per-device tweaks?</li>
+          <li>Does it behave well for both mouse/trackpad and touch interactions?</li>
+        </ul>
+      </li>
+      <li><strong>Dependence on Wild Apricot internals</strong>
+        <ul>
+          <li>Does it rely on WA HTML structure or class names that may change?</li>
+          <li>Will a theme switch or WA update likely break the customization?</li>
+        </ul>
+      </li>
+      <li><strong>Reliability and uptime</strong>
+        <ul>
+          <li>Does this introduce new points of failure (external APIs, automation tools)?</li>
+          <li>What happens if the external service is down or rate-limited?</li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+      The rest of this page walks through the main techniques in roughly the order we would
+      consider them, from simplest and most stable to most flexible (but also more fragile).
+    </p>
+  </div>
+
+  <div class="content-card">
+    <h2>3. Staying Inside Wild Apricot Themes and Widgets</h2>
+    <h3>3.1 Built-In Themes and Layout Options</h3>
+    <p>
+      Every WA site starts with a theme. SBNC will likely choose a modern responsive theme and
+      stick with it for stability. Themes provide:
+    </p>
+    <ul>
+      <li>Header, menu, and footer layout</li>
+      <li>Default typography and color palette</li>
+      <li>Responsive behavior for common layouts</li>
+      <li>Standard behavior for system pages (login, profile, events, etc.)</li>
+    </ul>
+    <p><strong>Pros:</strong></p>
+    <ul>
+      <li>Least fragile: changes are supported by WA’s own UI</li>
+      <li>Responsiveness and browser compatibility are handled by the theme</li>
+      <li>No code to maintain; most changes are point-and-click</li>
+    </ul>
+    <p><strong>Cons:</strong></p>
+    <ul>
+      <li>Design freedom is constrained to what the theme allows</li>
+      <li>Certain layout ideas (magazine-style home pages, unusual navigation patterns) may not be possible</li>
+      <li>Inconsistent behavior if we mix legacy and modern themes</li>
+    </ul>
+    <p>
+      See the <strong>Theme Showcase</strong> (separate document) for visual examples and notes
+      on the strengths and weaknesses of individual themes.
+    </p>
+
+    <h3>3.2 Built-In Wild Apricot Widgets</h3>
+    <p>
+      WA widgets (event lists, member lists, login boxes, etc.) are the building blocks of most
+      pages. They are theme-aware and updated by WA when the platform evolves.
+    </p>
+    <p><strong>Pros:</strong></p>
+    <ul>
+      <li>Safest choice for data that lives in WA (events, members, registrations)</li>
+      <li>Benefits from WA performance and access control</li>
+      <li>Minimal compatibility risk across browsers and devices</li>
+    </ul>
+    <p><strong>Cons:</strong></p>
+    <ul>
+      <li>Limited control over layout and visual design</li>
+      <li>Filtering, search, and grouping options can be constrained</li>
+      <li>Sometimes “just short of” what we want (for example, event calendar behavior)</li>
+    </ul>
+  </div>
+
+  <div class="content-card">
+    <h2>4. Using Custom Fields</h2>
+    <p>
+      Custom fields let us extend WA’s data model (for example, adding “Interest Group” to
+      member profiles or “Event Category” to events).
+    </p>
+    <p><strong>Typical uses:</strong></p>
+    <ul>
+      <li>Tagging events for filtering (Hikes, Wine, Newbies, Public vs Member)</li>
+      <li>Storing consent or preferences (photo permissions, communication preferences)</li>
+      <li>Capturing structured data from event registrations</li>
+    </ul>
+    <p><strong>Pros:</strong></p>
+    <ul>
+      <li>Clean way to represent SBNC-specific concepts within WA</li>
+      <li>Works with WA exports, saved searches, and some widgets</li>
+      <li>Stable and supported by the platform</li>
+    </ul>
+    <p><strong>Cons:</strong></p>
+    <ul>
+      <li>More fields can make admin screens cluttered</li>
+      <li>Some widgets do not expose custom fields directly</li>
+      <li>Complex logic may require API or automation tools on top of custom fields</li>
+    </ul>
+    <p>
+      In practice, SBNC should treat custom fields as a <strong>first-line tool</strong> for
+      tagging and segmentation before resorting to external databases.
+    </p>
+  </div>
+
+  <div class="content-card">
+    <h2>5. Custom CSS: Styling Without Changing Structure</h2>
+    <p>
+      Custom CSS allows us to change colors, spacing, fonts, and some layout details while
+      keeping the underlying WA HTML structure intact.
+    </p>
+    <p><strong>Typical uses:</strong></p>
+    <ul>
+      <li>Aligning fonts and colors with SBNC brand</li>
+      <li>Improving spacing, readability, and button styles</li>
+      <li>Highlighting key actions (Join, Renew, RSVP, etc.)</li>
+    </ul>
+    <p><strong>Pros:</strong></p>
+    <ul>
+      <li>Powerful way to improve visual design without touching data or logic</li>
+      <li>Usually stable across WA updates, as long as we avoid targeting brittle selectors</li>
+      <li>Small CSS changes can have large impact on perceived polish</li>
+    </ul>
+    <p><strong>Cons:</strong></p>
+    <ul>
+      <li>Requires CSS skills and disciplined naming</li>
+      <li>Too much CSS can become hard to debug for later volunteers</li>
+      <li>Over-aggressive overrides may break responsiveness on some devices</li>
+    </ul>
+    <p>
+      For SBNC, custom CSS is likely the <strong>main tool</strong> for visual improvement.
+      It should be documented, commented, and kept in a single central file so future admins
+      can understand what is happening.
+    </p>
+  </div>
+
+  <div class="content-card">
+    <h2>6. Custom HTML Gadgets</h2>
+    <p>
+      WA’s Custom HTML gadgets let us embed arbitrary HTML, CSS, and JavaScript into a page.
+      This is how we would embed external calendars, photo galleries, maps, and chat widgets.
+    </p>
+    <p><strong>Typical uses:</strong></p>
+    <ul>
+      <li>Embedding third-party widgets (NewPath CalendarPlus, Tockify, Jotform, Elfsight, etc.)</li>
+      <li>Adding“microsites” or special layouts that WA widgets cannot express</li>
+      <li>Running small JavaScript helpers (for example, conditional content on a page)</li>
+    </ul>
+    <p><strong>Pros:</strong></p>
+    <ul>
+      <li>Very flexible; we can implement almost any front-end behavior here</li>
+      <li>Good way to integrate specialized tools without leaving WA entirely</li>
+      <li>Can be isolated to specific pages so risks are contained</li>
+    </ul>
+    <p><strong>Cons:</strong></p>
+    <ul>
+      <li>Highest risk for cross-browser issues if not carefully tested</li>
+      <li>External widgets may change or deprecate APIs over time</li>
+      <li>JavaScript errors in a gadget can degrade page performance or break features</li>
+    </ul>
+    <p>
+      For SBNC, Custom HTML gadgets should be used for <strong>well-chosen external tools</strong>
+      (calendars, photo galleries, maps) where the benefit is clear and the vendor maintains
+      good cross-browser support.
+    </p>
+  </div>
+
+  <div class="content-card">
+    <h2>7. External Widgets and Embeds</h2>
+    <p>
+      The <a href="sbnc-widget-gallery.html">Widget Gallery</a> lists specific tools we are
+      considering. This section focuses on the general pattern.
+    </p>
+    <p><strong>Advantages of external widgets:</strong></p>
+    <ul>
+      <li>Richer feature sets (filtering, search, visual layouts, animations)</li>
+      <li>Vendors often handle responsiveness and cross-browser quirks for us</li>
+      <li>We can use the same widget across multiple sites if needed</li>
+    </ul>
+    <p><strong>Risks and trade-offs:</strong></p>
+    <ul>
+      <li>We depend on the vendor’s uptime and pricing model</li>
+      <li>Embedding via iframes may have subtle scrolling or sizing issues on mobile</li>
+      <li>Accessibility and keyboard navigation quality varies by vendor</li>
+    </ul>
+    <p>
+      Our <strong>Calendar &amp; Photos Strategy</strong> document analyzes specific options in
+      more detail, including iframe behavior across browsers.
+    </p>
+  </div>
+
+  <div class="content-card">
+    <h2>8. WA API, Webhooks, and Automation Tools (Make / Zapier)</h2>
+    <p>
+      When point-and-click configuration is not enough, WA exposes an API and webhooks that can
+      be combined with automation platforms such as Make or Zapier.
+    </p>
+    <p><strong>Typical uses:</strong></p>
+    <ul>
+      <li>Synchronizing WA data with external tools (mailing lists, analytics, dashboards)</li>
+      <li>Triggering workflows when members join, renew, or register for events</li>
+      <li>Pre-processing data for use in external widgets</li>
+    </ul>
+    <p><strong>Pros:</strong></p>
+    <ul>
+      <li>Allows automation without writing and hosting our own server-side code</li>
+      <li>Powerful for connecting WA to other SaaS tools SBNC may use</li>
+      <li>Workflows can often be inspected and edited via a visual interface</li>
+    </ul>
+    <p><strong>Cons:</strong></p>
+    <ul>
+      <li>Introduces a new point of failure (the automation platform itself)</li>
+      <li>APIs and webhooks require careful security and rate-limit handling</li>
+      <li>Complex scenarios can become hard to understand for future admins</li>
+    </ul>
+    <p>
+      For SBNC, automation should be used <strong>sparingly and intentionally</strong> where it
+      clearly saves recurring manual work or enables features WA cannot provide on its own.
+    </p>
+  </div>
+
+  <div class="content-card">
+    <h2>9. Full Custom Front-Ends (What We Are Not Doing)</h2>
+    <p>
+      It is technically possible to treat WA purely as a membership back-end and build a
+      separate front-end in WordPress, Webflow, or a custom framework. This would give maximum
+      design freedom but at the cost of complexity and risk.
+    </p>
+    <p><strong>Why this is not our path for SBNC:</strong></p>
+    <ul>
+      <li>Requires significant development and DevOps effort</li>
+      <li>Two sources of truth for authentication, permissions, and content</li>
+      <li>Higher risk of outages and hard-to-debug integration failures</li>
+    </ul>
+    <p>
+      Instead, SBNC’s strategy is to stay primarily inside WA, using <strong>themes,
+      custom fields, custom CSS, carefully selected widgets, and light automation</strong> to
+      achieve our goals.
+    </p>
+  </div>
+
+  <div class="content-card">
+    <h2>10. How This Fits With Platform Limitations</h2>
+    <p>
+      Some constraints in WA apply no matter how clever our customization is. These are
+      summarized in the companion document
+      <a href="wa-platform-limitations.html">Wild Apricot Platform Limitations</a>.
+    </p>
+    <p>
+      Designers should assume that the <strong>overall page structure and certain system
+      behaviors are fixed</strong>. Customization Techniques describes how far we can go within
+      those boundaries; Platform Limitations describes the boundaries themselves.
+    </p>
+  </div>
+
+  <div class="content-card">
+    <h2>11. Summary for the Website Committee</h2>
+    <p>The rough “ladder” of customization options is:</p>
+    <ol>
+      <li>Pick a solid modern WA theme and use built-in widgets</li>
+      <li>Add custom fields to capture SBNC-specific data</li>
+      <li>Use custom CSS for visual polish and brand alignment</li>
+      <li>Embed carefully chosen external widgets via Custom HTML gadgets</li>
+      <li>Use WA API, webhooks, and automation tools selectively for high-value workflows</li>
+    </ol>
+    <p>
+      The Website Committee can treat this as a <strong>menu of tools</strong>, not a mandate.
+      For each new feature, we should ask:
+    </p>
+    <ul>
+      <li>Can we do this cleanly with themes, widgets, and custom fields alone?</li>
+      <li>If not, does custom CSS or an external widget solve the problem without hurting stability?</li>
+      <li>Only if needed, should we introduce API or automation complexity.</li>
+    </ul>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2025 Santa Barbara Newcomers Club – Internal planning document.</p>
+</footer>
+</body>
+</html>
